@@ -7,51 +7,32 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-:root{
-  --gold:#D4A843;
-  --deep:#0D0D0D;
-  --ink:#1A1A1A;
-  --warm-bg:#FAF5ED;
-  --cream:#FFF8EE;
-  --rust:#C05236;
-  --sky:#3A7CA5;
-  --text:#333;
-  --text-light:#666;
-  --shadow-sm:0 2px 8px rgba(0,0,0,.06);
-  --shadow-md:0 4px 20px rgba(0,0,0,.1);
-  --radius:12px;
-}
+:root{--gold:#D4A843;--deep:#0D0D0D;--ink:#1A1A1A;--warm-bg:#FAF5ED;--cream:#FFF8EE;--rust:#C05236;--sky:#3A7CA5;--text:#333;--text-light:#666;--shadow-sm:0 2px 8px rgba(0,0,0,.06);--shadow-md:0 4px 20px rgba(0,0,0,.1);--radius:12px}
 html{scroll-behavior:smooth}
 body{font-family:'Source Sans 3',sans-serif;background:var(--warm-bg);color:var(--text);line-height:1.7;overflow-x:hidden}
 h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.2}
-
+a{text-decoration:none}
 .nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(13,13,13,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,168,67,.15)}
 .nav-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 2rem;height:70px}
-.nav-logo{font-family:'DM Serif Display',serif;font-size:1.5rem;color:#fff}
-.nav-logo span{color:var(--gold)}
-.nav-links{display:flex;gap:1.5rem;list-style:none}
-.nav-links a{color:rgba(255,255,255,.75);font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;transition:color .3s}
-.nav-links a:hover{color:var(--gold)}
-
+.nav-logo{font-family:'DM Serif Display',serif;font-size:1.5rem;color:#fff;text-decoration:none}.nav-logo span{color:var(--gold)}
+.nav-links{display:flex;gap:.25rem;list-style:none;flex-wrap:wrap;justify-content:center}
+.nav-links a{color:rgba(255,255,255,.75);font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.1em;transition:color .3s;padding:.4rem .6rem;border-radius:6px;white-space:nowrap}
+.nav-links a:hover{color:var(--gold);background:rgba(212,168,67,.08)}
+.nav-links a.donate-link{background:linear-gradient(135deg,#D4A843,#C05236);color:#fff;font-weight:700}.nav-links a.donate-link:hover{opacity:.9}
+.hamburger{display:none;flex-direction:column;cursor:pointer;gap:5px}.hamburger span{width:28px;height:3px;background:var(--gold);border-radius:2px}
 .hero{min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--deep);position:relative;padding:6rem 2rem 4rem}
-.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 20% 50%,rgba(212,168,67,.12) 0%,transparent 60%)}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 20% 50%,rgba(212,168,67,.12) 0%,transparent 60%)}
 .hero-content{position:relative;z-index:2;max-width:900px;text-align:center}
-.hero h1{font-size:clamp(2.8rem,7vw,5.5rem);color:#fff;font-weight:900;margin-bottom:1.5rem}
-.hero h1 em{font-style:italic;color:var(--gold)}
+.hero h1{font-size:clamp(2.8rem,7vw,5.5rem);color:#fff;font-weight:900;margin-bottom:1.5rem}.hero h1 em{font-style:italic;color:var(--gold)}
 .hero-sub{color:rgba(255,255,255,.65);font-size:clamp(1rem,2.5vw,1.3rem);max-width:640px;margin:0 auto 2.5rem}
 .hero-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:3rem}
-.btn-primary{background:linear-gradient(135deg,#D4A843 0%,#C05236 100%);color:#fff;padding:.9rem 2.2rem;border-radius:50px;font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;transition:transform .2s;display:inline-block}
+.btn-primary{background:linear-gradient(135deg,#D4A843 0%,#C05236 100%);color:#fff;padding:.9rem 2.2rem;border-radius:50px;font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;transition:transform .2s;display:inline-block;border:none;cursor:pointer;font-family:inherit}
 .btn-primary:hover{transform:translateY(-3px);box-shadow:0 6px 25px rgba(212,168,67,.4)}
 .btn-outline{background:transparent;color:#fff;padding:.9rem 2.2rem;border-radius:50px;font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;border:2px solid rgba(255,255,255,.25);display:inline-block;transition:all .3s}
 .btn-outline:hover{border-color:var(--gold);color:var(--gold)}
 .hero-stats{display:flex;gap:3rem;justify-content:center;flex-wrap:wrap}
-.hero-stat{text-align:center}
-.hero-stat .num{font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:900;color:var(--gold)}
-.hero-stat .lbl{color:rgba(255,255,255,.45);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;margin-top:.25rem}
-
-.section{padding:5rem 2rem}
-.section-dark{background:var(--deep);color:#fff}
-.section-alt{background:var(--cream)}
+.hero-stat{text-align:center}.hero-stat .num{font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:900;color:var(--gold)}.hero-stat .lbl{color:rgba(255,255,255,.45);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;margin-top:.25rem}
+.section{padding:5rem 2rem}.section-dark{background:var(--deep);color:#fff}.section-alt{background:var(--cream)}
 .container{max-width:1200px;margin:0 auto}
 .section-header{text-align:center;margin-bottom:3.5rem}
 .section-label{color:var(--rust);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.2em;margin-bottom:.75rem}
@@ -59,257 +40,70 @@ h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.2}
 .section-title{font-size:clamp(2rem,4vw,3rem);margin-bottom:1rem}
 .section-subtitle{color:var(--text-light);font-size:1.1rem;max-width:700px;margin:0 auto}
 .section-dark .section-subtitle{color:rgba(255,255,255,.5)}
-
 .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:2rem}
-.card{background:#fff;border-radius:var(--radius);padding:2rem;box-shadow:var(--shadow-sm);transition:transform .2s,box-shadow .2s;border:1px solid rgba(0,0,0,.04)}
+.card{background:#fff;border-radius:var(--radius);padding:2rem;box-shadow:var(--shadow-sm);transition:transform .2s,box-shadow .2s;border:1px solid rgba(0,0,0,.04);text-decoration:none;color:inherit;display:block}
 .card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
-.card-icon{font-size:2.5rem;margin-bottom:1rem}
-.card h3{color:var(--deep);margin-bottom:1rem;font-size:1.3rem}
-.card p{color:var(--text-light);font-size:.95rem;line-height:1.6;margin-bottom:1rem}
-.card a{color:var(--sky);font-weight:600;text-decoration:none}
-.card a:hover{color:var(--rust)}
-
+.card-icon{font-size:2.5rem;margin-bottom:1rem}.card h3{color:var(--deep);margin-bottom:1rem;font-size:1.3rem}.card p{color:var(--text-light);font-size:.95rem;line-height:1.6;margin-bottom:.5rem}
+.card-link{color:var(--sky);font-weight:600;font-size:.9rem;display:inline-block;margin-top:.5rem;transition:color .2s}.card-link:hover{color:var(--rust)}
+.card-tag{display:inline-block;font-size:.7rem;font-weight:700;padding:.2rem .6rem;border-radius:50px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.75rem}
+.tag-rust{background:rgba(192,82,54,.1);color:var(--rust)}.tag-sky{background:rgba(58,124,165,.1);color:var(--sky)}.tag-gold{background:rgba(212,168,67,.12);color:#9B7B2F}.tag-green{background:rgba(45,106,79,.1);color:#2D6A4F}.tag-purple{background:rgba(90,62,142,.1);color:#5A3E8E}.tag-orange{background:rgba(224,122,47,.1);color:#C96720}
 .content-box{background:#fff;border-radius:var(--radius);padding:2.5rem;margin-bottom:2rem;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,.04)}
-.content-box h3{color:var(--deep);margin-bottom:1.5rem;font-size:1.8rem}
-.content-box h4{margin-top:2rem;margin-bottom:1rem;color:var(--deep)}
-.content-box p{color:var(--text);margin-bottom:1rem;line-height:1.8}
-.content-box ul,.content-box ol{margin:1rem 0 1rem 2rem}
-.content-box li{margin-bottom:.75rem;color:var(--text-light)}
-.content-box a{color:var(--sky);text-decoration:underline}
-
-.stat-highlight{background:linear-gradient(135deg,#D4A843 0%,#C05236 100%);color:#fff;padding:2rem;border-radius:var(--radius);margin:2rem 0;text-align:center}
-.stat-highlight .num{font-size:3rem;font-weight:900;font-family:'Playfair Display',serif;margin-bottom:.5rem}
-.stat-highlight .label{font-size:1.1rem;opacity:.9}
-
-.case-box{background:rgba(192,82,54,.05);border-left:4px solid var(--rust);padding:1.5rem;margin-bottom:1.5rem;border-radius:0 var(--radius) var(--radius) 0}
-.case-box h4{color:var(--deep);margin-bottom:.5rem}
-.case-box .date{color:var(--rust);font-weight:600;font-size:.9rem;margin-bottom:.75rem}
-.case-box p{color:var(--text);font-size:.95rem;line-height:1.6}
-.case-box .outcome{margin-top:.75rem;padding-top:.75rem;border-top:1px solid rgba(0,0,0,.1);font-weight:600;color:var(--text-light)}
-
-.note-box{background:rgba(212,168,67,.1);border-left:4px solid var(--gold);padding:1.5rem;margin:2rem 0;border-radius:0 var(--radius) var(--radius) 0}
-.note-box strong{color:var(--deep);display:block;margin-bottom:.75rem}
-.note-box p{color:var(--text);font-size:.9rem;line-height:1.7}
-
-.state-section{margin-bottom:3rem}
-.state-section h3{color:var(--deep);margin-bottom:1rem;font-size:1.5rem;border-bottom:2px solid var(--gold);padding-bottom:.5rem}
-.state-section p{margin-bottom:.75rem}
-
-.footer{background:var(--ink);color:rgba(255,255,255,.7);padding:3rem 2rem 1.5rem;margin-top:5rem}
-.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;max-width:1200px;margin:0 auto 2rem}
-.footer-section h4{color:var(--gold);margin-bottom:1rem}
-.footer-section ul{list-style:none}
-.footer-section li{margin-bottom:.5rem}
-.footer-section a{color:rgba(255,255,255,.7);transition:color .3s;text-decoration:none}
-.footer-section a:hover{color:var(--gold)}
-.footer-bottom{text-align:center;padding-top:2rem;border-top:1px solid rgba(255,255,255,.1);max-width:1200px;margin:0 auto;font-size:.85rem}
-.disclaimer{background:rgba(0,0,0,.02);border:1px solid rgba(0,0,0,.1);border-radius:var(--radius);padding:1.5rem;margin-top:2rem;font-size:.85rem;line-height:1.7}
-
-@media (max-width:768px){
-  .nav-links{display:none}
-  .section{padding:3rem 1.5rem}
-  .card-grid{grid-template-columns:1fr}
-  .hero-stats{gap:2rem}
-}
+.content-box h3{color:var(--deep);margin-bottom:1.5rem;font-size:1.8rem}.content-box h4{margin-top:2rem;margin-bottom:1rem;color:var(--deep)}.content-box p{color:var(--text);margin-bottom:1rem;line-height:1.8}.content-box ul,.content-box ol{margin:1rem 0 1rem 2rem}.content-box li{margin-bottom:.75rem;color:var(--text-light)}.content-box a{color:var(--sky);text-decoration:underline}
+.stat-highlight{background:linear-gradient(135deg,#D4A843 0%,#C05236 100%);color:#fff;padding:2rem;border-radius:var(--radius);margin:2rem 0;text-align:center}.stat-highlight .num{font-size:3rem;font-weight:900;font-family:'Playfair Display',serif;margin-bottom:.5rem}.stat-highlight .label{font-size:1.1rem;opacity:.9}
+.case-box{background:rgba(192,82,54,.05);border-left:4px solid var(--rust);padding:1.5rem;margin-bottom:1.5rem;border-radius:0 var(--radius) var(--radius) 0}.case-box h4{color:var(--deep);margin-bottom:.5rem}.case-box .date{color:var(--rust);font-weight:600;font-size:.9rem;margin-bottom:.75rem}.case-box p{color:var(--text);font-size:.95rem;line-height:1.6}.case-box .outcome{margin-top:.75rem;padding-top:.75rem;border-top:1px solid rgba(0,0,0,.1);font-weight:600;color:var(--text-light)}
+.note-box{background:rgba(212,168,67,.1);border-left:4px solid var(--gold);padding:1.5rem;margin:2rem 0;border-radius:0 var(--radius) var(--radius) 0}.note-box strong{color:var(--deep);display:block;margin-bottom:.75rem}.note-box p{color:var(--text);font-size:.9rem;line-height:1.7}
+.search-box{max-width:700px;margin:0 auto 2.5rem;background:rgba(255,255,255,.06);border-radius:var(--radius);padding:2rem;border:1px solid rgba(212,168,67,.15)}.search-box h3{color:var(--gold);margin-bottom:.5rem}.search-box p{color:rgba(255,255,255,.55);font-size:.9rem;margin-bottom:1.25rem}
+.search-form{display:flex;gap:.75rem;flex-wrap:wrap}
+.search-input{flex:1;min-width:200px;padding:.9rem 1.25rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#fff;font-size:1rem;font-family:inherit;outline:none}.search-input:focus{border-color:var(--gold)}.search-input::placeholder{color:rgba(255,255,255,.35)}
+.search-input-light{background:#fff;color:var(--text);border-color:rgba(0,0,0,.1)}.search-input-light:focus{border-color:var(--rust)}.search-input-light::placeholder{color:var(--text-light)}
+.impact-card{background:#fff;border-radius:var(--radius);overflow:hidden;border:1px solid rgba(0,0,0,.06);transition:all .3s;margin-bottom:0}.impact-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}.impact-header{padding:1.5rem 2rem 1rem;border-bottom:1px solid rgba(0,0,0,.06)}.impact-header h3{color:var(--deep);margin-bottom:.25rem;font-size:1.2rem}.impact-header p{font-size:.85rem;color:var(--text-light)}.impact-body{padding:1.5rem 2rem}.impact-group{margin-bottom:1rem}.impact-group-title{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}.impact-group-title.helps{color:#2D6A4F}.impact-group-title.hurts{color:var(--rust)}.impact-tags{display:flex;flex-wrap:wrap;gap:.4rem}.impact-tag{font-size:.78rem;padding:.25rem .65rem;border-radius:50px;font-weight:500}.impact-tag.positive{background:rgba(45,106,79,.1);color:#2D6A4F}.impact-tag.negative{background:rgba(192,82,54,.1);color:var(--rust)}.impact-tag.neutral{background:rgba(102,102,102,.1);color:var(--text-light)}.impact-footer{padding:1rem 2rem;background:var(--warm-bg);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}.impact-status{font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em}.status-signed{color:#2D6A4F}.status-pending{color:var(--gold)}.status-blocked{color:var(--rust)}.impact-source{font-size:.8rem;color:var(--sky);font-weight:600}
+.state-section{margin-bottom:2.5rem}.state-section h3{color:var(--deep);margin-bottom:1rem;font-size:1.5rem;border-bottom:2px solid var(--gold);padding-bottom:.5rem}.state-section p{margin-bottom:.75rem}.state-section a{color:var(--sky);text-decoration:underline}
+.org-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1.25rem;margin-top:2rem}.org-card{background:rgba(255,255,255,.06);border-radius:10px;padding:1.5rem;text-align:center;border:1px solid rgba(255,255,255,.08);transition:all .3s;text-decoration:none;display:block}.org-card:hover{background:rgba(255,255,255,.1);transform:translateY(-3px)}.org-card h4{font-size:.95rem;color:#fff;margin-bottom:.4rem}.org-card p{font-size:.8rem;color:rgba(255,255,255,.5)}
+.donate-box{background:#fff;border-radius:var(--radius);padding:2.5rem;text-align:center;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,.04);max-width:700px;margin:0 auto}
+.donate-tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:1rem;margin:2rem 0}.donate-tier{background:var(--warm-bg);border:2px solid rgba(0,0,0,.06);border-radius:var(--radius);padding:1.5rem 1rem;cursor:pointer;transition:all .3s;text-align:center}.donate-tier:hover,.donate-tier.selected{border-color:var(--gold);background:rgba(212,168,67,.08);transform:translateY(-2px)}.donate-tier .amount{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:900;color:var(--rust);display:block}.donate-tier .tier-label{font-size:.75rem;color:var(--text-light);text-transform:uppercase;letter-spacing:.1em;margin-top:.25rem}
+.donate-custom{display:flex;gap:.75rem;max-width:350px;margin:0 auto 1.5rem;align-items:center;justify-content:center;flex-wrap:wrap}.donate-custom input{width:140px;padding:.75rem 1rem;background:var(--warm-bg);border:2px solid rgba(0,0,0,.08);border-radius:8px;color:var(--text);font-size:1.1rem;font-family:'Playfair Display',serif;outline:none;text-align:center}.donate-custom input:focus{border-color:var(--gold)}
+.donate-btn{display:inline-flex;align-items:center;gap:.5rem;padding:1rem 2.5rem;background:linear-gradient(135deg,#D4A843,#C05236);color:#fff;border:none;border-radius:50px;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit;text-transform:uppercase;letter-spacing:.1em;transition:all .3s;text-decoration:none}.donate-btn:hover{transform:translateY(-3px);box-shadow:0 6px 25px rgba(212,168,67,.4)}
+.footer{background:var(--ink);color:rgba(255,255,255,.7);padding:3rem 2rem 1.5rem}.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;max-width:1200px;margin:0 auto 2rem}.footer-section h4{color:var(--gold);margin-bottom:1rem;font-family:'Playfair Display',serif}.footer-section ul{list-style:none}.footer-section li{margin-bottom:.5rem}.footer-section a{color:rgba(255,255,255,.7);transition:color .3s;text-decoration:none}.footer-section a:hover{color:var(--gold)}.footer-bottom{text-align:center;padding-top:2rem;border-top:1px solid rgba(255,255,255,.1);max-width:1200px;margin:0 auto;font-size:.85rem}.disclaimer{background:rgba(0,0,0,.02);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);padding:1.5rem;margin-top:2rem;font-size:.85rem;line-height:1.7;color:rgba(255,255,255,.5)}
+.fade-up{opacity:0;transform:translateY(25px);transition:all .6s ease}.fade-up.visible{opacity:1;transform:translateY(0)}
+@media(max-width:900px){.nav-links{display:none}.nav-links.open{display:flex;flex-direction:column;position:absolute;top:70px;left:0;right:0;background:rgba(13,13,13,.98);padding:1rem;border-top:1px solid rgba(255,255,255,.08);gap:0}.nav-links.open a{padding:.75rem 1rem;width:100%}.hamburger{display:flex}.card-grid{grid-template-columns:1fr}.hero-stats{gap:2rem}.section{padding:3rem 1.5rem}.search-form{flex-direction:column}.donate-tiers{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.hero{padding:7rem 1.25rem 3rem}.hero-stats{gap:1.5rem}}
 </style>
 </head>
+
 <body>
-
-<nav class="nav">
-  <div class="nav-inner">
-    <div class="nav-logo">Our<span>Voice</span>Vote</div>
-    <ul class="nav-links">
-      <li><a href="#register">Register</a></li>
-      <li><a href="#rights">Your Rights</a></li>
-      <li><a href="#constitution">Constitution</a></li>
-      <li><a href="#accountability">Police Accountability</a></li>
-      <li><a href="#help">Help & Resources</a></li>
-      <li><a href="#donate">Donate</a></li>
-    </ul>
-  </div>
-</nav>
-
-<section class="hero">
-  <div class="hero-content">
-    <h1>Empower Your Voice, Shape <em>Our</em> Future</h1>
-    <p class="hero-sub">Your vote is your power. Get registered, stay informed, know your rights, and hold power accountable.</p>
-    <div class="hero-actions">
-      <a href="#register" class="btn-primary">Register to Vote</a>
-      <a href="#rights" class="btn-outline">Know Your Rights</a>
-    </div>
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <div class="num">50+</div>
-        <div class="lbl">Resources</div>
-      </div>
-      <div class="hero-stat">
-        <div class="num">50</div>
-        <div class="lbl">States Covered</div>
-      </div>
-      <div class="hero-stat">
-        <div class="num">100%</div>
-        <div class="lbl">Free & Non-Partisan</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="register">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-label">Step One</div>
-      <h2 class="section-title">Register to Vote</h2>
-      <p class="section-subtitle">Your voice matters. Registration is the first step to making it heard in every election.</p>
-    </div>
-    
-    <div class="content-box">
-      <h3>How to Register</h3>
-      <p>Registering to vote is straightforward. Here's what you need:</p>
-      <ul>
-        <li>Valid photo identification (driver's license, state ID, or passport)</li>
-        <li>Social Security number (last 4 digits)</li>
-        <li>Current residential address</li>
-        <li>U.S. citizenship</li>
-        <li>Age 18 or older by Election Day</li>
-      </ul>
-      <p><strong>Register online:</strong> <a href="https://vote.gov/register" target="_blank">Vote.gov/register</a></p>
-      <p><strong>Check your registration status:</strong> <a href="https://vote.gov/" target="_blank">Vote.gov</a></p>
-    </div>
-
-    <div class="card-grid">
-      <div class="card">
-        <div class="card-icon">📝</div>
-        <h3>Online Registration</h3>
-        <p>Most states allow online registration. Quick, easy, and secure.</p>
-        <a href="https://vote.gov/register" target="_blank">Register Now →</a>
-      </div>
-      <div class="card">
-        <div class="card-icon">✅</div>
-        <h3>Check Status</h3>
-        <p>Verify your voter registration is current and your info is correct.</p>
-        <a href="https://vote.gov/" target="_blank">Check Status →</a>
-      </div>
-      <div class="card">
-        <div class="card-icon">📅</div>
-        <h3>Find Your Polling Place</h3>
-        <p>Locate where you vote on Election Day.</p>
-        <a href="https://www.vote.org/polling-place-locator/" target="_blank">Find Location →</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section section-dark" id="rights">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-label">Protect Your Vote</div>
-      <h2 class="section-title">Know Your Rights</h2>
-      <p class="section-subtitle">Understanding your voting rights ensures no one can take away your power to vote.</p>
-    </div>
-
-    <div class="card-grid">
-      <div class="card">
-        <div class="card-icon">⚖️</div>
-        <h3>Right to Vote Without Intimidation</h3>
-        <p>Federal law prohibits voter intimidation. No one — including election officials, poll watchers, or other voters — may threaten, coerce, or pressure you at the polls.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">🗣️</div>
-        <h3>Right to Language Assistance</h3>
-        <p>Under the Voting Rights Act, language assistance at polling places is provided for U.S. citizens who need it in areas with significant populations speaking languages other than English.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">♿</div>
-        <h3>Right to Accessible Voting</h3>
-        <p>The Americans with Disabilities Act requires polling places to be physically accessible. If you have a disability, you're entitled to assistance and accommodations.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">📋</div>
-        <h3>Right to a Provisional Ballot</h3>
-        <p>If your name doesn't appear on the voter rolls or your eligibility is questioned, you have the right to cast a provisional ballot under the Help America Vote Act.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">⏰</div>
-        <h3>Right to Time Off to Vote</h3>
-        <p>Many states require employers to give workers time off to vote. Policies vary — some provide paid leave, others unpaid. Check your state's laws.</p>
-      </div>
-      <div class="card">
-        <div class="card-icon">🛡️</div>
-        <h3>Right to Report Problems</h3>
-        <p>If you encounter voting issues — broken machines, long waits, or discriminatory practices — you can report them. Call the Election Protection Hotline at 866-OUR-VOTE (866-687-8683).</p>
-      </div>
-    </div>
-
-    <div class="content-box" style="margin-top:3rem">
-      <h3>Voter ID Requirements</h3>
-      <p>Photo identification helps ensure election security and prevent fraud. Most states require voters to show valid identification at the polls. Acceptable forms typically include:</p>
-      <ul>
-        <li>Driver's license or state-issued ID card</li>
-        <li>U.S. Passport</li>
-        <li>Military ID</li>
-        <li>Tribal ID (in some states)</li>
-      </ul>
-      <p><strong>Free voter ID cards are available</strong> in most states that require photo ID. Check your state's specific requirements at <a href="https://www.vote.org/voter-id-laws/" target="_blank">Vote.org/voter-id-laws</a></p>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="constitution">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-label">Foundation of Our Democracy</div>
-      <h2 class="section-title">U.S. Constitution & Amendments</h2>
-      <p class="section-subtitle">The supreme law of the United States, establishing our government structure and protecting our fundamental rights.</p>
-    </div>
-
-    <div class="content-box">
-      <h3>The Constitution</h3>
-      <p>The U.S. Constitution was ratified in 1788 and is the oldest written national constitution still in use. It establishes the framework for the federal government and defines the relationship between the government and the people.</p>
-      <p><strong>Read the full Constitution:</strong> <a href="https://www.archives.gov/founding-docs/constitution-transcript" target="_blank">National Archives - Constitution</a></p>
-      
-      <h4>The Three Branches of Government</h4>
-      <p><strong>Legislative Branch (Article I):</strong> Congress (Senate and House of Representatives) makes federal laws</p>
-      <p><strong>Executive Branch (Article II):</strong> The President enforces federal laws</p>
-      <p><strong>Judicial Branch (Article III):</strong> The Supreme Court and federal courts interpret laws</p>
-    </div>
-
-    <div class="content-box">
-      <h3>The Bill of Rights (First 10 Amendments)</h3>
-      <p><strong>Amendment I:</strong> Freedom of religion, speech, press, assembly, and petition</p>
-      <p><strong>Amendment II:</strong> Right to keep and bear arms</p>
-      <p><strong>Amendment III:</strong> No quartering of soldiers in private homes without consent</p>
-      <p><strong>Amendment IV:</strong> Protection against unreasonable searches and seizures</p>
-      <p><strong>Amendment V:</strong> Due process, protection against self-incrimination and double jeopardy</p>
-      <p><strong>Amendment VI:</strong> Right to a speedy and public trial, impartial jury, and legal counsel</p>
-      <p><strong>Amendment VII:</strong> Right to jury trial in civil cases</p>
-      <p><strong>Amendment VIII:</strong> Protection against excessive bail and cruel and unusual punishment</p>
-      <p><strong>Amendment IX:</strong> Rights retained by the people beyond those listed in the Constitution</p>
-      <p><strong>Amendment X:</strong> Powers not delegated to the federal government are reserved to states and the people</p>
-    </div>
-
-    <div class="content-box">
-      <h3>Additional Amendments (11-27)</h3>
-      <p><strong>Amendment XI (1795):</strong> Limits lawsuits against states</p>
-      <p><strong>Amendment XII (1804):</strong> Revised presidential election procedures</p>
-      <p><strong>Amendment XIII (1865):</strong> Abolished slavery</p>
-      <p><strong>Amendment XIV (1868):</strong> Citizenship rights, equal protection, due process</p>
-      <p><strong>Amendment XV (1870):</strong> Right to vote cannot be denied based on race</p>
-      <p><strong>Amendment XVI (1913):</strong> Federal income tax authorized</p>
-      <p><strong>Amendment XVII (1913):</strong> Direct election of U.S. Senators</p>
-      <p><strong>Amendment XVIII (1919):</strong> Prohibition of alcohol (Repealed by Amendment XXI)</p>
-      <p><strong>Amendment XIX (1920):</strong> Women's right to vote</p>
-      <p><strong>Amendment XX (1933):</strong> Presidential and Congressional term dates</p>
-      <p><strong>Amendment XXI (1933):</strong> Repeal of Prohibition</p>
-      <p><strong>Amendment XXII (1951):</strong> Presidential term limits (two terms)</p>
-      <p><strong>Amendment XXIII (1961):</strong> Electoral votes for Washington, D.C.</p>
-      <p><strong>Amendment XXIV (1964):</strong> Abolished poll taxes</p>
-      <p><strong>Amendment XXV (1967):</strong> Presidential succession and disability</p>
-      <p><strong>Amendment XXVI (1971):</strong> Voting age lowered to 18</p>
-      <p><strong>Amendment XXVII (1992):</strong> Congressional pay changes take effect after next election</p>
-    </div>
-  </div>
-</section>
-
+<nav class="nav"><div class="nav-inner"><a href="#" class="nav-logo">Our<span>Voice</span>Vote</a><ul class="nav-links" id="navLinks"><li><a href="#politicians">Politicians</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#accountability">Accountability</a></li><li><a href="#rights">Your Rights</a></li><li><a href="#constitution">Constitution</a></li><li><a href="#register">Register</a></li><li><a href="#help">Help &amp; Resources</a></li><li><a href="#organizations">Organizations</a></li><li><a href="#donate" class="donate-link">&#9829; Donate</a></li></ul><div class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')"><span></span><span></span><span></span></div></div></nav>
+<section class="hero"><div class="hero-content">
+<h1>Empower Your Voice, Shape <em>Our</em> Future</h1>
+<p class="hero-sub">A comprehensive civic empowerment hub &mdash; track your politicians, understand legislation, know your rights, hold power accountable, and register to vote. All free. Forever.</p>
+<div class="hero-actions"><a href="#politicians" class="btn-primary">Track Your Reps &rarr;</a><a href="#register" class="btn-outline">Register to Vote</a></div>
+<div class="hero-stats"><div class="hero-stat"><div class="num">535</div><div class="lbl">Members of Congress</div></div><div class="hero-stat"><div class="num">50</div><div class="lbl">States Covered</div></div><div class="hero-stat"><div class="num">100%</div><div class="lbl">Free &amp; Non-Partisan</div></div></div>
+</div></section>
+<section class="section section-dark" id="politicians"><div class="container">
+<div class="section-header fade-up"><div class="section-label">Section 01</div><h2 class="section-title">Track Your Politicians</h2><p class="section-subtitle">Know who represents you. See how they vote. Hold them accountable.</p></div>
+<div class="search-box fade-up"><h3>Find Your Representatives</h3><p>Enter your address or zip code to find everyone who represents you.</p><div class="search-form"><input type="text" class="search-input" id="addressInput" placeholder="Enter your address or zip code..."><button class="btn-primary" onclick="findReps()">Find My Reps</button></div><div id="repResults" style="margin-top:1.25rem;"></div></div>
+<div class="card-grid fade-up">
+<a href="https://www.govtrack.us/congress/members" target="_blank" class="card"><div class="card-icon">&#128202;</div><span class="card-tag tag-sky">Voting Records</span><h3>GovTrack.us</h3><p>Track every vote on healthcare, immigration, taxes, criminal justice.</p><span class="card-link">Explore Voting Records &rarr;</span></a>
+<a href="https://www.opensecrets.org/" target="_blank" class="card"><div class="card-icon">&#128176;</div><span class="card-tag tag-gold">Follow the Money</span><h3>OpenSecrets</h3><p>See who funds your reps. PACs, lobbyists, dark money exposed.</p><span class="card-link">Follow the Money &rarr;</span></a>
+<a href="https://www.commoncause.org/" target="_blank" class="card"><div class="card-icon">&#9878;</div><span class="card-tag tag-purple">Ethics</span><h3>Common Cause</h3><p>Nonpartisan watchdog for ethics violations, gerrymandering, corruption.</p><span class="card-link">Fight Corruption &rarr;</span></a>
+<a href="https://justfacts.votesmart.org/" target="_blank" class="card"><div class="card-icon">&#128203;</div><span class="card-tag tag-green">Full Profiles</span><h3>Vote Smart</h3><p>Complete politician profiles &mdash; bio, positions, votes, finances.</p><span class="card-link">Research Politicians &rarr;</span></a>
+<a href="https://www.ballotpedia.org/" target="_blank" class="card"><div class="card-icon">&#128499;</div><span class="card-tag tag-orange">Elections</span><h3>Ballotpedia</h3><p>Encyclopedia of American politics. What is on YOUR ballot.</p><span class="card-link">Check Your Ballot &rarr;</span></a>
+<a href="https://openstates.org/" target="_blank" class="card"><div class="card-icon">&#127963;</div><span class="card-tag tag-rust">State Level</span><h3>Open States</h3><p>Track state-level legislation across all 50 states.</p><span class="card-link">Track State Politics &rarr;</span></a>
+</div></div></section>
+<section class="section" id="legislation"><div class="container">
+<div class="section-header fade-up"><div class="section-label">Section 02</div><h2 class="section-title">Laws &amp; Legislation</h2><p class="section-subtitle">Understand the laws that shape your life. See who they help, who they hurt, and what they actually do.</p></div>
+<div style="max-width:700px;margin:0 auto 3rem;" class="fade-up"><div class="search-form" style="background:var(--cream);padding:1.5rem;border-radius:var(--radius);"><input type="text" class="search-input search-input-light" id="billSearch" placeholder="Search bills (e.g., healthcare, immigration, housing)..."><button class="btn-primary" onclick="searchBills()">Search Bills</button></div><div id="billResults" style="margin-top:1rem;"></div></div>
+<h3 class="fade-up" style="text-align:center;margin-bottom:2rem;font-size:1.4rem;">Legislation Impact Analysis</h3>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:1.5rem;" class="fade-up">
+<div class="impact-card"><div class="impact-header"><span class="card-tag tag-green">Federal Law</span><h3>Infrastructure Investment &amp; Jobs Act</h3><p>$1.2 trillion for roads, bridges, broadband, water, transit.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Rural communities</span><span class="impact-tag positive">Working-class jobs</span><span class="impact-tag positive">Low-income families</span><span class="impact-tag positive">Communities of color</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Concerns Raised</div><div class="impact-tags"><span class="impact-tag negative">National debt increase</span><span class="impact-tag neutral">Environmental trade-offs</span></div></div></div><div class="impact-footer"><span class="impact-status status-signed">Signed into Law</span><a href="https://www.congress.gov/bill/117th-congress/house-bill/3684" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>
+<div class="impact-card"><div class="impact-header"><span class="card-tag tag-sky">Federal Law</span><h3>Inflation Reduction Act</h3><p>$739 billion for climate, healthcare, tax reform.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Medicare recipients</span><span class="impact-tag positive">Clean energy workers</span><span class="impact-tag positive">Low/middle-income families</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Concerns Raised</div><div class="impact-tags"><span class="impact-tag negative">Fossil fuel industry</span><span class="impact-tag negative">Large corporations (tax)</span></div></div></div><div class="impact-footer"><span class="impact-status status-signed">Signed into Law</span><a href="https://www.congress.gov/bill/117th-congress/house-bill/5376" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>
+<div class="impact-card"><div class="impact-header"><span class="card-tag tag-purple">Federal Bill</span><h3>CROWN Act</h3><p>Bans race-based hair discrimination in workplaces and schools.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Black women &amp; girls</span><span class="impact-tag positive">Black men &amp; boys</span><span class="impact-tag positive">Students</span><span class="impact-tag positive">Workers</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Opposition</div><div class="impact-tags"><span class="impact-tag neutral">Employer dress code concerns</span></div></div></div><div class="impact-footer"><span class="impact-status status-pending">Passed House - Pending Senate</span><a href="https://www.congress.gov/bill/117th-congress/house-bill/2116" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>
+<div class="impact-card"><div class="impact-header"><span class="card-tag tag-rust">Federal Bill</span><h3>George Floyd Justice in Policing Act</h3><p>Bans chokeholds, ends qualified immunity, creates misconduct registry.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Black communities</span><span class="impact-tag positive">Latino communities</span><span class="impact-tag positive">Victims of police violence</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Opposition</div><div class="impact-tags"><span class="impact-tag negative">Police unions oppose</span><span class="impact-tag neutral">Qualified immunity debate</span></div></div></div><div class="impact-footer"><span class="impact-status status-blocked">Passed House - Blocked in Senate</span><a href="https://www.congress.gov/bill/117th-congress/house-bill/1280" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>
+</div>
+<div class="card-grid fade-up" style="margin-top:3rem;max-width:900px;margin-left:auto;margin-right:auto;">
+<a href="https://www.congress.gov/" target="_blank" class="card"><span class="card-tag tag-sky">Official</span><h3>Congress.gov</h3><p>Official source for federal legislative information.</p><span class="card-link">Visit Congress.gov &rarr;</span></a>
+<a href="https://www.govtrack.us/" target="_blank" class="card"><span class="card-tag tag-green">Independent</span><h3>GovTrack.us</h3><p>Bill prognosis scores, voting records, analysis.</p><span class="card-link">Track Bills &rarr;</span></a>
+<a href="https://www.federalregister.gov/" target="_blank" class="card"><span class="card-tag tag-orange">Executive</span><h3>Federal Register</h3><p>Executive orders, regulations, agency rules.</p><span class="card-link">Read Executive Orders &rarr;</span></a>
+</div></div></section>
 <section class="section section-dark" id="accountability">
   <div class="container">
     <div class="section-header">
@@ -411,7 +205,159 @@ h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.2}
     </div>
   </div>
 </section>
+<section class="section section-dark" id="rights">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Protect Your Vote</div>
+      <h2 class="section-title">Know Your Rights</h2>
+      <p class="section-subtitle">Understanding your voting rights ensures no one can take away your power to vote.</p>
+    </div>
 
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">⚖️</div>
+        <h3>Right to Vote Without Intimidation</h3>
+        <p>Federal law prohibits voter intimidation. No one — including election officials, poll watchers, or other voters — may threaten, coerce, or pressure you at the polls.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🗣️</div>
+        <h3>Right to Language Assistance</h3>
+        <p>Under the Voting Rights Act, language assistance at polling places is provided for U.S. citizens who need it in areas with significant populations speaking languages other than English.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">♿</div>
+        <h3>Right to Accessible Voting</h3>
+        <p>The Americans with Disabilities Act requires polling places to be physically accessible. If you have a disability, you're entitled to assistance and accommodations.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">📋</div>
+        <h3>Right to a Provisional Ballot</h3>
+        <p>If your name doesn't appear on the voter rolls or your eligibility is questioned, you have the right to cast a provisional ballot under the Help America Vote Act.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⏰</div>
+        <h3>Right to Time Off to Vote</h3>
+        <p>Many states require employers to give workers time off to vote. Policies vary — some provide paid leave, others unpaid. Check your state's laws.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🛡️</div>
+        <h3>Right to Report Problems</h3>
+        <p>If you encounter voting issues — broken machines, long waits, or discriminatory practices — you can report them. Call the Election Protection Hotline at 866-OUR-VOTE (866-687-8683).</p>
+      </div>
+    </div>
+
+    <div class="content-box" style="margin-top:3rem">
+      <h3>Voter ID Requirements</h3>
+      <p>Photo identification helps ensure election security and prevent fraud. Most states require voters to show valid identification at the polls. Acceptable forms typically include:</p>
+      <ul>
+        <li>Driver's license or state-issued ID card</li>
+        <li>U.S. Passport</li>
+        <li>Military ID</li>
+        <li>Tribal ID (in some states)</li>
+      </ul>
+      <p><strong>Free voter ID cards are available</strong> in most states that require photo ID. Check your state's specific requirements at <a href="https://www.vote.org/voter-id-laws/" target="_blank">Vote.org/voter-id-laws</a></p>
+    </div>
+  </div>
+</section>
+<section class="section" id="constitution">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Foundation of Our Democracy</div>
+      <h2 class="section-title">U.S. Constitution & Amendments</h2>
+      <p class="section-subtitle">The supreme law of the United States, establishing our government structure and protecting our fundamental rights.</p>
+    </div>
+
+    <div class="content-box">
+      <h3>The Constitution</h3>
+      <p>The U.S. Constitution was ratified in 1788 and is the oldest written national constitution still in use. It establishes the framework for the federal government and defines the relationship between the government and the people.</p>
+      <p><strong>Read the full Constitution:</strong> <a href="https://www.archives.gov/founding-docs/constitution-transcript" target="_blank">National Archives - Constitution</a></p>
+      
+      <h4>The Three Branches of Government</h4>
+      <p><strong>Legislative Branch (Article I):</strong> Congress (Senate and House of Representatives) makes federal laws</p>
+      <p><strong>Executive Branch (Article II):</strong> The President enforces federal laws</p>
+      <p><strong>Judicial Branch (Article III):</strong> The Supreme Court and federal courts interpret laws</p>
+    </div>
+
+    <div class="content-box">
+      <h3>The Bill of Rights (First 10 Amendments)</h3>
+      <p><strong>Amendment I:</strong> Freedom of religion, speech, press, assembly, and petition</p>
+      <p><strong>Amendment II:</strong> Right to keep and bear arms</p>
+      <p><strong>Amendment III:</strong> No quartering of soldiers in private homes without consent</p>
+      <p><strong>Amendment IV:</strong> Protection against unreasonable searches and seizures</p>
+      <p><strong>Amendment V:</strong> Due process, protection against self-incrimination and double jeopardy</p>
+      <p><strong>Amendment VI:</strong> Right to a speedy and public trial, impartial jury, and legal counsel</p>
+      <p><strong>Amendment VII:</strong> Right to jury trial in civil cases</p>
+      <p><strong>Amendment VIII:</strong> Protection against excessive bail and cruel and unusual punishment</p>
+      <p><strong>Amendment IX:</strong> Rights retained by the people beyond those listed in the Constitution</p>
+      <p><strong>Amendment X:</strong> Powers not delegated to the federal government are reserved to states and the people</p>
+    </div>
+
+    <div class="content-box">
+      <h3>Additional Amendments (11-27)</h3>
+      <p><strong>Amendment XI (1795):</strong> Limits lawsuits against states</p>
+      <p><strong>Amendment XII (1804):</strong> Revised presidential election procedures</p>
+      <p><strong>Amendment XIII (1865):</strong> Abolished slavery</p>
+      <p><strong>Amendment XIV (1868):</strong> Citizenship rights, equal protection, due process</p>
+      <p><strong>Amendment XV (1870):</strong> Right to vote cannot be denied based on race</p>
+      <p><strong>Amendment XVI (1913):</strong> Federal income tax authorized</p>
+      <p><strong>Amendment XVII (1913):</strong> Direct election of U.S. Senators</p>
+      <p><strong>Amendment XVIII (1919):</strong> Prohibition of alcohol (Repealed by Amendment XXI)</p>
+      <p><strong>Amendment XIX (1920):</strong> Women's right to vote</p>
+      <p><strong>Amendment XX (1933):</strong> Presidential and Congressional term dates</p>
+      <p><strong>Amendment XXI (1933):</strong> Repeal of Prohibition</p>
+      <p><strong>Amendment XXII (1951):</strong> Presidential term limits (two terms)</p>
+      <p><strong>Amendment XXIII (1961):</strong> Electoral votes for Washington, D.C.</p>
+      <p><strong>Amendment XXIV (1964):</strong> Abolished poll taxes</p>
+      <p><strong>Amendment XXV (1967):</strong> Presidential succession and disability</p>
+      <p><strong>Amendment XXVI (1971):</strong> Voting age lowered to 18</p>
+      <p><strong>Amendment XXVII (1992):</strong> Congressional pay changes take effect after next election</p>
+    </div>
+  </div>
+</section>
+<section class="section section-dark" id="register">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Step One</div>
+      <h2 class="section-title">Register to Vote</h2>
+      <p class="section-subtitle">Your voice matters. Registration is the first step to making it heard in every election.</p>
+    </div>
+    
+    <div class="content-box">
+      <h3>How to Register</h3>
+      <p>Registering to vote is straightforward. Here's what you need:</p>
+      <ul>
+        <li>Valid photo identification (driver's license, state ID, or passport)</li>
+        <li>Social Security number (last 4 digits)</li>
+        <li>Current residential address</li>
+        <li>U.S. citizenship</li>
+        <li>Age 18 or older by Election Day</li>
+      </ul>
+      <p><strong>Register online:</strong> <a href="https://vote.gov/register" target="_blank">Vote.gov/register</a></p>
+      <p><strong>Check your registration status:</strong> <a href="https://vote.gov/" target="_blank">Vote.gov</a></p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">📝</div>
+        <h3>Online Registration</h3>
+        <p>Most states allow online registration. Quick, easy, and secure.</p>
+        <a href="https://vote.gov/register" target="_blank">Register Now →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">✅</div>
+        <h3>Check Status</h3>
+        <p>Verify your voter registration is current and your info is correct.</p>
+        <a href="https://vote.gov/" target="_blank">Check Status →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">📅</div>
+        <h3>Find Your Polling Place</h3>
+        <p>Locate where you vote on Election Day.</p>
+        <a href="https://www.vote.org/polling-place-locator/" target="_blank">Find Location →</a>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="section" id="help">
   <div class="container">
     <div class="section-header">
@@ -860,120 +806,51 @@ h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.2}
     </div>
   </div>
 </section>
-
-<section class="section section-alt" id="donate">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-label">Support Our Mission</div>
-      <h2 class="section-title">Support OurVoiceVote</h2>
-      <p class="section-subtitle">Help us keep this resource free and accessible to everyone. Your support keeps voter information flowing to communities that need it most.</p>
-    </div>
-
-    <div class="content-box">
-      <h3>Why Donate?</h3>
-      <p>OurVoiceVote is a free, non-partisan civic empowerment platform. We receive no government funding and accept no political donations. Every dollar goes toward:</p>
-      <ul>
-        <li>Keeping the website operational and accessible 24/7</li>
-        <li>Updating election information, deadlines, and resources quarterly</li>
-        <li>Researching and verifying police accountability data</li>
-        <li>Maintaining the 50-state Help & Resources database</li>
-        <li>Expanding educational content and voter guides</li>
-      </ul>
-    </div>
-
-    <div class="card-grid">
-      <div class="card">
-        <div class="card-icon">💵</div>
-        <h3>One-Time Donation</h3>
-        <p>Make a single contribution to support voter education and civic engagement.</p>
-        <p><strong>Suggested: $5, $10, $25, $50</strong></p>
-        <a href="#" class="btn-primary" style="margin-top:1rem">Donate Now</a>
-      </div>
-      
-      <div class="card">
-        <div class="card-icon">📅</div>
-        <h3>Monthly Support</h3>
-        <p>Become a sustaining supporter with recurring monthly donations.</p>
-        <p><strong>As little as $3/month helps</strong></p>
-        <a href="#" class="btn-primary" style="margin-top:1rem">Set Up Monthly</a>
-      </div>
-      
-      <div class="card">
-        <div class="card-icon">🎯</div>
-        <h3>Sponsor Updates</h3>
-        <p>Sponsor a quarterly website update to ensure current, accurate information.</p>
-        <p><strong>$100+ sponsors recognized</strong></p>
-        <a href="#" class="btn-primary" style="margin-top:1rem">Sponsor Update</a>
-      </div>
-    </div>
-
-    <div class="note-box" style="margin-top:3rem">
-      <strong>Financial Transparency:</strong>
-      <p>As this platform grows, we commit to publishing annual reports showing exactly how donations are used. We accept no political party donations and maintain strict non-partisan independence.</p>
-    </div>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="footer-grid">
-    <div class="footer-section">
-      <h4>Our<span style="color:#D4A843">Voice</span>Vote</h4>
-      <p>A free, non-partisan civic empowerment resource built to help voters access information, understand their rights, hold power accountable, and engage with democracy.</p>
-    </div>
-    
-    <div class="footer-section">
-      <h4>Quick Links</h4>
-      <ul>
-        <li><a href="#register">Register to Vote</a></li>
-        <li><a href="#rights">Know Your Rights</a></li>
-        <li><a href="#constitution">Constitution</a></li>
-        <li><a href="#accountability">Police Accountability</a></li>
-        <li><a href="#help">Help & Resources</a></li>
-        <li><a href="#donate">Donate</a></li>
-      </ul>
-    </div>
-    
-    <div class="footer-section">
-      <h4>Official Resources</h4>
-      <ul>
-        <li><a href="https://vote.gov/" target="_blank">Vote.gov</a></li>
-        <li><a href="https://866ourvote.org/" target="_blank">Election Protection</a></li>
-        <li><a href="https://www.usa.gov/elected-officials" target="_blank">Contact Representatives</a></li>
-        <li><a href="https://www.archives.gov/founding-docs/constitution" target="_blank">Constitution</a></li>
-      </ul>
-    </div>
-    
-    <div class="footer-section">
-      <h4>Accountability Data</h4>
-      <ul>
-        <li><a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">Washington Post Database</a></li>
-        <li><a href="https://mappingpoliceviolence.org/" target="_blank">Mapping Police Violence</a></li>
-        <li><a href="https://www.opensecrets.org/" target="_blank">OpenSecrets</a></li>
-      </ul>
-    </div>
-  </div>
-  
-  <div class="footer-bottom">
-    <div class="disclaimer">
-      <strong>Legal Disclaimer:</strong>
-      This website provides general information about voting rights, civic engagement, police accountability, and community resources. This information is for educational purposes only and does not constitute legal, financial, or professional advice. While we strive for accuracy, laws and resources change frequently. Always verify information with official sources before making decisions. The police accountability data is compiled from publicly available databases maintained by journalists and researchers (Washington Post, Mapping Police Violence, Wikipedia); we do not independently verify each case. Statistics are updated quarterly and reflect the most recent available data. Organization funding information is provided for transparency purposes only. By using this site, you agree that OurVoiceVote and its operators are not liable for any decisions, actions, or outcomes resulting from the use of information provided here. For legal matters, consult a licensed attorney. For financial matters, consult a financial advisor.
-    </div>
-    
-    <p style="margin-top:2rem">&copy; 2026 OurVoiceVote — Free & open source. Share freely.</p>
-    <p>This site is non-partisan and not affiliated with any political party.</p>
-    <p style="margin-top:1rem;font-size:.75rem">Data sources: Washington Post Police Shootings Database (2015-2024), Mapping Police Violence, Wikipedia List of Unarmed African Americans Killed by Law Enforcement, U.S. National Archives, Vote.gov, HHS.gov, and other public records. Statistics verified through multiple independent sources.</p>
-  </div>
-</footer>
-
+<section class="section section-dark" id="organizations"><div class="container">
+<div class="section-header fade-up"><div class="section-label">Get Involved</div><h2 class="section-title">Organizations Making a Difference</h2><p class="section-subtitle">Nonpartisan organizations fighting for voting rights, civic engagement, racial justice, and accountability.</p></div>
+<div class="org-grid fade-up">
+<a href="https://www.naacp.org/" target="_blank" class="org-card"><h4>NAACP</h4><p>Civil rights &amp; racial justice</p></a>
+<a href="https://www.aclu.org/" target="_blank" class="org-card"><h4>ACLU</h4><p>Civil liberties &amp; constitutional rights</p></a>
+<a href="https://www.lwv.org/" target="_blank" class="org-card"><h4>League of Women Voters</h4><p>Voter education</p></a>
+<a href="https://www.commoncause.org/" target="_blank" class="org-card"><h4>Common Cause</h4><p>Government accountability</p></a>
+<a href="https://www.brennancenter.org/" target="_blank" class="org-card"><h4>Brennan Center</h4><p>Voting rights &amp; reform</p></a>
+<a href="https://www.rockthevote.org/" target="_blank" class="org-card"><h4>Rock the Vote</h4><p>Youth voter registration</p></a>
+<a href="https://www.whenweallvote.org/" target="_blank" class="org-card"><h4>When We All Vote</h4><p>Voter participation</p></a>
+<a href="https://www.fairvote.org/" target="_blank" class="org-card"><h4>FairVote</h4><p>Electoral reform</p></a>
+<a href="https://colorofchange.org/" target="_blank" class="org-card"><h4>Color of Change</h4><p>Racial justice campaigns</p></a>
+<a href="https://www.splcenter.org/" target="_blank" class="org-card"><h4>Southern Poverty Law Center</h4><p>Hate group tracking</p></a>
+<a href="https://www.joincampaignzero.org/" target="_blank" class="org-card"><h4>Campaign Zero</h4><p>Police reform solutions</p></a>
+<a href="https://indivisible.org/" target="_blank" class="org-card"><h4>Indivisible</h4><p>Grassroots civic engagement</p></a>
+</div></div></section>
+<section class="section section-alt" id="donate"><div class="container">
+<div class="section-header fade-up"><div class="section-label">Support Our Mission</div><h2 class="section-title">Support OurVoiceVote</h2><p class="section-subtitle">Help us keep this resource free and accessible to everyone.</p></div>
+<div class="content-box fade-up"><h3>Why Donate?</h3><p>OurVoiceVote is a free, non-partisan civic empowerment platform. We receive no government funding and accept no political donations. Every dollar goes toward:</p><ul><li>Keeping the website operational and accessible 24/7</li><li>Updating election information, deadlines, and resources quarterly</li><li>Researching and verifying police accountability data</li><li>Maintaining the 50-state Help &amp; Resources database</li><li>Expanding educational content, legislation tracking, and voter guides</li></ul></div>
+<div class="donate-box fade-up"><h3 style="margin-bottom:.5rem;">Choose Your Impact</h3><p style="color:var(--text-light);margin-bottom:1.5rem;">Select an amount or enter your own.</p>
+<div class="donate-tiers"><div class="donate-tier" onclick="selectTier(this,5)"><span class="amount">$5</span><span class="tier-label">Supporter</span></div><div class="donate-tier" onclick="selectTier(this,15)"><span class="amount">$15</span><span class="tier-label">Advocate</span></div><div class="donate-tier selected" onclick="selectTier(this,25)"><span class="amount">$25</span><span class="tier-label">Champion</span></div><div class="donate-tier" onclick="selectTier(this,50)"><span class="amount">$50</span><span class="tier-label">Leader</span></div></div>
+<div class="donate-custom"><span style="color:var(--text-light);font-size:.9rem;">Custom:</span><input type="text" id="customAmount" placeholder="$__" oninput="clearTierSelection()"></div>
+<a href="#" class="donate-btn" onclick="handleDonate(event)">&#9829; Donate via PayPal</a>
+<p style="margin-top:1.25rem;font-size:.85rem;color:var(--text-light);">Secure payment via PayPal. No PayPal account needed.</p></div>
+<div class="note-box fade-up" style="margin-top:3rem"><strong>Financial Transparency:</strong><p>As this platform grows, we commit to publishing annual reports showing exactly how donations are used. We accept no political party donations and maintain strict non-partisan independence.</p></div>
+</div></section>
+<footer class="footer"><div class="footer-grid">
+<div class="footer-section"><h4>Our<span style="color:var(--gold)">Voice</span>Vote</h4><p>A free, non-partisan civic empowerment resource.</p></div>
+<div class="footer-section"><h4>Quick Links</h4><ul><li><a href="#politicians">Track Politicians</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#accountability">Accountability</a></li><li><a href="#rights">Your Rights</a></li><li><a href="#register">Register to Vote</a></li><li><a href="#help">Resources</a></li><li><a href="#donate">Donate</a></li></ul></div>
+<div class="footer-section"><h4>Official Resources</h4><ul><li><a href="https://vote.gov/" target="_blank">Vote.gov</a></li><li><a href="https://866ourvote.org/" target="_blank">Election Protection</a></li><li><a href="https://www.congress.gov/" target="_blank">Congress.gov</a></li><li><a href="https://www.usa.gov/elected-officials" target="_blank">Contact Representatives</a></li></ul></div>
+<div class="footer-section"><h4>Data Sources</h4><ul><li><a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">Washington Post Database</a></li><li><a href="https://mappingpoliceviolence.org/" target="_blank">Mapping Police Violence</a></li><li><a href="https://www.opensecrets.org/" target="_blank">OpenSecrets</a></li><li><a href="https://www.govtrack.us/" target="_blank">GovTrack</a></li></ul></div></div>
+<div class="footer-bottom"><div class="disclaimer"><strong>Legal Disclaimer:</strong> This website provides general information about voting rights, civic engagement, police accountability, and community resources for educational purposes only. Always verify with official sources. Police accountability data compiled from publicly available databases. By using this site, you agree that OurVoiceVote is not liable for decisions resulting from information provided here.</div>
+<p style="margin-top:2rem">&copy; 2026 OurVoiceVote &mdash; Free &amp; open source. Share freely. Non-partisan.</p>
+<p style="margin-top:1rem;font-size:.75rem">Data: Washington Post, Mapping Police Violence, Wikipedia, National Archives, Vote.gov, HHS.gov, Congress.gov.</p></div></footer>
 <script>
-document.querySelectorAll('a[href^="#"]').forEach(a=>{
-  a.addEventListener('click',e=>{
-    e.preventDefault();
-    const t=document.querySelector(a.getAttribute('href'));
-    if(t)t.scrollIntoView({behavior:'smooth',block:'start'});
-  });
-});
-</script>
-
-</body>
-</html>
+document.querySelectorAll('.nav-links a').forEach(a=>{a.addEventListener('click',()=>{document.getElementById('navLinks').classList.remove('open')})});
+document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{e.preventDefault();const t=document.querySelector(a.getAttribute('href'));if(t)t.scrollIntoView({behavior:'smooth',block:'start'})})});
+const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:0.1});
+document.querySelectorAll('.fade-up').forEach(el=>observer.observe(el));
+function findReps(){var a=document.getElementById('addressInput').value.trim();if(!a){document.getElementById('repResults').innerHTML='<p style="color:var(--gold)">Please enter an address or zip code.</p>';return}var e=encodeURIComponent(a);document.getElementById('repResults').innerHTML='<div style="display:flex;flex-direction:column;gap:.6rem"><p style="color:var(--gold);font-weight:600">Find your representatives:</p><a href="https://www.house.gov/representatives/find-your-representative" target="_blank" style="display:block;padding:.7rem 1rem;background:rgba(58,124,165,.15);border:1px solid rgba(58,124,165,.3);border-radius:8px;color:#fff;font-weight:500">U.S. House Representative - House.gov</a><a href="https://www.senate.gov/senators/senators-contact.htm" target="_blank" style="display:block;padding:.7rem 1rem;background:rgba(192,82,54,.15);border:1px solid rgba(192,82,54,.3);border-radius:8px;color:#fff;font-weight:500">U.S. Senators - Senate.gov</a><a href="https://www.usa.gov/elected-officials" target="_blank" style="display:block;padding:.7rem 1rem;background:rgba(212,168,67,.12);border:1px solid rgba(212,168,67,.3);border-radius:8px;color:#fff;font-weight:500">ALL Elected Officials - USA.gov</a><a href="https://openstates.org/find_your_legislator/?address='+e+'" target="_blank" style="display:block;padding:.7rem 1rem;background:rgba(45,106,79,.15);border:1px solid rgba(45,106,79,.3);border-radius:8px;color:#fff;font-weight:500">State Legislators - Open States</a></div>'}
+document.getElementById('addressInput').addEventListener('keypress',e=>{if(e.key==='Enter')findReps()});
+function searchBills(){var q=document.getElementById('billSearch').value.trim();if(!q){document.getElementById('billResults').innerHTML='<p style="color:var(--text-light)">Please enter a search term.</p>';return}var e=encodeURIComponent(q);document.getElementById('billResults').innerHTML='<div style="display:flex;flex-direction:column;gap:.6rem;background:var(--cream);padding:1.25rem;border-radius:10px"><p style="font-weight:600">Results for "'+q+'":</p><a href="https://www.congress.gov/search?q=%7B%22source%22%3A%22legislation%22%2C%22search%22%3A%22'+e+'%22%7D" target="_blank" style="display:block;padding:.7rem 1rem;background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:8px;color:var(--text);font-weight:500">Congress.gov - Official federal legislation</a><a href="https://www.govtrack.us/congress/bills/browse?text='+e+'" target="_blank" style="display:block;padding:.7rem 1rem;background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:8px;color:var(--text);font-weight:500">GovTrack - With prognosis & analysis</a><a href="https://legiscan.com/gaits/search?query='+e+'" target="_blank" style="display:block;padding:.7rem 1rem;background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:8px;color:var(--text);font-weight:500">LegiScan - All 50 states + Congress</a></div>'}
+document.getElementById('billSearch').addEventListener('keypress',e=>{if(e.key==='Enter')searchBills()});
+let selectedAmount=25;
+function selectTier(el,amt){selectedAmount=amt;document.querySelectorAll('.donate-tier').forEach(t=>t.classList.remove('selected'));el.classList.add('selected');document.getElementById('customAmount').value=''}
+function clearTierSelection(){document.querySelectorAll('.donate-tier').forEach(t=>t.classList.remove('selected'));var v=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');if(v)selectedAmount=parseFloat(v)}
+function handleDonate(e){e.preventDefault();var cv=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');var amt=cv?parseFloat(cv):selectedAmount;if(!amt||amt<=0){alert('Please select or enter a donation amount.');return}window.open('https://paypal.me/ourvoicevote/'+amt,'_blank')}
+</script></body></html>

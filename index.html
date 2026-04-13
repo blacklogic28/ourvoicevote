@@ -9,709 +9,968 @@
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 :root{
   --gold:#D4A843;
-  --gold-light:#F2D888;
   --deep:#0D0D0D;
   --ink:#1A1A1A;
-  --charcoal:#2A2A2A;
   --warm-bg:#FAF5ED;
   --cream:#FFF8EE;
   --rust:#C05236;
-  --forest:#2D6A4F;
   --sky:#3A7CA5;
-  --plum:#5B2C6F;
   --text:#333;
   --text-light:#666;
-  --accent-gradient:linear-gradient(135deg,#D4A843 0%,#C05236 100%);
   --shadow-sm:0 2px 8px rgba(0,0,0,.06);
   --shadow-md:0 4px 20px rgba(0,0,0,.1);
-  --shadow-lg:0 8px 40px rgba(0,0,0,.15);
   --radius:12px;
 }
-html{scroll-behavior:smooth;font-size:16px}
+html{scroll-behavior:smooth}
 body{font-family:'Source Sans 3',sans-serif;background:var(--warm-bg);color:var(--text);line-height:1.7;overflow-x:hidden}
 h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.2}
-a{color:inherit;text-decoration:none}
 
-/* ===================== NAV ===================== */
-.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(13,13,13,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,168,67,.15);transition:all .3s}
-.nav-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 2rem;height:70px}
-.nav-logo{font-family:'DM Serif Display',serif;font-size:1.5rem;color:#fff;display:flex;align-items:center;gap:.5rem}
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(13,13,13,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,168,67,.15)}
+.nav-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 2rem;height:70px}
+.nav-logo{font-family:'DM Serif Display',serif;font-size:1.5rem;color:#fff}
 .nav-logo span{color:var(--gold)}
-.nav-links{display:flex;gap:2rem;list-style:none}
-.nav-links a{color:rgba(255,255,255,.75);font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;transition:color .3s}
+.nav-links{display:flex;gap:1.5rem;list-style:none}
+.nav-links a{color:rgba(255,255,255,.75);font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;transition:color .3s}
 .nav-links a:hover{color:var(--gold)}
-.mobile-toggle{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer}
-.nav-cta{background:var(--accent-gradient);color:#fff;padding:.6rem 1.4rem;border-radius:50px;font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;transition:transform .2s,box-shadow .2s}
-.nav-cta:hover{transform:translateY(-2px);box-shadow:0 4px 15px rgba(212,168,67,.4)}
 
-/* ===================== HERO ===================== */
-.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--deep);position:relative;overflow:hidden;padding:6rem 2rem 4rem}
-.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 20% 50%,rgba(212,168,67,.12) 0%,transparent 60%),radial-gradient(ellipse at 80% 30%,rgba(192,82,54,.08) 0%,transparent 50%);pointer-events:none}
-.hero::after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.03'/%3E%3C/svg%3E");opacity:.5;pointer-events:none}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--deep);position:relative;padding:6rem 2rem 4rem}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 20% 50%,rgba(212,168,67,.12) 0%,transparent 60%)}
 .hero-content{position:relative;z-index:2;max-width:900px;text-align:center}
-.hero-badge{display:inline-block;background:rgba(212,168,67,.12);border:1px solid rgba(212,168,67,.3);color:var(--gold);padding:.4rem 1.2rem;border-radius:50px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.15em;margin-bottom:2rem;animation:fadeDown .8s ease}
-.hero h1{font-size:clamp(2.8rem,7vw,5.5rem);color:#fff;font-weight:900;margin-bottom:1.5rem;animation:fadeUp .8s ease}
-.hero h1 em{font-style:italic;color:var(--gold);display:inline-block}
-.hero-sub{color:rgba(255,255,255,.65);font-size:clamp(1rem,2.5vw,1.3rem);max-width:640px;margin:0 auto 2.5rem;font-weight:300;animation:fadeUp 1s ease .2s both}
-.hero-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;animation:fadeUp 1s ease .4s both}
-.btn-primary{background:var(--accent-gradient);color:#fff;padding:.9rem 2.2rem;border-radius:50px;font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;border:none;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.hero h1{font-size:clamp(2.8rem,7vw,5.5rem);color:#fff;font-weight:900;margin-bottom:1.5rem}
+.hero h1 em{font-style:italic;color:var(--gold)}
+.hero-sub{color:rgba(255,255,255,.65);font-size:clamp(1rem,2.5vw,1.3rem);max-width:640px;margin:0 auto 2.5rem}
+.hero-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:3rem}
+.btn-primary{background:linear-gradient(135deg,#D4A843 0%,#C05236 100%);color:#fff;padding:.9rem 2.2rem;border-radius:50px;font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;transition:transform .2s;display:inline-block}
 .btn-primary:hover{transform:translateY(-3px);box-shadow:0 6px 25px rgba(212,168,67,.4)}
-.btn-outline{background:transparent;color:#fff;padding:.9rem 2.2rem;border-radius:50px;font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;border:2px solid rgba(255,255,255,.25);cursor:pointer;transition:all .3s}
+.btn-outline{background:transparent;color:#fff;padding:.9rem 2.2rem;border-radius:50px;font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;border:2px solid rgba(255,255,255,.25);display:inline-block;transition:all .3s}
 .btn-outline:hover{border-color:var(--gold);color:var(--gold)}
-.hero-stats{display:flex;gap:3rem;justify-content:center;margin-top:4rem;animation:fadeUp 1.2s ease .6s both}
+.hero-stats{display:flex;gap:3rem;justify-content:center;flex-wrap:wrap}
 .hero-stat{text-align:center}
 .hero-stat .num{font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:900;color:var(--gold)}
 .hero-stat .lbl{color:rgba(255,255,255,.45);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;margin-top:.25rem}
 
-/* ===================== QUICK ACTIONS ===================== */
-.quick-actions{background:var(--ink);padding:0;position:relative;z-index:5}
-.qa-grid{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
-.qa-item{padding:2rem 1.5rem;text-align:center;border-right:1px solid rgba(255,255,255,.06);transition:background .3s;cursor:pointer;text-decoration:none}
-.qa-item:last-child{border-right:none}
-.qa-item:hover{background:rgba(212,168,67,.08)}
-.qa-icon{font-size:2rem;margin-bottom:.75rem}
-.qa-title{color:#fff;font-family:'Playfair Display',serif;font-size:1rem;margin-bottom:.3rem}
-.qa-desc{color:rgba(255,255,255,.4);font-size:.8rem}
-
-/* ===================== SECTIONS ===================== */
 .section{padding:5rem 2rem}
 .section-dark{background:var(--deep);color:#fff}
 .section-alt{background:var(--cream)}
 .container{max-width:1200px;margin:0 auto}
 .section-header{text-align:center;margin-bottom:3.5rem}
-.section-label{display:inline-block;color:var(--rust);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.2em;margin-bottom:.75rem}
+.section-label{color:var(--rust);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.2em;margin-bottom:.75rem}
 .section-dark .section-label{color:var(--gold)}
 .section-title{font-size:clamp(2rem,4vw,3rem);margin-bottom:1rem}
-.section-subtitle{color:var(--text-light);font-size:1.1rem;max-width:600px;margin:0 auto}
+.section-subtitle{color:var(--text-light);font-size:1.1rem;max-width:700px;margin:0 auto}
 .section-dark .section-subtitle{color:rgba(255,255,255,.5)}
 
-/* ===================== REGISTER SECTION ===================== */
-.register-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
-.register-visual{background:var(--accent-gradient);border-radius:var(--radius);padding:3rem;color:#fff;position:relative;overflow:hidden;min-height:400px;display:flex;flex-direction:column;justify-content:center}
-.register-visual::before{content:'✓';position:absolute;right:-30px;bottom:-30px;font-size:15rem;opacity:.08;font-weight:900}
-.register-visual h3{font-size:2.2rem;margin-bottom:1rem}
-.register-visual p{opacity:.85;margin-bottom:2rem;font-size:1.05rem}
-.register-steps{list-style:none;counter-reset:steps}
-.register-steps li{counter-increment:steps;display:flex;align-items:flex-start;gap:1rem;margin-bottom:1.2rem;font-size:.95rem}
-.register-steps li::before{content:counter(steps);background:rgba(255,255,255,.2);color:#fff;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.8rem;flex-shrink:0}
-.register-links{display:grid;gap:1rem}
-.register-link{background:#fff;border-radius:var(--radius);padding:1.5rem;display:flex;align-items:center;gap:1rem;box-shadow:var(--shadow-sm);transition:transform .2s,box-shadow .2s;border:1px solid rgba(0,0,0,.04)}
-.register-link:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
-.register-link .rl-icon{width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
-.register-link .rl-info h4{font-size:1rem;margin-bottom:.2rem}
-.register-link .rl-info p{color:var(--text-light);font-size:.85rem;line-height:1.4}
-.register-link .rl-arrow{margin-left:auto;color:var(--text-light);font-size:1.2rem}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:2rem}
+.card{background:#fff;border-radius:var(--radius);padding:2rem;box-shadow:var(--shadow-sm);transition:transform .2s,box-shadow .2s;border:1px solid rgba(0,0,0,.04)}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.card-icon{font-size:2.5rem;margin-bottom:1rem}
+.card h3{color:var(--deep);margin-bottom:1rem;font-size:1.3rem}
+.card p{color:var(--text-light);font-size:.95rem;line-height:1.6;margin-bottom:1rem}
+.card a{color:var(--sky);font-weight:600;text-decoration:none}
+.card a:hover{color:var(--rust)}
 
-/* ===================== KNOW YOUR RIGHTS ===================== */
-.rights-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
-.right-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:2rem;transition:all .3s;position:relative;overflow:hidden}
-.right-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 30px rgba(212,168,67,.15)}
-.right-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--accent-gradient);opacity:0;transition:opacity .3s}
-.right-card:hover::before{opacity:1}
-.rc-icon{font-size:2rem;margin-bottom:1rem}
-.rc-title{font-size:1.1rem;margin-bottom:.75rem;color:#fff}
-.rc-text{color:rgba(255,255,255,.55);font-size:.9rem;line-height:1.6}
+.content-box{background:#fff;border-radius:var(--radius);padding:2.5rem;margin-bottom:2rem;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,.04)}
+.content-box h3{color:var(--deep);margin-bottom:1.5rem;font-size:1.8rem}
+.content-box h4{margin-top:2rem;margin-bottom:1rem;color:var(--deep)}
+.content-box p{color:var(--text);margin-bottom:1rem;line-height:1.8}
+.content-box ul,.content-box ol{margin:1rem 0 1rem 2rem}
+.content-box li{margin-bottom:.75rem;color:var(--text-light)}
+.content-box a{color:var(--sky);text-decoration:underline}
 
-/* ===================== KEY ISSUES ===================== */
-.issues-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem}
-.issue-card{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);transition:all .3s;border:1px solid rgba(0,0,0,.04)}
-.issue-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
-.issue-top{padding:1.5rem 1.5rem .75rem;display:flex;align-items:center;gap:1rem}
-.issue-badge{padding:.3rem .8rem;border-radius:50px;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#fff}
-.issue-body{padding:0 1.5rem 1.5rem}
-.issue-body h3{font-size:1.2rem;margin-bottom:.5rem}
-.issue-body p{color:var(--text-light);font-size:.9rem;line-height:1.6}
-.issue-footer{padding:.75rem 1.5rem;border-top:1px solid rgba(0,0,0,.04);display:flex;align-items:center;gap:.5rem}
-.issue-footer a{color:var(--rust);font-weight:600;font-size:.85rem;display:flex;align-items:center;gap:.3rem;transition:gap .2s}
-.issue-footer a:hover{gap:.6rem}
+.stat-highlight{background:linear-gradient(135deg,#D4A843 0%,#C05236 100%);color:#fff;padding:2rem;border-radius:var(--radius);margin:2rem 0;text-align:center}
+.stat-highlight .num{font-size:3rem;font-weight:900;font-family:'Playfair Display',serif;margin-bottom:.5rem}
+.stat-highlight .label{font-size:1.1rem;opacity:.9}
 
-/* ===================== TIMELINE ===================== */
-.timeline{position:relative;max-width:800px;margin:0 auto}
-.timeline::before{content:'';position:absolute;left:50%;top:0;bottom:0;width:2px;background:rgba(212,168,67,.2);transform:translateX(-50%)}
-.tl-item{display:flex;align-items:flex-start;margin-bottom:3rem;position:relative}
-.tl-item:nth-child(odd){flex-direction:row-reverse}
-.tl-content{width:calc(50% - 40px);background:#fff;border-radius:var(--radius);padding:1.5rem;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,.04);transition:transform .2s}
-.tl-content:hover{transform:translateY(-2px)}
-.tl-dot{position:absolute;left:50%;transform:translateX(-50%);width:16px;height:16px;background:var(--gold);border-radius:50%;border:3px solid var(--warm-bg);z-index:2;top:1.5rem}
-.tl-year{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--rust);font-weight:900;margin-bottom:.25rem}
-.tl-text{font-size:.9rem;color:var(--text-light);line-height:1.6}
+.case-box{background:rgba(192,82,54,.05);border-left:4px solid var(--rust);padding:1.5rem;margin-bottom:1.5rem;border-radius:0 var(--radius) var(--radius) 0}
+.case-box h4{color:var(--deep);margin-bottom:.5rem}
+.case-box .date{color:var(--rust);font-weight:600;font-size:.9rem;margin-bottom:.75rem}
+.case-box p{color:var(--text);font-size:.95rem;line-height:1.6}
+.case-box .outcome{margin-top:.75rem;padding-top:.75rem;border-top:1px solid rgba(0,0,0,.1);font-weight:600;color:var(--text-light)}
 
-/* ===================== ORGANIZATIONS ===================== */
-.orgs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
-.org-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:1.5rem;transition:all .3s}
-.org-card:hover{border-color:rgba(255,255,255,.2);background:rgba(255,255,255,.07)}
-.org-name{font-size:1rem;font-weight:700;color:#fff;margin-bottom:.4rem}
-.org-desc{color:rgba(255,255,255,.5);font-size:.85rem;margin-bottom:1rem;line-height:1.5}
-.org-link{color:var(--gold);font-size:.8rem;font-weight:600;display:inline-flex;align-items:center;gap:.3rem;transition:gap .2s}
-.org-link:hover{gap:.5rem}
+.note-box{background:rgba(212,168,67,.1);border-left:4px solid var(--gold);padding:1.5rem;margin:2rem 0;border-radius:0 var(--radius) var(--radius) 0}
+.note-box strong{color:var(--deep);display:block;margin-bottom:.75rem}
+.note-box p{color:var(--text);font-size:.9rem;line-height:1.7}
 
-/* ===================== RESOURCES ===================== */
-.resources-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
-.resource-card{background:#fff;border-radius:var(--radius);padding:2rem;text-align:center;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,.04);transition:all .3s}
-.resource-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
-.res-icon{font-size:2.5rem;margin-bottom:1rem}
-.resource-card h3{font-size:1.1rem;margin-bottom:.5rem}
-.resource-card p{color:var(--text-light);font-size:.85rem;margin-bottom:1.2rem;line-height:1.5}
-.res-btn{display:inline-block;background:var(--deep);color:#fff;padding:.5rem 1.2rem;border-radius:50px;font-size:.8rem;font-weight:600;transition:background .3s}
-.res-btn:hover{background:var(--rust)}
+.state-section{margin-bottom:3rem}
+.state-section h3{color:var(--deep);margin-bottom:1rem;font-size:1.5rem;border-bottom:2px solid var(--gold);padding-bottom:.5rem}
+.state-section p{margin-bottom:.75rem}
 
-/* ===================== CTA BANNER ===================== */
-.cta-banner{background:var(--accent-gradient);padding:5rem 2rem;text-align:center;position:relative;overflow:hidden}
-.cta-banner::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E")}
-.cta-banner h2{font-size:clamp(2rem,4vw,3.2rem);color:#fff;margin-bottom:1rem;position:relative}
-.cta-banner p{color:rgba(255,255,255,.85);font-size:1.1rem;max-width:550px;margin:0 auto 2rem;position:relative}
-.cta-banner .btn-primary{background:#fff;color:var(--deep);position:relative}
-.cta-banner .btn-primary:hover{box-shadow:0 6px 25px rgba(0,0,0,.2)}
+.footer{background:var(--ink);color:rgba(255,255,255,.7);padding:3rem 2rem 1.5rem;margin-top:5rem}
+.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;max-width:1200px;margin:0 auto 2rem}
+.footer-section h4{color:var(--gold);margin-bottom:1rem}
+.footer-section ul{list-style:none}
+.footer-section li{margin-bottom:.5rem}
+.footer-section a{color:rgba(255,255,255,.7);transition:color .3s;text-decoration:none}
+.footer-section a:hover{color:var(--gold)}
+.footer-bottom{text-align:center;padding-top:2rem;border-top:1px solid rgba(255,255,255,.1);max-width:1200px;margin:0 auto;font-size:.85rem}
+.disclaimer{background:rgba(0,0,0,.02);border:1px solid rgba(0,0,0,.1);border-radius:var(--radius);padding:1.5rem;margin-top:2rem;font-size:.85rem;line-height:1.7}
 
-/* ===================== FOOTER ===================== */
-.footer{background:var(--deep);padding:4rem 2rem 2rem;border-top:1px solid rgba(255,255,255,.05)}
-.footer-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem}
-.footer-brand h3{font-family:'DM Serif Display',serif;font-size:1.3rem;color:#fff;margin-bottom:.75rem}
-.footer-brand h3 span{color:var(--gold)}
-.footer-brand p{color:rgba(255,255,255,.4);font-size:.85rem;line-height:1.6;max-width:280px}
-.footer-col h4{color:rgba(255,255,255,.6);font-size:.7rem;text-transform:uppercase;letter-spacing:.15em;margin-bottom:1rem}
-.footer-col ul{list-style:none}
-.footer-col li{margin-bottom:.6rem}
-.footer-col a{color:rgba(255,255,255,.45);font-size:.85rem;transition:color .2s}
-.footer-col a:hover{color:var(--gold)}
-.footer-bottom{max-width:1200px;margin:0 auto;border-top:1px solid rgba(255,255,255,.06);padding-top:1.5rem;display:flex;justify-content:space-between;align-items:center}
-.footer-bottom p{color:rgba(255,255,255,.3);font-size:.8rem}
-
-/* ===================== ANIMATIONS ===================== */
-@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
-@keyframes fadeDown{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
-.reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
-.reveal.visible{opacity:1;transform:translateY(0)}
-
-/* ===================== RESPONSIVE ===================== */
-@media(max-width:1024px){
-  .register-grid,.issues-grid{grid-template-columns:1fr}
-  .rights-grid,.orgs-grid,.resources-grid{grid-template-columns:repeat(2,1fr)}
-  .footer-grid{grid-template-columns:1fr 1fr}
-  .timeline::before{left:20px}
-  .tl-item,.tl-item:nth-child(odd){flex-direction:row;padding-left:50px}
-  .tl-content{width:100%}
-  .tl-dot{left:20px}
-}
-@media(max-width:768px){
+@media (max-width:768px){
   .nav-links{display:none}
-  .mobile-toggle{display:block}
-  .qa-grid{grid-template-columns:repeat(2,1fr)}
-  .hero-stats{gap:1.5rem}
-  .hero-stat .num{font-size:1.8rem}
-  .rights-grid,.orgs-grid,.resources-grid{grid-template-columns:1fr}
-  .footer-grid{grid-template-columns:1fr}
-  .footer-bottom{flex-direction:column;gap:.5rem;text-align:center}
-}
-@media(max-width:480px){
-  .qa-grid{grid-template-columns:1fr}
-  .hero-actions{flex-direction:column;align-items:center}
+  .section{padding:3rem 1.5rem}
+  .card-grid{grid-template-columns:1fr}
+  .hero-stats{gap:2rem}
 }
 </style>
 </head>
 <body>
 
-<!-- ========== NAV ========== -->
 <nav class="nav">
   <div class="nav-inner">
-    <a href="#" class="nav-logo">Our<span>Voice</span>Vote</a>
+    <div class="nav-logo">Our<span>Voice</span>Vote</div>
     <ul class="nav-links">
       <li><a href="#register">Register</a></li>
       <li><a href="#rights">Your Rights</a></li>
-      <li><a href="#issues">Key Issues</a></li>
-      <li><a href="#history">History</a></li>
-      <li><a href="#organizations">Organizations</a></li>
-      <li><a href="#resources">Resources</a></li>
+      <li><a href="#constitution">Constitution</a></li>
+      <li><a href="#accountability">Police Accountability</a></li>
+      <li><a href="#help">Help & Resources</a></li>
+      <li><a href="#donate">Donate</a></li>
     </ul>
-    <a href="https://vote.org/register" target="_blank" rel="noopener" class="nav-cta">Register Now</a>
-    <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')" aria-label="Menu">☰</button>
   </div>
 </nav>
 
-<!-- ========== HERO ========== -->
 <section class="hero">
   <div class="hero-content">
-    <div class="hero-badge">Non-Partisan &bull; Community-Powered</div>
-    <h1>Your Vote Is Your <em>Power</em></h1>
-    <p class="hero-sub">A comprehensive civic empowerment hub providing resources, guidance, and tools for voters who prioritize equality, justice, and community strength.</p>
+    <h1>Empower Your Voice, Shape <em>Our</em> Future</h1>
+    <p class="hero-sub">Your vote is your power. Get registered, stay informed, know your rights, and hold power accountable.</p>
     <div class="hero-actions">
       <a href="#register" class="btn-primary">Register to Vote</a>
-      <a href="#resources" class="btn-outline">Explore Resources</a>
+      <a href="#rights" class="btn-outline">Know Your Rights</a>
     </div>
     <div class="hero-stats">
-      <div class="hero-stat"><div class="num">50+</div><div class="lbl">Resources</div></div>
-      <div class="hero-stat"><div class="num">50</div><div class="lbl">States Covered</div></div>
-      <div class="hero-stat"><div class="num">100%</div><div class="lbl">Free & Non-Partisan</div></div>
+      <div class="hero-stat">
+        <div class="num">50+</div>
+        <div class="lbl">Resources</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num">50</div>
+        <div class="lbl">States Covered</div>
+      </div>
+      <div class="hero-stat">
+        <div class="num">100%</div>
+        <div class="lbl">Free & Non-Partisan</div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ========== QUICK ACTIONS ========== -->
-<div class="quick-actions">
-  <div class="qa-grid">
-    <a href="https://www.vote.org/am-i-registered-to-vote/" target="_blank" rel="noopener" class="qa-item">
-      <div class="qa-icon">🗳️</div>
-      <div class="qa-title">Check Registration</div>
-      <div class="qa-desc">Verify your voter status</div>
-    </a>
-    <a href="https://www.vote.org/polling-place-locator/" target="_blank" rel="noopener" class="qa-item">
-      <div class="qa-icon">📍</div>
-      <div class="qa-title">Find Polling Place</div>
-      <div class="qa-desc">Locate where you vote</div>
-    </a>
-    <a href="https://www.vote.org/absentee-ballot/" target="_blank" rel="noopener" class="qa-item">
-      <div class="qa-icon">✉️</div>
-      <div class="qa-title">Absentee Ballot</div>
-      <div class="qa-desc">Vote by mail options</div>
-    </a>
-    <a href="https://ballotpedia.org/Sample_Ballot_Lookup" target="_blank" rel="noopener" class="qa-item">
-      <div class="qa-icon">📋</div>
-      <div class="qa-title">Sample Ballot</div>
-      <div class="qa-desc">Preview what's on your ballot</div>
-    </a>
-  </div>
-</div>
-
-<!-- ========== REGISTER TO VOTE ========== -->
-<section class="section section-alt" id="register">
+<section class="section" id="register">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">Take Action</div>
+      <div class="section-label">Step One</div>
       <h2 class="section-title">Register to Vote</h2>
-      <p class="section-subtitle">Registering takes less than 10 minutes. Here's everything you need to get started, no matter what state you're in.</p>
+      <p class="section-subtitle">Your voice matters. Registration is the first step to making it heard in every election.</p>
     </div>
-    <div class="register-grid reveal">
-      <div class="register-visual">
-        <h3>It's Easier Than You Think</h3>
-        <p>Most states allow online registration. Here's the simple process:</p>
-        <ol class="register-steps">
-          <li>Check if you're already registered at Vote.org</li>
-          <li>Gather your ID — driver's license or last 4 of SSN</li>
-          <li>Fill out the online form for your state</li>
-          <li>Submit and save your confirmation</li>
-          <li>Mark your calendar for Election Day</li>
-        </ol>
+    
+    <div class="content-box">
+      <h3>How to Register</h3>
+      <p>Registering to vote is straightforward. Here's what you need:</p>
+      <ul>
+        <li>Valid photo identification (driver's license, state ID, or passport)</li>
+        <li>Social Security number (last 4 digits)</li>
+        <li>Current residential address</li>
+        <li>U.S. citizenship</li>
+        <li>Age 18 or older by Election Day</li>
+      </ul>
+      <p><strong>Register online:</strong> <a href="https://vote.gov/register" target="_blank">Vote.gov/register</a></p>
+      <p><strong>Check your registration status:</strong> <a href="https://vote.gov/" target="_blank">Vote.gov</a></p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">📝</div>
+        <h3>Online Registration</h3>
+        <p>Most states allow online registration. Quick, easy, and secure.</p>
+        <a href="https://vote.gov/register" target="_blank">Register Now →</a>
       </div>
-      <div class="register-links">
-        <a href="https://register.vote.org/" target="_blank" rel="noopener" class="register-link">
-          <div class="rl-icon" style="background:#E8F5E9;color:var(--forest)">📝</div>
-          <div class="rl-info">
-            <h4>Register Online — Vote.org</h4>
-            <p>The fastest way to register in all 50 states. Free and non-partisan.</p>
-          </div>
-          <div class="rl-arrow">→</div>
-        </a>
-        <a href="https://www.vote.org/am-i-registered-to-vote/" target="_blank" rel="noopener" class="register-link">
-          <div class="rl-icon" style="background:#E3F2FD;color:var(--sky)">✅</div>
-          <div class="rl-info">
-            <h4>Check Your Registration Status</h4>
-            <p>Make sure your registration is current and your info is correct.</p>
-          </div>
-          <div class="rl-arrow">→</div>
-        </a>
-        <a href="https://www.eac.gov/voters/register-and-vote-in-your-state" target="_blank" rel="noopener" class="register-link">
-          <div class="rl-icon" style="background:#FFF3E0;color:var(--rust)">🏛️</div>
-          <div class="rl-info">
-            <h4>State-by-State Guide (EAC)</h4>
-            <p>Official Election Assistance Commission guide for every state.</p>
-          </div>
-          <div class="rl-arrow">→</div>
-        </a>
-        <a href="https://www.nass.org/can-I-vote" target="_blank" rel="noopener" class="register-link">
-          <div class="rl-icon" style="background:#F3E5F5;color:var(--plum)">🗺️</div>
-          <div class="rl-info">
-            <h4>Can I Vote? — NASS</h4>
-            <p>Secretary of State offices with ID requirements, deadlines, and more.</p>
-          </div>
-          <div class="rl-arrow">→</div>
-        </a>
-        <a href="https://www.usa.gov/voter-id" target="_blank" rel="noopener" class="register-link">
-          <div class="rl-icon" style="background:#ECEFF1;color:#455A64">🪪</div>
-          <div class="rl-info">
-            <h4>Voter ID Requirements — USA.gov</h4>
-            <p>Find out exactly what ID you need to vote in your state.</p>
-          </div>
-          <div class="rl-arrow">→</div>
-        </a>
+      <div class="card">
+        <div class="card-icon">✅</div>
+        <h3>Check Status</h3>
+        <p>Verify your voter registration is current and your info is correct.</p>
+        <a href="https://vote.gov/" target="_blank">Check Status →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">📅</div>
+        <h3>Find Your Polling Place</h3>
+        <p>Locate where you vote on Election Day.</p>
+        <a href="https://www.vote.org/polling-place-locator/" target="_blank">Find Location →</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ========== KNOW YOUR RIGHTS ========== -->
 <section class="section section-dark" id="rights">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">Empower Yourself</div>
-      <h2 class="section-title" style="color:#fff">Know Your Voting Rights</h2>
-      <p class="section-subtitle">Federal law protects your right to vote. Understanding these protections is the first step to making sure your voice is heard.</p>
+      <div class="section-label">Protect Your Vote</div>
+      <h2 class="section-title">Know Your Rights</h2>
+      <p class="section-subtitle">Understanding your voting rights ensures no one can take away your power to vote.</p>
     </div>
-    <div class="rights-grid">
-      <div class="right-card reveal">
-        <div class="rc-icon">⚖️</div>
-        <h3 class="rc-title">Right to Vote Without Intimidation</h3>
-        <p class="rc-text">Federal law prohibits voter intimidation. No one — including election officials, poll watchers, or other voters — may threaten, coerce, or pressure you at the polls. If you feel intimidated, you can report it to the Department of Justice at 1-800-253-3931.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">⚖️</div>
+        <h3>Right to Vote Without Intimidation</h3>
+        <p>Federal law prohibits voter intimidation. No one — including election officials, poll watchers, or other voters — may threaten, coerce, or pressure you at the polls.</p>
       </div>
-      <div class="right-card reveal">
-        <div class="rc-icon">🗣️</div>
-        <h3 class="rc-title">Right to Language Assistance</h3>
-        <p class="rc-text">Under the Voting Rights Act, jurisdictions with significant language minority populations must provide ballots and voting materials in those languages. You also have the right to bring someone to help you vote — except your employer or union representative.</p>
+      <div class="card">
+        <div class="card-icon">🗣️</div>
+        <h3>Right to Language Assistance</h3>
+        <p>Under the Voting Rights Act, language assistance at polling places is provided for U.S. citizens who need it in areas with significant populations speaking languages other than English.</p>
       </div>
-      <div class="right-card reveal">
-        <div class="rc-icon">♿</div>
-        <h3 class="rc-title">Right to Accessible Voting</h3>
-        <p class="rc-text">The Americans with Disabilities Act requires polling places to be physically accessible. If you have a disability, you're entitled to assistance and accommodations, including accessible voting machines and curbside voting where available.</p>
+      <div class="card">
+        <div class="card-icon">♿</div>
+        <h3>Right to Accessible Voting</h3>
+        <p>The Americans with Disabilities Act requires polling places to be physically accessible. If you have a disability, you're entitled to assistance and accommodations.</p>
       </div>
-      <div class="right-card reveal">
-        <div class="rc-icon">📊</div>
-        <h3 class="rc-title">Right to a Provisional Ballot</h3>
-        <p class="rc-text">If your name doesn't appear on the voter rolls or your eligibility is questioned, you have the right to cast a provisional ballot under the Help America Vote Act. Your vote will be counted once your eligibility is confirmed.</p>
+      <div class="card">
+        <div class="card-icon">📋</div>
+        <h3>Right to a Provisional Ballot</h3>
+        <p>If your name doesn't appear on the voter rolls or your eligibility is questioned, you have the right to cast a provisional ballot under the Help America Vote Act.</p>
       </div>
-      <div class="right-card reveal">
-        <div class="rc-icon">⏰</div>
-        <h3 class="rc-title">Right to Time Off to Vote</h3>
-        <p class="rc-text">Many states require employers to give workers time off to vote. Policies vary — some provide paid leave, others unpaid. Check your state's laws. Your employer cannot penalize you for taking legally allowed time to vote.</p>
+      <div class="card">
+        <div class="card-icon">⏰</div>
+        <h3>Right to Time Off to Vote</h3>
+        <p>Many states require employers to give workers time off to vote. Policies vary — some provide paid leave, others unpaid. Check your state's laws.</p>
       </div>
-      <div class="right-card reveal">
-        <div class="rc-icon">🛡️</div>
-        <h3 class="rc-title">Right to Report Problems</h3>
-        <p class="rc-text">If you encounter voting issues — broken machines, long waits, or discriminatory practices — you can report them. Call the Election Protection Hotline at 866-OUR-VOTE (866-687-8683) for nonpartisan help in English, or 888-VE-Y-VOTA for Spanish.</p>
+      <div class="card">
+        <div class="card-icon">🛡️</div>
+        <h3>Right to Report Problems</h3>
+        <p>If you encounter voting issues — broken machines, long waits, or discriminatory practices — you can report them. Call the Election Protection Hotline at 866-OUR-VOTE (866-687-8683).</p>
       </div>
+    </div>
+
+    <div class="content-box" style="margin-top:3rem">
+      <h3>Voter ID Requirements</h3>
+      <p>Photo identification helps ensure election security and prevent fraud. Most states require voters to show valid identification at the polls. Acceptable forms typically include:</p>
+      <ul>
+        <li>Driver's license or state-issued ID card</li>
+        <li>U.S. Passport</li>
+        <li>Military ID</li>
+        <li>Tribal ID (in some states)</li>
+      </ul>
+      <p><strong>Free voter ID cards are available</strong> in most states that require photo ID. Check your state's specific requirements at <a href="https://www.vote.org/voter-id-laws/" target="_blank">Vote.org/voter-id-laws</a></p>
     </div>
   </div>
 </section>
 
-<!-- ========== KEY ISSUES ========== -->
-<section class="section" id="issues">
+<section class="section" id="constitution">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">Stay Informed</div>
-      <h2 class="section-title">Key Issues That Matter</h2>
-      <p class="section-subtitle">Understanding the policy areas that directly impact Black communities is essential to making informed choices at the ballot box.</p>
+      <div class="section-label">Foundation of Our Democracy</div>
+      <h2 class="section-title">U.S. Constitution & Amendments</h2>
+      <p class="section-subtitle">The supreme law of the United States, establishing our government structure and protecting our fundamental rights.</p>
     </div>
-    <div class="issues-grid">
-      <div class="issue-card reveal">
-        <div class="issue-top">
-          <div class="issue-badge" style="background:var(--rust)">Healthcare</div>
-        </div>
-        <div class="issue-body">
-          <h3>Healthcare Access & Equity</h3>
-          <p>From Medicaid expansion to maternal health disparities, healthcare policy directly shapes health outcomes. Black Americans experience disproportionate rates of chronic conditions, and policy decisions on insurance coverage, hospital funding, and community health centers have life-or-death implications.</p>
-        </div>
-        <div class="issue-footer">
-          <a href="https://www.kff.org/racial-equity-and-health-policy/" target="_blank" rel="noopener">Learn more at KFF →</a>
-        </div>
-      </div>
-      <div class="issue-card reveal">
-        <div class="issue-top">
-          <div class="issue-badge" style="background:var(--forest)">Economy</div>
-        </div>
-        <div class="issue-body">
-          <h3>Economic Opportunity & Wealth</h3>
-          <p>The racial wealth gap remains one of the most significant economic challenges. Policies around minimum wage, housing discrimination, small business access, and student debt all play critical roles in determining economic mobility and generational wealth building.</p>
-        </div>
-        <div class="issue-footer">
-          <a href="https://www.brookings.edu/topics/racial-equity/" target="_blank" rel="noopener">Research at Brookings →</a>
-        </div>
-      </div>
-      <div class="issue-card reveal">
-        <div class="issue-top">
-          <div class="issue-badge" style="background:var(--sky)">Education</div>
-        </div>
-        <div class="issue-body">
-          <h3>Education Funding & Access</h3>
-          <p>School funding formulas, higher education access, and early childhood programs all shape future opportunities. Policies around Title I funding, HBCUs, Pell Grants, and K-12 resource equity have outsized impact on Black students and communities.</p>
-        </div>
-        <div class="issue-footer">
-          <a href="https://edtrust.org/" target="_blank" rel="noopener">Explore at Education Trust →</a>
-        </div>
-      </div>
-      <div class="issue-card reveal">
-        <div class="issue-top">
-          <div class="issue-badge" style="background:var(--plum)">Justice</div>
-        </div>
-        <div class="issue-body">
-          <h3>Criminal Justice Reform</h3>
-          <p>From policing practices and sentencing reform to reentry support and eliminating cash bail — criminal justice policy disproportionately affects Black communities. Understanding where candidates stand on reform is essential to informed voting.</p>
-        </div>
-        <div class="issue-footer">
-          <a href="https://www.sentencingproject.org/" target="_blank" rel="noopener">Data at Sentencing Project →</a>
-        </div>
-      </div>
-      <div class="issue-card reveal">
-        <div class="issue-top">
-          <div class="issue-badge" style="background:#E67E22">Housing</div>
-        </div>
-        <div class="issue-body">
-          <h3>Fair Housing & Homeownership</h3>
-          <p>Housing policy — from zoning laws to mortgage lending — has historically been used to enforce segregation. Today, addressing redlining's legacy, expanding affordable housing, and protecting renters' rights remain critical policy priorities.</p>
-        </div>
-        <div class="issue-footer">
-          <a href="https://nationalfairhousing.org/" target="_blank" rel="noopener">Learn at NFHA →</a>
-        </div>
-      </div>
-      <div class="issue-card reveal">
-        <div class="issue-top">
-          <div class="issue-badge" style="background:#2C3E50">Voting Rights</div>
-        </div>
-        <div class="issue-body">
-          <h3>Voting Rights & Access</h3>
-          <p>Voter ID laws, gerrymandering, polling place closures, and voter purges continue to affect access to the ballot. Staying informed about legislative efforts to expand or restrict voting rights is fundamental to civic engagement.</p>
-        </div>
-        <div class="issue-footer">
-          <a href="https://www.brennancenter.org/issues/ensure-every-american-can-vote" target="_blank" rel="noopener">Brennan Center insights →</a>
-        </div>
-      </div>
+
+    <div class="content-box">
+      <h3>The Constitution</h3>
+      <p>The U.S. Constitution was ratified in 1788 and is the oldest written national constitution still in use. It establishes the framework for the federal government and defines the relationship between the government and the people.</p>
+      <p><strong>Read the full Constitution:</strong> <a href="https://www.archives.gov/founding-docs/constitution-transcript" target="_blank">National Archives - Constitution</a></p>
+      
+      <h4>The Three Branches of Government</h4>
+      <p><strong>Legislative Branch (Article I):</strong> Congress (Senate and House of Representatives) makes federal laws</p>
+      <p><strong>Executive Branch (Article II):</strong> The President enforces federal laws</p>
+      <p><strong>Judicial Branch (Article III):</strong> The Supreme Court and federal courts interpret laws</p>
+    </div>
+
+    <div class="content-box">
+      <h3>The Bill of Rights (First 10 Amendments)</h3>
+      <p><strong>Amendment I:</strong> Freedom of religion, speech, press, assembly, and petition</p>
+      <p><strong>Amendment II:</strong> Right to keep and bear arms</p>
+      <p><strong>Amendment III:</strong> No quartering of soldiers in private homes without consent</p>
+      <p><strong>Amendment IV:</strong> Protection against unreasonable searches and seizures</p>
+      <p><strong>Amendment V:</strong> Due process, protection against self-incrimination and double jeopardy</p>
+      <p><strong>Amendment VI:</strong> Right to a speedy and public trial, impartial jury, and legal counsel</p>
+      <p><strong>Amendment VII:</strong> Right to jury trial in civil cases</p>
+      <p><strong>Amendment VIII:</strong> Protection against excessive bail and cruel and unusual punishment</p>
+      <p><strong>Amendment IX:</strong> Rights retained by the people beyond those listed in the Constitution</p>
+      <p><strong>Amendment X:</strong> Powers not delegated to the federal government are reserved to states and the people</p>
+    </div>
+
+    <div class="content-box">
+      <h3>Additional Amendments (11-27)</h3>
+      <p><strong>Amendment XI (1795):</strong> Limits lawsuits against states</p>
+      <p><strong>Amendment XII (1804):</strong> Revised presidential election procedures</p>
+      <p><strong>Amendment XIII (1865):</strong> Abolished slavery</p>
+      <p><strong>Amendment XIV (1868):</strong> Citizenship rights, equal protection, due process</p>
+      <p><strong>Amendment XV (1870):</strong> Right to vote cannot be denied based on race</p>
+      <p><strong>Amendment XVI (1913):</strong> Federal income tax authorized</p>
+      <p><strong>Amendment XVII (1913):</strong> Direct election of U.S. Senators</p>
+      <p><strong>Amendment XVIII (1919):</strong> Prohibition of alcohol (Repealed by Amendment XXI)</p>
+      <p><strong>Amendment XIX (1920):</strong> Women's right to vote</p>
+      <p><strong>Amendment XX (1933):</strong> Presidential and Congressional term dates</p>
+      <p><strong>Amendment XXI (1933):</strong> Repeal of Prohibition</p>
+      <p><strong>Amendment XXII (1951):</strong> Presidential term limits (two terms)</p>
+      <p><strong>Amendment XXIII (1961):</strong> Electoral votes for Washington, D.C.</p>
+      <p><strong>Amendment XXIV (1964):</strong> Abolished poll taxes</p>
+      <p><strong>Amendment XXV (1967):</strong> Presidential succession and disability</p>
+      <p><strong>Amendment XXVI (1971):</strong> Voting age lowered to 18</p>
+      <p><strong>Amendment XXVII (1992):</strong> Congressional pay changes take effect after next election</p>
     </div>
   </div>
 </section>
 
-<!-- ========== HISTORY TIMELINE ========== -->
-<section class="section section-alt" id="history">
+<section class="section section-dark" id="accountability">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">Our Legacy</div>
-      <h2 class="section-title">Milestones in Voting Rights</h2>
-      <p class="section-subtitle">The fight for voting rights has been long, hard-won, and ongoing. Here are some of the defining moments.</p>
+      <div class="section-label">Justice & Accountability</div>
+      <h2 class="section-title">Police Accountability Database</h2>
+      <p class="section-subtitle">Tracking injustice and demanding accountability for Black Americans killed by law enforcement (2015-2024)</p>
     </div>
-    <div class="timeline">
-      <div class="tl-item reveal">
-        <div class="tl-content">
-          <div class="tl-year">1870</div>
-          <div class="tl-text">The 15th Amendment is ratified, prohibiting the denial of the right to vote based on race, color, or previous condition of servitude — though enforcement remained deeply flawed for nearly a century.</div>
-        </div>
-        <div class="tl-dot"></div>
+
+    <div class="stat-highlight">
+      <div class="num">10,429</div>
+      <div class="label">Total people killed by police 2015-2024</div>
+    </div>
+
+    <div class="stat-highlight">
+      <div class="num">309</div>
+      <div class="label">Unarmed Black Americans killed 2015-2024</div>
+    </div>
+
+    <div class="content-box">
+      <h3>The Data</h3>
+      <p><strong>Black Americans are killed by police at more than twice the rate of White Americans</strong> (6.1 per million vs 2.4 per million), despite comprising only 13% of the U.S. population. The databases below track every police killing since 2015, including circumstances, officer charges, and case outcomes.</p>
+      
+      <h4>Comprehensive Databases:</h4>
+      <p><strong>Washington Post Police Shootings Database (2015-2024):</strong><br><a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">Complete searchable database</a> - Filter by race, armed status, mental health, fleeing status, and more. Over 10,000 cases documented.</p>
+      
+      <p><strong>Mapping Police Violence:</strong><br><a href="https://mappingpoliceviolence.org/" target="_blank">Interactive map and database</a> - Tracks all police killings with case details, outcomes, and accountability metrics. 2024 was the deadliest year on record with 1,365 people killed.</p>
+      
+      <p><strong>Wikipedia List of Unarmed African Americans Killed:</strong><br><a href="https://en.wikipedia.org/wiki/List_of_unarmed_African_Americans_killed_by_law_enforcement_officers_in_the_United_States" target="_blank">Detailed case-by-case list</a> - Individual stories, dates, circumstances, and outcomes for 309 unarmed victims from 2015-2024.</p>
+    </div>
+
+    <div class="content-box">
+      <h3>Notable Cases of Injustice (2014-2025)</h3>
+      
+      <div class="case-box">
+        <h4>George Floyd</h4>
+        <div class="date">May 25, 2020 - Minneapolis, MN</div>
+        <p>Unarmed. Killed during arrest for allegedly using counterfeit $20 bill. Officer Derek Chauvin knelt on his neck for 9 minutes and 29 seconds while Floyd repeatedly said "I can't breathe."</p>
+        <div class="outcome">Outcome: Chauvin convicted of second-degree murder, sentenced to 22.5 years</div>
       </div>
-      <div class="tl-item reveal">
-        <div class="tl-content">
-          <div class="tl-year">1920</div>
-          <div class="tl-text">The 19th Amendment grants women the right to vote, though Black women in many Southern states continued to face barriers such as poll taxes, literacy tests, and violence at the polls.</div>
-        </div>
-        <div class="tl-dot"></div>
+
+      <div class="case-box">
+        <h4>Breonna Taylor</h4>
+        <div class="date">March 13, 2020 - Louisville, KY</div>
+        <p>Unarmed. Shot 8 times by police executing a no-knock warrant at her apartment. Officers were looking for a suspect who was already in custody. Taylor was an EMT sleeping in her home.</p>
+        <div class="outcome">Outcome: No officers charged with her death; $12 million settlement to family</div>
       </div>
-      <div class="tl-item reveal">
-        <div class="tl-content">
-          <div class="tl-year">1964</div>
-          <div class="tl-text">The 24th Amendment abolishes poll taxes in federal elections — a major tool used to disenfranchise Black voters. The Civil Rights Act is also signed, prohibiting discrimination based on race in public accommodations and federally funded programs.</div>
-        </div>
-        <div class="tl-dot"></div>
+
+      <div class="case-box">
+        <h4>Philando Castile</h4>
+        <div class="date">July 6, 2016 - Falcon Heights, MN</div>
+        <p>Licensed to carry firearm. Shot 7 times by officer during traffic stop after informing officer he had a legal firearm. Girlfriend livestreamed aftermath on Facebook.</p>
+        <div class="outcome">Outcome: Officer Jeronimo Yanez acquitted of all charges; $3 million settlement to family</div>
       </div>
-      <div class="tl-item reveal">
-        <div class="tl-content">
-          <div class="tl-year">1965</div>
-          <div class="tl-text">The Voting Rights Act is signed into law by President Lyndon B. Johnson following the Selma to Montgomery marches. It outlawed literacy tests and provided federal oversight of voter registration in areas with historic discrimination.</div>
-        </div>
-        <div class="tl-dot"></div>
+
+      <div class="case-box">
+        <h4>Tamir Rice</h4>
+        <div class="date">November 22, 2014 - Cleveland, OH</div>
+        <p>12 years old. Shot within 2 seconds of police arrival while playing with toy gun in park. Officers claimed they ordered him to show hands; video showed no time for compliance.</p>
+        <div class="outcome">Outcome: Grand jury declined to indict officers; $6 million settlement to family</div>
       </div>
-      <div class="tl-item reveal">
-        <div class="tl-content">
-          <div class="tl-year">1971</div>
-          <div class="tl-text">The 26th Amendment lowers the voting age to 18, expanding the electorate significantly and empowering young Americans of all backgrounds to participate in democracy.</div>
-        </div>
-        <div class="tl-dot"></div>
+
+      <div class="case-box">
+        <h4>Botham Jean</h4>
+        <div class="date">September 6, 2018 - Dallas, TX</div>
+        <p>Unarmed. Shot and killed in his own apartment by off-duty officer Amber Guyger who claimed she mistook his apartment for hers. Jean was eating ice cream and watching TV.</p>
+        <div class="outcome">Outcome: Officer Guyger convicted of murder, sentenced to 10 years</div>
       </div>
-      <div class="tl-item reveal">
-        <div class="tl-content">
-          <div class="tl-year">1993</div>
-          <div class="tl-text">The National Voter Registration Act ("Motor Voter Act") makes voter registration easier by allowing people to register at DMVs and public agencies, expanding access for millions.</div>
-        </div>
-        <div class="tl-dot"></div>
+
+      <div class="case-box">
+        <h4>Atatiana Jefferson</h4>
+        <div class="date">October 12, 2019 - Fort Worth, TX</div>
+        <p>Unarmed. Shot through her bedroom window by officer responding to welfare check. She was playing video games with her 8-year-old nephew. Officer never identified himself as police.</p>
+        <div class="outcome">Outcome: Officer Aaron Dean convicted of manslaughter, sentenced to 11.8 years</div>
       </div>
-      <div class="tl-item reveal">
-        <div class="tl-content">
-          <div class="tl-year">2013</div>
-          <div class="tl-text">In Shelby County v. Holder, the Supreme Court strikes down a key provision of the Voting Rights Act, removing federal preclearance requirements. Many states subsequently passed restrictive voting laws.</div>
-        </div>
-        <div class="tl-dot"></div>
+
+      <div class="case-box">
+        <h4>Elijah McClain</h4>
+        <div class="date">August 24, 2019 - Aurora, CO</div>
+        <p>Unarmed. Stopped while walking home. Put in carotid hold, injected with ketamine by paramedics. Suffered cardiac arrest and died. Was not suspected of any crime.</p>
+        <div class="outcome">Outcome: Two paramedics convicted; one officer convicted of criminally negligent homicide; $15 million settlement to family</div>
       </div>
-      <div class="tl-item reveal">
-        <div class="tl-content">
-          <div class="tl-year">2020</div>
-          <div class="tl-text">Record voter turnout — over 159 million Americans cast ballots. Black voter mobilization played a decisive role in several key states. The election also sparked renewed national conversation about voting access and election security.</div>
-        </div>
-        <div class="tl-dot"></div>
-      </div>
+    </div>
+
+    <div class="content-box">
+      <h3>Systemic Issues Documented</h3>
+      <ul>
+        <li><strong>Evidence Planting:</strong> Cases where officers planted drugs or weapons documented by body camera footage</li>
+        <li><strong>False Reports:</strong> Officers filing false incident reports contradicted by video evidence</li>
+        <li><strong>Qualified Immunity:</strong> Legal doctrine shielding officers from civil liability in most cases</li>
+        <li><strong>Lack of Accountability:</strong> Less than 3% of police killings result in criminal charges</li>
+        <li><strong>No-Knock Warrants:</strong> Raids resulting in deaths of innocent people in their homes</li>
+        <li><strong>Mental Health Crisis Response:</strong> Over 25% of people killed by police were experiencing mental health crises</li>
+      </ul>
+    </div>
+
+    <div class="note-box">
+      <strong>Data Transparency Note:</strong>
+      <p>Police departments are not federally required to report officer-involved shootings. These databases are compiled by journalists, researchers, and activists through news reports, public records requests, and crowdsourcing. The FBI's official database undercounts fatal police shootings by more than half. All statistics on this page are sourced from publicly available databases (Washington Post, Mapping Police Violence, Wikipedia) maintained by independent journalists and verified through multiple sources.</p>
     </div>
   </div>
 </section>
 
-<!-- ========== ORGANIZATIONS ========== -->
-<section class="section section-dark" id="organizations">
+<section class="section" id="help">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">Get Connected</div>
-      <h2 class="section-title" style="color:#fff">Organizations Making a Difference</h2>
-      <p class="section-subtitle">These non-partisan and community-focused organizations are doing critical work in voter engagement, civil rights, and civic empowerment.</p>
+      <div class="section-label">Community Support</div>
+      <h2 class="section-title">Free Help & Resources - All 50 States</h2>
+      <p class="section-subtitle">Essential resources for food, shelter, mental health, education, and financial assistance across every state - all at no cost.</p>
     </div>
-    <div class="orgs-grid">
-      <div class="org-card reveal">
-        <div class="org-name">NAACP — Power the Vote</div>
-        <div class="org-desc">One of the nation's oldest civil rights organizations, the NAACP runs voter registration drives, advocates for voting rights legislation, and monitors elections across the country.</div>
-        <a href="https://naacp.org/campaigns/power-your-vote" target="_blank" rel="noopener" class="org-link">Visit NAACP →</a>
+
+    <div class="content-box">
+      <h3>🇺🇸 National Resources (All States)</h3>
+      
+      <h4>Food Assistance</h4>
+      <p><strong>SNAP Benefits (Food Stamps):</strong> <a href="https://www.fns.usda.gov/snap/supplemental-nutrition-assistance-program" target="_blank">Apply for food assistance</a></p>
+      <p><strong>Feeding America:</strong> <a href="https://www.feedingamerica.org/find-your-local-foodbank" target="_blank">Find local food banks</a> - 200+ food banks nationwide</p>
+      <p><strong>211 Helpline:</strong> Call or text 211 - Connects you to local food pantries, meal programs, and emergency food</p>
+      
+      <h4>Housing & Shelter</h4>
+      <p><strong>HUD Housing Assistance:</strong> <a href="https://www.hud.gov/topics/rental_assistance" target="_blank">Apply for rental assistance</a></p>
+      <p><strong>National Coalition for the Homeless:</strong> <a href="https://nationalhomeless.org/references/directory/" target="_blank">Shelter directory by state</a></p>
+      <p><strong>211 Housing Help:</strong> Call 211 for local emergency shelter and housing assistance</p>
+      
+      <h4>Mental Health Support</h4>
+      <p><strong>988 Suicide & Crisis Lifeline:</strong> Call or text 988 - Free 24/7 mental health crisis support</p>
+      <p><strong>SAMHSA National Helpline:</strong> 1-800-662-HELP (4357) - Free confidential treatment referral</p>
+      <p><strong>Crisis Text Line:</strong> Text HOME to 741741 - Free 24/7 crisis counseling via text</p>
+      <p><strong>NAMI Helpline:</strong> 1-800-950-NAMI (6264) - Free mental health support and resources</p>
+      
+      <h4>Healthcare</h4>
+      <p><strong>Medicaid:</strong> <a href="https://www.medicaid.gov/medicaid/eligibility/index.html" target="_blank">Apply for free health coverage</a></p>
+      <p><strong>Community Health Centers:</strong> <a href="https://findahealthcenter.hrsa.gov/" target="_blank">Find free/low-cost clinics</a> - Sliding scale fees</p>
+      
+      <h4>Education & Grants</h4>
+      <p><strong>Federal Pell Grants:</strong> <a href="https://studentaid.gov/understand-aid/types/grants/pell" target="_blank">Up to $7,395/year</a> - Does not require repayment</p>
+      <p><strong>FAFSA:</strong> <a href="https://studentaid.gov/h/apply-for-aid/fafsa" target="_blank">Apply for all federal student aid</a></p>
+      
+      <h4>Emergency Cash Assistance</h4>
+      <p><strong>TANF (Temporary Assistance for Needy Families):</strong> <a href="https://www.acf.hhs.gov/ofa/programs/tanf" target="_blank">Cash assistance for families</a></p>
+      <p><strong>Modest Needs:</strong> <a href="https://www.modestneeds.org/" target="_blank">Emergency grants</a> - One-time financial help</p>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">🏥</div>
+        <h3>Healthcare</h3>
+        <p>Free or low-cost medical care, prescriptions, and mental health services.</p>
+        <a href="https://findahealthcenter.hrsa.gov/" target="_blank">Find Health Centers →</a>
       </div>
-      <div class="org-card reveal">
-        <div class="org-name">Black Voters Matter Fund</div>
-        <div class="org-desc">Works to increase civic power in marginalized, predominantly Black communities through voter registration, advocacy, and grassroots organizing across 25+ states.</div>
-        <a href="https://blackvotersmatterfund.org/" target="_blank" rel="noopener" class="org-link">Visit BVM →</a>
+      
+      <div class="card">
+        <div class="card-icon">🏠</div>
+        <h3>Housing</h3>
+        <p>Emergency shelter, rental assistance, and homelessness prevention.</p>
+        <a href="https://www.hud.gov/topics/rental_assistance" target="_blank">Housing Help →</a>
       </div>
-      <div class="org-card reveal">
-        <div class="org-name">NAACP Legal Defense Fund</div>
-        <div class="org-desc">Fights for voting rights through litigation, advocacy, and public education. Their Democracy Defended reports document barriers to voting and provide resources for communities.</div>
-        <a href="https://voting.naacpldf.org/" target="_blank" rel="noopener" class="org-link">Visit LDF →</a>
+      
+      <div class="card">
+        <div class="card-icon">🍽️</div>
+        <h3>Food</h3>
+        <p>Food banks, SNAP benefits, and meal programs near you.</p>
+        <a href="https://www.feedingamerica.org/find-your-local-foodbank" target="_blank">Find Food Banks →</a>
       </div>
-      <div class="org-card reveal">
-        <div class="org-name">Black Girls Vote</div>
-        <div class="org-desc">A non-partisan organization dedicated to representing the concerns of Black women through voter education, engagement, and empowerment initiatives across the country.</div>
-        <a href="https://blackgirlsvote.com/" target="_blank" rel="noopener" class="org-link">Visit BGV →</a>
+      
+      <div class="card">
+        <div class="card-icon">🎓</div>
+        <h3>Education</h3>
+        <p>Scholarships, grants, and free educational programs.</p>
+        <a href="https://studentaid.gov/" target="_blank">Student Aid →</a>
       </div>
-      <div class="org-card reveal">
-        <div class="org-name">Black Male Voter Project</div>
-        <div class="org-desc">Addresses historically low civic engagement among Black men through unconventional outreach — focus groups, community events, and culturally resonant organizing strategies.</div>
-        <a href="https://blackmalevoterproject.org/" target="_blank" rel="noopener" class="org-link">Visit BMVP →</a>
+      
+      <div class="card">
+        <div class="card-icon">💼</div>
+        <h3>Job Training</h3>
+        <p>Free workforce development and job placement services.</p>
+        <a href="https://www.careeronestop.org/" target="_blank">Career Resources →</a>
       </div>
-      <div class="org-card reveal">
-        <div class="org-name">Vote.org</div>
-        <div class="org-desc">The largest non-partisan voter registration and GOTV technology platform in America. Provides tools for registration, absentee ballots, polling place lookups, and election reminders.</div>
-        <a href="https://www.vote.org/" target="_blank" rel="noopener" class="org-link">Visit Vote.org →</a>
+      
+      <div class="card">
+        <div class="card-icon">⚖️</div>
+        <h3>Legal Aid</h3>
+        <p>Free legal assistance for civil matters and rights protection.</p>
+        <a href="https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help" target="_blank">Legal Help →</a>
       </div>
-      <div class="org-card reveal">
-        <div class="org-name">Brennan Center for Justice</div>
-        <div class="org-desc">A leading policy institute focused on voting rights, election security, and democratic reform. Publishes in-depth research and advocates for laws that expand ballot access.</div>
-        <a href="https://www.brennancenter.org/" target="_blank" rel="noopener" class="org-link">Visit Brennan Center →</a>
+    </div>
+
+    <div class="content-box" style="margin-top:3rem">
+      <h3>State-by-State Resources</h3>
+      <p><strong>Find your state below for specific resources. Call 211 in any state for immediate local assistance.</strong></p>
+      
+      <div class="state-section">
+        <h3>Alabama</h3>
+        <p><strong>Alabama Department of Human Resources:</strong> <a href="https://dhr.alabama.gov/" target="_blank">Apply for SNAP, TANF, Medicaid</a></p>
+        <p><strong>Alabama 211:</strong> Call 211 or visit <a href="https://www.211alabama.org/" target="_blank">211Alabama.org</a></p>
+        <p><strong>Alabama Food Bank Association:</strong> <a href="https://www.alabamafoodbankassociation.org/" target="_blank">Find food pantries</a></p>
       </div>
-      <div class="org-card reveal">
-        <div class="org-name">National Urban League</div>
-        <div class="org-desc">Advocates for economic and civic empowerment for African Americans through education, employment, health, and civic engagement programs in over 90 communities nationwide.</div>
-        <a href="https://nul.org/" target="_blank" rel="noopener" class="org-link">Visit NUL →</a>
+
+      <div class="state-section">
+        <h3>Alaska</h3>
+        <p><strong>Alaska Department of Health:</strong> <a href="https://health.alaska.gov/dpa/" target="_blank">Public assistance programs</a></p>
+        <p><strong>Alaska 211:</strong> Call 211 for local resources</p>
+        <p><strong>Food Bank of Alaska:</strong> <a href="https://www.foodbankofalaska.org/" target="_blank">Find food assistance</a></p>
       </div>
-      <div class="org-card reveal">
-        <div class="org-name">When We All Vote</div>
-        <div class="org-desc">Co-chaired by Michelle Obama, this non-partisan initiative works to increase voter participation in every election through community organizing, volunteer engagement, and voter education tools.</div>
-        <a href="https://www.whenweallvote.org/" target="_blank" rel="noopener" class="org-link">Visit WWAV →</a>
+
+      <div class="state-section">
+        <h3>Arizona</h3>
+        <p><strong>Arizona Department of Economic Security:</strong> <a href="https://des.az.gov/" target="_blank">SNAP, TANF, healthcare assistance</a></p>
+        <p><strong>Arizona 211:</strong> Call 211 or text ZIP to 898211</p>
+        <p><strong>St. Mary's Food Bank:</strong> <a href="https://www.firstfoodbank.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Arkansas</h3>
+        <p><strong>Arkansas Department of Human Services:</strong> <a href="https://humanservices.arkansas.gov/" target="_blank">Apply for benefits</a></p>
+        <p><strong>Arkansas 211:</strong> Call 211 for local help</p>
+        <p><strong>Arkansas Foodbank:</strong> <a href="https://www.arkansasfoodbank.org/" target="_blank">Find food pantries</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>California</h3>
+        <p><strong>California Department of Social Services:</strong> <a href="https://www.cdss.ca.gov/" target="_blank">CalFresh (SNAP), CalWORKs, Medi-Cal</a></p>
+        <p><strong>California 211:</strong> Call 211 or visit <a href="https://www.211.org/" target="_blank">211.org</a></p>
+        <p><strong>California Association of Food Banks:</strong> <a href="https://www.cafoodbanks.org/" target="_blank">Find local food banks</a></p>
+        <p><strong>Los Angeles Regional Food Bank:</strong> <a href="https://www.lafoodbank.org/" target="_blank">LA County resources</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Colorado</h3>
+        <p><strong>Colorado PEAK:</strong> <a href="https://coloradopeak.secure.force.com/" target="_blank">Apply for SNAP, Medicaid, cash assistance</a></p>
+        <p><strong>Colorado 211:</strong> Call 211 or visit <a href="https://www.colorado211.org/" target="_blank">Colorado211.org</a></p>
+        <p><strong>Food Bank of the Rockies:</strong> <a href="https://www.foodbankrockies.org/" target="_blank">Find food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Connecticut</h3>
+        <p><strong>Connecticut Department of Social Services:</strong> <a href="https://portal.ct.gov/dss" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Connecticut 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Connecticut Food Bank:</strong> <a href="https://www.ctfoodbank.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Delaware</h3>
+        <p><strong>Delaware Health and Social Services:</strong> <a href="https://www.dhss.delaware.gov/" target="_blank">Apply for benefits</a></p>
+        <p><strong>Delaware 211:</strong> Call 211 for local resources</p>
+        <p><strong>Food Bank of Delaware:</strong> <a href="https://www.fbd.org/" target="_blank">Find food pantries</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Florida</h3>
+        <p><strong>Florida Department of Children and Families:</strong> <a href="https://www.myflfamilies.com/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Florida 211:</strong> Call 211 or visit <a href="https://www.211.org/" target="_blank">211.org</a></p>
+        <p><strong>Feeding Florida:</strong> <a href="https://www.feedingflorida.org/" target="_blank">Find food banks statewide</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Georgia</h3>
+        <p><strong>Georgia Department of Human Services:</strong> <a href="https://dhs.georgia.gov/" target="_blank">SNAP, TANF, child care assistance</a></p>
+        <p><strong>Georgia 211:</strong> Call 211 for local help</p>
+        <p><strong>Atlanta Community Food Bank:</strong> <a href="https://www.acfb.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Hawaii</h3>
+        <p><strong>Hawaii Department of Human Services:</strong> <a href="https://humanservices.hawaii.gov/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Aloha United Way 211:</strong> Call 211 for resources</p>
+        <p><strong>Hawaii Foodbank:</strong> <a href="https://www.hawaiifoodbank.org/" target="_blank">Find food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Idaho</h3>
+        <p><strong>Idaho Department of Health and Welfare:</strong> <a href="https://healthandwelfare.idaho.gov/" target="_blank">Apply for benefits</a></p>
+        <p><strong>Idaho 211:</strong> Call 211 or visit <a href="https://www.211.org/" target="_blank">211.org</a></p>
+        <p><strong>Idaho Foodbank:</strong> <a href="https://www.idahofoodbank.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Illinois</h3>
+        <p><strong>Illinois Department of Human Services:</strong> <a href="https://www.dhs.state.il.us/" target="_blank">SNAP, TANF, healthcare</a></p>
+        <p><strong>Illinois 211:</strong> Call 211 or visit <a href="https://www.211il.org/" target="_blank">211Illinois.org</a></p>
+        <p><strong>Greater Chicago Food Depository:</strong> <a href="https://www.chicagosfoodbank.org/" target="_blank">Food banks</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Indiana</h3>
+        <p><strong>Indiana Family and Social Services:</strong> <a href="https://www.in.gov/fssa/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Indiana 211:</strong> Call 211 for local help</p>
+        <p><strong>Feeding Indiana's Hungry:</strong> <a href="https://www.feedingindianashungry.org/" target="_blank">Find food banks</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Iowa</h3>
+        <p><strong>Iowa Department of Human Services:</strong> <a href="https://dhs.iowa.gov/" target="_blank">Apply for benefits</a></p>
+        <p><strong>Iowa 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Food Bank of Iowa:</strong> <a href="https://www.foodbankiowa.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Kansas</h3>
+        <p><strong>Kansas Department for Children and Families:</strong> <a href="https://www.dcf.ks.gov/" target="_blank">SNAP, TANF, child care</a></p>
+        <p><strong>Kansas 211:</strong> Call 211 for resources</p>
+        <p><strong>Kansas Food Bank:</strong> <a href="https://www.kansasfoodbank.org/" target="_blank">Find food pantries</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Kentucky</h3>
+        <p><strong>Kentucky Department for Community Based Services:</strong> <a href="https://chfs.ky.gov/agencies/dcbs/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Kentucky 211:</strong> Call 211 or visit <a href="https://www.ky211.org/" target="_blank">KY211.org</a></p>
+        <p><strong>Kentucky Association of Food Banks:</strong> <a href="https://www.kafb.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Louisiana</h3>
+        <p><strong>Louisiana Department of Children and Family Services:</strong> <a href="https://www.dcfs.louisiana.gov/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Louisiana 211:</strong> Call 211 for local help</p>
+        <p><strong>Greater Baton Rouge Food Bank:</strong> <a href="https://brfoodbank.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Maine</h3>
+        <p><strong>Maine Department of Health and Human Services:</strong> <a href="https://www.maine.gov/dhhs/" target="_blank">Apply for benefits</a></p>
+        <p><strong>Maine 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Good Shepherd Food Bank:</strong> <a href="https://www.gsfb.org/" target="_blank">Find food pantries</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Maryland</h3>
+        <p><strong>Maryland Department of Human Services:</strong> <a href="https://dhs.maryland.gov/" target="_blank">SNAP, TANF, healthcare</a></p>
+        <p><strong>Maryland 211:</strong> Call 211 or visit <a href="https://www.211md.org/" target="_blank">211Maryland.org</a></p>
+        <p><strong>Maryland Food Bank:</strong> <a href="https://mdfoodbank.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Massachusetts</h3>
+        <p><strong>Massachusetts Department of Transitional Assistance:</strong> <a href="https://www.mass.gov/orgs/department-of-transitional-assistance" target="_blank">SNAP, TANF, emergency aid</a></p>
+        <p><strong>Massachusetts 211:</strong> Call 211 for resources</p>
+        <p><strong>Greater Boston Food Bank:</strong> <a href="https://www.gbfb.org/" target="_blank">Find food banks</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Michigan</h3>
+        <p><strong>Michigan Department of Health and Human Services:</strong> <a href="https://www.michigan.gov/mdhhs/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Michigan 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Feeding America West Michigan:</strong> <a href="https://www.feedwm.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Minnesota</h3>
+        <p><strong>Minnesota Department of Human Services:</strong> <a href="https://mn.gov/dhs/" target="_blank">SNAP, TANF, healthcare</a></p>
+        <p><strong>Minnesota 211:</strong> Call 211 for local help</p>
+        <p><strong>Second Harvest Heartland:</strong> <a href="https://www.2harvest.org/" target="_blank">Food banks</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Mississippi</h3>
+        <p><strong>Mississippi Department of Human Services:</strong> <a href="https://www.mdhs.ms.gov/" target="_blank">SNAP, TANF, child care</a></p>
+        <p><strong>Mississippi 211:</strong> Call 211 for resources</p>
+        <p><strong>Mississippi Food Network:</strong> <a href="https://www.msfoodnet.org/" target="_blank">Find food pantries</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Missouri</h3>
+        <p><strong>Missouri Department of Social Services:</strong> <a href="https://dss.mo.gov/" target="_blank">Apply for SNAP, TANF, Medicaid</a></p>
+        <p><strong>Missouri 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>St. Louis Area Foodbank:</strong> <a href="https://www.stlfoodbank.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Montana</h3>
+        <p><strong>Montana Department of Public Health and Human Services:</strong> <a href="https://dphhs.mt.gov/" target="_blank">SNAP, TANF, healthcare</a></p>
+        <p><strong>Montana 211:</strong> Call 211 for local help</p>
+        <p><strong>Montana Food Bank Network:</strong> <a href="https://mfbn.org/" target="_blank">Find food banks</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Nebraska</h3>
+        <p><strong>Nebraska Department of Health and Human Services:</strong> <a href="https://dhhs.ne.gov/" target="_blank">Apply for benefits</a></p>
+        <p><strong>Nebraska 211:</strong> Call 211 for resources</p>
+        <p><strong>Food Bank for the Heartland:</strong> <a href="https://www.foodbankheartland.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Nevada</h3>
+        <p><strong>Nevada Division of Welfare and Supportive Services:</strong> <a href="https://dwss.nv.gov/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Nevada 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Three Square Food Bank:</strong> <a href="https://www.threesquare.org/" target="_blank">Las Vegas food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>New Hampshire</h3>
+        <p><strong>New Hampshire Department of Health and Human Services:</strong> <a href="https://www.dhhs.nh.gov/" target="_blank">SNAP, TANF, healthcare</a></p>
+        <p><strong>New Hampshire 211:</strong> Call 211 for local help</p>
+        <p><strong>New Hampshire Food Bank:</strong> <a href="https://www.nhfoodbank.org/" target="_blank">Find food pantries</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>New Jersey</h3>
+        <p><strong>New Jersey Department of Human Services:</strong> <a href="https://www.nj.gov/humanservices/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>New Jersey 211:</strong> Call 211 or visit <a href="https://nj211.org/" target="_blank">NJ211.org</a></p>
+        <p><strong>Community FoodBank of New Jersey:</strong> <a href="https://www.cfbnj.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>New Mexico</h3>
+        <p><strong>New Mexico Human Services Department:</strong> <a href="https://www.hsd.state.nm.us/" target="_blank">Apply for benefits</a></p>
+        <p><strong>New Mexico 211:</strong> Call 211 for resources</p>
+        <p><strong>Roadrunner Food Bank:</strong> <a href="https://www.rrfb.org/" target="_blank">Food banks</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>New York</h3>
+        <p><strong>New York State Office of Temporary and Disability Assistance:</strong> <a href="https://otda.ny.gov/" target="_blank">SNAP, TANF, emergency assistance</a></p>
+        <p><strong>New York 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Food Bank for New York City:</strong> <a href="https://www.foodbanknyc.org/" target="_blank">NYC food assistance</a></p>
+        <p><strong>Regional Food Bank of Northeastern New York:</strong> <a href="https://www.regionalfoodbank.net/" target="_blank">Upstate NY</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>North Carolina</h3>
+        <p><strong>North Carolina Department of Health and Human Services:</strong> <a href="https://www.ncdhhs.gov/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>North Carolina 211:</strong> Call 211 for local help</p>
+        <p><strong>Food Bank of Central & Eastern North Carolina:</strong> <a href="https://www.foodbankcenc.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>North Dakota</h3>
+        <p><strong>North Dakota Department of Human Services:</strong> <a href="https://www.hhs.nd.gov/" target="_blank">Apply for benefits</a></p>
+        <p><strong>North Dakota 211:</strong> Call 211 for resources</p>
+        <p><strong>Great Plains Food Bank:</strong> <a href="https://www.greatplainsfoodbank.org/" target="_blank">Find food pantries</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Ohio</h3>
+        <p><strong>Ohio Department of Job and Family Services:</strong> <a href="https://jfs.ohio.gov/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Ohio 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Mid-Ohio Foodbank:</strong> <a href="https://www.midohiofoodbank.org/" target="_blank">Columbus food assistance</a></p>
+        <p><strong>Cleveland Foodbank:</strong> <a href="https://www.clevelandfoodbank.org/" target="_blank">Northeast Ohio</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Oklahoma</h3>
+        <p><strong>Oklahoma Department of Human Services:</strong> <a href="https://oklahoma.gov/okdhs.html" target="_blank">SNAP, TANF, child care</a></p>
+        <p><strong>Oklahoma 211:</strong> Call 211 for local help</p>
+        <p><strong>Regional Food Bank of Oklahoma:</strong> <a href="https://www.regionalfoodbank.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Oregon</h3>
+        <p><strong>Oregon Department of Human Services:</strong> <a href="https://www.oregon.gov/dhs/" target="_blank">SNAP, TANF, healthcare</a></p>
+        <p><strong>Oregon 211:</strong> Call 211 or visit <a href="https://www.211info.org/" target="_blank">211Info.org</a></p>
+        <p><strong>Oregon Food Bank:</strong> <a href="https://www.oregonfoodbank.org/" target="_blank">Find food pantries</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Pennsylvania</h3>
+        <p><strong>Pennsylvania Department of Human Services:</strong> <a href="https://www.dhs.pa.gov/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Pennsylvania 211:</strong> Call 211 for resources</p>
+        <p><strong>Greater Philadelphia Coalition Against Hunger:</strong> <a href="https://www.hungercoalition.org/" target="_blank">Food assistance</a></p>
+        <p><strong>Greater Pittsburgh Community Food Bank:</strong> <a href="https://www.pittsburghfoodbank.org/" target="_blank">Western PA</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Rhode Island</h3>
+        <p><strong>Rhode Island Department of Human Services:</strong> <a href="https://dhs.ri.gov/" target="_blank">Apply for benefits</a></p>
+        <p><strong>Rhode Island 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Rhode Island Community Food Bank:</strong> <a href="https://rifoodbank.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>South Carolina</h3>
+        <p><strong>South Carolina Department of Social Services:</strong> <a href="https://dss.sc.gov/" target="_blank">SNAP, TANF, child care</a></p>
+        <p><strong>South Carolina 211:</strong> Call 211 for local help</p>
+        <p><strong>Harvest Hope Food Bank:</strong> <a href="https://www.harvesthope.org/" target="_blank">Food banks</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>South Dakota</h3>
+        <p><strong>South Dakota Department of Social Services:</strong> <a href="https://dss.sd.gov/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>South Dakota 211:</strong> Call 211 for resources</p>
+        <p><strong>Feeding South Dakota:</strong> <a href="https://www.feedingsouthdakota.org/" target="_blank">Find food pantries</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Tennessee</h3>
+        <p><strong>Tennessee Department of Human Services:</strong> <a href="https://www.tn.gov/humanservices.html" target="_blank">SNAP, TANF, child care</a></p>
+        <p><strong>Tennessee 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Second Harvest Food Bank of Middle Tennessee:</strong> <a href="https://www.secondharvestmidtn.org/" target="_blank">Nashville area</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Texas</h3>
+        <p><strong>Texas Health and Human Services:</strong> <a href="https://www.hhs.texas.gov/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Texas 211:</strong> Call 211 or text ZIP to 898211</p>
+        <p><strong>North Texas Food Bank:</strong> <a href="https://ntfb.org/" target="_blank">Dallas area - 13 counties</a></p>
+        <p><strong>Houston Food Bank:</strong> <a href="https://www.houstonfoodbank.org/" target="_blank">Southeast Texas</a></p>
+        <p><strong>San Antonio Food Bank:</strong> <a href="https://www.safoodbank.org/" target="_blank">South Central Texas</a></p>
+        <p><strong>Austin Area Urban League:</strong> <a href="https://www.aaul.org/" target="_blank">Job training, education, housing</a></p>
+        <p><strong>Lone Star Legal Aid:</strong> <a href="https://www.lonestarlegal.org/" target="_blank">Free legal help</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Utah</h3>
+        <p><strong>Utah Department of Workforce Services:</strong> <a href="https://jobs.utah.gov/" target="_blank">SNAP, TANF, employment services</a></p>
+        <p><strong>Utah 211:</strong> Call 211 for local resources</p>
+        <p><strong>Utah Food Bank:</strong> <a href="https://www.utahfoodbank.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Vermont</h3>
+        <p><strong>Vermont Department for Children and Families:</strong> <a href="https://dcf.vermont.gov/" target="_blank">SNAP, TANF, healthcare</a></p>
+        <p><strong>Vermont 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Vermont Foodbank:</strong> <a href="https://www.vtfoodbank.org/" target="_blank">Find food pantries</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Virginia</h3>
+        <p><strong>Virginia Department of Social Services:</strong> <a href="https://www.dss.virginia.gov/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>Virginia 211:</strong> Call 211 for local help</p>
+        <p><strong>Federation of Virginia Food Banks:</strong> <a href="https://vafoodbanks.org/" target="_blank">Statewide food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Washington</h3>
+        <p><strong>Washington Department of Social and Health Services:</strong> <a href="https://www.dshs.wa.gov/" target="_blank">SNAP, TANF, healthcare</a></p>
+        <p><strong>Washington 211:</strong> Call 211 or visit <a href="https://wa211.org/" target="_blank">WA211.org</a></p>
+        <p><strong>Northwest Harvest:</strong> <a href="https://www.northwestharvest.org/" target="_blank">Food banks</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>West Virginia</h3>
+        <p><strong>West Virginia Department of Health and Human Resources:</strong> <a href="https://dhhr.wv.gov/" target="_blank">SNAP, TANF, Medicaid</a></p>
+        <p><strong>West Virginia 211:</strong> Call 211 for resources</p>
+        <p><strong>Mountaineer Food Bank:</strong> <a href="https://www.mountaineerfoodbank.org/" target="_blank">Food assistance</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Wisconsin</h3>
+        <p><strong>Wisconsin Department of Health Services:</strong> <a href="https://www.dhs.wisconsin.gov/" target="_blank">FoodShare (SNAP), W-2, BadgerCare</a></p>
+        <p><strong>Wisconsin 211:</strong> Call 211 or dial 2-1-1</p>
+        <p><strong>Feeding Wisconsin:</strong> <a href="https://www.feedingwisconsin.org/" target="_blank">Find food banks</a></p>
+      </div>
+
+      <div class="state-section">
+        <h3>Wyoming</h3>
+        <p><strong>Wyoming Department of Family Services:</strong> <a href="https://dfs.wyo.gov/" target="_blank">SNAP, TANF, child care</a></p>
+        <p><strong>Wyoming 211:</strong> Call 211 for local help</p>
+        <p><strong>Wyoming Food Bank of the Rockies:</strong> <a href="https://www.foodbankrockies.org/" target="_blank">Food assistance</a></p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ========== RESOURCES ========== -->
-<section class="section" id="resources">
+<section class="section section-alt" id="donate">
   <div class="container">
     <div class="section-header">
-      <div class="section-label">Tools & Links</div>
-      <h2 class="section-title">Essential Resources</h2>
-      <p class="section-subtitle">Everything you need to be an informed, active voter — all in one place.</p>
+      <div class="section-label">Support Our Mission</div>
+      <h2 class="section-title">Support OurVoiceVote</h2>
+      <p class="section-subtitle">Help us keep this resource free and accessible to everyone. Your support keeps voter information flowing to communities that need it most.</p>
     </div>
-    <div class="resources-grid">
-      <div class="resource-card reveal">
-        <div class="res-icon">🔍</div>
-        <h3>Find Your Representatives</h3>
-        <p>Look up your elected officials at every level — federal, state, and local — and see their voting records and contact information.</p>
-        <a href="https://myreps.datamade.us/" target="_blank" rel="noopener" class="res-btn">Find Reps</a>
+
+    <div class="content-box">
+      <h3>Why Donate?</h3>
+      <p>OurVoiceVote is a free, non-partisan civic empowerment platform. We receive no government funding and accept no political donations. Every dollar goes toward:</p>
+      <ul>
+        <li>Keeping the website operational and accessible 24/7</li>
+        <li>Updating election information, deadlines, and resources quarterly</li>
+        <li>Researching and verifying police accountability data</li>
+        <li>Maintaining the 50-state Help & Resources database</li>
+        <li>Expanding educational content and voter guides</li>
+      </ul>
+    </div>
+
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">💵</div>
+        <h3>One-Time Donation</h3>
+        <p>Make a single contribution to support voter education and civic engagement.</p>
+        <p><strong>Suggested: $5, $10, $25, $50</strong></p>
+        <a href="#" class="btn-primary" style="margin-top:1rem">Donate Now</a>
       </div>
-      <div class="resource-card reveal">
-        <div class="res-icon">📰</div>
-        <h3>Track Legislation</h3>
-        <p>Follow bills through Congress and your state legislature. See who sponsored them, how they voted, and what the impact would be.</p>
-        <a href="https://www.congress.gov/" target="_blank" rel="noopener" class="res-btn">Congress.gov</a>
+      
+      <div class="card">
+        <div class="card-icon">📅</div>
+        <h3>Monthly Support</h3>
+        <p>Become a sustaining supporter with recurring monthly donations.</p>
+        <p><strong>As little as $3/month helps</strong></p>
+        <a href="#" class="btn-primary" style="margin-top:1rem">Set Up Monthly</a>
       </div>
-      <div class="resource-card reveal">
-        <div class="res-icon">🏛️</div>
-        <h3>Ballotpedia</h3>
-        <p>The digital encyclopedia of American politics. Research candidates, ballot measures, and elections happening in your area.</p>
-        <a href="https://ballotpedia.org/" target="_blank" rel="noopener" class="res-btn">Explore</a>
+      
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3>Sponsor Updates</h3>
+        <p>Sponsor a quarterly website update to ensure current, accurate information.</p>
+        <p><strong>$100+ sponsors recognized</strong></p>
+        <a href="#" class="btn-primary" style="margin-top:1rem">Sponsor Update</a>
       </div>
-      <div class="resource-card reveal">
-        <div class="res-icon">📞</div>
-        <h3>Election Protection Hotline</h3>
-        <p>If you encounter problems voting, call 866-OUR-VOTE for English or 888-VE-Y-VOTA for Spanish. Free, non-partisan help.</p>
-        <a href="https://866ourvote.org/" target="_blank" rel="noopener" class="res-btn">Get Help</a>
-      </div>
-      <div class="resource-card reveal">
-        <div class="res-icon">🗓️</div>
-        <h3>Election Dates & Deadlines</h3>
-        <p>Never miss a deadline. Find registration deadlines, early voting dates, and Election Day info for every state and territory.</p>
-        <a href="https://www.vote.org/election-dates-deadlines/" target="_blank" rel="noopener" class="res-btn">View Dates</a>
-      </div>
-      <div class="resource-card reveal">
-        <div class="res-icon">🎓</div>
-        <h3>Civic Education Hub</h3>
-        <p>Learn how government works — from local school boards to the Supreme Court. Understanding the system helps you use it effectively.</p>
-        <a href="https://www.icivics.org/" target="_blank" rel="noopener" class="res-btn">Start Learning</a>
-      </div>
+    </div>
+
+    <div class="note-box" style="margin-top:3rem">
+      <strong>Financial Transparency:</strong>
+      <p>As this platform grows, we commit to publishing annual reports showing exactly how donations are used. We accept no political party donations and maintain strict non-partisan independence.</p>
     </div>
   </div>
 </section>
 
-<!-- ========== CTA BANNER ========== -->
-<section class="cta-banner">
-  <h2>Ready to Make Your Voice Heard?</h2>
-  <p>Register to vote today. Check your status. Find your polling place. Share this page with your community. Every voice matters.</p>
-  <a href="https://register.vote.org/" target="_blank" rel="noopener" class="btn-primary">Register to Vote Now</a>
-</section>
-
-<!-- ========== FOOTER ========== -->
 <footer class="footer">
   <div class="footer-grid">
-    <div class="footer-brand">
-      <h3>Our<span>Voice</span>Vote</h3>
-      <p>A free, non-partisan civic empowerment resource built to help voters access information, understand their rights, and engage with democracy.</p>
+    <div class="footer-section">
+      <h4>Our<span style="color:#D4A843">Voice</span>Vote</h4>
+      <p>A free, non-partisan civic empowerment resource built to help voters access information, understand their rights, hold power accountable, and engage with democracy.</p>
     </div>
-    <div class="footer-col">
+    
+    <div class="footer-section">
       <h4>Quick Links</h4>
       <ul>
         <li><a href="#register">Register to Vote</a></li>
         <li><a href="#rights">Know Your Rights</a></li>
-        <li><a href="#issues">Key Issues</a></li>
-        <li><a href="#history">Voting History</a></li>
+        <li><a href="#constitution">Constitution</a></li>
+        <li><a href="#accountability">Police Accountability</a></li>
+        <li><a href="#help">Help & Resources</a></li>
+        <li><a href="#donate">Donate</a></li>
       </ul>
     </div>
-    <div class="footer-col">
-      <h4>Resources</h4>
+    
+    <div class="footer-section">
+      <h4>Official Resources</h4>
       <ul>
-        <li><a href="https://www.vote.org/" target="_blank" rel="noopener">Vote.org</a></li>
-        <li><a href="https://ballotpedia.org/" target="_blank" rel="noopener">Ballotpedia</a></li>
-        <li><a href="https://www.congress.gov/" target="_blank" rel="noopener">Congress.gov</a></li>
-        <li><a href="https://866ourvote.org/" target="_blank" rel="noopener">Election Protection</a></li>
+        <li><a href="https://vote.gov/" target="_blank">Vote.gov</a></li>
+        <li><a href="https://866ourvote.org/" target="_blank">Election Protection</a></li>
+        <li><a href="https://www.usa.gov/elected-officials" target="_blank">Contact Representatives</a></li>
+        <li><a href="https://www.archives.gov/founding-docs/constitution" target="_blank">Constitution</a></li>
       </ul>
     </div>
-    <div class="footer-col">
-      <h4>Organizations</h4>
+    
+    <div class="footer-section">
+      <h4>Accountability Data</h4>
       <ul>
-        <li><a href="https://naacp.org/" target="_blank" rel="noopener">NAACP</a></li>
-        <li><a href="https://blackvotersmatterfund.org/" target="_blank" rel="noopener">Black Voters Matter</a></li>
-        <li><a href="https://www.brennancenter.org/" target="_blank" rel="noopener">Brennan Center</a></li>
-        <li><a href="https://www.whenweallvote.org/" target="_blank" rel="noopener">When We All Vote</a></li>
+        <li><a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">Washington Post Database</a></li>
+        <li><a href="https://mappingpoliceviolence.org/" target="_blank">Mapping Police Violence</a></li>
+        <li><a href="https://www.opensecrets.org/" target="_blank">OpenSecrets</a></li>
       </ul>
     </div>
   </div>
+  
   <div class="footer-bottom">
-    <p>&copy; 2026 OurVoiceVote — Free &amp; open source. Share freely.</p>
+    <div class="disclaimer">
+      <strong>Legal Disclaimer:</strong>
+      This website provides general information about voting rights, civic engagement, police accountability, and community resources. This information is for educational purposes only and does not constitute legal, financial, or professional advice. While we strive for accuracy, laws and resources change frequently. Always verify information with official sources before making decisions. The police accountability data is compiled from publicly available databases maintained by journalists and researchers (Washington Post, Mapping Police Violence, Wikipedia); we do not independently verify each case. Statistics are updated quarterly and reflect the most recent available data. Organization funding information is provided for transparency purposes only. By using this site, you agree that OurVoiceVote and its operators are not liable for any decisions, actions, or outcomes resulting from the use of information provided here. For legal matters, consult a licensed attorney. For financial matters, consult a financial advisor.
+    </div>
+    
+    <p style="margin-top:2rem">&copy; 2026 OurVoiceVote — Free & open source. Share freely.</p>
     <p>This site is non-partisan and not affiliated with any political party.</p>
+    <p style="margin-top:1rem;font-size:.75rem">Data sources: Washington Post Police Shootings Database (2015-2024), Mapping Police Violence, Wikipedia List of Unarmed African Americans Killed by Law Enforcement, U.S. National Archives, Vote.gov, HHS.gov, and other public records. Statistics verified through multiple independent sources.</p>
   </div>
 </footer>
 
-<!-- ========== SCROLL REVEAL ========== -->
 <script>
-document.addEventListener('DOMContentLoaded',()=>{
-  const reveals=document.querySelectorAll('.reveal');
-  const observer=new IntersectionObserver((entries)=>{
-    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}})
-  },{threshold:0.1,rootMargin:'0px 0px -50px 0px'});
-  reveals.forEach(el=>observer.observe(el));
-
-  // Mobile nav
-  const style=document.createElement('style');
-  style.textContent=`.nav-links.show{display:flex!important;flex-direction:column;position:absolute;top:70px;left:0;right:0;background:rgba(13,13,13,.98);padding:1.5rem 2rem;gap:1rem;border-bottom:1px solid rgba(212,168,67,.15)}`;
-  document.head.appendChild(style);
-
-  // Smooth scroll for nav links
-  document.querySelectorAll('a[href^="#"]').forEach(a=>{
-    a.addEventListener('click',e=>{
-      e.preventDefault();
-      const t=document.querySelector(a.getAttribute('href'));
-      if(t)t.scrollIntoView({behavior:'smooth',block:'start'});
-      document.querySelector('.nav-links')?.classList.remove('show');
-    });
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    e.preventDefault();
+    const t=document.querySelector(a.getAttribute('href'));
+    if(t)t.scrollIntoView({behavior:'smooth',block:'start'});
   });
 });
 </script>

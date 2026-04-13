@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OurVoiceVote — Civic Power Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --gold:#D4A843;
+  --gold-light:#F2D888;
+  --deep:#0D0D0D;
+  --ink:#1A1A1A;
+  --charcoal:#2A2A2A;
+  --warm-bg:#FAF5ED;
+  --cream:#FFF8EE;
+  --rust:#C05236;
+  --forest:#2D6A4F;
+  --sky:#3A7CA5;
+  --plum:#5B2C6F;
+  --text:#333;
+  --text-light:#666;
+  --accent-gradient:linear-gradient(135deg,#D4A843 0%,#C05236 100%);
+  --shadow-sm:0 2px 8px rgba(0,0,0,.06);
+  --shadow-md:0 4px 20px rgba(0,0,0,.1);
+  --shadow-lg:0 8px 40px rgba(0,0,0,.15);
+  --radius:12px;
+}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'Source Sans 3',sans-serif;background:var(--warm-bg);color:var(--text);line-height:1.7;overflow-x:hidden}
+h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.2}
+a{color:inherit;text-decoration:none}
+
+/* ===================== NAV ===================== */
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(13,13,13,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,168,67,.15);transition:all .3s}
+.nav-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 2rem;height:70px}
+.nav-logo{font-family:'DM Serif Display',serif;font-size:1.5rem;color:#fff;display:flex;align-items:center;gap:.5rem}
+.nav-logo span{color:var(--gold)}
+.nav-links{display:flex;gap:2rem;list-style:none}
+.nav-links a{color:rgba(255,255,255,.75);font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;transition:color .3s}
+.nav-links a:hover{color:var(--gold)}
+.mobile-toggle{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer}
+.nav-cta{background:var(--accent-gradient);color:#fff;padding:.6rem 1.4rem;border-radius:50px;font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;transition:transform .2s,box-shadow .2s}
+.nav-cta:hover{transform:translateY(-2px);box-shadow:0 4px 15px rgba(212,168,67,.4)}
+
+/* ===================== HERO ===================== */
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--deep);position:relative;overflow:hidden;padding:6rem 2rem 4rem}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:radial-gradient(ellipse at 20% 50%,rgba(212,168,67,.12) 0%,transparent 60%),radial-gradient(ellipse at 80% 30%,rgba(192,82,54,.08) 0%,transparent 50%);pointer-events:none}
+.hero::after{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.03'/%3E%3C/svg%3E");opacity:.5;pointer-events:none}
+.hero-content{position:relative;z-index:2;max-width:900px;text-align:center}
+.hero-badge{display:inline-block;background:rgba(212,168,67,.12);border:1px solid rgba(212,168,67,.3);color:var(--gold);padding:.4rem 1.2rem;border-radius:50px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.15em;margin-bottom:2rem;animation:fadeDown .8s ease}
+.hero h1{font-size:clamp(2.8rem,7vw,5.5rem);color:#fff;font-weight:900;margin-bottom:1.5rem;animation:fadeUp .8s ease}
+.hero h1 em{font-style:italic;color:var(--gold);display:inline-block}
+.hero-sub{color:rgba(255,255,255,.65);font-size:clamp(1rem,2.5vw,1.3rem);max-width:640px;margin:0 auto 2.5rem;font-weight:300;animation:fadeUp 1s ease .2s both}
+.hero-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;animation:fadeUp 1s ease .4s both}
+.btn-primary{background:var(--accent-gradient);color:#fff;padding:.9rem 2.2rem;border-radius:50px;font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;border:none;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.btn-primary:hover{transform:translateY(-3px);box-shadow:0 6px 25px rgba(212,168,67,.4)}
+.btn-outline{background:transparent;color:#fff;padding:.9rem 2.2rem;border-radius:50px;font-weight:700;font-size:.9rem;text-transform:uppercase;letter-spacing:.1em;border:2px solid rgba(255,255,255,.25);cursor:pointer;transition:all .3s}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold)}
+.hero-stats{display:flex;gap:3rem;justify-content:center;margin-top:4rem;animation:fadeUp 1.2s ease .6s both}
+.hero-stat{text-align:center}
+.hero-stat .num{font-family:'Playfair Display',serif;font-size:2.5rem;font-weight:900;color:var(--gold)}
+.hero-stat .lbl{color:rgba(255,255,255,.45);font-size:.75rem;text-transform:uppercase;letter-spacing:.12em;margin-top:.25rem}
+
+/* ===================== QUICK ACTIONS ===================== */
+.quick-actions{background:var(--ink);padding:0;position:relative;z-index:5}
+.qa-grid{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
+.qa-item{padding:2rem 1.5rem;text-align:center;border-right:1px solid rgba(255,255,255,.06);transition:background .3s;cursor:pointer;text-decoration:none}
+.qa-item:last-child{border-right:none}
+.qa-item:hover{background:rgba(212,168,67,.08)}
+.qa-icon{font-size:2rem;margin-bottom:.75rem}
+.qa-title{color:#fff;font-family:'Playfair Display',serif;font-size:1rem;margin-bottom:.3rem}
+.qa-desc{color:rgba(255,255,255,.4);font-size:.8rem}
+
+/* ===================== SECTIONS ===================== */
+.section{padding:5rem 2rem}
+.section-dark{background:var(--deep);color:#fff}
+.section-alt{background:var(--cream)}
+.container{max-width:1200px;margin:0 auto}
+.section-header{text-align:center;margin-bottom:3.5rem}
+.section-label{display:inline-block;color:var(--rust);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.2em;margin-bottom:.75rem}
+.section-dark .section-label{color:var(--gold)}
+.section-title{font-size:clamp(2rem,4vw,3rem);margin-bottom:1rem}
+.section-subtitle{color:var(--text-light);font-size:1.1rem;max-width:600px;margin:0 auto}
+.section-dark .section-subtitle{color:rgba(255,255,255,.5)}
+
+/* ===================== REGISTER SECTION ===================== */
+.register-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center}
+.register-visual{background:var(--accent-gradient);border-radius:var(--radius);padding:3rem;color:#fff;position:relative;overflow:hidden;min-height:400px;display:flex;flex-direction:column;justify-content:center}
+.register-visual::before{content:'✓';position:absolute;right:-30px;bottom:-30px;font-size:15rem;opacity:.08;font-weight:900}
+.register-visual h3{font-size:2.2rem;margin-bottom:1rem}
+.register-visual p{opacity:.85;margin-bottom:2rem;font-size:1.05rem}
+.register-steps{list-style:none;counter-reset:steps}
+.register-steps li{counter-increment:steps;display:flex;align-items:flex-start;gap:1rem;margin-bottom:1.2rem;font-size:.95rem}
+.register-steps li::before{content:counter(steps);background:rgba(255,255,255,.2);color:#fff;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.8rem;flex-shrink:0}
+.register-links{display:grid;gap:1rem}
+.register-link{background:#fff;border-radius:var(--radius);padding:1.5rem;display:flex;align-items:center;gap:1rem;box-shadow:var(--shadow-sm);transition:transform .2s,box-shadow .2s;border:1px solid rgba(0,0,0,.04)}
+.register-link:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}
+.register-link .rl-icon{width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+.register-link .rl-info h4{font-size:1rem;margin-bottom:.2rem}
+.register-link .rl-info p{color:var(--text-light);font-size:.85rem;line-height:1.4}
+.register-link .rl-arrow{margin-left:auto;color:var(--text-light);font-size:1.2rem}
+
+/* ===================== KNOW YOUR RIGHTS ===================== */
+.rights-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.right-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:2rem;transition:all .3s;position:relative;overflow:hidden}
+.right-card:hover{border-color:var(--gold);transform:translateY(-4px);box-shadow:0 8px 30px rgba(212,168,67,.15)}
+.right-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--accent-gradient);opacity:0;transition:opacity .3s}
+.right-card:hover::before{opacity:1}
+.rc-icon{font-size:2rem;margin-bottom:1rem}
+.rc-title{font-size:1.1rem;margin-bottom:.75rem;color:#fff}
+.rc-text{color:rgba(255,255,255,.55);font-size:.9rem;line-height:1.6}
+
+/* ===================== KEY ISSUES ===================== */
+.issues-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.5rem}
+.issue-card{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);transition:all .3s;border:1px solid rgba(0,0,0,.04)}
+.issue-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-lg)}
+.issue-top{padding:1.5rem 1.5rem .75rem;display:flex;align-items:center;gap:1rem}
+.issue-badge{padding:.3rem .8rem;border-radius:50px;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:#fff}
+.issue-body{padding:0 1.5rem 1.5rem}
+.issue-body h3{font-size:1.2rem;margin-bottom:.5rem}
+.issue-body p{color:var(--text-light);font-size:.9rem;line-height:1.6}
+.issue-footer{padding:.75rem 1.5rem;border-top:1px solid rgba(0,0,0,.04);display:flex;align-items:center;gap:.5rem}
+.issue-footer a{color:var(--rust);font-weight:600;font-size:.85rem;display:flex;align-items:center;gap:.3rem;transition:gap .2s}
+.issue-footer a:hover{gap:.6rem}
+
+/* ===================== TIMELINE ===================== */
+.timeline{position:relative;max-width:800px;margin:0 auto}
+.timeline::before{content:'';position:absolute;left:50%;top:0;bottom:0;width:2px;background:rgba(212,168,67,.2);transform:translateX(-50%)}
+.tl-item{display:flex;align-items:flex-start;margin-bottom:3rem;position:relative}
+.tl-item:nth-child(odd){flex-direction:row-reverse}
+.tl-content{width:calc(50% - 40px);background:#fff;border-radius:var(--radius);padding:1.5rem;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,.04);transition:transform .2s}
+.tl-content:hover{transform:translateY(-2px)}
+.tl-dot{position:absolute;left:50%;transform:translateX(-50%);width:16px;height:16px;background:var(--gold);border-radius:50%;border:3px solid var(--warm-bg);z-index:2;top:1.5rem}
+.tl-year{font-family:'Playfair Display',serif;font-size:1.4rem;color:var(--rust);font-weight:900;margin-bottom:.25rem}
+.tl-text{font-size:.9rem;color:var(--text-light);line-height:1.6}
+
+/* ===================== ORGANIZATIONS ===================== */
+.orgs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.org-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:1.5rem;transition:all .3s}
+.org-card:hover{border-color:rgba(255,255,255,.2);background:rgba(255,255,255,.07)}
+.org-name{font-size:1rem;font-weight:700;color:#fff;margin-bottom:.4rem}
+.org-desc{color:rgba(255,255,255,.5);font-size:.85rem;margin-bottom:1rem;line-height:1.5}
+.org-link{color:var(--gold);font-size:.8rem;font-weight:600;display:inline-flex;align-items:center;gap:.3rem;transition:gap .2s}
+.org-link:hover{gap:.5rem}
+
+/* ===================== RESOURCES ===================== */
+.resources-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
+.resource-card{background:#fff;border-radius:var(--radius);padding:2rem;text-align:center;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,.04);transition:all .3s}
+.resource-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-md)}
+.res-icon{font-size:2.5rem;margin-bottom:1rem}
+.resource-card h3{font-size:1.1rem;margin-bottom:.5rem}
+.resource-card p{color:var(--text-light);font-size:.85rem;margin-bottom:1.2rem;line-height:1.5}
+.res-btn{display:inline-block;background:var(--deep);color:#fff;padding:.5rem 1.2rem;border-radius:50px;font-size:.8rem;font-weight:600;transition:background .3s}
+.res-btn:hover{background:var(--rust)}
+
+/* ===================== CTA BANNER ===================== */
+.cta-banner{background:var(--accent-gradient);padding:5rem 2rem;text-align:center;position:relative;overflow:hidden}
+.cta-banner::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.05'/%3E%3C/svg%3E")}
+.cta-banner h2{font-size:clamp(2rem,4vw,3.2rem);color:#fff;margin-bottom:1rem;position:relative}
+.cta-banner p{color:rgba(255,255,255,.85);font-size:1.1rem;max-width:550px;margin:0 auto 2rem;position:relative}
+.cta-banner .btn-primary{background:#fff;color:var(--deep);position:relative}
+.cta-banner .btn-primary:hover{box-shadow:0 6px 25px rgba(0,0,0,.2)}
+
+/* ===================== FOOTER ===================== */
+.footer{background:var(--deep);padding:4rem 2rem 2rem;border-top:1px solid rgba(255,255,255,.05)}
+.footer-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:3rem}
+.footer-brand h3{font-family:'DM Serif Display',serif;font-size:1.3rem;color:#fff;margin-bottom:.75rem}
+.footer-brand h3 span{color:var(--gold)}
+.footer-brand p{color:rgba(255,255,255,.4);font-size:.85rem;line-height:1.6;max-width:280px}
+.footer-col h4{color:rgba(255,255,255,.6);font-size:.7rem;text-transform:uppercase;letter-spacing:.15em;margin-bottom:1rem}
+.footer-col ul{list-style:none}
+.footer-col li{margin-bottom:.6rem}
+.footer-col a{color:rgba(255,255,255,.45);font-size:.85rem;transition:color .2s}
+.footer-col a:hover{color:var(--gold)}
+.footer-bottom{max-width:1200px;margin:0 auto;border-top:1px solid rgba(255,255,255,.06);padding-top:1.5rem;display:flex;justify-content:space-between;align-items:center}
+.footer-bottom p{color:rgba(255,255,255,.3);font-size:.8rem}
+
+/* ===================== ANIMATIONS ===================== */
+@keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}
+.reveal{opacity:0;transform:translateY(30px);transition:opacity .7s ease,transform .7s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+
+/* ===================== RESPONSIVE ===================== */
+@media(max-width:1024px){
+  .register-grid,.issues-grid{grid-template-columns:1fr}
+  .rights-grid,.orgs-grid,.resources-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr}
+  .timeline::before{left:20px}
+  .tl-item,.tl-item:nth-child(odd){flex-direction:row;padding-left:50px}
+  .tl-content{width:100%}
+  .tl-dot{left:20px}
+}
+@media(max-width:768px){
+  .nav-links{display:none}
+  .mobile-toggle{display:block}
+  .qa-grid{grid-template-columns:repeat(2,1fr)}
+  .hero-stats{gap:1.5rem}
+  .hero-stat .num{font-size:1.8rem}
+  .rights-grid,.orgs-grid,.resources-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .footer-bottom{flex-direction:column;gap:.5rem;text-align:center}
+}
+@media(max-width:480px){
+  .qa-grid{grid-template-columns:1fr}
+  .hero-actions{flex-direction:column;align-items:center}
+}
+</style>
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">Our<span>Voice</span>Vote</a>
+    <ul class="nav-links">
+      <li><a href="#register">Register</a></li>
+      <li><a href="#rights">Your Rights</a></li>
+      <li><a href="#issues">Key Issues</a></li>
+      <li><a href="#history">History</a></li>
+      <li><a href="#organizations">Organizations</a></li>
+      <li><a href="#resources">Resources</a></li>
+    </ul>
+    <a href="https://vote.org/register" target="_blank" rel="noopener" class="nav-cta">Register Now</a>
+    <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')" aria-label="Menu">☰</button>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-badge">Non-Partisan &bull; Community-Powered</div>
+    <h1>Your Vote Is Your <em>Power</em></h1>
+    <p class="hero-sub">A comprehensive civic empowerment hub providing resources, guidance, and tools for voters who prioritize equality, justice, and community strength.</p>
+    <div class="hero-actions">
+      <a href="#register" class="btn-primary">Register to Vote</a>
+      <a href="#resources" class="btn-outline">Explore Resources</a>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat"><div class="num">50+</div><div class="lbl">Resources</div></div>
+      <div class="hero-stat"><div class="num">50</div><div class="lbl">States Covered</div></div>
+      <div class="hero-stat"><div class="num">100%</div><div class="lbl">Free & Non-Partisan</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== QUICK ACTIONS ========== -->
+<div class="quick-actions">
+  <div class="qa-grid">
+    <a href="https://www.vote.org/am-i-registered-to-vote/" target="_blank" rel="noopener" class="qa-item">
+      <div class="qa-icon">🗳️</div>
+      <div class="qa-title">Check Registration</div>
+      <div class="qa-desc">Verify your voter status</div>
+    </a>
+    <a href="https://www.vote.org/polling-place-locator/" target="_blank" rel="noopener" class="qa-item">
+      <div class="qa-icon">📍</div>
+      <div class="qa-title">Find Polling Place</div>
+      <div class="qa-desc">Locate where you vote</div>
+    </a>
+    <a href="https://www.vote.org/absentee-ballot/" target="_blank" rel="noopener" class="qa-item">
+      <div class="qa-icon">✉️</div>
+      <div class="qa-title">Absentee Ballot</div>
+      <div class="qa-desc">Vote by mail options</div>
+    </a>
+    <a href="https://ballotpedia.org/Sample_Ballot_Lookup" target="_blank" rel="noopener" class="qa-item">
+      <div class="qa-icon">📋</div>
+      <div class="qa-title">Sample Ballot</div>
+      <div class="qa-desc">Preview what's on your ballot</div>
+    </a>
+  </div>
+</div>
+
+<!-- ========== REGISTER TO VOTE ========== -->
+<section class="section section-alt" id="register">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Take Action</div>
+      <h2 class="section-title">Register to Vote</h2>
+      <p class="section-subtitle">Registering takes less than 10 minutes. Here's everything you need to get started, no matter what state you're in.</p>
+    </div>
+    <div class="register-grid reveal">
+      <div class="register-visual">
+        <h3>It's Easier Than You Think</h3>
+        <p>Most states allow online registration. Here's the simple process:</p>
+        <ol class="register-steps">
+          <li>Check if you're already registered at Vote.org</li>
+          <li>Gather your ID — driver's license or last 4 of SSN</li>
+          <li>Fill out the online form for your state</li>
+          <li>Submit and save your confirmation</li>
+          <li>Mark your calendar for Election Day</li>
+        </ol>
+      </div>
+      <div class="register-links">
+        <a href="https://register.vote.org/" target="_blank" rel="noopener" class="register-link">
+          <div class="rl-icon" style="background:#E8F5E9;color:var(--forest)">📝</div>
+          <div class="rl-info">
+            <h4>Register Online — Vote.org</h4>
+            <p>The fastest way to register in all 50 states. Free and non-partisan.</p>
+          </div>
+          <div class="rl-arrow">→</div>
+        </a>
+        <a href="https://www.vote.org/am-i-registered-to-vote/" target="_blank" rel="noopener" class="register-link">
+          <div class="rl-icon" style="background:#E3F2FD;color:var(--sky)">✅</div>
+          <div class="rl-info">
+            <h4>Check Your Registration Status</h4>
+            <p>Make sure your registration is current and your info is correct.</p>
+          </div>
+          <div class="rl-arrow">→</div>
+        </a>
+        <a href="https://www.eac.gov/voters/register-and-vote-in-your-state" target="_blank" rel="noopener" class="register-link">
+          <div class="rl-icon" style="background:#FFF3E0;color:var(--rust)">🏛️</div>
+          <div class="rl-info">
+            <h4>State-by-State Guide (EAC)</h4>
+            <p>Official Election Assistance Commission guide for every state.</p>
+          </div>
+          <div class="rl-arrow">→</div>
+        </a>
+        <a href="https://www.nass.org/can-I-vote" target="_blank" rel="noopener" class="register-link">
+          <div class="rl-icon" style="background:#F3E5F5;color:var(--plum)">🗺️</div>
+          <div class="rl-info">
+            <h4>Can I Vote? — NASS</h4>
+            <p>Secretary of State offices with ID requirements, deadlines, and more.</p>
+          </div>
+          <div class="rl-arrow">→</div>
+        </a>
+        <a href="https://www.usa.gov/voter-id" target="_blank" rel="noopener" class="register-link">
+          <div class="rl-icon" style="background:#ECEFF1;color:#455A64">🪪</div>
+          <div class="rl-info">
+            <h4>Voter ID Requirements — USA.gov</h4>
+            <p>Find out exactly what ID you need to vote in your state.</p>
+          </div>
+          <div class="rl-arrow">→</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== KNOW YOUR RIGHTS ========== -->
+<section class="section section-dark" id="rights">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Empower Yourself</div>
+      <h2 class="section-title" style="color:#fff">Know Your Voting Rights</h2>
+      <p class="section-subtitle">Federal law protects your right to vote. Understanding these protections is the first step to making sure your voice is heard.</p>
+    </div>
+    <div class="rights-grid">
+      <div class="right-card reveal">
+        <div class="rc-icon">⚖️</div>
+        <h3 class="rc-title">Right to Vote Without Intimidation</h3>
+        <p class="rc-text">Federal law prohibits voter intimidation. No one — including election officials, poll watchers, or other voters — may threaten, coerce, or pressure you at the polls. If you feel intimidated, you can report it to the Department of Justice at 1-800-253-3931.</p>
+      </div>
+      <div class="right-card reveal">
+        <div class="rc-icon">🗣️</div>
+        <h3 class="rc-title">Right to Language Assistance</h3>
+        <p class="rc-text">Under the Voting Rights Act, jurisdictions with significant language minority populations must provide ballots and voting materials in those languages. You also have the right to bring someone to help you vote — except your employer or union representative.</p>
+      </div>
+      <div class="right-card reveal">
+        <div class="rc-icon">♿</div>
+        <h3 class="rc-title">Right to Accessible Voting</h3>
+        <p class="rc-text">The Americans with Disabilities Act requires polling places to be physically accessible. If you have a disability, you're entitled to assistance and accommodations, including accessible voting machines and curbside voting where available.</p>
+      </div>
+      <div class="right-card reveal">
+        <div class="rc-icon">📊</div>
+        <h3 class="rc-title">Right to a Provisional Ballot</h3>
+        <p class="rc-text">If your name doesn't appear on the voter rolls or your eligibility is questioned, you have the right to cast a provisional ballot under the Help America Vote Act. Your vote will be counted once your eligibility is confirmed.</p>
+      </div>
+      <div class="right-card reveal">
+        <div class="rc-icon">⏰</div>
+        <h3 class="rc-title">Right to Time Off to Vote</h3>
+        <p class="rc-text">Many states require employers to give workers time off to vote. Policies vary — some provide paid leave, others unpaid. Check your state's laws. Your employer cannot penalize you for taking legally allowed time to vote.</p>
+      </div>
+      <div class="right-card reveal">
+        <div class="rc-icon">🛡️</div>
+        <h3 class="rc-title">Right to Report Problems</h3>
+        <p class="rc-text">If you encounter voting issues — broken machines, long waits, or discriminatory practices — you can report them. Call the Election Protection Hotline at 866-OUR-VOTE (866-687-8683) for nonpartisan help in English, or 888-VE-Y-VOTA for Spanish.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== KEY ISSUES ========== -->
+<section class="section" id="issues">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Stay Informed</div>
+      <h2 class="section-title">Key Issues That Matter</h2>
+      <p class="section-subtitle">Understanding the policy areas that directly impact Black communities is essential to making informed choices at the ballot box.</p>
+    </div>
+    <div class="issues-grid">
+      <div class="issue-card reveal">
+        <div class="issue-top">
+          <div class="issue-badge" style="background:var(--rust)">Healthcare</div>
+        </div>
+        <div class="issue-body">
+          <h3>Healthcare Access & Equity</h3>
+          <p>From Medicaid expansion to maternal health disparities, healthcare policy directly shapes health outcomes. Black Americans experience disproportionate rates of chronic conditions, and policy decisions on insurance coverage, hospital funding, and community health centers have life-or-death implications.</p>
+        </div>
+        <div class="issue-footer">
+          <a href="https://www.kff.org/racial-equity-and-health-policy/" target="_blank" rel="noopener">Learn more at KFF →</a>
+        </div>
+      </div>
+      <div class="issue-card reveal">
+        <div class="issue-top">
+          <div class="issue-badge" style="background:var(--forest)">Economy</div>
+        </div>
+        <div class="issue-body">
+          <h3>Economic Opportunity & Wealth</h3>
+          <p>The racial wealth gap remains one of the most significant economic challenges. Policies around minimum wage, housing discrimination, small business access, and student debt all play critical roles in determining economic mobility and generational wealth building.</p>
+        </div>
+        <div class="issue-footer">
+          <a href="https://www.brookings.edu/topics/racial-equity/" target="_blank" rel="noopener">Research at Brookings →</a>
+        </div>
+      </div>
+      <div class="issue-card reveal">
+        <div class="issue-top">
+          <div class="issue-badge" style="background:var(--sky)">Education</div>
+        </div>
+        <div class="issue-body">
+          <h3>Education Funding & Access</h3>
+          <p>School funding formulas, higher education access, and early childhood programs all shape future opportunities. Policies around Title I funding, HBCUs, Pell Grants, and K-12 resource equity have outsized impact on Black students and communities.</p>
+        </div>
+        <div class="issue-footer">
+          <a href="https://edtrust.org/" target="_blank" rel="noopener">Explore at Education Trust →</a>
+        </div>
+      </div>
+      <div class="issue-card reveal">
+        <div class="issue-top">
+          <div class="issue-badge" style="background:var(--plum)">Justice</div>
+        </div>
+        <div class="issue-body">
+          <h3>Criminal Justice Reform</h3>
+          <p>From policing practices and sentencing reform to reentry support and eliminating cash bail — criminal justice policy disproportionately affects Black communities. Understanding where candidates stand on reform is essential to informed voting.</p>
+        </div>
+        <div class="issue-footer">
+          <a href="https://www.sentencingproject.org/" target="_blank" rel="noopener">Data at Sentencing Project →</a>
+        </div>
+      </div>
+      <div class="issue-card reveal">
+        <div class="issue-top">
+          <div class="issue-badge" style="background:#E67E22">Housing</div>
+        </div>
+        <div class="issue-body">
+          <h3>Fair Housing & Homeownership</h3>
+          <p>Housing policy — from zoning laws to mortgage lending — has historically been used to enforce segregation. Today, addressing redlining's legacy, expanding affordable housing, and protecting renters' rights remain critical policy priorities.</p>
+        </div>
+        <div class="issue-footer">
+          <a href="https://nationalfairhousing.org/" target="_blank" rel="noopener">Learn at NFHA →</a>
+        </div>
+      </div>
+      <div class="issue-card reveal">
+        <div class="issue-top">
+          <div class="issue-badge" style="background:#2C3E50">Voting Rights</div>
+        </div>
+        <div class="issue-body">
+          <h3>Voting Rights & Access</h3>
+          <p>Voter ID laws, gerrymandering, polling place closures, and voter purges continue to affect access to the ballot. Staying informed about legislative efforts to expand or restrict voting rights is fundamental to civic engagement.</p>
+        </div>
+        <div class="issue-footer">
+          <a href="https://www.brennancenter.org/issues/ensure-every-american-can-vote" target="_blank" rel="noopener">Brennan Center insights →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HISTORY TIMELINE ========== -->
+<section class="section section-alt" id="history">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Our Legacy</div>
+      <h2 class="section-title">Milestones in Voting Rights</h2>
+      <p class="section-subtitle">The fight for voting rights has been long, hard-won, and ongoing. Here are some of the defining moments.</p>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-content">
+          <div class="tl-year">1870</div>
+          <div class="tl-text">The 15th Amendment is ratified, prohibiting the denial of the right to vote based on race, color, or previous condition of servitude — though enforcement remained deeply flawed for nearly a century.</div>
+        </div>
+        <div class="tl-dot"></div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-content">
+          <div class="tl-year">1920</div>
+          <div class="tl-text">The 19th Amendment grants women the right to vote, though Black women in many Southern states continued to face barriers such as poll taxes, literacy tests, and violence at the polls.</div>
+        </div>
+        <div class="tl-dot"></div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-content">
+          <div class="tl-year">1964</div>
+          <div class="tl-text">The 24th Amendment abolishes poll taxes in federal elections — a major tool used to disenfranchise Black voters. The Civil Rights Act is also signed, prohibiting discrimination based on race in public accommodations and federally funded programs.</div>
+        </div>
+        <div class="tl-dot"></div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-content">
+          <div class="tl-year">1965</div>
+          <div class="tl-text">The Voting Rights Act is signed into law by President Lyndon B. Johnson following the Selma to Montgomery marches. It outlawed literacy tests and provided federal oversight of voter registration in areas with historic discrimination.</div>
+        </div>
+        <div class="tl-dot"></div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-content">
+          <div class="tl-year">1971</div>
+          <div class="tl-text">The 26th Amendment lowers the voting age to 18, expanding the electorate significantly and empowering young Americans of all backgrounds to participate in democracy.</div>
+        </div>
+        <div class="tl-dot"></div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-content">
+          <div class="tl-year">1993</div>
+          <div class="tl-text">The National Voter Registration Act ("Motor Voter Act") makes voter registration easier by allowing people to register at DMVs and public agencies, expanding access for millions.</div>
+        </div>
+        <div class="tl-dot"></div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-content">
+          <div class="tl-year">2013</div>
+          <div class="tl-text">In Shelby County v. Holder, the Supreme Court strikes down a key provision of the Voting Rights Act, removing federal preclearance requirements. Many states subsequently passed restrictive voting laws.</div>
+        </div>
+        <div class="tl-dot"></div>
+      </div>
+      <div class="tl-item reveal">
+        <div class="tl-content">
+          <div class="tl-year">2020</div>
+          <div class="tl-text">Record voter turnout — over 159 million Americans cast ballots. Black voter mobilization played a decisive role in several key states. The election also sparked renewed national conversation about voting access and election security.</div>
+        </div>
+        <div class="tl-dot"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== ORGANIZATIONS ========== -->
+<section class="section section-dark" id="organizations">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Get Connected</div>
+      <h2 class="section-title" style="color:#fff">Organizations Making a Difference</h2>
+      <p class="section-subtitle">These non-partisan and community-focused organizations are doing critical work in voter engagement, civil rights, and civic empowerment.</p>
+    </div>
+    <div class="orgs-grid">
+      <div class="org-card reveal">
+        <div class="org-name">NAACP — Power the Vote</div>
+        <div class="org-desc">One of the nation's oldest civil rights organizations, the NAACP runs voter registration drives, advocates for voting rights legislation, and monitors elections across the country.</div>
+        <a href="https://naacp.org/campaigns/power-your-vote" target="_blank" rel="noopener" class="org-link">Visit NAACP →</a>
+      </div>
+      <div class="org-card reveal">
+        <div class="org-name">Black Voters Matter Fund</div>
+        <div class="org-desc">Works to increase civic power in marginalized, predominantly Black communities through voter registration, advocacy, and grassroots organizing across 25+ states.</div>
+        <a href="https://blackvotersmatterfund.org/" target="_blank" rel="noopener" class="org-link">Visit BVM →</a>
+      </div>
+      <div class="org-card reveal">
+        <div class="org-name">NAACP Legal Defense Fund</div>
+        <div class="org-desc">Fights for voting rights through litigation, advocacy, and public education. Their Democracy Defended reports document barriers to voting and provide resources for communities.</div>
+        <a href="https://voting.naacpldf.org/" target="_blank" rel="noopener" class="org-link">Visit LDF →</a>
+      </div>
+      <div class="org-card reveal">
+        <div class="org-name">Black Girls Vote</div>
+        <div class="org-desc">A non-partisan organization dedicated to representing the concerns of Black women through voter education, engagement, and empowerment initiatives across the country.</div>
+        <a href="https://blackgirlsvote.com/" target="_blank" rel="noopener" class="org-link">Visit BGV →</a>
+      </div>
+      <div class="org-card reveal">
+        <div class="org-name">Black Male Voter Project</div>
+        <div class="org-desc">Addresses historically low civic engagement among Black men through unconventional outreach — focus groups, community events, and culturally resonant organizing strategies.</div>
+        <a href="https://blackmalevoterproject.org/" target="_blank" rel="noopener" class="org-link">Visit BMVP →</a>
+      </div>
+      <div class="org-card reveal">
+        <div class="org-name">Vote.org</div>
+        <div class="org-desc">The largest non-partisan voter registration and GOTV technology platform in America. Provides tools for registration, absentee ballots, polling place lookups, and election reminders.</div>
+        <a href="https://www.vote.org/" target="_blank" rel="noopener" class="org-link">Visit Vote.org →</a>
+      </div>
+      <div class="org-card reveal">
+        <div class="org-name">Brennan Center for Justice</div>
+        <div class="org-desc">A leading policy institute focused on voting rights, election security, and democratic reform. Publishes in-depth research and advocates for laws that expand ballot access.</div>
+        <a href="https://www.brennancenter.org/" target="_blank" rel="noopener" class="org-link">Visit Brennan Center →</a>
+      </div>
+      <div class="org-card reveal">
+        <div class="org-name">National Urban League</div>
+        <div class="org-desc">Advocates for economic and civic empowerment for African Americans through education, employment, health, and civic engagement programs in over 90 communities nationwide.</div>
+        <a href="https://nul.org/" target="_blank" rel="noopener" class="org-link">Visit NUL →</a>
+      </div>
+      <div class="org-card reveal">
+        <div class="org-name">When We All Vote</div>
+        <div class="org-desc">Co-chaired by Michelle Obama, this non-partisan initiative works to increase voter participation in every election through community organizing, volunteer engagement, and voter education tools.</div>
+        <a href="https://www.whenweallvote.org/" target="_blank" rel="noopener" class="org-link">Visit WWAV →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== RESOURCES ========== -->
+<section class="section" id="resources">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-label">Tools & Links</div>
+      <h2 class="section-title">Essential Resources</h2>
+      <p class="section-subtitle">Everything you need to be an informed, active voter — all in one place.</p>
+    </div>
+    <div class="resources-grid">
+      <div class="resource-card reveal">
+        <div class="res-icon">🔍</div>
+        <h3>Find Your Representatives</h3>
+        <p>Look up your elected officials at every level — federal, state, and local — and see their voting records and contact information.</p>
+        <a href="https://myreps.datamade.us/" target="_blank" rel="noopener" class="res-btn">Find Reps</a>
+      </div>
+      <div class="resource-card reveal">
+        <div class="res-icon">📰</div>
+        <h3>Track Legislation</h3>
+        <p>Follow bills through Congress and your state legislature. See who sponsored them, how they voted, and what the impact would be.</p>
+        <a href="https://www.congress.gov/" target="_blank" rel="noopener" class="res-btn">Congress.gov</a>
+      </div>
+      <div class="resource-card reveal">
+        <div class="res-icon">🏛️</div>
+        <h3>Ballotpedia</h3>
+        <p>The digital encyclopedia of American politics. Research candidates, ballot measures, and elections happening in your area.</p>
+        <a href="https://ballotpedia.org/" target="_blank" rel="noopener" class="res-btn">Explore</a>
+      </div>
+      <div class="resource-card reveal">
+        <div class="res-icon">📞</div>
+        <h3>Election Protection Hotline</h3>
+        <p>If you encounter problems voting, call 866-OUR-VOTE for English or 888-VE-Y-VOTA for Spanish. Free, non-partisan help.</p>
+        <a href="https://866ourvote.org/" target="_blank" rel="noopener" class="res-btn">Get Help</a>
+      </div>
+      <div class="resource-card reveal">
+        <div class="res-icon">🗓️</div>
+        <h3>Election Dates & Deadlines</h3>
+        <p>Never miss a deadline. Find registration deadlines, early voting dates, and Election Day info for every state and territory.</p>
+        <a href="https://www.vote.org/election-dates-deadlines/" target="_blank" rel="noopener" class="res-btn">View Dates</a>
+      </div>
+      <div class="resource-card reveal">
+        <div class="res-icon">🎓</div>
+        <h3>Civic Education Hub</h3>
+        <p>Learn how government works — from local school boards to the Supreme Court. Understanding the system helps you use it effectively.</p>
+        <a href="https://www.icivics.org/" target="_blank" rel="noopener" class="res-btn">Start Learning</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA BANNER ========== -->
+<section class="cta-banner">
+  <h2>Ready to Make Your Voice Heard?</h2>
+  <p>Register to vote today. Check your status. Find your polling place. Share this page with your community. Every voice matters.</p>
+  <a href="https://register.vote.org/" target="_blank" rel="noopener" class="btn-primary">Register to Vote Now</a>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <h3>Our<span>Voice</span>Vote</h3>
+      <p>A free, non-partisan civic empowerment resource built to help voters access information, understand their rights, and engage with democracy.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#register">Register to Vote</a></li>
+        <li><a href="#rights">Know Your Rights</a></li>
+        <li><a href="#issues">Key Issues</a></li>
+        <li><a href="#history">Voting History</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Resources</h4>
+      <ul>
+        <li><a href="https://www.vote.org/" target="_blank" rel="noopener">Vote.org</a></li>
+        <li><a href="https://ballotpedia.org/" target="_blank" rel="noopener">Ballotpedia</a></li>
+        <li><a href="https://www.congress.gov/" target="_blank" rel="noopener">Congress.gov</a></li>
+        <li><a href="https://866ourvote.org/" target="_blank" rel="noopener">Election Protection</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Organizations</h4>
+      <ul>
+        <li><a href="https://naacp.org/" target="_blank" rel="noopener">NAACP</a></li>
+        <li><a href="https://blackvotersmatterfund.org/" target="_blank" rel="noopener">Black Voters Matter</a></li>
+        <li><a href="https://www.brennancenter.org/" target="_blank" rel="noopener">Brennan Center</a></li>
+        <li><a href="https://www.whenweallvote.org/" target="_blank" rel="noopener">When We All Vote</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 OurVoiceVote — Free &amp; open source. Share freely.</p>
+    <p>This site is non-partisan and not affiliated with any political party.</p>
+  </div>
+</footer>
+
+<!-- ========== SCROLL REVEAL ========== -->
+<script>
+document.addEventListener('DOMContentLoaded',()=>{
+  const reveals=document.querySelectorAll('.reveal');
+  const observer=new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}})
+  },{threshold:0.1,rootMargin:'0px 0px -50px 0px'});
+  reveals.forEach(el=>observer.observe(el));
+
+  // Mobile nav
+  const style=document.createElement('style');
+  style.textContent=`.nav-links.show{display:flex!important;flex-direction:column;position:absolute;top:70px;left:0;right:0;background:rgba(13,13,13,.98);padding:1.5rem 2rem;gap:1rem;border-bottom:1px solid rgba(212,168,67,.15)}`;
+  document.head.appendChild(style);
+
+  // Smooth scroll for nav links
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.addEventListener('click',e=>{
+      e.preventDefault();
+      const t=document.querySelector(a.getAttribute('href'));
+      if(t)t.scrollIntoView({behavior:'smooth',block:'start'});
+      document.querySelector('.nav-links')?.classList.remove('show');
+    });
+  });
+});
+</script>
+
+</body>
+</html>

@@ -852,5 +852,5 @@ document.getElementById('billSearch').addEventListener('keypress',e=>{if(e.key==
 let selectedAmount=25;
 function selectTier(el,amt){selectedAmount=amt;document.querySelectorAll('.donate-tier').forEach(t=>t.classList.remove('selected'));el.classList.add('selected');document.getElementById('customAmount').value=''}
 function clearTierSelection(){document.querySelectorAll('.donate-tier').forEach(t=>t.classList.remove('selected'));var v=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');if(v)selectedAmount=parseFloat(v)}
-function handleDonate(e){e.preventDefault();var cv=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');var amt=cv?parseFloat(cv):selectedAmount;if(!amt||amt<=0){alert('Please select or enter a donation amount.');return}window.open('https://paypal.me/ourvoicevote/'+amt,'_blank')}
+function handleDonate(e){e.preventDefault();var cv=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');var amt=cv?parseFloat(cv):selectedAmount;if(!amt||amt<=0){alert('Please select or enter a donation amount.');return}window.open('https://paypal.me/ourvoicevote1526/'+amt,'_blank')}
 </script></body></html>

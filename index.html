@@ -1,17 +1,3 @@
-Here you go — the complete code is below in one big code block. There's a **copy button** in the top-right corner of the code block (it usually looks like 📋 or two squares overlapping). Click it once and the whole thing copies.
-
-**What to do:**
-
-1. Click the copy button on the code block below
-2. Go to https://github.com/blacklogic28/ourvoicevote
-3. Click `index.html` → click the pencil ✏️
-4. Click inside the code box, press **Ctrl+A** (or **Cmd+A** on Mac), then **Delete**
-5. Paste with **Ctrl+V** (or **Cmd+V** on Mac)
-6. Scroll down, click the green **"Commit changes..."** button, then click **"Commit changes"** again on the popup
-
-Here's the code:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -879,6 +865,3 @@ function selectTier(el,amt){selectedAmount=amt;document.querySelectorAll('.donat
 function clearTierSelection(){document.querySelectorAll('.donate-tier').forEach(t=>t.classList.remove('selected'));var v=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');if(v)selectedAmount=parseFloat(v)}
 function handleDonate(e){e.preventDefault();var cv=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');var amt=cv?parseFloat(cv):selectedAmount;if(!amt||amt<=0){alert('Please select or enter a donation amount.');return}window.open('https://paypal.me/ourvoicevote1526/'+amt,'_blank')}
 </script></body></html>
-```
-
-That's all of it. Tap the copy button, then follow the steps above. You've got this!

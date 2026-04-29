@@ -1,3 +1,17 @@
+Here you go — the complete code is below in one big code block. There's a **copy button** in the top-right corner of the code block (it usually looks like 📋 or two squares overlapping). Click it once and the whole thing copies.
+
+**What to do:**
+
+1. Click the copy button on the code block below
+2. Go to https://github.com/blacklogic28/ourvoicevote
+3. Click `index.html` → click the pencil ✏️
+4. Click inside the code box, press **Ctrl+A** (or **Cmd+A** on Mac), then **Delete**
+5. Paste with **Ctrl+V** (or **Cmd+V** on Mac)
+6. Scroll down, click the green **"Commit changes..."** button, then click **"Commit changes"** again on the popup
+
+Here's the code:
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,6 +77,7 @@ a{text-decoration:none}
 .donate-tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:1rem;margin:2rem 0}.donate-tier{background:var(--warm-bg);border:2px solid rgba(0,0,0,.06);border-radius:var(--radius);padding:1.5rem 1rem;cursor:pointer;transition:all .3s;text-align:center}.donate-tier:hover,.donate-tier.selected{border-color:var(--gold);background:rgba(212,168,67,.08);transform:translateY(-2px)}.donate-tier .amount{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:900;color:var(--rust);display:block}.donate-tier .tier-label{font-size:.75rem;color:var(--text-light);text-transform:uppercase;letter-spacing:.1em;margin-top:.25rem}
 .donate-custom{display:flex;gap:.75rem;max-width:350px;margin:0 auto 1.5rem;align-items:center;justify-content:center;flex-wrap:wrap}.donate-custom input{width:140px;padding:.75rem 1rem;background:var(--warm-bg);border:2px solid rgba(0,0,0,.08);border-radius:8px;color:var(--text);font-size:1.1rem;font-family:'Playfair Display',serif;outline:none;text-align:center}.donate-custom input:focus{border-color:var(--gold)}
 .donate-btn{display:inline-flex;align-items:center;gap:.5rem;padding:1rem 2.5rem;background:linear-gradient(135deg,#D4A843,#C05236);color:#fff;border:none;border-radius:50px;font-weight:700;font-size:1rem;cursor:pointer;font-family:inherit;text-transform:uppercase;letter-spacing:.1em;transition:all .3s;text-decoration:none}.donate-btn:hover{transform:translateY(-3px);box-shadow:0 6px 25px rgba(212,168,67,.4)}
+.election-callout{background:linear-gradient(135deg,rgba(212,168,67,.15),rgba(192,82,54,.1));border:2px solid var(--gold);border-radius:var(--radius);padding:1.25rem 1.5rem;margin-bottom:1.5rem;color:var(--text)}.election-callout strong{color:var(--rust);font-size:1.05rem;display:block;margin-bottom:.4rem}.election-callout p{margin:0;font-size:.95rem;color:var(--text)}
 .footer{background:var(--ink);color:rgba(255,255,255,.7);padding:3rem 2rem 1.5rem}.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;max-width:1200px;margin:0 auto 2rem}.footer-section h4{color:var(--gold);margin-bottom:1rem;font-family:'Playfair Display',serif}.footer-section ul{list-style:none}.footer-section li{margin-bottom:.5rem}.footer-section a{color:rgba(255,255,255,.7);transition:color .3s;text-decoration:none}.footer-section a:hover{color:var(--gold)}.footer-bottom{text-align:center;padding-top:2rem;border-top:1px solid rgba(255,255,255,.1);max-width:1200px;margin:0 auto;font-size:.85rem}.disclaimer{background:rgba(0,0,0,.02);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);padding:1.5rem;margin-top:2rem;font-size:.85rem;line-height:1.7;color:rgba(255,255,255,.5)}
 .fade-up{opacity:0;transform:translateY(25px);transition:all .6s ease}.fade-up.visible{opacity:1;transform:translateY(0)}
 @media(max-width:900px){.nav-links{display:none}.nav-links.open{display:flex;flex-direction:column;position:absolute;top:70px;left:0;right:0;background:rgba(13,13,13,.98);padding:1rem;border-top:1px solid rgba(255,255,255,.08);gap:0}.nav-links.open a{padding:.75rem 1rem;width:100%}.hamburger{display:flex}.card-grid{grid-template-columns:1fr}.hero-stats{gap:2rem}.section{padding:3rem 1.5rem}.search-form{flex-direction:column}.donate-tiers{grid-template-columns:repeat(2,1fr)}}
@@ -122,14 +137,19 @@ a{text-decoration:none}
       <div class="label">Unarmed Black Americans killed 2015-2024</div>
     </div>
 
+    <div class="stat-highlight">
+      <div class="num">1,314</div>
+      <div class="label">People killed by police in 2025 — first decline in six years</div>
+    </div>
+
     <div class="content-box">
       <h3>The Data</h3>
-      <p><strong>Black Americans are killed by police at more than twice the rate of White Americans</strong> (6.1 per million vs 2.4 per million), despite comprising only 13% of the U.S. population. The databases below track every police killing since 2015, including circumstances, officer charges, and case outcomes.</p>
+      <p><strong>Black Americans are killed by police at nearly three times the rate of White Americans per capita</strong>, despite comprising only 13% of the U.S. population. The 2025 Mapping Police Violence Annual Report documents persistent racial disparities across all states. The databases below track every police killing since 2015, including circumstances, officer charges, and case outcomes.</p>
       
       <h4>Comprehensive Databases:</h4>
-      <p><strong>Washington Post Police Shootings Database (2015-2024):</strong><br><a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">Complete searchable database</a> - Filter by race, armed status, mental health, fleeing status, and more. Over 10,000 cases documented.</p>
+      <p><strong>Washington Post Police Shootings Database (2015-2024):</strong><br><a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">Complete searchable database</a> - Filter by race, armed status, mental health, fleeing status, and more. Over 10,000 cases documented. <em>Note: The Washington Post stopped tracking new cases on January 1, 2025; this is now a closed historical dataset covering 2015-2024.</em></p>
       
-      <p><strong>Mapping Police Violence:</strong><br><a href="https://mappingpoliceviolence.org/" target="_blank">Interactive map and database</a> - Tracks all police killings with case details, outcomes, and accountability metrics. 2024 was the deadliest year on record with 1,365 people killed.</p>
+      <p><strong>Mapping Police Violence:</strong><br><a href="https://mappingpoliceviolence.us/" target="_blank">Interactive map and database</a> - Tracks all police killings with case details, outcomes, and accountability metrics. 2024 was the deadliest year on record with approximately 1,381 people killed. In 2025, U.S. law enforcement killed at least 1,314 people — a 5% decrease from 2024 and the first year-over-year decline in six years. <em>(Source: Campaign Zero / Mapping Police Violence 2025 Annual Report)</em></p>
       
       <p><strong>Wikipedia List of Unarmed African Americans Killed:</strong><br><a href="https://en.wikipedia.org/wiki/List_of_unarmed_African_Americans_killed_by_law_enforcement_officers_in_the_United_States" target="_blank">Detailed case-by-case list</a> - Individual stories, dates, circumstances, and outcomes for 309 unarmed victims from 2015-2024.</p>
     </div>
@@ -193,7 +213,7 @@ a{text-decoration:none}
         <li><strong>Evidence Planting:</strong> Cases where officers planted drugs or weapons documented by body camera footage</li>
         <li><strong>False Reports:</strong> Officers filing false incident reports contradicted by video evidence</li>
         <li><strong>Qualified Immunity:</strong> Legal doctrine shielding officers from civil liability in most cases</li>
-        <li><strong>Lack of Accountability:</strong> Less than 3% of police killings result in criminal charges</li>
+        <li><strong>Lack of Accountability:</strong> Fewer than 3% of police killings result in criminal charges, though the charging rate has nearly doubled since 2020 (Source: Campaign Zero, 2025)</li>
         <li><strong>No-Knock Warrants:</strong> Raids resulting in deaths of innocent people in their homes</li>
         <li><strong>Mental Health Crisis Response:</strong> Over 25% of people killed by police were experiencing mental health crises</li>
       </ul>
@@ -323,6 +343,10 @@ a{text-decoration:none}
     </div>
     
     <div class="content-box">
+      <div class="election-callout">
+        <strong>🗳️ Next Federal Election: Tuesday, November 3, 2026 (Midterms)</strong>
+        <p>All 435 House seats, 35 Senate seats, and 39 governorships on the ballot. Registration deadlines vary by state — check yours below.</p>
+      </div>
       <h3>How to Register</h3>
       <p>Registering to vote is straightforward. Here's what you need:</p>
       <ul>
@@ -836,9 +860,10 @@ a{text-decoration:none}
 <div class="footer-section"><h4>Our<span style="color:var(--gold)">Voice</span>Vote</h4><p>A free, non-partisan civic empowerment resource.</p></div>
 <div class="footer-section"><h4>Quick Links</h4><ul><li><a href="#politicians">Track Politicians</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#accountability">Accountability</a></li><li><a href="#rights">Your Rights</a></li><li><a href="#register">Register to Vote</a></li><li><a href="#help">Resources</a></li><li><a href="#donate">Donate</a></li></ul></div>
 <div class="footer-section"><h4>Official Resources</h4><ul><li><a href="https://vote.gov/" target="_blank">Vote.gov</a></li><li><a href="https://866ourvote.org/" target="_blank">Election Protection</a></li><li><a href="https://www.congress.gov/" target="_blank">Congress.gov</a></li><li><a href="https://www.usa.gov/elected-officials" target="_blank">Contact Representatives</a></li></ul></div>
-<div class="footer-section"><h4>Data Sources</h4><ul><li><a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">Washington Post Database</a></li><li><a href="https://mappingpoliceviolence.org/" target="_blank">Mapping Police Violence</a></li><li><a href="https://www.opensecrets.org/" target="_blank">OpenSecrets</a></li><li><a href="https://www.govtrack.us/" target="_blank">GovTrack</a></li></ul></div></div>
+<div class="footer-section"><h4>Data Sources</h4><ul><li><a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">Washington Post Database</a></li><li><a href="https://mappingpoliceviolence.us/" target="_blank">Mapping Police Violence</a></li><li><a href="https://www.opensecrets.org/" target="_blank">OpenSecrets</a></li><li><a href="https://www.govtrack.us/" target="_blank">GovTrack</a></li></ul></div></div>
 <div class="footer-bottom"><div class="disclaimer"><strong>Legal Disclaimer:</strong> This website provides general information about voting rights, civic engagement, police accountability, and community resources for educational purposes only. Always verify with official sources. Police accountability data compiled from publicly available databases. By using this site, you agree that OurVoiceVote is not liable for decisions resulting from information provided here.</div>
 <p style="margin-top:2rem">&copy; 2026 OurVoiceVote &mdash; Free &amp; open source. Share freely. Non-partisan.</p>
+<p style="margin-top:.5rem;font-size:.8rem;opacity:.7">Last updated: April 29, 2026</p>
 <p style="margin-top:1rem;font-size:.75rem">Data: Washington Post, Mapping Police Violence, Wikipedia, National Archives, Vote.gov, HHS.gov, Congress.gov.</p></div></footer>
 <script>
 document.querySelectorAll('.nav-links a').forEach(a=>{a.addEventListener('click',()=>{document.getElementById('navLinks').classList.remove('open')})});
@@ -854,3 +879,6 @@ function selectTier(el,amt){selectedAmount=amt;document.querySelectorAll('.donat
 function clearTierSelection(){document.querySelectorAll('.donate-tier').forEach(t=>t.classList.remove('selected'));var v=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');if(v)selectedAmount=parseFloat(v)}
 function handleDonate(e){e.preventDefault();var cv=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');var amt=cv?parseFloat(cv):selectedAmount;if(!amt||amt<=0){alert('Please select or enter a donation amount.');return}window.open('https://paypal.me/ourvoicevote1526/'+amt,'_blank')}
 </script></body></html>
+```
+
+That's all of it. Tap the copy button, then follow the steps above. You've got this!

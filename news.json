@@ -1,33 +1,33 @@
 {
-  "updated": "2026-06-09T14:00:00-05:00",
+  "updated": "2026-06-09T16:46:28.967Z",
   "updatedLabel": "June 9, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "Executive order reclassifies about 8,000 federal positions into Schedule Policy/Career",
-          "summary": "On June 3, President Trump signed an executive order moving roughly 8,000 senior policy-influencing federal positions into a new Schedule Policy/Career classification, removing certain civil-service job protections.",
-          "details": "The order creates a new Schedule Policy/Career category covering roughly 8,000 senior federal roles that help shape policy. Employees in these positions lose certain civil-service protections, making them easier to remove. The administration describes it as increasing accountability; opponents say it could weaken civil-service safeguards.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/03/nx-s1-5742806/trump-federal-employees-civil-service-job-protections-schedule-f",
+          "title": "Trump signs executive order on AI innovation and cybersecurity",
+          "summary": "On June 2, 2026, the White House issued an executive order directing federal agencies to create a framework for secure deployment of frontier AI models and to strengthen cyber defenses.",
+          "details": "The order outlines two approaches: strengthening government and private-sector cyber defenses against advanced AI, and developing voluntary benchmarking and review frameworks for frontier models. It includes a process by which developers may voluntarily give the government early access to models for up to 30 days before broader release.",
+          "source": "Inside Privacy (Covington & Burling)",
+          "url": "https://www.insideprivacy.com/artificial-intelligence/white-house-releases-executive-order-on-advanced-ai-innovation-and-security/",
+          "date": "2026-06-02"
+        },
+        {
+          "title": "Executive order moves about 8,000 federal positions to Schedule Policy/Career",
+          "summary": "On June 3, 2026, President Trump signed an executive order formalizing Schedule Policy/Career, a new employment category for roughly 8,000 senior federal positions.",
+          "details": "The order reclassifies about 8,000 senior policy-influencing positions and makes them at-will, removing certain civil-service protections. Agencies were given seven days to make conforming changes to affected employees' records. Federal unions and employee organizations have criticized the move, while the administration said it improves accountability.",
+          "source": "Federal News Network",
+          "url": "https://federalnewsnetwork.com/workforce/2026/06/trump-moves-about-8000-federal-positions-to-schedule-policy-career/",
           "date": "2026-06-03"
         },
         {
-          "title": "Executive order on advanced AI innovation and security",
-          "summary": "An executive order published in the Federal Register on June 5 directs federal agencies to support AI innovation and strengthen cybersecurity of government and critical-infrastructure systems.",
-          "details": "The executive order directs federal agencies to promote development of advanced artificial intelligence while strengthening cybersecurity for government and critical-infrastructure systems. It was published in the Federal Register on June 5, 2026. It is one of several recent federal actions addressing AI.",
-          "source": "Federal Register",
-          "url": "https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security",
-          "date": "2026-06-05"
-        },
-        {
-          "title": "National security memorandum directs faster AI adoption in military and intelligence",
-          "summary": "On June 5, the President signed National Security Presidential Memorandum NSPM-11 directing the national-security enterprise to accelerate adoption of advanced AI systems, rescinding the prior NSM-25.",
-          "details": "The national security memorandum directs defense and intelligence agencies to speed up adoption of advanced AI systems. It replaces the earlier NSM-25. The action is part of a broader effort to integrate artificial intelligence across the national-security enterprise.",
-          "source": "The White House",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/",
-          "date": "2026-06-05"
+          "title": "IRS announces states participating in Federal Scholarship Tax Credit program",
+          "summary": "On June 8, 2026, the IRS announced that 27 states have elected to participate in the Federal Scholarship Tax Credit program.",
+          "details": "The program enables eligible taxpayers to claim a federal tax credit for qualified contributions to Scholarship Granting Organizations that provide scholarships for qualified elementary and secondary education expenses. The IRS separately announced a restructuring of its Security Summit public-private partnership.",
+          "source": "Internal Revenue Service",
+          "url": "https://www.irs.gov/newsroom/news-releases-for-current-month",
+          "date": "2026-06-08"
         }
       ]
     },
@@ -35,36 +35,28 @@
       "category": "Foreign Policy & National Security",
       "items": [
         {
-          "title": "Israel and Iran trade heaviest strikes in months as ceasefire falters",
-          "summary": "Israel and Iran exchanged some of their heaviest strikes in months as a months-old ceasefire faltered, with explosions reported in Tehran, Isfahan, and Tabriz.",
-          "details": "A months-old ceasefire between Israel and Iran came under strain as both sides exchanged heavy strikes. Explosions were reported in the Iranian cities of Tehran, Isfahan, and Tabriz. The exchange was described as among the most intense in months.",
+          "title": "Iran and Israel suspend strikes amid US-brokered ceasefire push",
+          "summary": "On June 8, 2026, Iran said it would halt its military offensive against Israel after the two exchanged missile fire, and Israel said it had halted attacks on Iran.",
+          "details": "Iran said it suspended operations on the condition that Israel end its attacks, including in southern Lebanon, and warned it would resume if hostilities continued. President Trump called for the attacks to stop and said both countries were seeking an immediate ceasefire, with peace negotiations described as ongoing.",
           "source": "CNN",
           "url": "https://www.cnn.com/2026/06/07/world/live-news/iran-war-trump-israel-lebanon",
-          "date": "2026-06-07"
+          "date": "2026-06-08"
         },
         {
-          "title": "U.S. forces strike Iranian coastal radar sites after drones launched toward Strait of Hormuz",
-          "summary": "U.S. forces struck Iranian coastal radar stations after Tehran launched attack drones toward the Strait of Hormuz, further straining the ceasefire as peace negotiations stalled.",
-          "details": "U.S. forces struck Iranian coastal radar installations after Iran launched drones toward the Strait of Hormuz, a key oil-shipping route. The action added pressure to a fragile ceasefire. Diplomatic talks between the two sides were stalled at the time.",
-          "source": "RFE/RL",
-          "url": "https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284.html",
-          "date": "June 2026"
+          "title": "Treasury sanctions Iranian LPG smuggling and shadow banking networks",
+          "summary": "On June 5, 2026, the Treasury Department announced new sanctions targeting Iranian energy smuggling and illicit financial networks under its 'Economic Fury' campaign.",
+          "details": "The State Department and Treasury announced measures aimed at Iran's energy smuggling and financial networks. Days earlier, on June 2, OFAC designated Nobitex and three other Iranian digital asset exchanges, with foreign financial institutions warned they could face sanctions for certain transactions with the firms.",
+          "source": "U.S. Department of State",
+          "url": "https://www.state.gov/iran-sanctions",
+          "date": "2026-06-05"
         },
         {
-          "title": "U.S. and Iran negotiating a 60-day cessation-of-hostilities proposal",
-          "summary": "Reports describe a proposed memorandum for a 60-day pause in hostilities during which the U.S. and Iran would negotiate issues including uranium enrichment and sanctions relief.",
-          "details": "Reporting describes a proposed memorandum under which the U.S. and Iran would pause hostilities for 60 days. During that window the two sides would negotiate issues such as uranium enrichment and the lifting of sanctions. Terms had not been finalized.",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/5/29/us-iran-60-day-proposal-what-we-know",
-          "date": "2026-05-29"
-        },
-        {
-          "title": "U.S. Treasury continues Iran sanctions during ceasefire talks",
-          "summary": "The Treasury's Office of Foreign Assets Control continued sanctions pressure during negotiations, designating the Persian Gulf Strait Authority on May 27 as part of its 'Economic Fury' campaign.",
-          "details": "Even during ceasefire negotiations, the U.S. Treasury continued sanctions on Iran. On May 27 its Office of Foreign Assets Control designated the Persian Gulf Strait Authority. Officials described the move as part of an ongoing economic-pressure campaign.",
-          "source": "Steptoe Sanctions Update",
-          "url": "https://www.steptoe.com/en/news-publications/stepwise-risk-outlook/sanctions-update-june-1-2026.html",
-          "date": "2026-06-01"
+          "title": "US announces over $240 million in humanitarian assistance through Catholic Relief Services",
+          "summary": "On June 5, 2026, the State Department announced more than $240 million in assistance to Catholic Relief Services to address global humanitarian needs.",
+          "details": "The funding was announced in a State Department media note as part of US humanitarian assistance commitments. The announcement was published alongside other department actions, including statements on Iran-related sanctions.",
+          "source": "U.S. Department of State",
+          "url": "https://www.state.gov/press-releases/",
+          "date": "2026-06-05"
         }
       ]
     },
@@ -72,12 +64,28 @@
       "category": "Congress & Legislation",
       "items": [
         {
-          "title": "Senate passes $70B immigration enforcement bill (S.2, Secure America Act)",
-          "summary": "The Senate voted 52-47 early June 5 to pass S.2, a reconciliation bill funding Immigration and Customs Enforcement and Border Patrol for three years.",
-          "details": "The Senate passed S.2, the Secure America Act, by a 52-47 vote early on June 5. The reconciliation package provides about $70 billion to fund Immigration and Customs Enforcement and Border Patrol for three years. Because it is a reconciliation bill, it advanced with a simple majority.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/05/nx-s1-5847589/senate-passes-immigration-enforcement-bill-without-limits-on-trump-settlement-fund",
+          "title": "House passes Ukraine Support Act",
+          "summary": "On June 4, 2026, the House voted to pass H.R. 2913, the Ukraine Support Act.",
+          "details": "The measure passed the House on a vote requiring a simple majority. The bill now would proceed through the legislative process, including possible Senate action.",
+          "source": "GovTrack",
+          "url": "https://www.govtrack.us/congress/votes/119-2026/h207",
+          "date": "2026-06-04"
+        },
+        {
+          "title": "Senate passes S. 2, the Secure America Act",
+          "summary": "On June 5, 2026, the Senate voted to pass S. 2, the Secure America Act.",
+          "details": "The bill passed on a simple-majority vote. According to GovTrack's analysis, senators voting yea represented about 47% of the country's population by apportionment.",
+          "source": "GovTrack",
+          "url": "https://www.govtrack.us/congress/votes/119-2026/s163",
           "date": "2026-06-05"
+        },
+        {
+          "title": "House passes fraud-prevention bills, including TRUE Accountability Act",
+          "summary": "On June 8, 2026, the House passed several fraud-related bills under suspension of the rules, including H.R. 8466 and H.R. 8428.",
+          "details": "H.R. 8466, the TRUE Accountability Act, was agreed to 384-0, and H.R. 8428, the Federal Fraud Prevention Workforce Training Act, was agreed to 393-0. The votes were part of a series of bills addressing various forms of fraud.",
+          "source": "U.S. House Republican Cloakroom",
+          "url": "https://repcloakroom.house.gov/floor/monday-june-8th-2026/",
+          "date": "2026-06-08"
         }
       ]
     },
@@ -85,28 +93,28 @@
       "category": "Courts & Legal",
       "items": [
         {
-          "title": "Supreme Court lets Alabama use contested congressional map for 2026 elections",
-          "summary": "In an emergency order, the Supreme Court cleared the way for Alabama to use a congressional map in the 2026 elections that a lower court had found racially discriminatory.",
-          "details": "The Supreme Court issued an emergency order allowing Alabama to use a congressional map for the 2026 elections that a lower court had found racially discriminatory. The decision affects how district lines are drawn for the midterms. Litigation over the map continues.",
+          "title": "Supreme Court allows Alabama to use Republican-drawn congressional map",
+          "summary": "On June 2, 2026, the Supreme Court cleared the way for Alabama to use a congressional map in the 2026 elections that a lower court had found racially discriminatory.",
+          "details": "In an unsigned order, the court overturned a three-judge district court panel and reinstated a map favored by Alabama's legislature, resulting in six Republican-leaning districts and one Democratic-leaning district. The court's three liberal justices dissented.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/02/nx-s1-5844744/supreme-court-alabama-congressional-districts",
           "date": "2026-06-02"
         },
         {
-          "title": "Supreme Court rules FCC forfeiture process does not violate Seventh Amendment",
-          "summary": "In FCC v. AT&T, the Supreme Court ruled 8-1 that the FCC's process for issuing monetary forfeiture orders does not violate the Seventh Amendment right to a jury trial.",
-          "details": "The Supreme Court ruled 8-1 in FCC v. AT&T that the agency's process for issuing monetary forfeiture orders does not violate the Seventh Amendment right to a jury trial. The decision concerns how federal regulators impose financial penalties.",
-          "source": "SCOTUSblog",
-          "url": "https://www.scotusblog.com/2026/06/court-rules-against-cell-service-providers-over-right-to-jury-trial-in-fcc-proceedings/",
+          "title": "Supreme Court issues opinions in pharmaceutical and regulatory cases",
+          "summary": "On June 4, 2026, the Supreme Court issued opinions including Hikma Pharmaceuticals USA Inc. v. Amarin Pharma, Inc. and FCC v. AT&T.",
+          "details": "The decisions were among rulings released as the court approaches its summer recess. The court still has several major cases pending, including matters related to birthright citizenship, campaign finance limits and mail-in ballots.",
+          "source": "Justia U.S. Supreme Court Center",
+          "url": "https://supreme.justia.com/cases/federal/us/year/2026.html",
           "date": "2026-06-04"
         },
         {
-          "title": "Federal judge strikes down policy halting asylum decisions for 39 countries",
-          "summary": "A federal judge struck down a policy that had barred immigrants from 39 countries from receiving final decisions on asylum, work permit, green card, and citizenship applications.",
-          "details": "A federal judge struck down a policy that had paused final decisions on asylum, work-permit, green-card, and citizenship applications for people from 39 countries. The ruling allows those applications to be decided. The government may appeal.",
-          "source": "PBS News",
-          "url": "https://www.pbs.org/newshour/politics/judge-strikes-down-trump-policy-that-halted-asylum-decisions-for-39-countries",
-          "date": "2026-06-05"
+          "title": "Major Supreme Court cases pending as term nears its end",
+          "summary": "As of June 4, 2026, the Supreme Court had several major cases left to decide before its summer recess.",
+          "details": "Pending cases include challenges over birthright citizenship, campaign finance limits, mail-in ballot rules in Mississippi, and transgender athletes' participation in school sports in West Virginia and Idaho. Several decisions could affect state laws and election-related processes ahead of the midterms.",
+          "source": "U.S. News & World Report",
+          "url": "https://www.usnews.com/news/national-news/articles/2026-06-04/8-major-supreme-court-cases-being-decided-this-summer-heres-where-they-stand",
+          "date": "2026-06-04"
         }
       ]
     },
@@ -114,187 +122,123 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "Voters in six states cast ballots in June 2 primaries",
-          "summary": "On June 2, voters in California, Iowa, Montana, New Jersey, New Mexico, and South Dakota voted in primaries setting up November midterm matchups for governor, Senate, and House.",
-          "details": "Voters in California, Iowa, Montana, New Jersey, New Mexico, and South Dakota cast primary ballots on June 2. The results set up November midterm matchups for governor, Senate, and House seats across those states.",
-          "source": "CNN",
-          "url": "https://www.cnn.com/2026/06/02/politics/live-news/us-primary-elections-today",
+          "title": "National redistricting battle shifts toward statehouses",
+          "summary": "On June 7, 2026, the Associated Press reported that the national redistricting fight is moving to state legislative and local maps after a wave of congressional redrawing.",
+          "details": "Georgia's legislature is set to convene June 17 for a special session on redistricting for 2028, including congressional, state House and state Senate maps. The report noted Mississippi Republicans and New York Democrats could also undertake legislative redistricting before their next elections.",
+          "source": "The Washington Times (Associated Press)",
+          "url": "https://www.washingtontimes.com/news/2026/jun/7/first-came-congress-national-redistricting-battle-may-turn/",
+          "date": "2026-06-07"
+        },
+        {
+          "title": "Supreme Court's Alabama order adds to shifts in 2026 midterm map",
+          "summary": "Following the June 2, 2026 order, Alabama's 2026 midterm elections will feature six Republican-leaning districts and one Democratic-leaning district.",
+          "details": "The ruling is part of a series of recent Supreme Court actions affecting congressional maps. Analysts have noted the cumulative effect of the Louisiana v. Callais decision and subsequent state actions on the partisan composition of the U.S. House.",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/06/02/nx-s1-5844744/supreme-court-alabama-congressional-districts",
           "date": "2026-06-02"
         },
         {
-          "title": "Analysis: remaining options for minority voting-rights challenges after recent rulings",
-          "summary": "A June 5 report examined the legal alternatives available for challenging redistricting on racial grounds following recent Supreme Court decisions on the Voting Rights Act.",
-          "details": "Following recent Supreme Court decisions on the Voting Rights Act, this report examines the legal options that remain for challenging redistricting on racial grounds. It outlines how future cases might proceed and what standards courts may apply.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/05/nx-s1-5836682/supreme-court-voting-rights-act-state-redistricting",
-          "date": "2026-06-05"
+          "title": "South Dakota and other states hold June primaries",
+          "summary": "States including South Dakota held primary elections in early June 2026 as part of the 2026 midterm cycle.",
+          "details": "NBC News is tracking primary results across all 50 states for Senate, U.S. House and governor races. Democrats need a net gain of four Senate seats and three House seats in November to take control of each chamber.",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/politics/2026-primary-elections/national",
+          "date": "2026-06-02"
         }
       ]
     }
   ],
   "states": {
-    "AZ": [
+    "GA": [
       {
-        "title": "Arizona budget negotiations with Gov. Hobbs nearly complete, Senate president says",
-        "summary": "Senate President Warren Petersen said lawmakers and Gov. Katie Hobbs were about 97% toward a state budget deal, with a June 30 deadline to avoid a shutdown.",
-        "source": "KJZZ",
-        "url": "https://www.kjzz.org/politics/2026-05-20/arizona-senate-president-were-probably-97-of-the-way-to-a-budget-deal-with-hobbs",
-        "date": "2026-05-20"
+        "title": "Kemp sets June 17 special session on redistricting and ballot QR codes",
+        "summary": "Georgia's legislature will convene June 17, 2026, for a special session on redistricting and election ballot laws, the day after primary runoffs.",
+        "details": "Gov. Brian Kemp called the session to redraw congressional, state House and state Senate maps for the 2028 cycle, citing the Supreme Court's Louisiana v. Callais decision. Kemp said current 2026 voting will not be disrupted, and the agenda also includes legislation on QR-code ballots.",
+        "source": "Georgia Recorder",
+        "url": "https://georgiarecorder.com/2026/05/13/kemp-calls-june-special-session-to-address-redistricting-ballot-qr-codes-in-georgia/",
+        "date": "2026-06-01"
       }
     ],
-    "AR": [
+    "IA": [
       {
-        "title": "Arkansas TV Commission votes to keep PBS affiliation with privately raised funds",
-        "summary": "On June 4 the Arkansas TV Commission voted to accept more than $2.1 million in privately raised funds to pay PBS dues through June 2027, retaining the state's PBS affiliation.",
-        "source": "Arkansas Advocate",
-        "url": "https://arkansasadvocate.com/2026/06/04/pbs-programs-will-remain-in-arkansas-after-commission-accepts-funds-raised-for-dues/",
+        "title": "Reynolds signs final 2026 bills, including limits on governor's powers",
+        "summary": "On June 2, 2026, Gov. Kim Reynolds signed the final bills of the 2026 legislative session into law.",
+        "details": "Among the bills, House File 2694 bars a governor from restricting private businesses' operations or ordering places of worship closed during emergencies and requires legislative approval for changes to election laws. Senate File 2218 directs citizenship and work-authorization verification for educator licenses. It was Reynolds's final session as she is not seeking reelection.",
+        "source": "KCRG",
+        "url": "https://www.kcrg.com/2026/06/04/gov-kim-reynolds-signs-final-bills-2026-legislative-session/",
         "date": "2026-06-04"
       }
     ],
-    "CO": [
+    "LA": [
       {
-        "title": "Colorado Gov. Polis vetoes three bills, including a 'surveillance pricing' measure",
-        "summary": "Gov. Jared Polis on June 2 vetoed three bills, including measures on surveillance-based pricing, arbitration, and single-use restaurant utensils.",
-        "source": "Colorado Public Radio",
-        "url": "https://www.cpr.org/2026/06/03/polis-vetoes-progressive-bills/",
-        "date": "2026-06-03"
+        "title": "Landry signs law increasing marijuana penalties near schools",
+        "summary": "On June 4, 2026, Gov. Jeff Landry signed HB 568, increasing criminal penalties for consuming marijuana on or within 2,000 feet of school or university property.",
+        "details": "Under the law, which takes effect August 1, smoking or vaping cannabis on campus or near school property becomes a felony punishable by up to one year in jail and a $1,000 fine. Separate legislation, Senate Bill 270, allowing terminally ill patients to access certain non-smoked medical cannabis products in hospitals, became law without the governor's signature.",
+        "source": "NORML",
+        "url": "https://norml.org/news/2026/06/04/louisiana-governor-signs-bill-into-law-significantly-increasing-marijuana-penalties",
+        "date": "2026-06-04"
+      }
+    ],
+    "MS": [
+      {
+        "title": "Reeves forms redistricting committees after canceling special session",
+        "summary": "Following the cancellation of a special session, Mississippi legislative leaders established committees to study redistricting ahead of the 2027 session.",
+        "details": "Gov. Tate Reeves canceled a planned session on judicial redistricting after the Fifth Circuit vacated a lower-court ruling. Lt. Gov. Delbert Hosemann announced a Senate Select Committee on Redistricting and Reapportionment, and House Speaker Jason White announced committees to study redistricting. Reeves said congressional and legislative maps would be addressed before the 2027 elections.",
+        "source": "Mississippi Public Broadcasting",
+        "url": "https://www.mpbonline.org/blogs/news/calls-for-redistricting-continue-after-governor-tate-reeves-cancels-special-legislative-session/",
+        "date": "2026-06-01"
+      }
+    ],
+    "PA": [
+      {
+        "title": "Pennsylvania budget negotiations intensify ahead of June 30 deadline",
+        "summary": "As of early June 2026, Pennsylvania lawmakers face a June 30 budget deadline amid a projected structural deficit.",
+        "details": "Gov. Josh Shapiro proposed a $53.3 billion spending plan in February that includes housing reforms and an infrastructure fund. The state's Independent Fiscal Office projected a General Fund structural deficit of $3.65 billion for the 2025-26 fiscal year. The prior year's budget was finalized in November 2025, months after the deadline.",
+        "source": "City & State Pennsylvania",
+        "url": "https://www.cityandstatepa.com/policy/2026/06/4-big-questions-heading-pennsylvania-budget-negotiations/413889/",
+        "date": "2026-06-01"
+      }
+    ],
+    "TX": [
+      {
+        "title": "Abbott announces latest slate of state board appointments",
+        "summary": "On June 5, 2026, Gov. Greg Abbott announced appointments to several state boards and councils.",
+        "details": "The appointments included members of the Council on Cardiovascular Disease and Stroke, the Quantum Initiative Advisory Committee, and the Task Force on Modernizing Manufacturing. The appointees will serve terms expiring on various dates.",
+        "source": "Office of the Texas Governor",
+        "url": "https://gov.texas.gov/news/post/governor-abbott-announces-latest-slate-of-appointments--___",
+        "date": "2026-06-05"
+      }
+    ],
+    "CA": [
+      {
+        "title": "Newsom signs SB 73 strengthening election protections",
+        "summary": "On May 27, 2026, Gov. Gavin Newsom signed Senate Bill 73, strengthening California's election safeguards ahead of the June 2 statewide primary.",
+        "details": "The law directs the state Department of Justice to issue guidance to county election officials on responding to law enforcement requests to access ballot areas, and increases protections against removal or seizure of voted ballots. It establishes criminal penalties for knowingly taking a package of voted ballots from election officials.",
+        "source": "Office of the Governor of California",
+        "url": "https://www.gov.ca.gov/2026/05/27/governor-newsom-signs-legislation-to-further-protect-california-elections-from-interference-and-intimidation/",
+        "date": "2026-05-27"
       }
     ],
     "CT": [
       {
-        "title": "Connecticut Gov. Lamont signs youth online-safety and AI law",
-        "summary": "On June 2, Gov. Ned Lamont signed Public Act 26-15, setting requirements for social-media platforms used by minors and rules for artificial intelligence and chatbots.",
-        "source": "CT Office of the Governor",
-        "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
-        "date": "2026-06-02"
+        "title": "Lamont signs law restricting private real estate listings",
+        "summary": "On May 27, 2026, Gov. Ned Lamont signed Senate Bill 340, a real estate bill with new requirements for marketing residential listings.",
+        "details": "The law requires agents or brokers representing a homeseller or landlord to make a listing available to the general public prior to or at the same time it is first marketed publicly. It allows sellers to sign a public-marketing opt-out form using specified language.",
+        "source": "Real Estate News",
+        "url": "https://www.realestatenews.com/2026/06/01/connecticut-governor-signs-bill-restricting-private-listings",
+        "date": "2026-06-01"
       }
     ],
-    "DE": [
+    "NJ": [
       {
-        "title": "Gov. Meyer nominates Vice Chancellor Morgan Zurn to Delaware Supreme Court",
-        "summary": "On June 5, Gov. Matt Meyer nominated Court of Chancery Vice Chancellor Morgan Zurn to the Delaware Supreme Court, pending state Senate confirmation.",
-        "source": "Delaware Public Media",
-        "url": "https://www.delawarepublic.org/news/2026-06-05/gov-matt-meyer-makes-his-first-appointment-to-the-delaware-supreme-court",
-        "date": "2026-06-05"
-      }
-    ],
-    "FL": [
-      {
-        "title": "Florida Legislature places homestead property-tax exemption amendment on November ballot",
-        "summary": "During a June special session, the Legislature passed a measure placing a constitutional amendment to expand the homestead property-tax exemption before voters in November 2026.",
-        "source": "Ballotpedia News",
-        "url": "https://news.ballotpedia.org/2026/06/03/florida-voters-to-decide-expanded-homestead-tax-exemption-amendment-in-november/",
-        "date": "2026-06-03"
-      }
-    ],
-    "GA": [
-      {
-        "title": "Georgia Republican gubernatorial runoff set for June 16",
-        "summary": "Georgia's Republican primary runoff for governor between Lt. Gov. Burt Jones and Rick Jackson is scheduled for June 16; the winner faces Democrat Keisha Lance Bottoms in November.",
-        "source": "Georgia Public Broadcasting",
-        "url": "https://www.gpb.org/news/2026/06/02/lt-gov-burt-jones-debates-empty-podium-rick-jackson-campaigns-in-kennesaw",
-        "date": "2026-06-02"
-      }
-    ],
-    "HI": [
-      {
-        "title": "Hawaii Gov. Green weighs vetoes from 2026 legislative session",
-        "summary": "Gov. Josh Green said 268 bills from the 2026 session await action, with his intent-to-veto list due by June 30.",
-        "source": "Hawaii Public Radio",
-        "url": "https://www.hawaiipublicradio.org/the-conversation/2026-06-04/gov-josh-green-on-the-legislative-session-hawaiis-energy-resources",
-        "date": "2026-06-04"
-      }
-    ],
-    "MI": [
-      {
-        "title": "Michigan Senate proposes changing how university boards are selected",
-        "summary": "Senate leadership released a proposed constitutional amendment that would let the governor appoint members of the University of Michigan, Michigan State, and Wayne State governing boards.",
-        "source": "Michigan Public",
-        "url": "https://www.michiganpublic.org/politics-government/2026-06-05/governor-would-appoint-board-for-um-msu-and-wayne-state-under-state-senate-proposal",
-        "date": "2026-06-05"
-      }
-    ],
-    "MN": [
-      {
-        "title": "Minnesota Legislature passes budget in one-day special session",
-        "summary": "On June 9, Minnesota lawmakers convened a one-day special session and passed the remaining state budget bills, averting a government shutdown and pending layoff notices.",
-        "source": "CBS News Minnesota",
-        "url": "https://www.cbsnews.com/minnesota/news/minnesota-legislature-passes-budget-during-special-session/",
-        "date": "2026-06-09"
-      }
-    ],
-    "NH": [
-      {
-        "title": "New Hampshire Legislature sends three housing bills to Gov. Ayotte",
-        "summary": "On the final session day, the House and Senate passed HB 1010, HB 1588, and SB 564 addressing housing in commercial zones, parking rules, and dead-end roads.",
-        "source": "New Hampshire Bulletin",
-        "url": "https://newhampshirebulletin.com/2026/06/08/bills-to-remove-housing-barriers-in-commercial-zones-on-dead-end-roads-move-to-ayotte/",
-        "date": "2026-06-08"
-      }
-    ],
-    "NM": [
-      {
-        "title": "Deb Haaland wins New Mexico Democratic primary for governor",
-        "summary": "Former Interior Secretary Deb Haaland won the June 2 Democratic gubernatorial primary, defeating Sam Bregman, and will face Republican Gregg Hull in November.",
-        "source": "NBC News",
-        "url": "https://www.nbcnews.com/politics/2026-election/new-mexico-democratic-governor-primary-election-winner-haaland-rcna347474",
-        "date": "2026-06-02"
-      }
-    ],
-    "NY": [
-      {
-        "title": "New York Legislature passes one-year data-center moratorium",
-        "summary": "New York's Legislature passed a bill on June 4 imposing a one-year moratorium on permits for large data centers, sending it to Gov. Hochul.",
-        "source": "The Hill",
-        "url": "https://thehill.com/homenews/state-watch/5912788-new-york-data-center-moratorium/",
-        "date": "2026-06-05"
-      }
-    ],
-    "NC": [
-      {
-        "title": "North Carolina legislature overrides veto to enact scholarship tax credit",
-        "summary": "On June 3, the North Carolina Senate voted 30-19 to complete a veto override of House Bill 87, enacting a tax credit for donations to scholarship-granting organizations.",
-        "source": "WRAL",
-        "url": "https://www.wral.com/news/nccapitol/north-carolina-trump-education-tax-break-policy-veto-override-june-3/",
-        "date": "2026-06-03"
-      }
-    ],
-    "ND": [
-      {
-        "title": "North Dakota holds statewide primary election",
-        "summary": "North Dakota voters cast ballots in the statewide primary election on June 9, with polls closing at 7 p.m. local time.",
-        "source": "North Dakota Monitor",
-        "url": "https://northdakotamonitor.com/voter-guides/2026-primary-election/",
-        "date": "2026-06-09"
-      }
-    ],
-    "OH": [
-      {
-        "title": "Ohio governor pauses new data-center tax-exemption requests",
-        "summary": "Gov. Mike DeWine directed the Ohio Tax Credit Authority to stop accepting new data-center sales-tax exemption requests while a legislative committee studies the issue.",
-        "source": "Office of the Ohio Governor",
-        "url": "https://governor.ohio.gov/wps/portal/gov/governor/media/news-and-media/governor-dewine-announces-pause-of-data-center-tax-exemption",
-        "date": "2026-06-04"
-      }
-    ],
-    "OK": [
-      {
-        "title": "Oklahoma to hold statewide primary June 16, including open governor's race",
-        "summary": "Oklahoma holds its statewide primary on June 16, with an open governor's race because incumbent Kevin Stitt is term-limited.",
+        "title": "New Jersey holds June 2 statewide primary",
+        "summary": "New Jersey held its statewide primary election on June 2, 2026, including races for U.S. Senate and U.S. House.",
+        "details": "Incumbent U.S. Sen. Cory Booker was among candidates in the Democratic primary, and voters selected nominees across the state's 12 congressional districts. The general election is scheduled for November 3, 2026.",
         "source": "Ballotpedia",
-        "url": "https://ballotpedia.org/Oklahoma_gubernatorial_election,_2026",
-        "date": "2026-06-09"
-      }
-    ],
-    "UT": [
-      {
-        "title": "Utah Gov. Cox appoints two justices to expanded state Supreme Court",
-        "summary": "On June 2, Gov. Spencer Cox appointed Jay Jorgensen and Stephen Dent to two new Utah Supreme Court seats created by 2026 legislation, pending Senate confirmation.",
-        "source": "Office of Governor Spencer J. Cox",
-        "url": "https://governor.utah.gov/press/gov-cox-announces-appointments-of-jay-jorgensen-and-stephen-dent-to-the-utah-supreme-court/",
+        "url": "https://ballotpedia.org/Democratic_Party_primaries_in_New_Jersey,_2026",
         "date": "2026-06-02"
       }
     ]
   },
-  "disclaimer": "These headlines are gathered from reputable news organizations and official sources and presented factually, without partisan commentary. Each item links to its original source so you can read more and verify. OurVoiceVote is non-partisan and does not endorse any party, candidate, or position. Refreshed automatically each day at 9:00 AM Central."
+  "disclaimer": "This digest reports verifiable developments from cited sources and takes no position on any party, official, or policy."
 }

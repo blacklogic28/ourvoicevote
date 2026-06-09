@@ -1,0 +1,54 @@
+name: Daily News
+
+# Runs the OurVoiceVote news generator every morning and commits the refreshed
+# news.json. Netlify auto-deploys the commit, so the live site updates itself.
+#
+# Schedule note: GitHub Actions cron is in UTC and does NOT observe daylight
+# saving time. 14:00 UTC = 9:00 AM Central Daylight Time (Mar-Nov). During
+# Central Standard Time (Nov-Mar) this fires at 8:00 AM Central. To keep it at
+# 9:00 AM year-round, change "0 14" to "0 15" for the winter months, or just
+# accept the one-hour seasonal shift.
+
+on:
+  schedule:
+    - cron: '0 14 * * *'   # 09:00 America/Chicago (CDT)
+  workflow_dispatch:        # lets you run it on demand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate news.json
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Optional: override the model (default is claude-opus-4-8).
+          # Uncomment and set a repository variable to lower cost:
+          # ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+        run: node scripts/generate-news.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "ourvoicevote-bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet -- news.json; then
+            echo "news.json unchanged — nothing to commit."
+          else
+            git add news.json
+            git commit -m "chore: daily news refresh ($(date -u +%Y-%m-%d))"
+            git push
+          fi

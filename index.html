@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -56,6 +57,17 @@ a{text-decoration:none}
 .search-input{flex:1;min-width:200px;padding:.9rem 1.25rem;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);border-radius:8px;color:#fff;font-size:1rem;font-family:inherit;outline:none}.search-input:focus{border-color:var(--gold)}.search-input::placeholder{color:rgba(255,255,255,.35)}
 .search-input-light{background:#fff;color:var(--text);border-color:rgba(0,0,0,.1)}.search-input-light:focus{border-color:var(--rust)}.search-input-light::placeholder{color:var(--text-light)}
 .impact-card{background:#fff;border-radius:var(--radius);overflow:hidden;border:1px solid rgba(0,0,0,.06);transition:all .3s;margin-bottom:0}.impact-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md)}.impact-header{padding:1.5rem 2rem 1rem;border-bottom:1px solid rgba(0,0,0,.06)}.impact-header h3{color:var(--deep);margin-bottom:.25rem;font-size:1.2rem}.impact-header p{font-size:.85rem;color:var(--text-light)}.impact-body{padding:1.5rem 2rem}.impact-group{margin-bottom:1rem}.impact-group-title{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}.impact-group-title.helps{color:#2D6A4F}.impact-group-title.hurts{color:var(--rust)}.impact-tags{display:flex;flex-wrap:wrap;gap:.4rem}.impact-tag{font-size:.78rem;padding:.25rem .65rem;border-radius:50px;font-weight:500}.impact-tag.positive{background:rgba(45,106,79,.1);color:#2D6A4F}.impact-tag.negative{background:rgba(192,82,54,.1);color:var(--rust)}.impact-tag.neutral{background:rgba(102,102,102,.1);color:var(--text-light)}.impact-footer{padding:1rem 2rem;background:var(--warm-bg);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}.impact-status{font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em}.status-signed{color:#2D6A4F}.status-pending{color:var(--gold)}.status-blocked{color:var(--rust)}.impact-source{font-size:.8rem;color:var(--sky);font-weight:600}
+.leg-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:1.5rem;align-items:start}
+.leg-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem}
+.leg-pills{background:var(--cream);border:1px solid rgba(0,0,0,.06);border-radius:var(--radius);padding:1.5rem;position:sticky;top:90px}
+.leg-pills h4{color:var(--deep);font-size:1.05rem;margin-bottom:1rem;border-bottom:2px solid var(--gold);padding-bottom:.5rem}
+.bill-pill{display:flex;justify-content:space-between;align-items:center;gap:.75rem;background:#fff;border:1px solid rgba(0,0,0,.08);border-radius:50px;padding:.55rem 1rem;margin-bottom:.6rem;text-decoration:none;transition:all .2s}
+.bill-pill:hover{border-color:var(--gold);transform:translateX(3px);box-shadow:var(--shadow-sm)}
+.bill-pill .bp-name{font-weight:600;font-size:.82rem;color:var(--deep);line-height:1.3}
+.bill-pill .bp-status{font-size:.62rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;white-space:nowrap}
+.bp-status.status-signed{color:#2D6A4F}.bp-status.status-pending{color:#9B7B2F}.bp-status.status-blocked{color:var(--rust)}
+.leg-pills-note{font-size:.75rem;color:var(--text-light);margin-top:1rem;line-height:1.5}
+@media(max-width:860px){.leg-layout{grid-template-columns:1fr}.leg-pills{position:static}}
 .state-section{margin-bottom:2.5rem}.state-section h3{color:var(--deep);margin-bottom:1rem;font-size:1.5rem;border-bottom:2px solid var(--gold);padding-bottom:.5rem}.state-section p{margin-bottom:.75rem}.state-section a{color:var(--sky);text-decoration:underline}
 .org-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1.25rem;margin-top:2rem}.org-card{background:rgba(255,255,255,.06);border-radius:10px;padding:1.5rem;text-align:center;border:1px solid rgba(255,255,255,.08);transition:all .3s;text-decoration:none;display:block}.org-card:hover{background:rgba(255,255,255,.1);transform:translateY(-3px)}.org-card h4{font-size:.95rem;color:#fff;margin-bottom:.4rem}.org-card p{font-size:.8rem;color:rgba(255,255,255,.5)}
 .donate-box{background:#fff;border-radius:var(--radius);padding:2.5rem;text-align:center;box-shadow:var(--shadow-sm);border:1px solid rgba(0,0,0,.04);max-width:700px;margin:0 auto}
@@ -65,39 +77,85 @@ a{text-decoration:none}
 .election-callout{background:linear-gradient(135deg,rgba(212,168,67,.15),rgba(192,82,54,.1));border:2px solid var(--gold);border-radius:var(--radius);padding:1.25rem 1.5rem;margin-bottom:1.5rem;color:var(--text)}.election-callout strong{color:var(--rust);font-size:1.05rem;display:block;margin-bottom:.4rem}.election-callout p{margin:0;font-size:.95rem;color:var(--text)}
 .footer{background:var(--ink);color:rgba(255,255,255,.7);padding:3rem 2rem 1.5rem}.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:2rem;max-width:1200px;margin:0 auto 2rem}.footer-section h4{color:var(--gold);margin-bottom:1rem;font-family:'Playfair Display',serif}.footer-section ul{list-style:none}.footer-section li{margin-bottom:.5rem}.footer-section a{color:rgba(255,255,255,.7);transition:color .3s;text-decoration:none}.footer-section a:hover{color:var(--gold)}.footer-bottom{text-align:center;padding-top:2rem;border-top:1px solid rgba(255,255,255,.1);max-width:1200px;margin:0 auto;font-size:.85rem}.disclaimer{background:rgba(0,0,0,.02);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);padding:1.5rem;margin-top:2rem;font-size:.85rem;line-height:1.7;color:rgba(255,255,255,.5)}
 .fade-up{opacity:0;transform:translateY(25px);transition:all .6s ease}.fade-up.visible{opacity:1;transform:translateY(0)}
+.news-updated{text-align:center;color:var(--text-light);font-size:.85rem;margin-bottom:2.5rem}
+.news-cat{margin-bottom:2.5rem}
+.news-cat-title{font-size:1.3rem;color:var(--deep);border-bottom:2px solid var(--gold);padding-bottom:.4rem;margin-bottom:1.25rem}
+.news-item{background:#fff;border:1px solid rgba(0,0,0,.05);border-left:4px solid var(--sky);border-radius:0 var(--radius) var(--radius) 0;padding:1.1rem 1.4rem;margin-bottom:1rem;box-shadow:var(--shadow-sm)}
+.news-item h4{color:var(--deep);font-size:1.05rem;margin-bottom:.4rem;line-height:1.35}
+.news-item p{color:var(--text-light);font-size:.92rem;line-height:1.55;margin-bottom:.6rem}
+.news-meta{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;font-size:.8rem}
+.news-source{color:var(--rust);font-weight:700;text-transform:uppercase;letter-spacing:.03em}
+.news-date{color:var(--text-light)}
+.news-readmore{color:var(--sky);font-weight:600;text-decoration:none}
+.news-readmore:hover{color:var(--rust)}
+.news-actions{margin-left:auto;display:flex;gap:.85rem;align-items:center}
+.news-sum-btn{background:none;border:1px solid var(--sky);color:var(--sky);font-weight:600;font-size:.8rem;padding:.18rem .7rem;border-radius:50px;cursor:pointer;font-family:inherit;transition:all .2s}
+.news-sum-btn:hover{background:var(--sky);color:#fff}
+.news-details{margin-top:.7rem;padding:.8rem 1rem;background:var(--warm-bg);border-radius:8px;font-size:.9rem;color:var(--text);line-height:1.55;border:1px solid rgba(0,0,0,.05)}
+.news-states{background:var(--cream);border:1px solid rgba(0,0,0,.05);border-radius:var(--radius);padding:1.75rem;margin-top:2.5rem}
+.news-states h3{color:var(--deep);margin-bottom:.5rem;font-size:1.4rem}
+.news-states>p{color:var(--text-light);font-size:.95rem;margin-bottom:1rem}
+.news-state-select{width:100%;max-width:360px;padding:.8rem 1rem;border:2px solid rgba(0,0,0,.1);border-radius:8px;font-size:1rem;font-family:inherit;background:#fff;color:var(--text);cursor:pointer;margin-bottom:1.25rem}
+.news-state-select:focus{border-color:var(--gold);outline:none}
+.news-fallback{font-size:.92rem;color:var(--text-light);line-height:1.6}.news-fallback a{color:var(--sky);text-decoration:underline}
+.news-empty{color:var(--text-light);font-style:italic;padding:.5rem 0}
+.news-disclaimer{margin-top:2.5rem;background:rgba(212,168,67,.1);border-left:4px solid var(--gold);padding:1.25rem 1.5rem;border-radius:0 var(--radius) var(--radius) 0;font-size:.85rem;color:var(--text-light);line-height:1.6}
+@media(max-width:600px){.news-readmore{margin-left:0}}
 @media(max-width:900px){.nav-links{display:none}.nav-links.open{display:flex;flex-direction:column;position:absolute;top:70px;left:0;right:0;background:rgba(13,13,13,.98);padding:1rem;border-top:1px solid rgba(255,255,255,.08);gap:0}.nav-links.open a{padding:.75rem 1rem;width:100%}.hamburger{display:flex}.card-grid{grid-template-columns:1fr}.hero-stats{gap:2rem}.section{padding:3rem 1.5rem}.search-form{flex-direction:column}.donate-tiers{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:500px){.hero{padding:7rem 1.25rem 3rem}.hero-stats{gap:1.5rem}}
 </style>
 </head>
 
 <body>
-<nav class="nav"><div class="nav-inner"><a href="#" class="nav-logo">Our<span>Voice</span>Vote</a><ul class="nav-links" id="navLinks"><li><a href="#politicians">Politicians</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#accountability">Accountability</a></li><li><a href="#rights">Your Rights</a></li><li><a href="#constitution">Constitution</a></li><li><a href="#register">Register</a></li><li><a href="#help">Help &amp; Resources</a></li><li><a href="#organizations">Organizations</a></li><li><a href="#donate" class="donate-link">&#9829; Donate</a></li></ul><div class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')"><span></span><span></span><span></span></div></div></nav>
+<nav class="nav"><div class="nav-inner"><a href="#" class="nav-logo">Our<span>Voice</span>Vote</a><ul class="nav-links" id="navLinks"><li><a href="#news">Today&apos;s News</a></li><li><a href="#politicians">Politicians</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#accountability">Accountability</a></li><li><a href="#rights">Your Rights</a></li><li><a href="#constitution">Constitution</a></li><li><a href="#register">Register</a></li><li><a href="#help">Help &amp; Resources</a></li><li><a href="#organizations">Organizations</a></li><li><a href="#donate" class="donate-link">&#9829; Donate</a></li></ul><div class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')"><span></span><span></span><span></span></div></div></nav>
 <section class="hero"><div class="hero-content">
 <h1>Empower Your Voice, Shape <em>Our</em> Future</h1>
 <p class="hero-sub">A comprehensive civic empowerment hub &mdash; track your politicians, understand legislation, know your rights, hold power accountable, and register to vote. All free. Forever.</p>
 <div class="hero-actions"><a href="#politicians" class="btn-primary">Track Your Reps &rarr;</a><a href="#register" class="btn-outline">Register to Vote</a></div>
 <div class="hero-stats"><div class="hero-stat"><div class="num">535</div><div class="lbl">Members of Congress</div></div><div class="hero-stat"><div class="num">50</div><div class="lbl">States Covered</div></div><div class="hero-stat"><div class="num">100%</div><div class="lbl">Free &amp; Non-Partisan</div></div></div>
 </div></section>
+<section class="section" id="news"><div class="container">
+<div class="section-header fade-up"><div class="section-label">Daily Briefing</div><h2 class="section-title">Today&apos;s News</h2><p class="section-subtitle">Top national, administration, and state headlines &mdash; refreshed every day at 9&nbsp;AM Central. Factual and non-partisan, with links to original sources.</p></div>
+<div id="newsUpdated" class="news-updated fade-up"></div>
+<div id="newsNational" class="fade-up"></div>
+<div class="news-states fade-up"><h3>Headlines by State</h3><p>Choose your state for its top recent civic and political news.</p><select id="stateSelect" class="news-state-select" onchange="renderStateNews()"></select><div id="stateNews"></div></div>
+<div id="newsDisclaimer" class="news-disclaimer fade-up"></div>
+</div></section>
 <section class="section section-dark" id="politicians"><div class="container">
 <div class="section-header fade-up"><div class="section-label">Section 01</div><h2 class="section-title">Track Your Politicians</h2><p class="section-subtitle">Know who represents you. See how they vote. Hold them accountable.</p></div>
 <div class="search-box fade-up"><h3>Find Your Representatives</h3><p>Enter your address or zip code to find everyone who represents you.</p><div class="search-form"><input type="text" class="search-input" id="addressInput" placeholder="Enter your address or zip code..."><button class="btn-primary" onclick="findReps()">Find My Reps</button></div><div id="repResults" style="margin-top:1.25rem;"></div></div>
 <div class="card-grid fade-up">
-<a href="https://www.govtrack.us/congress/members" target="_blank" class="card"><div class="card-icon">&#128202;</div><span class="card-tag tag-sky">Voting Records</span><h3>GovTrack.us</h3><p>Track every vote on healthcare, immigration, taxes, criminal justice.</p><span class="card-link">Explore Voting Records &rarr;</span></a>
-<a href="https://www.opensecrets.org/" target="_blank" class="card"><div class="card-icon">&#128176;</div><span class="card-tag tag-gold">Follow the Money</span><h3>OpenSecrets</h3><p>See who funds your reps. PACs, lobbyists, dark money exposed.</p><span class="card-link">Follow the Money &rarr;</span></a>
-<a href="https://www.commoncause.org/" target="_blank" class="card"><div class="card-icon">&#9878;</div><span class="card-tag tag-purple">Ethics</span><h3>Common Cause</h3><p>Nonpartisan watchdog for ethics violations, gerrymandering, corruption.</p><span class="card-link">Fight Corruption &rarr;</span></a>
-<a href="https://justfacts.votesmart.org/" target="_blank" class="card"><div class="card-icon">&#128203;</div><span class="card-tag tag-green">Full Profiles</span><h3>Vote Smart</h3><p>Complete politician profiles &mdash; bio, positions, votes, finances.</p><span class="card-link">Research Politicians &rarr;</span></a>
-<a href="https://www.ballotpedia.org/" target="_blank" class="card"><div class="card-icon">&#128499;</div><span class="card-tag tag-orange">Elections</span><h3>Ballotpedia</h3><p>Encyclopedia of American politics. What is on YOUR ballot.</p><span class="card-link">Check Your Ballot &rarr;</span></a>
-<a href="https://openstates.org/" target="_blank" class="card"><div class="card-icon">&#127963;</div><span class="card-tag tag-rust">State Level</span><h3>Open States</h3><p>Track state-level legislation across all 50 states.</p><span class="card-link">Track State Politics &rarr;</span></a>
+<a href="https://www.govtrack.us/congress/members" target="_blank" class="card"><div class="card-icon">📊</div><span class="card-tag tag-sky">Voting Records</span><h3>GovTrack.us</h3><p>Track every vote on healthcare, immigration, taxes, criminal justice.</p><span class="card-link">Explore Voting Records &rarr;</span></a>
+<a href="https://www.opensecrets.org/" target="_blank" class="card"><div class="card-icon">💰</div><span class="card-tag tag-gold">Follow the Money</span><h3>OpenSecrets</h3><p>See who funds your reps. PACs, lobbyists, dark money exposed.</p><span class="card-link">Follow the Money &rarr;</span></a>
+<a href="https://www.commoncause.org/" target="_blank" class="card"><div class="card-icon">⚖️</div><span class="card-tag tag-purple">Ethics</span><h3>Common Cause</h3><p>Nonpartisan watchdog for ethics violations, gerrymandering, corruption.</p><span class="card-link">Fight Corruption &rarr;</span></a>
+<a href="https://justfacts.votesmart.org/" target="_blank" class="card"><div class="card-icon">📋</div><span class="card-tag tag-green">Full Profiles</span><h3>Vote Smart</h3><p>Complete politician profiles &mdash; bio, positions, votes, finances.</p><span class="card-link">Research Politicians &rarr;</span></a>
+<a href="https://www.ballotpedia.org/" target="_blank" class="card"><div class="card-icon">🗳️</div><span class="card-tag tag-orange">Elections</span><h3>Ballotpedia</h3><p>Encyclopedia of American politics. What is on YOUR ballot.</p><span class="card-link">Check Your Ballot &rarr;</span></a>
+<a href="https://openstates.org/" target="_blank" class="card"><div class="card-icon">🏛️</div><span class="card-tag tag-rust">State Level</span><h3>Open States</h3><p>Track state-level legislation across all 50 states.</p><span class="card-link">Track State Politics &rarr;</span></a>
 </div></div></section>
 <section class="section" id="legislation"><div class="container">
 <div class="section-header fade-up"><div class="section-label">Section 02</div><h2 class="section-title">Laws &amp; Legislation</h2><p class="section-subtitle">Understand the laws that shape your life. See who they help, who they hurt, and what they actually do.</p></div>
 <div style="max-width:700px;margin:0 auto 3rem;" class="fade-up"><div class="search-form" style="background:var(--cream);padding:1.5rem;border-radius:var(--radius);"><input type="text" class="search-input search-input-light" id="billSearch" placeholder="Search bills (e.g., healthcare, immigration, housing)..."><button class="btn-primary" onclick="searchBills()">Search Bills</button></div><div id="billResults" style="margin-top:1rem;"></div></div>
 <h3 class="fade-up" style="text-align:center;margin-bottom:2rem;font-size:1.4rem;">Legislation Impact Analysis</h3>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:1.5rem;" class="fade-up">
+<div class="leg-layout fade-up"><div class="leg-cards">
 <div class="impact-card"><div class="impact-header"><span class="card-tag tag-green">Federal Law</span><h3>Infrastructure Investment &amp; Jobs Act</h3><p>$1.2 trillion for roads, bridges, broadband, water, transit.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Rural communities</span><span class="impact-tag positive">Working-class jobs</span><span class="impact-tag positive">Low-income families</span><span class="impact-tag positive">Communities of color</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Concerns Raised</div><div class="impact-tags"><span class="impact-tag negative">National debt increase</span><span class="impact-tag neutral">Environmental trade-offs</span></div></div></div><div class="impact-footer"><span class="impact-status status-signed">Signed into Law</span><a href="https://www.congress.gov/bill/117th-congress/house-bill/3684" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>
 <div class="impact-card"><div class="impact-header"><span class="card-tag tag-sky">Federal Law</span><h3>Inflation Reduction Act</h3><p>$739 billion for climate, healthcare, tax reform.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Medicare recipients</span><span class="impact-tag positive">Clean energy workers</span><span class="impact-tag positive">Low/middle-income families</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Concerns Raised</div><div class="impact-tags"><span class="impact-tag negative">Fossil fuel industry</span><span class="impact-tag negative">Large corporations (tax)</span></div></div></div><div class="impact-footer"><span class="impact-status status-signed">Signed into Law</span><a href="https://www.congress.gov/bill/117th-congress/house-bill/5376" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>
 <div class="impact-card"><div class="impact-header"><span class="card-tag tag-purple">Federal Bill</span><h3>CROWN Act</h3><p>Bans race-based hair discrimination in workplaces and schools.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Black women &amp; girls</span><span class="impact-tag positive">Black men &amp; boys</span><span class="impact-tag positive">Students</span><span class="impact-tag positive">Workers</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Opposition</div><div class="impact-tags"><span class="impact-tag neutral">Employer dress code concerns</span></div></div></div><div class="impact-footer"><span class="impact-status status-pending">Passed House - Pending Senate</span><a href="https://www.congress.gov/bill/117th-congress/house-bill/2116" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>
 <div class="impact-card"><div class="impact-header"><span class="card-tag tag-rust">Federal Bill</span><h3>George Floyd Justice in Policing Act</h3><p>Bans chokeholds, ends qualified immunity, creates misconduct registry.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Black communities</span><span class="impact-tag positive">Latino communities</span><span class="impact-tag positive">Victims of police violence</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Opposition</div><div class="impact-tags"><span class="impact-tag negative">Police unions oppose</span><span class="impact-tag neutral">Qualified immunity debate</span></div></div></div><div class="impact-footer"><span class="impact-status status-blocked">Passed House - Blocked in Senate</span><a href="https://www.congress.gov/bill/117th-congress/house-bill/1280" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>
+<div class="impact-card"><div class="impact-header"><span class="card-tag tag-gold">Federal Law</span><h3>Social Security Fairness Act</h3><p>Repeals the Windfall Elimination Provision and Government Pension Offset so public-sector retirees can receive full Social Security benefits alongside a government pension.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Retired teachers</span><span class="impact-tag positive">Firefighters &amp; police</span><span class="impact-tag positive">State &amp; local government employees</span><span class="impact-tag positive">Surviving spouses</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Concerns Raised</div><div class="impact-tags"><span class="impact-tag neutral">Adds to Social Security trust fund costs</span></div></div></div><div class="impact-footer"><span class="impact-status status-signed">Signed into Law</span><a href="https://www.congress.gov/bill/118th-congress/house-bill/82" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>
+<div class="impact-card"><div class="impact-header"><span class="card-tag tag-orange">Federal Law</span><h3>TAKE IT DOWN Act</h3><p>Criminalizes sharing non-consensual intimate images, including AI deepfakes, and requires online platforms to remove flagged images within 48 hours of a valid request.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Victims of non-consensual imagery</span><span class="impact-tag positive">Minors &amp; families</span><span class="impact-tag positive">Online platform users</span><span class="impact-tag positive">Abuse survivors</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Concerns Raised</div><div class="impact-tags"><span class="impact-tag neutral">Free-speech &amp; content-moderation questions</span></div></div></div><div class="impact-footer"><span class="impact-status status-signed">Signed into Law</span><a href="https://www.congress.gov/bill/119th-congress/senate-bill/146" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>
+</div>
+<aside class="leg-pills">
+<h4>Major Bills to Watch</h4>
+<a class="bill-pill" href="https://www.congress.gov/bill/118th-congress/house-bill/82" target="_blank"><span class="bp-name">Social Security Fairness Act</span><span class="bp-status status-signed">Signed</span></a>
+<a class="bill-pill" href="https://www.congress.gov/bill/119th-congress/senate-bill/146" target="_blank"><span class="bp-name">TAKE IT DOWN Act</span><span class="bp-status status-signed">Signed</span></a>
+<a class="bill-pill" href="https://www.congress.gov/bill/119th-congress/senate-bill/5" target="_blank"><span class="bp-name">Laken Riley Act</span><span class="bp-status status-signed">Signed</span></a>
+<a class="bill-pill" href="https://www.congress.gov/bill/119th-congress/house-bill/27" target="_blank"><span class="bp-name">HALT Fentanyl Act</span><span class="bp-status status-signed">Signed</span></a>
+<a class="bill-pill" href="https://www.congress.gov/bill/119th-congress/senate-bill/1582" target="_blank"><span class="bp-name">GENIUS Act (Stablecoins)</span><span class="bp-status status-signed">Signed</span></a>
+<a class="bill-pill" href="https://www.congress.gov/bill/119th-congress/house-bill/22" target="_blank"><span class="bp-name">SAVE Act</span><span class="bp-status status-blocked">Stalled in Senate</span></a>
+<a class="bill-pill" href="https://www.congress.gov/bill/119th-congress/house-bill/14" target="_blank"><span class="bp-name">John R. Lewis Voting Rights Advancement Act</span><span class="bp-status status-pending">In Committee</span></a>
+<a class="bill-pill" href="https://www.congress.gov/bill/119th-congress/house-bill/15" target="_blank"><span class="bp-name">Equality Act</span><span class="bp-status status-pending">In Committee</span></a>
+<p class="leg-pills-note">Status as of June 2026 · click any bill to read it on Congress.gov.</p>
+</aside>
 </div>
 <div class="card-grid fade-up" style="margin-top:3rem;max-width:900px;margin-left:auto;margin-right:auto;">
 <a href="https://www.congress.gov/" target="_blank" class="card"><span class="card-tag tag-sky">Official</span><h3>Congress.gov</h3><p>Official source for federal legislative information.</p><span class="card-link">Visit Congress.gov &rarr;</span></a>
@@ -109,34 +167,34 @@ a{text-decoration:none}
     <div class="section-header">
       <div class="section-label">Justice & Accountability</div>
       <h2 class="section-title">Police Accountability Database</h2>
-      <p class="section-subtitle">Tracking injustice and demanding accountability for Black Americans killed by law enforcement (2015-2024)</p>
+      <p class="section-subtitle">Tracking injustice and demanding accountability for Black Americans killed by law enforcement (2015–2025)</p>
     </div>
 
     <div class="stat-highlight">
-      <div class="num">10,429</div>
-      <div class="label">Total people killed by police 2015-2024</div>
+      <div class="num">10,000+</div>
+      <div class="label">People fatally shot by police 2015–2024 (Washington Post, now frozen)</div>
     </div>
 
     <div class="stat-highlight">
-      <div class="num">309</div>
-      <div class="label">Unarmed Black Americans killed 2015-2024</div>
+      <div class="num">2.6×</div>
+      <div class="label">Black Americans killed vs. White Americans, per capita (2025; 2.9× in 2024)</div>
     </div>
 
     <div class="stat-highlight">
       <div class="num">1,314</div>
-      <div class="label">People killed by police in 2025 — first decline in six years</div>
+      <div class="label">People killed by police in 2025 — about 5% below 2024, the first decline in six years</div>
     </div>
 
     <div class="content-box">
       <h3>The Data</h3>
-      <p><strong>Black Americans are killed by police at nearly three times the rate of White Americans per capita</strong>, despite comprising only 13% of the U.S. population. The 2025 Mapping Police Violence Annual Report documents persistent racial disparities across all states. The databases below track every police killing since 2015, including circumstances, officer charges, and case outcomes.</p>
+      <p><strong>In 2025, Black Americans were killed by police at about 2.6 times the per-capita rate of White Americans (2.9 times in 2024)</strong> and were roughly 24% of those killed while making up about 12% of the population, according to the 2025 Mapping Police Violence report (Campaign Zero). The Washington Post's Fatal Force database, frozen after 2024, recorded more than 10,000 people fatally shot by police from 2015 through 2024. The databases below track police killings since 2015, including circumstances, officer charges, and case outcomes.</p>
       
       <h4>Comprehensive Databases:</h4>
       <p><strong>Washington Post Police Shootings Database (2015-2024):</strong><br><a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">Complete searchable database</a> - Filter by race, armed status, mental health, fleeing status, and more. Over 10,000 cases documented. <em>Note: The Washington Post stopped tracking new cases on January 1, 2025; this is now a closed historical dataset covering 2015-2024.</em></p>
       
-      <p><strong>Mapping Police Violence:</strong><br><a href="https://mappingpoliceviolence.us/" target="_blank">Interactive map and database</a> - Tracks all police killings with case details, outcomes, and accountability metrics. 2024 was the deadliest year on record with approximately 1,381 people killed. In 2025, U.S. law enforcement killed at least 1,314 people — a 5% decrease from 2024 and the first year-over-year decline in six years. <em>(Source: Campaign Zero / Mapping Police Violence 2025 Annual Report)</em></p>
+      <p><strong>Mapping Police Violence:</strong><br><a href="https://mappingpoliceviolence.us/" target="_blank">Interactive map and database</a> - Tracks all police killings with case details, outcomes, and accountability metrics. 2024 was the deadliest year in its records since tracking began in 2013, with about 1,365 people killed. In 2025, U.S. law enforcement killed at least 1,314 people — roughly 5% fewer than 2024 and the first year-over-year decline in six years. <em>(Source: Campaign Zero / Mapping Police Violence 2025 Annual Report)</em></p>
       
-      <p><strong>Wikipedia List of Unarmed African Americans Killed:</strong><br><a href="https://en.wikipedia.org/wiki/List_of_unarmed_African_Americans_killed_by_law_enforcement_officers_in_the_United_States" target="_blank">Detailed case-by-case list</a> - Individual stories, dates, circumstances, and outcomes for 309 unarmed victims from 2015-2024.</p>
+      <p><strong>Wikipedia List of Unarmed African Americans Killed:</strong><br><a href="https://en.wikipedia.org/wiki/List_of_unarmed_African_Americans_killed_by_law_enforcement_officers_in_the_United_States" target="_blank">Detailed case-by-case list</a> - Individual stories, dates, circumstances, and outcomes for unarmed Black Americans killed by police since 2015.</p>
     </div>
 
     <div class="content-box">
@@ -198,7 +256,7 @@ a{text-decoration:none}
         <li><strong>Evidence Planting:</strong> Cases where officers planted drugs or weapons documented by body camera footage</li>
         <li><strong>False Reports:</strong> Officers filing false incident reports contradicted by video evidence</li>
         <li><strong>Qualified Immunity:</strong> Legal doctrine shielding officers from civil liability in most cases</li>
-        <li><strong>Lack of Accountability:</strong> Fewer than 3% of police killings result in criminal charges, though the charging rate has nearly doubled since 2020 (Source: Campaign Zero, 2025)</li>
+        <li><strong>Lack of Accountability:</strong> Officers are rarely criminally charged. Since 2005, 110 non-federal officers have been charged with murder or manslaughter for an on-duty shooting and 42 convicted — usually of a lesser offense (Source: Philip M. Stinson, Bowling Green State University, 2025)</li>
         <li><strong>No-Knock Warrants:</strong> Raids resulting in deaths of innocent people in their homes</li>
         <li><strong>Mental Health Crisis Response:</strong> Over 25% of people killed by police were experiencing mental health crises</li>
       </ul>
@@ -248,6 +306,16 @@ a{text-decoration:none}
         <div class="card-icon">🛡️</div>
         <h3>Right to Report Problems</h3>
         <p>If you encounter voting issues — broken machines, long waits, or discriminatory practices — you can report them. Call the Election Protection Hotline at 866-OUR-VOTE (866-687-8683).</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🤝</div>
+        <h3>Right to Assistance</h3>
+        <p>If you have a disability or cannot read or write, you may receive help voting from a person of your choice (other than your employer or union representative), under Section 208 of the Voting Rights Act.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🔄</div>
+        <h3>Right to a Replacement Ballot</h3>
+        <p>If you make a mistake while marking your ballot, you can request a replacement. A spoiled ballot can be exchanged for a new one before it is cast so your vote is counted correctly.</p>
       </div>
     </div>
 
@@ -448,6 +516,20 @@ a{text-decoration:none}
         <h3>Legal Aid</h3>
         <p>Free legal assistance for civil matters and rights protection.</p>
         <a href="https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help" target="_blank">Legal Help →</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">💡</div>
+        <h3>Utilities &amp; Internet</h3>
+        <p>Federal LIHEAP help paying home heating, cooling, and energy bills for eligible households.</p>
+        <a href="https://www.acf.hhs.gov/ocs/low-income-home-energy-assistance-program-liheap" target="_blank">Get Utility Help →</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">👶</div>
+        <h3>Childcare &amp; Family</h3>
+        <p>Find state child care financial assistance, subsidies, and free Head Start programs.</p>
+        <a href="https://childcare.gov/consumer-education/get-help-paying-for-child-care" target="_blank">Find Child Care →</a>
       </div>
     </div>
 
@@ -843,12 +925,12 @@ a{text-decoration:none}
 </div></section>
 <footer class="footer"><div class="footer-grid">
 <div class="footer-section"><h4>Our<span style="color:var(--gold)">Voice</span>Vote</h4><p>A free, non-partisan civic empowerment resource.</p></div>
-<div class="footer-section"><h4>Quick Links</h4><ul><li><a href="#politicians">Track Politicians</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#accountability">Accountability</a></li><li><a href="#rights">Your Rights</a></li><li><a href="#register">Register to Vote</a></li><li><a href="#help">Resources</a></li><li><a href="#donate">Donate</a></li></ul></div>
+<div class="footer-section"><h4>Quick Links</h4><ul><li><a href="#news">Today&apos;s News</a></li><li><a href="#politicians">Track Politicians</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#accountability">Accountability</a></li><li><a href="#rights">Your Rights</a></li><li><a href="#register">Register to Vote</a></li><li><a href="#help">Resources</a></li><li><a href="#donate">Donate</a></li></ul></div>
 <div class="footer-section"><h4>Official Resources</h4><ul><li><a href="https://vote.gov/" target="_blank">Vote.gov</a></li><li><a href="https://866ourvote.org/" target="_blank">Election Protection</a></li><li><a href="https://www.congress.gov/" target="_blank">Congress.gov</a></li><li><a href="https://www.usa.gov/elected-officials" target="_blank">Contact Representatives</a></li></ul></div>
 <div class="footer-section"><h4>Data Sources</h4><ul><li><a href="https://www.washingtonpost.com/graphics/investigations/police-shootings-database/" target="_blank">Washington Post Database</a></li><li><a href="https://mappingpoliceviolence.us/" target="_blank">Mapping Police Violence</a></li><li><a href="https://www.opensecrets.org/" target="_blank">OpenSecrets</a></li><li><a href="https://www.govtrack.us/" target="_blank">GovTrack</a></li></ul></div></div>
 <div class="footer-bottom"><div class="disclaimer"><strong>Legal Disclaimer:</strong> This website provides general information about voting rights, civic engagement, police accountability, and community resources for educational purposes only. Always verify with official sources. Police accountability data compiled from publicly available databases. By using this site, you agree that OurVoiceVote is not liable for decisions resulting from information provided here.</div>
 <p style="margin-top:2rem">&copy; 2026 OurVoiceVote &mdash; Free &amp; open source. Share freely. Non-partisan.</p>
-<p style="margin-top:.5rem;font-size:.8rem;opacity:.7">Last updated: April 29, 2026</p>
+<p style="margin-top:.5rem;font-size:.8rem;opacity:.7">Last updated: June 9, 2026 &middot; News refreshes daily</p>
 <p style="margin-top:1rem;font-size:.75rem">Data: Washington Post, Mapping Police Violence, Wikipedia, National Archives, Vote.gov, HHS.gov, Congress.gov.</p></div></footer>
 <script>
 document.querySelectorAll('.nav-links a').forEach(a=>{a.addEventListener('click',()=>{document.getElementById('navLinks').classList.remove('open')})});
@@ -863,4 +945,18 @@ let selectedAmount=25;
 function selectTier(el,amt){selectedAmount=amt;document.querySelectorAll('.donate-tier').forEach(t=>t.classList.remove('selected'));el.classList.add('selected');document.getElementById('customAmount').value=''}
 function clearTierSelection(){document.querySelectorAll('.donate-tier').forEach(t=>t.classList.remove('selected'));var v=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');if(v)selectedAmount=parseFloat(v)}
 function handleDonate(e){e.preventDefault();var cv=document.getElementById('customAmount').value.replace(/[^0-9.]/g,'');var amt=cv?parseFloat(cv):selectedAmount;if(!amt||amt<=0){alert('Please select or enter a donation amount.');return}window.open('https://paypal.me/ourvoicevote1526/'+amt,'_blank')}
+/* ===== Today's News (loads news.json, updated daily at 9 AM Central by GitHub Action) ===== */
+var NEWS_STATES=[["AL","Alabama"],["AK","Alaska"],["AZ","Arizona"],["AR","Arkansas"],["CA","California"],["CO","Colorado"],["CT","Connecticut"],["DE","Delaware"],["DC","District of Columbia"],["FL","Florida"],["GA","Georgia"],["HI","Hawaii"],["ID","Idaho"],["IL","Illinois"],["IN","Indiana"],["IA","Iowa"],["KS","Kansas"],["KY","Kentucky"],["LA","Louisiana"],["ME","Maine"],["MD","Maryland"],["MA","Massachusetts"],["MI","Michigan"],["MN","Minnesota"],["MS","Mississippi"],["MO","Missouri"],["MT","Montana"],["NE","Nebraska"],["NV","Nevada"],["NH","New Hampshire"],["NJ","New Jersey"],["NM","New Mexico"],["NY","New York"],["NC","North Carolina"],["ND","North Dakota"],["OH","Ohio"],["OK","Oklahoma"],["OR","Oregon"],["PA","Pennsylvania"],["RI","Rhode Island"],["SC","South Carolina"],["SD","South Dakota"],["TN","Tennessee"],["TX","Texas"],["UT","Utah"],["VT","Vermont"],["VA","Virginia"],["WA","Washington"],["WV","West Virginia"],["WI","Wisconsin"],["WY","Wyoming"]];
+var NEWS_DATA=null;
+function nesc(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function newsItemHTML(it){var acts='';if(it.details){acts+='<button type="button" class="news-sum-btn" onclick="toggleSummary(this)">Summarize</button>'}if(it.url){acts+='<a class="news-readmore" href="'+nesc(it.url)+'" target="_blank" rel="noopener">Read more &rarr;</a>'}var meta='<div class="news-meta"><span class="news-source">'+nesc(it.source||'Source')+'</span>'+(it.date?'<span class="news-date">'+nesc(it.date)+'</span>':'')+'<span class="news-actions">'+acts+'</span></div>';var det=it.details?'<div class="news-details" style="display:none">'+nesc(it.details)+'</div>':'';return '<div class="news-item"><h4>'+nesc(it.title||'')+'</h4>'+(it.summary?'<p>'+nesc(it.summary)+'</p>':'')+meta+det+'</div>'}
+function toggleSummary(btn){var item=btn.closest('.news-item');if(!item)return;var d=item.querySelector('.news-details');if(!d)return;var show=d.style.display==='none';d.style.display=show?'block':'none';btn.textContent=show?'Hide':'Summarize'}
+function newsStateOptions(){var o='<option value="">Select your state&hellip;</option>';NEWS_STATES.forEach(function(s){o+='<option value="'+s[0]+'">'+nesc(s[1])+'</option>'});return o}
+function gnews(name){return 'https://news.google.com/search?q='+encodeURIComponent(name+' government politics')+'%20when%3A7d&hl=en-US&gl=US'}
+function bpedia(name){return 'https://ballotpedia.org/'+name.replace(/ /g,'_')}
+function loadNews(){fetch('news.json',{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){NEWS_DATA=d;renderNews()}).catch(function(){renderNewsError()})}
+function renderNews(){var d=NEWS_DATA||{};var u=document.getElementById('newsUpdated');if(u)u.innerHTML='Updated '+nesc(d.updatedLabel||'')+' &middot; refreshed daily at 9:00 AM Central';var nat='';(d.national||[]).forEach(function(c){if(!c.items||!c.items.length)return;nat+='<div class="news-cat"><div class="news-cat-title">'+nesc(c.category)+'</div>';c.items.forEach(function(it){nat+=newsItemHTML(it)});nat+='</div>'});var nn=document.getElementById('newsNational');if(nn)nn.innerHTML=nat||'<p class="news-empty">No national headlines available right now.</p>';var sel=document.getElementById('stateSelect');if(sel)sel.innerHTML=newsStateOptions();var sn=document.getElementById('stateNews');if(sn)sn.innerHTML='';var dis=document.getElementById('newsDisclaimer');if(dis)dis.innerHTML=nesc(d.disclaimer||'')}
+function renderStateNews(){var sel=document.getElementById('stateSelect');var box=document.getElementById('stateNews');if(!sel||!box)return;var code=sel.value;if(!code){box.innerHTML='';return}var found=NEWS_STATES.find(function(s){return s[0]===code});var name=found?found[1]:code;var items=(NEWS_DATA&&NEWS_DATA.states&&NEWS_DATA.states[code])||[];if(items.length){box.innerHTML=items.map(newsItemHTML).join('')}else{box.innerHTML='<p class="news-fallback">No curated headline for '+nesc(name)+' today &mdash; the daily briefing rotates with the news. See live coverage: <a href="'+gnews(name)+'" target="_blank" rel="noopener">'+nesc(name)+' news</a> &middot; <a href="'+bpedia(name)+'" target="_blank" rel="noopener">'+nesc(name)+' on Ballotpedia</a>.</p>'}}
+function renderNewsError(){var u=document.getElementById('newsUpdated');if(u)u.innerHTML='';var nn=document.getElementById('newsNational');if(nn)nn.innerHTML='<p class="news-fallback">Live headlines are loading from <code>news.json</code> &mdash; if you opened this file directly, run a local server (or view the live site) to load them. In the meantime: <a href="https://apnews.com/hub/us-news" target="_blank" rel="noopener">AP News</a> &middot; <a href="https://www.reuters.com/world/us/" target="_blank" rel="noopener">Reuters U.S.</a> &middot; <a href="https://www.federalregister.gov/presidential-documents/executive-orders" target="_blank" rel="noopener">Executive Orders</a> &middot; <a href="https://www.congress.gov/" target="_blank" rel="noopener">Congress.gov</a>.</p>';var sel=document.getElementById('stateSelect');if(sel)sel.innerHTML=newsStateOptions();var dis=document.getElementById('newsDisclaimer');if(dis)dis.innerHTML=''}
+loadNews();
 </script></body></html>

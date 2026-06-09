@@ -4,6 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>OurVoiceVote — Civic Power Hub</title>
+<meta name="description" content="OurVoiceVote is a free, non-partisan civic hub — track your politicians, understand legislation, know your voting rights, read daily news, and find free help in all 50 states.">
+<meta name="author" content="OurVoiceVote">
+<meta name="theme-color" content="#0D0D0D">
+<link rel="canonical" href="https://ourvoicevote.org/">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='88'>🗳️</text></svg>">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OurVoiceVote">
+<meta property="og:title" content="OurVoiceVote — Empower Your Voice, Shape Our Future">
+<meta property="og:description" content="A free, non-partisan civic hub: politicians, legislation, your rights, daily news, and free help in all 50 states.">
+<meta property="og:url" content="https://ourvoicevote.org/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OurVoiceVote — Empower Your Voice">
+<meta name="twitter:description" content="A free, non-partisan civic hub: politicians, legislation, your rights, daily news, and free help in all 50 states.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
@@ -12,6 +27,7 @@ html{scroll-behavior:smooth}
 body{font-family:'Source Sans 3',sans-serif;background:var(--warm-bg);color:var(--text);line-height:1.7;overflow-x:hidden}
 h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.2}
 a{text-decoration:none}
+.skip-link{position:absolute;left:-9999px;top:0;background:var(--gold);color:#0D0D0D;font-weight:700;padding:.6rem 1rem;z-index:2000;border-radius:0 0 8px 0}.skip-link:focus{left:0}
 .nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(13,13,13,.95);backdrop-filter:blur(12px);border-bottom:1px solid rgba(212,168,67,.15)}
 .nav-inner{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 2rem;height:70px}
 .nav-logo{font-family:'DM Serif Display',serif;font-size:1.5rem;color:#fff;text-decoration:none}.nav-logo span{color:var(--gold)}
@@ -107,7 +123,8 @@ a{text-decoration:none}
 </head>
 
 <body>
-<nav class="nav"><div class="nav-inner"><a href="#" class="nav-logo">Our<span>Voice</span>Vote</a><ul class="nav-links" id="navLinks"><li><a href="#news">Today&apos;s News</a></li><li><a href="#politicians">Politicians</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#accountability">Accountability</a></li><li><a href="#rights">Your Rights</a></li><li><a href="#constitution">Constitution</a></li><li><a href="#register">Register</a></li><li><a href="#help">Help &amp; Resources</a></li><li><a href="#organizations">Organizations</a></li><li><a href="#donate" class="donate-link">&#9829; Donate</a></li></ul><div class="hamburger" onclick="document.getElementById('navLinks').classList.toggle('open')"><span></span><span></span><span></span></div></div></nav>
+<a href="#news" class="skip-link">Skip to news</a>
+<nav class="nav"><div class="nav-inner"><a href="#" class="nav-logo">Our<span>Voice</span>Vote</a><ul class="nav-links" id="navLinks"><li><a href="#news">Today&apos;s News</a></li><li><a href="#politicians">Politicians</a></li><li><a href="#legislation">Legislation</a></li><li><a href="#accountability">Accountability</a></li><li><a href="#rights">Your Rights</a></li><li><a href="#constitution">Constitution</a></li><li><a href="#register">Register</a></li><li><a href="#help">Help &amp; Resources</a></li><li><a href="#organizations">Organizations</a></li><li><a href="#donate" class="donate-link">&#9829; Donate</a></li></ul><div class="hamburger" role="button" tabindex="0" aria-label="Toggle navigation menu" aria-controls="navLinks" onclick="document.getElementById('navLinks').classList.toggle('open')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();document.getElementById('navLinks').classList.toggle('open')}"><span></span><span></span><span></span></div></div></nav>
 <section class="hero"><div class="hero-content">
 <h1>Empower Your Voice, Shape <em>Our</em> Future</h1>
 <p class="hero-sub">A comprehensive civic empowerment hub &mdash; track your politicians, understand legislation, know your rights, hold power accountable, and register to vote. All free. Forever.</p>
@@ -118,12 +135,12 @@ a{text-decoration:none}
 <div class="section-header fade-up"><div class="section-label">Daily Briefing</div><h2 class="section-title">Today&apos;s News</h2><p class="section-subtitle">Top national, administration, and state headlines &mdash; refreshed every day at 9&nbsp;AM Central. Factual and non-partisan, with links to original sources.</p></div>
 <div id="newsUpdated" class="news-updated fade-up"></div>
 <div id="newsNational" class="fade-up"></div>
-<div class="news-states fade-up"><h3>Headlines by State</h3><p>Choose your state for its top recent civic and political news.</p><select id="stateSelect" class="news-state-select" onchange="renderStateNews()"></select><div id="stateNews"></div></div>
+<div class="news-states fade-up"><h3>Headlines by State</h3><p>Choose your state for its top recent civic and political news.</p><select id="stateSelect" class="news-state-select" aria-label="Select your state for local news" onchange="renderStateNews()"></select><div id="stateNews"></div></div>
 <div id="newsDisclaimer" class="news-disclaimer fade-up"></div>
 </div></section>
 <section class="section section-dark" id="politicians"><div class="container">
 <div class="section-header fade-up"><div class="section-label">Section 01</div><h2 class="section-title">Track Your Politicians</h2><p class="section-subtitle">Know who represents you. See how they vote. Hold them accountable.</p></div>
-<div class="search-box fade-up"><h3>Find Your Representatives</h3><p>Enter your address or zip code to find everyone who represents you.</p><div class="search-form"><input type="text" class="search-input" id="addressInput" placeholder="Enter your address or zip code..."><button class="btn-primary" onclick="findReps()">Find My Reps</button></div><div id="repResults" style="margin-top:1.25rem;"></div></div>
+<div class="search-box fade-up"><h3>Find Your Representatives</h3><p>Enter your address or zip code to find everyone who represents you.</p><div class="search-form"><input type="text" class="search-input" id="addressInput" aria-label="Enter your address or ZIP code" placeholder="Enter your address or zip code..."><button class="btn-primary" onclick="findReps()">Find My Reps</button></div><div id="repResults" style="margin-top:1.25rem;"></div></div>
 <div class="card-grid fade-up">
 <a href="https://www.govtrack.us/congress/members" target="_blank" class="card"><div class="card-icon">📊</div><span class="card-tag tag-sky">Voting Records</span><h3>GovTrack.us</h3><p>Track every vote on healthcare, immigration, taxes, criminal justice.</p><span class="card-link">Explore Voting Records &rarr;</span></a>
 <a href="https://www.opensecrets.org/" target="_blank" class="card"><div class="card-icon">💰</div><span class="card-tag tag-gold">Follow the Money</span><h3>OpenSecrets</h3><p>See who funds your reps. PACs, lobbyists, dark money exposed.</p><span class="card-link">Follow the Money &rarr;</span></a>
@@ -134,7 +151,7 @@ a{text-decoration:none}
 </div></div></section>
 <section class="section" id="legislation"><div class="container">
 <div class="section-header fade-up"><div class="section-label">Section 02</div><h2 class="section-title">Laws &amp; Legislation</h2><p class="section-subtitle">Understand the laws that shape your life. See who they help, who they hurt, and what they actually do.</p></div>
-<div style="max-width:700px;margin:0 auto 3rem;" class="fade-up"><div class="search-form" style="background:var(--cream);padding:1.5rem;border-radius:var(--radius);"><input type="text" class="search-input search-input-light" id="billSearch" placeholder="Search bills (e.g., healthcare, immigration, housing)..."><button class="btn-primary" onclick="searchBills()">Search Bills</button></div><div id="billResults" style="margin-top:1rem;"></div></div>
+<div style="max-width:700px;margin:0 auto 3rem;" class="fade-up"><div class="search-form" style="background:var(--cream);padding:1.5rem;border-radius:var(--radius);"><input type="text" class="search-input search-input-light" id="billSearch" aria-label="Search bills" placeholder="Search bills (e.g., healthcare, immigration, housing)..."><button class="btn-primary" onclick="searchBills()">Search Bills</button></div><div id="billResults" style="margin-top:1rem;"></div></div>
 <h3 class="fade-up" style="text-align:center;margin-bottom:2rem;font-size:1.4rem;">Legislation Impact Analysis</h3>
 <div class="leg-layout fade-up"><div class="leg-cards">
 <div class="impact-card"><div class="impact-header"><span class="card-tag tag-green">Federal Law</span><h3>Infrastructure Investment &amp; Jobs Act</h3><p>$1.2 trillion for roads, bridges, broadband, water, transit.</p></div><div class="impact-body"><div class="impact-group"><div class="impact-group-title helps">Who It Helps</div><div class="impact-tags"><span class="impact-tag positive">Rural communities</span><span class="impact-tag positive">Working-class jobs</span><span class="impact-tag positive">Low-income families</span><span class="impact-tag positive">Communities of color</span></div></div><div class="impact-group"><div class="impact-group-title hurts">Concerns Raised</div><div class="impact-tags"><span class="impact-tag negative">National debt increase</span><span class="impact-tag neutral">Environmental trade-offs</span></div></div></div><div class="impact-footer"><span class="impact-status status-signed">Signed into Law</span><a href="https://www.congress.gov/bill/117th-congress/house-bill/3684" target="_blank" class="impact-source">Read Full Bill &rarr;</a></div></div>

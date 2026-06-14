@@ -1,22 +1,22 @@
 {
-  "updated": "2026-06-13T15:25:32.119Z",
-  "updatedLabel": "June 13, 2026",
+  "updated": "2026-06-14T15:42:27.859Z",
+  "updatedLabel": "June 14, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "Executive order issued on advanced AI innovation and security",
-          "summary": "The White House issued an executive order on June 2, 2026 addressing AI leadership and cybersecurity across federal agencies.",
-          "details": "The order directs federal agencies to strengthen cyber defenses in response to advanced AI and to develop voluntary benchmarking and review frameworks for the secure development and release of frontier AI models. It sets 30-day action deadlines for several agencies.",
-          "source": "Inside Privacy (Covington)",
-          "url": "https://www.insideprivacy.com/artificial-intelligence/white-house-releases-executive-order-on-advanced-ai-innovation-and-security/",
+          "title": "President signs executive order on advanced AI innovation and security",
+          "summary": "The White House issued an executive order on June 2, 2026, addressing AI cybersecurity and the secure development of frontier AI models.",
+          "details": "On June 2, 2026, the White House issued an executive order titled 'Promoting Advanced Artificial Intelligence Innovation and Security.' It outlines strengthening cyber defenses and developing voluntary benchmarking frameworks for secure development and release of frontier AI models, while stating the approach is voluntary and not a mandatory licensing requirement.",
+          "source": "Inside Government Contracts (Covington)",
+          "url": "https://www.insidegovernmentcontracts.com/2026/06/white-house-releases-executive-order-on-advanced-ai-innovation-and-security/",
           "date": "2026-06-02"
         },
         {
-          "title": "Executive order issued on federal workforce accountability",
-          "summary": "The White House issued an executive order described as expanding agencies' ability to remove certain federal employees.",
-          "details": "According to a White House fact sheet dated June 3, 2026, agencies can remove employees in the Schedule Policy/Career category for performance, misconduct, corruption, or subversion of presidential directives without certain procedural steps. The administration framed it as accountability for implementing the president's agenda.",
+          "title": "Executive order reclassifies senior federal positions",
+          "summary": "The President signed an executive order on June 3, 2026, reclassifying about 8,000 senior policy-influencing federal positions.",
+          "details": "On June 3, 2026, the President signed an executive order reclassifying approximately 8,000 senior policy-influencing positions into a category called Schedule Policy/Career. According to the White House, these remain career positions with non-partisan hiring processes, and removal decisions are to be made without respect to political affiliation.",
           "source": "The White House",
           "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-increases-accountability-in-the-federal-workforce/",
           "date": "2026-06-03"
@@ -28,16 +28,16 @@
       "items": [
         {
           "title": "Treasury issues new sanctions designations",
-          "summary": "The Office of Foreign Assets Control announced sanctions list updates in early June 2026 involving multiple programs.",
-          "details": "OFAC's recent actions listed counterterrorism and Iran-related designations, Democratic Republic of the Congo-related designations, and the issuance of related guidance on June 4, 2026. Earlier actions in late May included designations removals as part of a stated sanctions modernization effort.",
-          "source": "U.S. Treasury Office of Foreign Assets Control",
+          "summary": "The Office of Foreign Assets Control announced counterterrorism and Iran-related designations in early June 2026.",
+          "details": "On June 4, 2026, the Treasury Department's Office of Foreign Assets Control announced counterterrorism and Iran-related designations, along with Democratic Republic of the Congo-related designations and a new Iran-related Frequently Asked Question. The actions are listed among OFAC's recent sanctions list updates.",
+          "source": "U.S. Department of the Treasury (OFAC)",
           "url": "https://ofac.treasury.gov/recent-actions",
           "date": "2026-06-04"
         },
         {
-          "title": "U.S. extends general license related to Lukoil transactions",
-          "summary": "OFAC extended a Russia-related general license authorizing certain Lukoil-related transactions by about 30 days.",
-          "details": "General License 131F extends the license term from May 30, 2026 to June 27, 2026, authorizing certain transactions related to negotiating and entering contracts involving Lukoil International GmbH, subject to restrictions. OFAC also issued two amended Russia-related FAQs.",
+          "title": "Treasury extends Russia-related general license",
+          "summary": "OFAC extended a Lukoil-related general license by about 30 days into late June 2026.",
+          "details": "OFAC issued General License 131F, extending the term of a Russia-related license from May 30, 2026, to June 27, 2026. The license authorizes certain transactions related to the potential sale or transfer of Lukoil International GmbH, and OFAC issued two amended Russia-related FAQs alongside it.",
           "source": "Steptoe LLP",
           "url": "https://www.steptoe.com/en/news-publications/stepwise-risk-outlook/sanctions-update-june-1-2026.html",
           "date": "2026-06-01"
@@ -48,20 +48,20 @@
       "category": "Congress & Legislation",
       "items": [
         {
-          "title": "Secure America Act signed into law",
-          "summary": "The president signed S. 2, the Secure America Act, on June 10, 2026, providing immigration enforcement funding through FY2029.",
-          "details": "The bill provides funding to the Department of Homeland Security, Customs and Border Protection, and Immigration and Customs Enforcement through fiscal year 2029. It was passed through the budget reconciliation process, which requires only a simple majority in the Senate. The House passed it June 9 and the Senate June 5.",
-          "source": "Congress.gov (Library of Congress)",
-          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2",
+          "title": "President signs Secure America Act into law",
+          "summary": "The President signed the Secure America Act on June 10, 2026, providing funding for immigration enforcement agencies through fiscal year 2029.",
+          "details": "On June 10, 2026, the President signed the Secure America Act, providing funding to the Department of Homeland Security, Customs and Border Protection, and Immigration and Customs Enforcement through Fiscal Year 2029. The Senate passed it 52-47 on June 5, and the House approved it 214-212 on June 9, both largely along party lines.",
+          "source": "Yahoo News",
+          "url": "https://www.yahoo.com/news/politics/articles/trump-signs-70-billion-secure-181750461.html",
           "date": "2026-06-10"
         },
         {
-          "title": "House passes anti-fraud bills and DHS funding measure",
-          "summary": "The House passed several anti-fraud bills during the week of June 8, 2026, with most clearing by voice vote.",
-          "details": "According to a legislative recap, many anti-fraud bills passed largely by voice vote, and DHS received additional funding through 2029. The recap also noted that the FISA Section 702 authorization lapsed during the period. A House resolution on fraud passed 235-177.",
-          "source": "GovTrack.us",
-          "url": "https://www.govtrack.us/",
-          "date": "2026-06-12"
+          "title": "House passes Japan-ROK trilateral cooperation bill",
+          "summary": "The House passed the U.S.-Japan-ROK Trilateral Cooperation Act on June 8, 2026.",
+          "details": "On June 8, 2026, the House of Representatives passed the bipartisan U.S.-Japan-ROK Trilateral Cooperation Act. The same day, the House also passed H.R. 7037, the DOMINANCE Act, related to critical minerals investment, among other measures.",
+          "source": "Office of U.S. Rep. Ami Bera",
+          "url": "https://bera.house.gov/issues/national-security-and-foreign-policy",
+          "date": "2026-06-08"
         }
       ]
     },
@@ -69,28 +69,20 @@
       "category": "Courts & Legal",
       "items": [
         {
-          "title": "Supreme Court allows Alabama to use disputed congressional map",
-          "summary": "The Supreme Court cleared the way for Alabama to use a congressional map for the 2026 elections that lower courts had found racially discriminatory.",
-          "details": "In an unsigned order, the Court permitted Alabama to use a map that a federal court had previously barred. Justice Sotomayor dissented, joined by Justices Kagan and Jackson. The case followed the Court's earlier Callais decision on the Voting Rights Act.",
+          "title": "Supreme Court allows Alabama to use congressional map for 2026",
+          "summary": "The Supreme Court cleared the way for Alabama to use a congressional map that a lower court had found racially discriminatory.",
+          "details": "On June 2, 2026, the Supreme Court issued an unsigned order allowing Alabama to use a congressional map in the 2026 elections that lower courts had found to be racially discriminatory. Justice Sotomayor dissented in an opinion joined by Justices Kagan and Jackson.",
           "source": "SCOTUSblog",
           "url": "https://www.scotusblog.com/2026/06/supreme-court-permits-alabama-to-use-congressional-map-struck-by-lower-court-as-racially-discrim/",
           "date": "2026-06-03"
         },
         {
-          "title": "Federal judge strikes down $100,000 H-1B visa fee",
-          "summary": "A federal judge in Boston struck down the administration's $100,000 fee on new H-1B visas on June 8, 2026.",
-          "details": "U.S. District Judge Leo Sorokin ruled that the fee amounted to an unauthorized tax imposed without congressional approval and violated the Administrative Procedure Act, in a case brought by 20 states. Separate lawsuits over the fee are pending in other courts.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/09/nx-s1-5851474/federal-judge-fee-h1b-visa",
-          "date": "2026-06-09"
-        },
-        {
-          "title": "Federal judge strikes down immigration processing freeze",
-          "summary": "A federal judge struck down an administration policy that had paused immigration proceedings for nationals of dozens of countries.",
-          "details": "U.S. District Chief Judge John McConnell Jr. ruled on June 5, 2026 that the policy, enacted after a shooting of two National Guard members, was unlawful. The administration said on June 12 it would resume processing immigration and asylum applications affected by the hold.",
-          "source": "The Washington Post",
-          "url": "https://www.washingtonpost.com/immigration/2026/06/12/judge-trump-officials-no-excuse-not-complying-with-asylum-order/",
-          "date": "2026-06-12"
+          "title": "Supreme Court issues June rulings on venue and securities law",
+          "summary": "The Supreme Court issued several decisions on June 11, 2026, including one on trial venue under federal falsification law.",
+          "details": "On June 11, 2026, the Supreme Court decided Abouammo v. United States, holding that a defendant charged under 18 U.S.C. §1519 must be tried in the district where the falsification occurred. The same day, the Court also decided cases involving judicial estoppel in bankruptcy and the Investment Company Act.",
+          "source": "Justia U.S. Supreme Court Center",
+          "url": "https://supreme.justia.com/",
+          "date": "2026-06-11"
         }
       ]
     },
@@ -98,20 +90,20 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "California holds primary under redrawn House map",
-          "summary": "California held its statewide primary on June 2, 2026, the first test of congressional districts redrawn under Proposition 50.",
-          "details": "California uses a nonpartisan top-two primary in which the two highest vote-getters advance regardless of party. The 52 U.S. House seats are being contested under maps redrawn after voters approved Proposition 50 in 2025. The Secretary of State will certify results on July 10, 2026.",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/politics/2026-primary-elections/california-house-results",
-          "date": "2026-06-02"
+          "title": "Supreme Court declines to block California's redrawn congressional map",
+          "summary": "The Supreme Court cleared the way for California to use a newly redrawn congressional map in the 2026 midterms.",
+          "details": "The Supreme Court declined to take up an emergency appeal from California Republicans seeking to block the state's newly redrawn congressional map, which shifts five seats in Democrats' favor. The map followed voter approval of Proposition 50. The justices' decision included no dissents or explanation.",
+          "source": "Fox News",
+          "url": "https://www.foxnews.com/politics/supreme-court-shuts-down-california-gop-bid-block-newsoms-new-map",
+          "date": "2026-06-05"
         },
         {
-          "title": "Status of multistate redistricting heading into midterms",
-          "summary": "Multiple states have redrawn or attempted to redraw congressional maps ahead of the November 3, 2026 midterms.",
-          "details": "The redistricting cycle began in Texas in 2025, followed by California's voter-approved counter-map. Following an April 29 Supreme Court ruling on the Voting Rights Act, states including Louisiana, Alabama, and Tennessee moved to redraw maps, while a South Carolina effort stalled in the state Senate.",
-          "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/politics/republicans-won-the-redistricting-battle-now-voters-will-decide-whether-they-win-congress",
-          "date": "2026-06-04"
+          "title": "Mid-decade redistricting continues across states ahead of 2026",
+          "summary": "Multiple states have pursued mid-decade congressional redistricting following the Supreme Court's Louisiana v. Callais decision.",
+          "details": "Several states have taken action on mid-decade redistricting ahead of the 2026 midterms. In May 2026, Tennessee Gov. Bill Lee convened a special session and the legislature passed a new map redrawing the Memphis-based 9th congressional district. South Carolina's House passed a resolution allowing redistricting consideration after its regular session.",
+          "source": "Voting Rights Lab",
+          "url": "https://votingrightslab.org/2026/05/11/an-emerging-trend-mid-decade-redistricting/",
+          "date": "2026-05-11"
         }
       ]
     }
@@ -119,64 +111,64 @@
   "states": {
     "CA": [
       {
-        "title": "California certifies Congressional District 1 special primary results",
-        "summary": "California's Secretary of State certified results of the June 2, 2026 Congressional District 1 special primary election.",
-        "details": "Secretary of State Shirley N. Weber announced on June 11, 2026 that the results of the June 2, 2026 Congressional District 1 Special Primary Election were certified. The certification followed the statewide June 2 primary.",
-        "source": "California Secretary of State",
-        "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-certification-congressional-district-1-special-primary-election-results",
-        "date": "2026-06-11"
-      }
-    ],
-    "FL": [
-      {
-        "title": "Florida Legislature passes property tax ballot measure",
-        "summary": "The Florida Legislature passed HJR 1-F during a June special session, sending a homestead exemption increase to November voters.",
-        "details": "On June 2, 2026, the Legislature passed HJR 1-F (House 75-26, Senate 30-9), which if approved by 60% of voters in November would raise the homestead exemption to $150,000 in 2027 and $250,000 in 2028. Lawmakers amended it so the new exemptions do not apply to school district levies.",
-        "source": "Property Exemption / Fox Business",
-        "url": "https://www.foxbusiness.com/real-estate/florida-homeowners-may-get-huge-tax-newcomers-face-major-catch",
-        "date": "2026-06-02"
+        "title": "Newsom signs election interference and intimidation law",
+        "summary": "California's governor signed Senate Bill 73 strengthening election protections ahead of the June 2 primary.",
+        "details": "On May 27, 2026, Gov. Gavin Newsom signed Senate Bill 73 (Cervantes and Umberg), legislation strengthening California's election safeguards against interference and intimidation. The law was signed ahead of the state's June 2 statewide primary and addresses unauthorized law enforcement activity at elections offices.",
+        "source": "Office of the Governor of California",
+        "url": "https://www.gov.ca.gov/2026/05/27/governor-newsom-signs-legislation-to-further-protect-california-elections-from-interference-and-intimidation/",
+        "date": "2026-05-27"
       }
     ],
     "NY": [
       {
-        "title": "New York extends bar and restaurant hours during World Cup",
-        "summary": "Governor Hochul signed legislation temporarily extending alcohol service hours during the 2026 FIFA World Cup.",
-        "details": "The law allows on-premises licensees to sell alcoholic beverages until 4 a.m. from June 11, 2026 through July 20, 2026, after which it is deemed repealed. The temporary change does not apply where the State Liquor Authority has imposed more restrictive hours as a license condition.",
-        "source": "Office of Governor Kathy Hochul",
-        "url": "https://www.governor.ny.gov/news/governor-hochul-signs-legislation-extending-hours-bars-and-restaurants-during-2026-fifa-world",
-        "date": "2026-06-09"
+        "title": "New York legislature passes AI news disclosure bill",
+        "summary": "Both chambers passed the NY FAIR News Act requiring disclaimers on AI-generated news content.",
+        "details": "On June 8, 2026, both houses of the New York Legislature passed the NY FAIR News Act (S.8451-B / A.8962-B), which mandates that news organizations operating in the state include clear disclaimers on content substantially or wholly generated by artificial intelligence. The bill heads to Gov. Kathy Hochul's desk for consideration.",
+        "source": "New York State Senate",
+        "url": "https://www.nysenate.gov/newsroom/press-releases/2026/patricia-fahy/new-york-legislature-passes-landmark-bill-disclose-ai",
+        "date": "2026-06-08"
       }
     ],
-    "MO": [
+    "FL": [
       {
-        "title": "Missouri Supreme Court upholds GOP-drawn congressional map",
-        "summary": "The Missouri Supreme Court upheld a Republican-drawn congressional map for use in the 2026 elections.",
-        "details": "In rulings issued May 12, 2026, the court found the submission of referendum signatures did not automatically suspend the map and rejected other challenges. An earlier March 24 ruling held that the constitution does not bar mid-decade redistricting. The map, signed by Gov. Mike Kehoe in 2025, will be used in the August primary.",
-        "source": "Missouri Independent",
-        "url": "https://missouriindependent.com/2026/05/12/no-perfect-map-missouri-ags-office-defends-gerrymandered-congressional-districts/",
-        "date": "2026-05-12"
+        "title": "Florida Legislature approves property tax amendment for November ballot",
+        "summary": "The legislature passed a homestead property tax amendment for the November 2026 ballot.",
+        "details": "On June 2, 2026, the Florida Legislature passed HJR 1F (House 75-26, Senate 30-9) during a special session. If approved by 60% of voters on November 3, 2026, the homestead exemption would rise to $150,000 for 2027 and $250,000 in 2028. The exemption would not apply to school district taxes.",
+        "source": "ClickOrlando (WKMG)",
+        "url": "https://www.clickorlando.com/election-2026/2026/06/02/florida-legislature-oks-tweaked-property-tax-amendment-for-november-ballot/",
+        "date": "2026-06-02"
       }
     ],
-    "LA": [
+    "VA": [
       {
-        "title": "Louisiana suspends U.S. House primaries amid redistricting",
-        "summary": "Louisiana's governor suspended the state's U.S. House party primaries to allow lawmakers to redraw congressional maps.",
-        "details": "After the Supreme Court's April 29 ruling striking down Louisiana's congressional map, Gov. Jeff Landry suspended the U.S. House primaries while other races, including the U.S. Senate primary, proceeded. The state Senate later passed a new map that would eliminate one of two majority-Black districts. Lawsuits have challenged the suspension.",
-        "source": "PBS NewsHour",
-        "url": "https://www.pbs.org/newshour/politics/louisiana-senate-passes-new-u-s-house-map-that-would-eliminate-majority-black-district",
-        "date": "2026-05-13"
+        "title": "Spanberger defends vetoes amid friction with Democratic lawmakers",
+        "summary": "Virginia's governor has vetoed 31 bills passed by the Democratic-controlled General Assembly.",
+        "details": "Nearly six months into her term, Gov. Abigail Spanberger has vetoed 31 bills passed by the Democratic-controlled General Assembly, an unusually high number during one-party control. In a June 12, 2026 interview, she defended the vetoes as part of her job to amend, sign, or veto legislation.",
+        "source": "Virginia Mercury",
+        "url": "https://virginiamercury.com/2026/06/12/spanberger-defends-wave-of-vetoes-as-frustrated-democrats-push-back/",
+        "date": "2026-06-12"
       }
     ],
     "OH": [
       {
-        "title": "Ohio gubernatorial primary results set November matchup",
-        "summary": "Ohio's May 5 primary set the 2026 governor's race between Vivek Ramaswamy and Amy Acton.",
-        "details": "Republican Vivek Ramaswamy won the GOP primary for governor, with incumbent Republican Gov. Mike DeWine term-limited. Amy Acton, who served as DeWine's state health director during the pandemic, was the only Democrat on the ballot. The general election is November 3, 2026.",
-        "source": "NBC News",
-        "url": "https://www.nbcnews.com/politics/2026-primary-elections/ohio-governor-results",
-        "date": "2026-05-05"
+        "title": "Ohio legislature advances voter photo ID for mail ballots",
+        "summary": "An Ohio bill would require photo identification to vote by mail beginning in November 2027.",
+        "details": "House Bill 472 of the 136th General Assembly, with Senate committee amendments dated June 10, 2026, would require an elector to provide photo identification to vote by mail beginning with the November 2027 general election. The bill exempts uniformed and overseas voters and those with religious objections to being photographed, with alternative ID procedures.",
+        "source": "Ohio Legislative Service Commission",
+        "url": "https://www.legislature.ohio.gov/download?key=28645",
+        "date": "2026-06-11"
+      }
+    ],
+    "MI": [
+      {
+        "title": "Whitmer signs bills on testing and forest management",
+        "summary": "Michigan's governor signed five bills addressing standardized testing and recreational authorities.",
+        "details": "Gov. Gretchen Whitmer signed five bills into law, including measures to reduce standardized testing requirements and expand local municipalities' ability to manage public forests and recreational areas. House Bills 4694, 4695 and 4798 allow a framework to create regional recreational authorities; both packages take effect June 30, 2026.",
+        "source": "WZZM 13",
+        "url": "https://www.wzzm13.com/article/news/local/gov-whitmer-signs-5-bills-into-law/69-13af0026-dfe9-4ab9-bc94-58ffe04e1886",
+        "date": "2026-05-14"
       }
     ]
   },
-  "disclaimer": "This digest reports verifiable developments only and does not endorse or oppose any party, official, or position; readers are encouraged to consult the linked sources directly."
+  "disclaimer": "This digest reports verifiable developments from cited sources without endorsing any party, official, or position."
 }

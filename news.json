@@ -1,33 +1,33 @@
 {
-  "updated": "2026-06-16T18:24:50.912Z",
-  "updatedLabel": "June 16, 2026",
+  "updated": "2026-06-17T16:51:16.646Z",
+  "updatedLabel": "June 17, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "Trump signs executive order on AI innovation and security",
-          "summary": "President Trump signed an executive order on June 2 establishing a framework for secure deployment of frontier AI models and federal cybersecurity efforts.",
-          "details": "The order directs federal agencies to set up a voluntary framework allowing developers to give the government early access to frontier AI models for up to 30 days before release. It also expands use of advanced AI tools for cybersecurity while favoring a light-touch regulatory approach.",
-          "source": "Global Policy Watch (Covington)",
-          "url": "https://www.globalpolicywatch.com/2026/06/white-house-releases-executive-order-on-advanced-ai-innovation-and-security/",
+          "title": "White House issues executive order on advanced AI",
+          "summary": "President Trump signed an executive order on June 2 addressing AI innovation, security, and cyber defense for frontier AI models.",
+          "details": "The order directs federal agencies to accelerate AI-enabled cybersecurity initiatives, establish a voluntary framework for engagement with developers of frontier AI models before broader release, and prioritize criminal enforcement against AI-enabled cyberattacks. It sets timelines of 30 days for cybersecurity directives and 60 days for the frontier model framework.",
+          "source": "Skadden, Arps, Slate, Meagher & Flom LLP",
+          "url": "https://www.skadden.com/insights/publications/2026/06/new-ai-executive-order",
           "date": "2026-06-02"
         },
         {
-          "title": "Executive order reclassifies about 8,000 federal positions",
-          "summary": "President Trump signed an executive order on June 3 reclassifying roughly 8,000 senior policy-influencing federal positions into a new Schedule Policy/Career category.",
-          "details": "The order designates the positions as at-will roles, allowing agencies to remove employees for poor performance, misconduct, or subversion of directives without certain procedural steps. The White House said the positions remain career roles with non-partisan hiring processes and removals made without regard to political affiliation.",
+          "title": "Executive order directs customs enforcement reform",
+          "summary": "President Trump signed an executive order on June 3 directing the Department of Homeland Security and Customs and Border Protection to strengthen customs enforcement.",
+          "details": "The order directs DHS and CBP to increase bonding requirements for importers of record, establish disclosure and certification requirements, and set a 50% minimum penalty floor on importers who violate customs laws. It also directs DHS to publish annual transparency reports and propose legislation.",
           "source": "The White House",
-          "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-increases-accountability-in-the-federal-workforce/",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-strengthens-customs-enforcement/",
           "date": "2026-06-03"
         },
         {
-          "title": "President signs Secure America Act into law",
-          "summary": "On June 10, the President signed S. 2, the Secure America Act, providing immigration enforcement funding through Fiscal Year 2029.",
-          "details": "The law appropriates funding to the Department of Homeland Security, Customs and Border Protection, and Immigration and Customs Enforcement for immigration enforcement and related activities through FY2029. It was enacted as Public Law 119-98.",
+          "title": "Executive order reclassifies federal workforce positions",
+          "summary": "President Trump signed an executive order on June 3 reclassifying about 8,000 senior policy-influencing federal positions into Schedule Policy/Career.",
+          "details": "The order states that these positions remain career roles with non-partisan hiring processes unchanged, and that removal decisions will be made without respect to political affiliation. The reclassified positions are designated at-will, allowing removal for poor performance, misconduct, or other stated grounds.",
           "source": "The White House",
-          "url": "https://www.whitehouse.gov/briefings-statements/2026/06/s-2-signed-into-law/",
-          "date": "2026-06-10"
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-increases-accountability-in-the-federal-workforce/",
+          "date": "2026-06-03"
         }
       ]
     },
@@ -35,28 +35,28 @@
       "category": "Foreign Policy & National Security",
       "items": [
         {
-          "title": "US and Iran announce initial deal to extend ceasefire",
-          "summary": "The United States and Iran announced an agreement extending their ceasefire for 60 days, with a memorandum of understanding set to be signed June 19.",
-          "details": "The framework is intended to reopen the Strait of Hormuz to commercial shipping and create a window for further negotiations. The fate of Iran's nuclear program remains unresolved and is set to be addressed in upcoming talks.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/15/nx-s1-5858590/us-iran-deal-updates",
+          "title": "U.S. and Iran reach interim agreement to extend ceasefire",
+          "summary": "Mediators announced on June 14 a memorandum of understanding intended to formally end the 2026 Iran war within 60 days, with a signing ceremony expected.",
+          "details": "The United States and Iran reached an initial agreement that would extend their ceasefire and lead to the reopening of the Strait of Hormuz. The memorandum was signed electronically by both sides, with a formal signing ceremony expected in Geneva. The deal leaves Iran's nuclear program to later negotiations.",
+          "source": "PBS News (AP)",
+          "url": "https://www.pbs.org/newshour/amp/world/iran-and-u-s-reach-an-initial-deal-to-extend-the-ceasefire-and-open-the-strait-of-hormuz-but-challenges-remain",
           "date": "2026-06-15"
         },
         {
-          "title": "US plans to reduce military assets for NATO operations in Europe",
-          "summary": "The United States plans to significantly reduce the aircraft and warships it makes available for NATO operations in Europe, according to two senior European officials.",
-          "details": "The plan was communicated to allies in early June in a written document. The Pentagon declined to comment on specific numbers and referred to a prior statement by its European Command about intentions to reduce commitments in Europe.",
-          "source": "Just Security",
-          "url": "https://www.justsecurity.org/142299/early-edition-june-12-2026/",
-          "date": "2026-06-12"
+          "title": "Iran links deal to Israeli withdrawal from Lebanon",
+          "summary": "Iranian Foreign Minister Abbas Araghchi said on June 16 that the agreement with the U.S. requires Israeli forces to leave Lebanon.",
+          "details": "Araghchi said any future Israeli military attack on Lebanon or continued occupation of Lebanese territory would be regarded as a violation of the memorandum of understanding. Israeli officials have said they do not plan to withdraw troops from southern Lebanon. Iran's Revolutionary Guard said the country would receive part of roughly $24 billion in frozen funds.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-deal-peace-israel-lebanon-hezbollah-strait-of-hormuz/",
+          "date": "2026-06-16"
         },
         {
-          "title": "House passes U.S.-Japan-ROK Trilateral Cooperation Act",
-          "summary": "The U.S. House of Representatives passed the bipartisan U.S.-Japan-ROK Trilateral Cooperation Act on June 8.",
-          "details": "The legislation, introduced by Rep. Ami Bera, addresses national security and foreign policy cooperation among the United States, Japan, and South Korea. The House also passed the bipartisan DOMINANCE Act on critical minerals the same day.",
-          "source": "U.S. Representative Ami Bera",
-          "url": "https://bera.house.gov/issues/national-security-and-foreign-policy",
-          "date": "2026-06-08"
+          "title": "U.S. launched strikes in Iran following downed helicopter",
+          "summary": "The U.S. military said it launched strikes against multiple targets in Iran on June 9 in response to Iran downing a U.S. helicopter.",
+          "details": "President Trump warned the U.S. could resume attacks, citing slow progress in negotiations. He also said he had directed the military to conduct a mission supporting commercial ships through the Strait of Hormuz, stating more than 200 commercial vessels traversed the waterway.",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/06/09/world/live-news/iran-war-trump-israel",
+          "date": "2026-06-10"
         }
       ]
     },
@@ -64,28 +64,28 @@
       "category": "Congress & Legislation",
       "items": [
         {
-          "title": "Senate passes Secure America Act",
-          "summary": "The U.S. Senate passed the Secure America Act on June 5, providing roughly $70 billion for immigration enforcement and border security through 2029.",
-          "details": "The Senate-passed bill provides $38.5 billion for ICE and $22.6 billion for CBP, plus additional border security and DHS funding. The measure was advanced through budget reconciliation and required a simple majority.",
-          "source": "VisaVerge",
-          "url": "https://www.visaverge.com/news/senate-passes-70-billion-secure-america-act-backing-trump-deportation-plan/",
-          "date": "2026-06-05"
+          "title": "Senate rejects motion on Iran war powers resolution",
+          "summary": "On June 16, the Senate rejected a motion to discharge a joint resolution directing removal of U.S. armed forces from hostilities with Iran not authorized by Congress.",
+          "details": "The vote on S.J.Res. 172 was 47 in favor and 48 against, with five senators not voting. The resolution sought to direct the removal of United States Armed Forces from hostilities within or against Iran that have not been authorized by Congress.",
+          "source": "U.S. Senate",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00174.htm",
+          "date": "2026-06-16"
         },
         {
-          "title": "House passes Ukraine Support Act",
-          "summary": "The U.S. House passed H.R. 2913, the Ukraine Support Act, on June 4.",
-          "details": "The bill passed on a simple-majority vote on passage in the House. Records of the vote are maintained by the House Clerk and posted at house.gov.",
-          "source": "GovTrack",
-          "url": "https://www.govtrack.us/congress/votes/119-2026/h207",
-          "date": "2026-06-04"
-        },
-        {
-          "title": "FISA Section 702 authorization lapses amid funding votes",
-          "summary": "During the week of June 8, the House passed several anti-fraud bills and extended DHS funding through 2029, while FISA's Section 702 authorization lapsed.",
-          "details": "According to a legislative recap, many bills passed by voice vote with a few roll call votes. The Section 702 surveillance authorization lapsed, though the underlying program was reported likely to continue uninterrupted.",
-          "source": "GovTrack",
+          "title": "FISA Section 702 authorization lapses amid funding actions",
+          "summary": "GovTrack reported that the week of June 8 saw anti-fraud bills pass and DHS funding extended through 2029, while FISA's Section 702 authorization lapsed.",
+          "details": "According to the legislative recap, many anti-fraud bills passed mostly by voice vote and DHS received additional funding through 2029. The Section 702 surveillance authorization lapsed, though the program itself is described as likely to continue uninterrupted.",
+          "source": "GovTrack.us",
           "url": "https://www.govtrack.us/",
           "date": "2026-06-12"
+        },
+        {
+          "title": "Senate considers nominations including ambassador posts",
+          "summary": "The Senate scheduled a cloture vote for June 17 on the nomination of George Holding to be U.S. Director of the European Bank for Reconstruction and Development.",
+          "details": "The Senate began consideration of the nomination and a cloture vote was set to occur after disposition of the nomination of Michelle Steel to be Ambassador to South Korea. The Commerce Committee also scheduled a June 18 business meeting on legislation related to name, image, and likeness rights.",
+          "source": "Congress.gov",
+          "url": "https://www.congress.gov/congressional-record",
+          "date": "2026-06-16"
         }
       ]
     },
@@ -93,28 +93,28 @@
       "category": "Courts & Legal",
       "items": [
         {
-          "title": "Supreme Court permits Alabama to use disputed congressional map",
-          "summary": "The Supreme Court cleared the way for Alabama to use a congressional map in the 2026 elections that lower courts found to be racially discriminatory.",
-          "details": "The court issued an unsigned order allowing the map's use after sending the case back to a lower court in light of its Louisiana v. Callais decision. Justice Sotomayor dissented, joined by Justices Kagan and Jackson.",
+          "title": "Supreme Court allows Alabama to use contested congressional map",
+          "summary": "The Supreme Court on June 2 cleared the way for Alabama to use a congressional map in 2026 that lower courts found racially discriminatory.",
+          "details": "The Court issued an unsigned order permitting Alabama to hold its 2026 elections using the map. Justice Sotomayor dissented, joined by Justices Kagan and Jackson. The case had been sent back to lower courts in light of the Court's earlier decision in Louisiana v. Callais.",
           "source": "SCOTUSblog",
           "url": "https://www.scotusblog.com/2026/06/supreme-court-permits-alabama-to-use-congressional-map-struck-by-lower-court-as-racially-discrim/",
           "date": "2026-06-03"
         },
         {
-          "title": "Federal judge strikes down immigration proceeding freeze",
-          "summary": "A federal judge on June 5 struck down a Trump administration policy that made it harder for immigrants from dozens of countries to stay in or enter the United States.",
-          "details": "U.S. District Chief Judge John McConnell Jr. ruled the policy left many immigrants in legal limbo and said U.S. Citizenship and Immigration Services ignored the law. The policy applied to USCIS and did not affect immigration judges granting asylum at the border.",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/politics/trump-administration/federal-judge-strikes-trump-administration-policy-freezing-immigration-rcna348559",
-          "date": "2026-06-05"
+          "title": "Supreme Court has multiple major cases pending before recess",
+          "summary": "U.S. News reported the Supreme Court still had several major cases to decide as it approached its summer recess.",
+          "details": "Pending cases include challenges related to birthright citizenship, campaign finance limits, mail-in ballots, and Second Amendment issues. Several decisions are expected to affect state laws and election-related processes ahead of the midterm elections, with rulings expected by late June or early July.",
+          "source": "U.S. News & World Report",
+          "url": "https://www.usnews.com/news/national-news/articles/8-major-supreme-court-cases-being-decided-this-summer-heres-where-they-stand",
+          "date": "2026-06-04"
         },
         {
-          "title": "Federal judge strikes down $100,000 H-1B visa fee",
-          "summary": "A federal judge in Boston struck down the Trump administration's $100,000 fee on new H-1B visas.",
-          "details": "U.S. District Judge Leo Sorokin sided with 20 states, concluding the executive branch exceeded its authority and violated the Administrative Procedure Act. Related lawsuits are pending in other federal courts, raising the possibility of divided appellate rulings.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/09/nx-s1-5851474/federal-judge-fee-h1b-visa",
-          "date": "2026-06-09"
+          "title": "Three election law cases pending at Supreme Court",
+          "summary": "The Congressional Research Service detailed three election law cases pending at the Supreme Court that could affect the 2026 elections.",
+          "details": "The cases are Louisiana v. Callais on majority-minority districts, NRSC v. FEC on limits on coordinated party expenditures, and Watson v. RNC on counting mail-in ballots received after Election Day. The Court is expected to issue rulings by the end of June or early July.",
+          "source": "Congress.gov (Congressional Research Service)",
+          "url": "https://www.congress.gov/crs-product/LSB11419",
+          "date": "2026-04-15"
         }
       ]
     },
@@ -122,28 +122,28 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "Supreme Court declines to block California's redrawn map",
-          "summary": "The Supreme Court declined to take up an emergency appeal from California Republicans, clearing the state's newly redrawn congressional map for the 2026 midterms.",
-          "details": "The map shifts five seats in Democrats' favor and follows voter approval of Proposition 50. State Republicans, joined by the Department of Justice, had sued; the justices' decision included no dissents or explanation.",
+          "title": "Supreme Court lets California use new congressional map",
+          "summary": "The Supreme Court cleared the way for California to use its newly redrawn congressional map, which shifts five seats toward Democrats, in the 2026 midterms.",
+          "details": "The Court declined to take up an emergency appeal from California Republicans, who, joined by the Department of Justice, had challenged the map as a racial gerrymander. The map followed voter approval of Proposition 50. The justices' decision included no dissents or explanation.",
           "source": "Fox News",
           "url": "https://www.foxnews.com/politics/supreme-court-shuts-down-california-gop-bid-block-newsoms-new-map",
-          "date": "2026-06-10"
+          "date": "2026-02-04"
+        },
+        {
+          "title": "Maine Senate primary sets up Collins-Platner race",
+          "summary": "Democrat Graham Platner won Maine's June 9 Democratic Senate primary, setting up a general election against Republican Senator Susan Collins.",
+          "details": "Platner defeated Governor Janet Mills weeks after she ended her campaign. Collins, first elected in 1996, ran unopposed for the Republican nomination as she seeks a sixth term. Democrats hold 47 Senate seats and need a net gain of four for a majority.",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/politics/2026-election/maine-senate-primary-winners-platner-collins-midterms-rcna348480",
+          "date": "2026-06-09"
         },
         {
           "title": "Mid-decade redistricting continues across multiple states",
-          "summary": "Several states have pursued mid-decade congressional redistricting ahead of the 2026 midterms, with some maps enacted and others tied up in litigation.",
-          "details": "States including California, Missouri, North Carolina, Ohio, Texas, and Utah have new congressional maps, while South Carolina and others have considered redrawing. Many of the new maps face ongoing court challenges over their use in 2026.",
-          "source": "Voting Rights Lab",
-          "url": "https://votingrightslab.org/2026/05/11/an-emerging-trend-mid-decade-redistricting/",
-          "date": "2026-05-11"
-        },
-        {
-          "title": "Georgia holds primary runoff elections",
-          "summary": "Georgia's primary runoff elections are scheduled for June 16 in races where no candidate reached the 50% threshold in the May 19 primary.",
-          "details": "Runoffs apply to partisan primaries for U.S. Senate, U.S. House, and other offices, as well as certain nonpartisan judicial and consolidated city-county government races. The general election is set for November 3, with runoffs December 1.",
-          "source": "Wikipedia (2026 Georgia state elections)",
-          "url": "https://en.wikipedia.org/wiki/2026_Georgia_state_elections",
-          "date": "2026-06-16"
+          "summary": "As of early 2026, several states had adopted new congressional maps for the midterms, with litigation and additional efforts ongoing.",
+          "details": "California, Missouri, North Carolina, Ohio, and Texas passed new congressional maps between the 2024 and 2026 elections, and litigation led to a new map in Utah. Georgia, Louisiana, and New York had maps subject to ongoing litigation, while Florida, Maryland, and Virginia took action toward redistricting.",
+          "source": "Ballotpedia",
+          "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+          "date": "2026-06-12"
         }
       ]
     }
@@ -151,64 +151,124 @@
   "states": {
     "CA": [
       {
-        "title": "Newsom signs election interference law ahead of primary",
-        "summary": "Gov. Gavin Newsom signed Senate Bill 73 on May 27, strengthening California's election protections ahead of the June 2 statewide primary.",
-        "details": "The law criminalizes taking cast ballots from local election officials' custody, prohibits warrantless searches of voting machines and voter rolls, and allows state officials to seek injunctive relief and civil penalties. It took effect immediately under an urgency clause.",
+        "title": "Newsom signs election protection law",
+        "summary": "Governor Newsom signed a law on May 27 strengthening protections against interference and intimidation at California polling places ahead of the June 2 primary.",
+        "details": "Senate Bill 73 empowers the secretary of state and attorney general to veto authorization of law enforcement at polling places, prohibits warrantless search or seizure of voting machines and voter rolls, and allows officials to seek injunctive relief and civil penalties. An urgency clause allowed it to take effect before the June 2 primary.",
         "source": "JURIST",
         "url": "https://www.jurist.org/news/2026/05/california-governor-signs-bill-restricting-law-enforcement-at-polls-ahead-of-june-2-primary/",
         "date": "2026-05-27"
       }
     ],
-    "FL": [
+    "IA": [
       {
-        "title": "Legislature passes property tax amendment for November ballot",
-        "summary": "The Florida Legislature passed HJR 1F on June 2 during a special session, sending a property tax constitutional amendment to voters on November 3.",
-        "details": "The amendment would increase the homestead exemption for non-school property taxes, reaching $250,000 by 2028. It requires 60% voter approval to be ratified. Gov. DeSantis said he may seek a fall special session to restore provisions the Legislature removed.",
-        "source": "Florida Phoenix",
-        "url": "https://floridaphoenix.com/2026/06/10/desantis-quibbles-with-legislatures-changes-to-his-property-tax-cut/",
-        "date": "2026-06-10"
+        "title": "Reynolds signs final bills of 2026 session",
+        "summary": "Governor Kim Reynolds signed the final bills of the 2026 legislative session on June 2, including a measure limiting gubernatorial emergency powers.",
+        "details": "House File 2694 bars a governor from restricting private businesses' operations or ordering places of worship to close during disasters and public health emergencies, and requires legislative approval to change election laws during emergencies. These were Reynolds' final bills as governor, as she is not seeking another term.",
+        "source": "Iowa Capital Dispatch",
+        "url": "https://iowacapitaldispatch.com/2026/06/03/gov-kim-reynolds-signs-final-bills-from-2026-legislative-session/",
+        "date": "2026-06-03"
+      }
+    ],
+    "NH": [
+      {
+        "title": "Ayotte signs 18 bills into law",
+        "summary": "Governor Kelly Ayotte signed 18 bills into law during the week of June 12, covering school districts, elections, and permitting.",
+        "details": "The bills included HB 656 on local school districts accepting federal grants, HB 1381 extending the party filing period, and HB 1425 on an online wetlands permit processing system. Others addressed decentralized autonomous organizations and financing matters.",
+        "source": "Office of Governor Kelly Ayotte",
+        "url": "https://www.governor.nh.gov/news/governor-signs-18-bills-law",
+        "date": "2026-06-12"
+      }
+    ],
+    "CT": [
+      {
+        "title": "Lamont signs youth online safety and AI law",
+        "summary": "Governor Ned Lamont signed legislation on June 2 establishing youth online safety protections, AI regulations, and workforce training initiatives.",
+        "details": "Public Act 26-15 was developed by Governor Lamont, Attorney General William Tong, and State Senator James Maroney. It addresses concerns including youth social media use and artificial intelligence, and establishes workforce training initiatives for technology jobs.",
+        "source": "Office of Governor Ned Lamont",
+        "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
+        "date": "2026-06-02"
+      }
+    ],
+    "NC": [
+      {
+        "title": "North Carolina legislature overrides veto on education tax credit",
+        "summary": "The North Carolina General Assembly overrode the governor's veto on June 3 of a bill opting the state into a federal education tax credit scholarship program.",
+        "details": "The override opted North Carolina into the federal tax credit scholarship program. As of June 4, 31 states had formally opted in, passed legislation to opt in, or indicated intent to participate, while the governors of Hawaii, New Mexico, and Oregon said they would not participate.",
+        "source": "Ballotpedia News",
+        "url": "https://news.ballotpedia.org/2026/06/12/north-carolina-general-assembly-overrides-governors-veto-of-bill-opting-state-into-federal-education-tax-credit-scholarship-program/",
+        "date": "2026-06-03"
       }
     ],
     "SC": [
       {
-        "title": "2026 legislative session begins with all seats filled",
-        "summary": "South Carolina's 2026 legislative session began June 13 with all 170 seats filled after a special election in Dorchester County.",
-        "details": "Republican Greg Ford maintained a 21-vote lead in an automatic recount to win the final vacant state House seat. Earlier, Gov. McMaster called a special session on redistricting and the budget; the Senate had not advanced a new congressional map.",
-        "source": "Yahoo News",
+        "title": "South Carolina special session on redistricting and special election",
+        "summary": "Governor McMaster called a redistricting special session in mid-May, and a special election filled the last legislative vacancy ahead of the June 13 session.",
+        "details": "McMaster issued an executive order calling the General Assembly back to address the state budget and congressional districts. A proposed map backed by House Republicans could position the party to win all seven U.S. House seats. Republican Greg Ford won a Dorchester County state House special election by 21 votes after a recount.",
+        "source": "Yahoo News (Statehouse Carolina)",
         "url": "https://www.yahoo.com/news/articles/republican-holds-21-vote-margin-154400653.html",
         "date": "2026-06-13"
       }
     ],
-    "TX": [
+    "TN": [
       {
-        "title": "Redrawn congressional map remains in effect for 2026 primaries",
-        "summary": "Texas's redrawn congressional map (PlanC2333) is in effect for the 2026 elections after a U.S. Supreme Court stay, pending appeal.",
-        "details": "A federal district court enjoined the map in November, but the Supreme Court granted Texas a stay on December 4. The map remains in use for congressional elections beginning with the 2026 primaries pending the court's action on the appeal.",
-        "source": "Texas Legislative Council",
-        "url": "https://redistricting.capitol.texas.gov/reqs",
-        "date": "2026-06-16"
+        "title": "Tennessee enacts new congressional map",
+        "summary": "Tennessee legislators passed and Governor Bill Lee approved a new congressional map redrawing the Memphis-based 9th district.",
+        "details": "Governor Lee convened a special session following the U.S. Supreme Court's decision in Louisiana v. Callais. The new map redraws the 9th congressional district, the state's only Democratic-held and majority-Black district. Tennessee's congressional primary is scheduled for August 6.",
+        "source": "Voting Rights Lab",
+        "url": "https://votingrightslab.org/2026/05/11/an-emerging-trend-mid-decade-redistricting/",
+        "date": "2026-05-11"
       }
     ],
     "VA": [
       {
-        "title": "State Supreme Court nullifies redistricting referendum",
-        "summary": "The Supreme Court of Virginia nullified the 2026 redistricting referendum and new map on May 8 after voters had approved the measure.",
-        "details": "The legislatively referred constitutional amendment, which would have allowed mid-decade congressional redistricting, passed by a slim margin on the April 21 ballot. The state supreme court subsequently struck it down.",
-        "source": "Wikipedia (2026 Virginia redistricting referendum)",
+        "title": "Virginia redistricting referendum nullified by state court",
+        "summary": "Virginia voters approved a redistricting referendum in April, but the state supreme court nullified the referendum and new map on May 8.",
+        "details": "The 2026 Virginia redistricting referendum appeared on the April 21 ballot as a legislatively referred constitutional amendment and passed by a slim margin. It was subsequently struck down by the Supreme Court of Virginia. The amendment would have allowed mid-decade redistricting of congressional districts.",
+        "source": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/2026_Virginia_redistricting_referendum",
         "date": "2026-05-08"
       }
     ],
-    "MD": [
+    "UT": [
       {
-        "title": "Federal workforce reclassification draws state attention",
-        "summary": "Maryland outlets reported on the federal executive order moving about 8,000 federal jobs into a category that strips certain job protections, affecting many Maryland residents.",
-        "details": "The June 3 order revives a version of the previously proposed Schedule F policy, renamed Schedule Policy/Career. Maryland, home to many federal workers, saw coverage of affected employees facing decisions under the change.",
-        "source": "Maryland Matters",
-        "url": "https://marylandmatters.org/2026/06/04/trump-moves-about-8000-federal-jobs-to-new-category-that-strips-job-protections/",
-        "date": "2026-06-04"
+        "title": "Utah to use court-adopted congressional map",
+        "summary": "A Utah district court judge adopted a new congressional map in November 2025 that shifts one district toward Democrats for the 2026 elections.",
+        "details": "Judge Dianna Gibson rejected a map submitted by the Utah Legislature and adopted a plaintiffs' proposal after finding lawmakers had undermined an independent redistricting commission established by a 2018 ballot measure. The new Salt Lake City district is approximately 43% Republican; all four current U.S. House members are Republicans.",
+        "source": "Ballotpedia News",
+        "url": "https://news.ballotpedia.org/2025/11/18/utah-becomes-the-sixth-state-with-a-new-congressional-map-ahead-of-the-2026-elections/",
+        "date": "2025-11-18"
+      }
+    ],
+    "FL": [
+      {
+        "title": "DeSantis signs education and union legislation",
+        "summary": "Governor Ron DeSantis signed SB 1296 and HB 1279 addressing teacher unions, educator pay, and education policy.",
+        "details": "SB 1296 provides for the decertification of school unions and fast-tracks certain salary increases. HB 1279 allows districts to provide pay incentives to high-performing teachers in lower-performing schools without collective bargaining and addresses parental rights in special education.",
+        "source": "Executive Office of the Governor of Florida",
+        "url": "https://www.flgov.com/eog/news/press/2026/governor-desantis-signs-landmark-reforms-support-education-and-hold-school-unions",
+        "date": "2026-05-01"
+      }
+    ],
+    "WI": [
+      {
+        "title": "Wisconsin special sessions end without action",
+        "summary": "Two special sessions of the Wisconsin Legislature called by the governor ended on May 14 without resolution.",
+        "details": "One special session, beginning April 14, was to consider a constitutional amendment to ban partisan redistricting; the other, beginning May 13, was to consider spending part of the state's budget surplus. Both ended without resolution.",
+        "source": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/107th_Wisconsin_Legislature",
+        "date": "2026-05-14"
+      }
+    ],
+    "KS": [
+      {
+        "title": "Kansas to vote on supreme court selection amendment",
+        "summary": "A legislatively referred constitutional amendment on selecting Kansas Supreme Court justices will appear on the August 4 ballot.",
+        "details": "The amendment would create partisan elections and six-year terms for justices, replacing the current system in which justices are appointed by the governor through a nominating commission. It passed the legislature with Republican support.",
+        "source": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Kansas_Elections_for_Supreme_Court_Justices_Amendment",
+        "date": "2026-08-04"
       }
     ]
   },
-  "disclaimer": "This digest reports verifiable developments from cited sources without endorsement of any party, candidate, or position."
+  "disclaimer": "This digest reports verifiable developments from cited sources for civic-education purposes and does not endorse any party, candidate, or position."
 }

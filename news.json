@@ -1,33 +1,33 @@
 {
-  "updated": "2026-06-18T16:51:12.010Z",
-  "updatedLabel": "June 18, 2026",
+  "updated": "2026-06-19T16:27:56.897Z",
+  "updatedLabel": "June 19, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "Trump signs executive order reclassifying federal workforce positions",
-          "summary": "President Trump signed an executive order reclassifying about 8,000 senior policy-influencing federal positions into a new Schedule Policy/Career category.",
-          "details": "The order reclassifies roughly 8,000 senior policy-influencing positions into Schedule Policy/Career. The White House states the roles remain career positions with non-partisan hiring processes unchanged, while removal decisions are to be made without respect to political affiliation. OPM later issued implementation guidance to agencies.",
-          "source": "The White House",
-          "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-increases-accountability-in-the-federal-workforce/",
-          "date": "2026-06-03"
+          "title": "White House Issues Executive Order on AI Innovation and Security",
+          "summary": "President Trump signed an executive order addressing artificial intelligence cybersecurity and frontier model development.",
+          "details": "On June 2, 2026, the White House issued Executive Order 14409, focusing on upgrading federal cyber defenses, establishing a voluntary framework for frontier AI developers to engage with the government before deployment, and directing enforcement resources toward criminal misuse of AI. Several actions carry a 30-day timeline.",
+          "source": "Inside Privacy (Covington & Burling)",
+          "url": "https://www.insideprivacy.com/artificial-intelligence/white-house-releases-executive-order-on-advanced-ai-innovation-and-security/",
+          "date": "2026-06-02"
         },
         {
-          "title": "GAO reports federal workforce decline in 2025",
-          "summary": "A GAO report found the civilian workforce at 22 major agencies declined by nearly 256,000 employees, or more than 11%, from December 2024 to January 2026.",
-          "details": "GAO reported that nearly 378,000 employees separated from 22 major agencies during 2025, about 65% in the second half as deferred-resignation departures took effect, while about 127,000 were hired. Declines ranged from about 1% at Homeland Security to over 45% at the Department of Education.",
-          "source": "U.S. Government Accountability Office",
-          "url": "https://www.gao.gov/products/gao-26-108583",
+          "title": "Federal Reserve Maintains Interest Rate Target Range",
+          "summary": "The Federal Open Market Committee directed operations to keep the federal funds rate within its existing target range.",
+          "details": "Effective June 18, 2026, the FOMC directed the Desk to maintain the federal funds rate in a target range of 3-1/2 to 3-3/4 percent. The Board also said annual bank stress test results would be released on June 24.",
+          "source": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm",
           "date": "2026-06-17"
         },
         {
-          "title": "White House issues executive order on AI cybersecurity",
-          "summary": "President Trump signed an executive order titled 'Promoting Advanced Artificial Intelligence Innovation and Security' directing federal agencies to strengthen cyber defenses.",
-          "details": "Issued June 2, 2026, the order directs agencies to strengthen government and private-sector cyber defenses against advanced AI and to develop voluntary benchmarking frameworks for frontier AI models. It establishes a voluntary frontier-model engagement framework and directs enforcement against AI-driven cybercrime.",
-          "source": "Inside Government Contracts",
-          "url": "https://www.insidegovernmentcontracts.com/2026/06/white-house-releases-executive-order-on-advanced-ai-innovation-and-security/",
-          "date": "2026-06-02"
+          "title": "FDA Advisory Committee Reviews mRNA Influenza Vaccine",
+          "summary": "An FDA advisory committee met to consider a Moderna influenza vaccine application.",
+          "details": "On June 18, 2026, the Vaccines and Related Biological Products Advisory Committee met in open session to discuss and make recommendations on the safety and effectiveness of MFLUSIVA, an mRNA influenza vaccine, for the prevention of influenza in persons 50 years of age and older.",
+          "source": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-june-18-2026-meeting-announcement",
+          "date": "2026-06-18"
         }
       ]
     },
@@ -35,20 +35,28 @@
       "category": "Foreign Policy & National Security",
       "items": [
         {
-          "title": "U.S. and Iran sign memorandum of understanding to end war",
-          "summary": "President Trump and Iranian President Masoud Pezeshkian signed a memorandum of understanding laying out terms to end the war and reopen the Strait of Hormuz.",
-          "details": "The interim agreement, signed late June 17, starts a 60-day negotiating window over Iran's nuclear program. The memorandum states the Strait of Hormuz will reopen, the U.S. will lift sanctions and its naval blockade, and Iran reaffirms it will not develop nuclear weapons.",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/world/iran/strait-hormuz-reopen-us-lift-iran-sanctions-14-point-deal-seeking-end-rcna350513",
-          "date": "2026-06-17"
+          "title": "U.S. Military Conducts New Strikes in Iran",
+          "summary": "The U.S. military said it launched strikes against multiple targets in Iran amid ongoing conflict.",
+          "details": "On June 9-10, 2026, the U.S. military said it carried out strikes against multiple targets in Iran. The strikes followed the reported downing of a U.S. helicopter over the Strait of Hormuz, and Iran's Revolutionary Guard said it launched attacks on U.S.-linked targets in the region.",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/06/09/world/live-news/iran-war-trump-israel",
+          "date": "2026-06-10"
         },
         {
-          "title": "Markets react to U.S.-Iran framework agreement",
-          "summary": "Oil prices fell and U.S. stocks rose after the United States and Iran announced an agreement to reopen the Strait of Hormuz.",
-          "details": "Brent crude fell 4.76% to $83.17 per barrel and WTI fell 4.87% to $80.75, both lowest settle prices since March 4. The Dow gained 469 points to close at a record 51,671, while the S&P 500 and Nasdaq also rose sharply.",
-          "source": "CNN",
-          "url": "https://www.cnn.com/2026/06/15/world/live-news/iran-war-g7-summit",
-          "date": "2026-06-15"
+          "title": "Council on Foreign Relations Reviews New National Security Strategy",
+          "summary": "Analysts examined the administration's recently released National Security Strategy.",
+          "details": "The administration released its National Security Strategy, which CFR experts discussed on June 18, 2026. The new strategy and accompanying defense documents describe a shift in U.S. priorities toward the Western Hemisphere, diverging from prior strategies emphasizing China, Iran, North Korea, and Russia.",
+          "source": "Council on Foreign Relations",
+          "url": "https://www.cfr.org/expert-brief/unpacking-trump-twist-national-security-strategy",
+          "date": "2026-06-18"
+        },
+        {
+          "title": "Senate Rejects War Powers Resolution on Iran",
+          "summary": "The Senate rejected a motion to discharge a resolution to remove U.S. forces from hostilities with Iran.",
+          "details": "On June 16, 2026, the Senate voted 47-48 on a motion to discharge S.J.Res. 172, a joint resolution to direct the removal of U.S. Armed Forces from hostilities within or against Iran that had not been authorized by Congress. The motion to discharge was rejected.",
+          "source": "U.S. Senate",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00174.htm",
+          "date": "2026-06-16"
         }
       ]
     },
@@ -56,28 +64,28 @@
       "category": "Congress & Legislation",
       "items": [
         {
-          "title": "Senate passes immigration enforcement funding bill",
-          "summary": "The Senate voted 52-47 to pass legislation funding Immigration and Customs Enforcement and Border Patrol for three years.",
-          "details": "The $70 billion bill funds ICE and Border Patrol through the end of the term. Senators rejected multiple amendments related to a separate settlement fund. The bill passed early June 5 after weeks of delays.",
+          "title": "House Passes SAVE Act",
+          "summary": "The House of Representatives passed legislation requiring documentary proof of citizenship to register to vote in federal elections.",
+          "details": "On June 16, 2026, the House passed a version of the SAVE Act, which would require individuals to provide documents such as a birth certificate or passport when registering to vote in federal elections. The measure now goes to the Senate.",
+          "source": "Brennan Center for Justice",
+          "url": "https://www.brennancenter.org/our-work/analysis-opinion/house-passes-new-version-save-act-brennan-center-responds",
+          "date": "2026-06-16"
+        },
+        {
+          "title": "Senate Acts on Housing Legislation",
+          "summary": "The Senate scheduled a vote to concur in House changes to a housing bill.",
+          "details": "The Senate considered the House message accompanying H.R. 6644, the 21st Century ROAD to Housing Act, with a Scott amendment. The House earlier passed its version 396-13, and the bill aims to address housing affordability and increase supply through incentives and conversion programs.",
+          "source": "U.S. Senate Daily Press",
+          "url": "https://www.dailypress.senate.gov/wednesday-june-17-2026/",
+          "date": "2026-06-17"
+        },
+        {
+          "title": "Senate Passes Immigration Enforcement Funding Bill",
+          "summary": "The Senate passed a bill funding federal immigration enforcement agencies.",
+          "details": "The Senate passed roughly $70 billion in legislation to fund immigration enforcement agencies early on June 5, 2026, after weeks of delays. Lawmakers defeated multiple attempts to add language addressing an unrelated settlement fund.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/05/nx-s1-5847589/senate-passes-immigration-enforcement-bill-without-limits-on-trump-settlement-fund",
           "date": "2026-06-05"
-        },
-        {
-          "title": "House passes Secure America Act",
-          "summary": "The House passed S. 2, the Secure America Act, on a simple-majority vote on June 9.",
-          "details": "The measure passed the House on June 9 following Senate passage on June 5. The vote was recorded as House Vote #214 in 2026 on final passage of the bill.",
-          "source": "GovTrack",
-          "url": "https://www.govtrack.us/congress/votes/119-2026/h214",
-          "date": "2026-06-09"
-        },
-        {
-          "title": "Section 702 surveillance authorization lapses",
-          "summary": "FISA's Section 702 authorization lapsed during congressional activity in mid-June, though the program is expected to continue.",
-          "details": "According to a legislative recap, many anti-fraud bills passed mostly by voice vote and DHS received additional funding through 2029, while FISA's Section 702 authorization lapsed. Analysts noted the program itself is likely to continue uninterrupted.",
-          "source": "GovTrack",
-          "url": "https://www.govtrack.us/",
-          "date": "2026-06-12"
         }
       ]
     },
@@ -85,28 +93,28 @@
       "category": "Courts & Legal",
       "items": [
         {
-          "title": "Supreme Court rules in United States v. Hemani",
-          "summary": "The Supreme Court issued its decision in United States v. Hemani, a Second Amendment case involving a federal firearms restriction on unlawful drug users.",
-          "details": "Argued March 2 and decided June 18, 2026, the case concerned Ali Hemani, a Texas man prosecuted under a statute barring firearm possession by unlawful drug users based on marijuana use. A federal appeals court had ruled in his favor; the Trump administration defended the restriction.",
-          "source": "Supreme Court of the United States",
-          "url": "https://www.supremecourt.gov/opinions/25pdf/24-1234_g2bh.pdf",
+          "title": "Supreme Court Rules in United States v. Hemani",
+          "summary": "The Supreme Court unanimously limited application of a federal law barring drug users from possessing firearms.",
+          "details": "On June 18, 2026, the Supreme Court ruled 9-0 in United States v. Hemani that the prosecution of a Texas man who used marijuana for possessing a securely stored firearm was inconsistent with the Second Amendment. Justice Neil Gorsuch authored the opinion; the ruling did not strike down the statute entirely.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/supreme-court-drug-users-gun-law-us-v-hemani/",
           "date": "2026-06-18"
         },
         {
-          "title": "Supreme Court allows Alabama to use redrawn congressional map",
-          "summary": "The Supreme Court issued an unsigned 6-3 order allowing Alabama to use legislatively drawn maps, removing the prior injunction.",
-          "details": "On June 2, 2026, the Court granted an emergency request to remove the Milligan injunction and allow use of the legislatively drawn maps, which removed a majority-Black district that had been added by court-drawn maps. The order was issued without a signed opinion.",
-          "source": "Justia U.S. Supreme Court Center",
-          "url": "https://supreme.justia.com/cases/federal/us/year/2026.html",
-          "date": "2026-06-02"
+          "title": "Supreme Court Allows Alabama to Use Congressional Map",
+          "summary": "The Supreme Court issued an order permitting Alabama to use a redrawn congressional map for the 2026 elections.",
+          "details": "The Supreme Court issued an unsigned order allowing Alabama to hold its 2026 elections using a map that a lower court had found racially discriminatory. The order marks an early test of the Court's ruling in Louisiana v. Callais on the Voting Rights Act.",
+          "source": "U.S. News & World Report",
+          "url": "https://www.usnews.com/news/national-news/articles/8-major-supreme-court-cases-being-decided-this-summer-heres-where-they-stand",
+          "date": "2026-06-18"
         },
         {
-          "title": "Supreme Court enters final stretch of term with major cases pending",
-          "summary": "The Supreme Court has 22 cases left to decide, including challenges over birthright citizenship and presidential removal of agency officials.",
-          "details": "As of mid-June, 22 of 58 argued cases remained. The Court had already decided cases striking down the administration's tariff program and weakening the Voting Rights Act. Pending cases include Trump v. Barbara on birthright citizenship and disputes over independent agencies.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/09/nx-s1-5847967/supreme-court-major-cases-left-2026",
-          "date": "2026-06-18"
+          "title": "Missouri Supreme Court Upholds Congressional Map",
+          "summary": "The Missouri Supreme Court issued rulings allowing the state's new congressional map to remain in effect.",
+          "details": "On May 12, 2026, the Missouri Supreme Court issued three unanimous rulings rejecting challenges to a Republican-drawn congressional map and the effect of referendum petitions. The court had earlier ruled in March that lawmakers could redistrict more than once per decade.",
+          "source": "Missouri Independent",
+          "url": "https://missouriindependent.com/2026/05/12/no-perfect-map-missouri-ags-office-defends-gerrymandered-congressional-districts/",
+          "date": "2026-05-12"
         }
       ]
     },
@@ -114,28 +122,28 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "Louisiana enacts new congressional map after Supreme Court ruling",
-          "summary": "Louisiana lawmakers passed and Governor Jeff Landry signed a new congressional map eliminating one majority-Black district following the Louisiana v. Callais ruling.",
-          "details": "The Republican-controlled legislature approved a new map after the Supreme Court struck down the prior map. The new plan redraws Rep. Cleo Fields' district and adds part of Baton Rouge to Rep. Troy Carter's majority-Black district. Civil rights groups have criticized the plan and further litigation is expected.",
-          "source": "WAFB",
-          "url": "https://www.wafb.com/2026/06/01/louisiana-lawmakers-race-finish-session-after-redistricting-fight-new-orleans-court-overhaul/",
-          "date": "2026-06-01"
-        },
-        {
-          "title": "Oklahoma holds primary; Alabama and Georgia hold runoffs",
-          "summary": "Oklahoma held its 2026 primary on June 16, with primary runoffs in Alabama and Georgia and special elections in California and Washington, D.C.",
-          "details": "Voters in Oklahoma cast ballots in congressional and statewide primaries, while Alabama and Georgia held primary runoffs. Additional contests included a California congressional district special election and races in Washington, D.C.",
-          "source": "270toWin",
-          "url": "https://www.270towin.com/content/2026-primary-results-by-state",
+          "title": "Georgia Holds Primary Runoffs for Senate and Governor",
+          "summary": "Georgia voters selected nominees in runoff contests for U.S. Senate and governor.",
+          "details": "In the June 16, 2026 runoffs, Rep. Mike Collins won the GOP Senate nomination to face Democratic Sen. Jon Ossoff in November. In the governor's race, Rick Jackson defeated Lt. Gov. Burt Jones, who had been endorsed by President Trump; Jackson will face Democrat Keisha Lance Bottoms.",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/06/16/nx-s1-5860795/georgia-election-senate-governor-results-trump",
           "date": "2026-06-16"
         },
         {
-          "title": "Georgia special session declines to take up redistricting",
-          "summary": "Georgia House Republican leaders said they would not redraw congressional or legislative maps during the June 17 special session called by Governor Brian Kemp.",
-          "details": "Kemp called the session after the Louisiana v. Callais ruling, citing a need for new maps before 2028. House Speaker Jon Burns said lawmakers need more time to understand the ruling and cited ongoing litigation, declining to take up redistricting while focusing on tax relief and the gas tax suspension.",
-          "source": "CBS News Atlanta",
-          "url": "https://www.cbsnews.com/atlanta/news/georgia-lawmakers-will-not-redraw-voting-districts-during-special-session/",
-          "date": "2026-06-17"
+          "title": "Washington, D.C. Holds Primary Elections",
+          "summary": "Voters in Washington, D.C. cast ballots in primaries for mayor, council, and delegate.",
+          "details": "D.C. held its primary elections on June 16, 2026, with contests for mayor, U.S. delegate, and council seats. Incumbent Mayor Muriel Bowser is retiring after three terms, and the election is the first to use ranked-choice voting following approval of Initiative 83.",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/06/16/g-s1-127760/washington-dc-primary-election-results-2026",
+          "date": "2026-06-16"
+        },
+        {
+          "title": "Redistricting Battles Continue Ahead of Midterms",
+          "summary": "Multiple states have redrawn or are contesting congressional maps before the 2026 elections.",
+          "details": "An Associated Press review reported that mid-decade redistricting has placed millions of voters in new districts, with efforts in states including Texas, California, Missouri, and Louisiana, and court actions in Alabama and Virginia shaping the partisan balance heading into November.",
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/republicans-won-the-redistricting-battle-now-voters-will-decide-whether-they-win-congress",
+          "date": "2026-06-03"
         }
       ]
     }
@@ -143,64 +151,84 @@
   "states": {
     "CA": [
       {
-        "title": "Acting Governor Limón signs local government bills",
-        "summary": "Acting Governor Monique Limón signed legislation modernizing local government operations, becoming the first Latina to sign laws as Acting Governor in California.",
-        "details": "On June 17, Limón signed bills including SB 1080 on county clerk record certification and several Committee on Local Government validation measures. The bills aim to modernize local government operations and reduce administrative burdens.",
+        "title": "California Enacts Election Security Law",
+        "summary": "Gov. Gavin Newsom signed legislation strengthening election protections ahead of the June 2 primary.",
+        "details": "On May 27, 2026, Gov. Newsom signed Senate Bill 73, which strengthens California's election safeguards against interference and intimidation, including barring unauthorized law enforcement activity. The law was signed ahead of the state's June 2 primary.",
         "source": "Office of the Governor of California",
-        "url": "https://www.gov.ca.gov/2026/06/17/acting-governor-monique-limon-signs-legislation-6-17-26/",
+        "url": "https://www.gov.ca.gov/2026/05/27/governor-newsom-signs-legislation-to-further-protect-california-elections-from-interference-and-intimidation/",
+        "date": "2026-05-27"
+      }
+    ],
+    "TX": [
+      {
+        "title": "Texas Congressional Map Litigation Continues",
+        "summary": "Texas's redrawn congressional map remains in effect for 2026 primaries amid ongoing legal proceedings.",
+        "details": "A U.S. district court enjoined the use of the congressional plan enacted by the 89th Legislature for 2026 elections, but on December 4 the U.S. Supreme Court granted Texas a stay pending appeal, putting the map back in effect for the 2026 primaries.",
+        "source": "Texas Legislative Council Redistricting",
+        "url": "https://redistricting.capitol.texas.gov/",
+        "date": "2026-06-01"
+      }
+    ],
+    "MO": [
+      {
+        "title": "Missouri Supreme Court Upholds Redistricting Plan",
+        "summary": "The Missouri Supreme Court allowed the state's new congressional map to stand for 2026.",
+        "details": "On May 12, 2026, the Missouri Supreme Court issued three unanimous rulings rejecting challenges to the Republican-drawn congressional map and finding that referendum petition submissions did not automatically suspend it. The decisions followed March rulings affirming the legislature's redistricting authority.",
+        "source": "St. Louis Public Radio",
+        "url": "https://www.stlpr.org/government-politics-issues/2026-05-12/in-blow-to-democrats-missouri-supreme-court-says-map-that-targets-rep-cleaver-is-in-effect",
+        "date": "2026-05-12"
+      }
+    ],
+    "LA": [
+      {
+        "title": "Louisiana Suspends U.S. House Primaries",
+        "summary": "Gov. Jeff Landry suspended the state's U.S. House primary elections following a Supreme Court ruling.",
+        "details": "After the Supreme Court's April 29 ruling on Louisiana's congressional map, Gov. Landry issued an executive order suspending U.S. House primary elections, originally set for May 16, while the legislature works on a new map. Other primaries, including for U.S. Senate, proceeded as scheduled.",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/04/30/nx-s1-5806000/louisiana-suspends-house-primaries-supreme-court",
+        "date": "2026-04-30"
+      }
+    ],
+    "FL": [
+      {
+        "title": "DeSantis Signs Additional Bills Into Law",
+        "summary": "Gov. Ron DeSantis signed another batch of bills, including local measures and public records provisions.",
+        "details": "On June 17, 2026, Gov. DeSantis signed 14 more bills into law, including measures addressing public records exemptions related to conviction integrity units and investigations into social media platforms. The signings add to over 160 laws enacted in Florida in 2026.",
+        "source": "News4Jax",
+        "url": "https://www.news4jax.com/news/politics/2026/06/17/gov-desantis-signs-14-more-bills-heres-the-list-of-whats-new-to-florida-law/",
         "date": "2026-06-17"
       }
     ],
     "NY": [
       {
-        "title": "Kyra's Law delivered to Governor Hochul",
-        "summary": "New York's Kyra's Law, requiring judges to weigh child-safety allegations first in custody cases, passed both chambers and was delivered to Governor Hochul.",
-        "details": "The bill passed both chambers June 5 and reached Hochul June 15. It requires family and matrimonial judges to resolve credible domestic-violence and child-abuse allegations as a threshold safety question before weighing other custody factors. Hochul has until the end of 2026 to sign or veto.",
-        "source": "Divorce.law",
-        "url": "https://divorce.law/guides/news/kyras-law-passes-ny-legislature-hochul-desk-custody-reform-new-york/",
+        "title": "New York Holds Congressional Primaries",
+        "summary": "New York voters cast ballots in primaries as Mayor Mamdani tested his political influence.",
+        "details": "Ahead of New York's June primary, Mayor Zohran Mamdani endorsed three left-of-center candidates, including in open congressional seats. Early voting was underway in the state's Democratic congressional primary races, viewed as a test of his influence.",
+        "source": "ABC News",
+        "url": "https://abcnews.com/Politics/mamdani-made-new-york-city-hall-influence-grow/story?id=133974954",
         "date": "2026-06-18"
       }
     ],
-    "PA": [
+    "OR": [
       {
-        "title": "Governor Shapiro signs World Cup hours bill",
-        "summary": "Governor Josh Shapiro signed Senate Bill 1218, allowing Philadelphia bars and restaurants to stay open two extra hours during the FIFA World Cup and America250 celebrations.",
-        "details": "The law permits extended hours between June 11 and July 20, 2026, coinciding with the FIFA World Cup and the nation's 250th anniversary observances.",
-        "source": "Commonwealth of Pennsylvania",
-        "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-senate-bill-1218-into-law",
-        "date": "2026-06-11"
+        "title": "Oregon Sets Up Gubernatorial Rematch",
+        "summary": "Christine Drazan won the Republican nomination for governor, setting up a rematch with Gov. Tina Kotek.",
+        "details": "On May 19, 2026, Christine Drazan won the Republican gubernatorial nomination, emerging from a 14-candidate field. She will face Democratic incumbent Gov. Tina Kotek in November in a rematch of the 2022 race, which Kotek won by under four points.",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-election/oregon-governor-primary-election-race-winner-christine-drazan-rcna345007",
+        "date": "2026-05-19"
       }
     ],
-    "CO": [
+    "VA": [
       {
-        "title": "Governor Polis signs fingerprint background check bill",
-        "summary": "Governor Jared Polis signed SB25-146 on June 2, allowing regulators to require fingerprint-based criminal history checks for certain licensed professions.",
-        "details": "The law allows regulators to require fingerprint-based criminal history record checks for applicants in specified professions, with applicants responsible for associated costs. The state described the change as aligning Colorado language with federal law.",
-        "source": "Colorado Division of Professions and Occupations",
-        "url": "https://dpo.colorado.gov/LegUpdates",
-        "date": "2026-06-02"
-      }
-    ],
-    "TX": [
-      {
-        "title": "Governor Abbott issues severe storm disaster proclamation",
-        "summary": "Governor Greg Abbott issued a disaster proclamation for dozens of Texas counties after severe storms beginning June 14, 2026.",
-        "details": "The proclamation cited severe storms including heavy rainfall, flash flooding, hazardous wind gusts, large hail, and tornado threats causing widespread damage across numerous counties. It authorizes suspension of certain rules to aid emergency response.",
-        "source": "Office of the Texas Governor",
-        "url": "https://gov.texas.gov/news/post/governor-abbott-issues-severe-storm-disaster-proclamation-in-june-2026",
-        "date": "2026-06-15"
-      }
-    ],
-    "GA": [
-      {
-        "title": "Georgia special session opens without redistricting",
-        "summary": "Georgia lawmakers convened a special session June 17 but declined to redraw congressional or legislative maps, focusing instead on election and tax matters.",
-        "details": "Governor Kemp called the session following Louisiana v. Callais. House leaders said they would not take up redistricting, citing pending litigation and the need for public input, and directed the session toward tax relief and ratifying the gas tax suspension. Demonstrators gathered at the Capitol.",
-        "source": "NewsChannel 9",
-        "url": "https://newschannel9.com/news/local/georgia-lawmakers-halt-redistricting-push-despite-kemps-special-session-jon-burns-voting-districts-louisiana-v-callais-voting-rights-act-georgia-general-assembly",
-        "date": "2026-06-17"
+        "title": "Virginia Supreme Court Strikes Down Voter-Approved Map",
+        "summary": "Virginia's Supreme Court nullified a voter-approved redistricting referendum and the associated map.",
+        "details": "A redistricting referendum passed on the April 21, 2026 ballot by a slim margin, but the Supreme Court of Virginia struck it down on May 8, 2026, ruling the voter-approved map could not be used for the 2026 elections.",
+        "source": "Britannica",
+        "url": "https://www.britannica.com/event/2026-US-midterm-elections",
+        "date": "2026-05-08"
       }
     ]
   },
-  "disclaimer": "This digest reports verifiable recent developments from cited sources without endorsing any party, official, or position."
+  "disclaimer": "This digest reports verifiable developments from cited sources and does not endorse any party, candidate, or position."
 }

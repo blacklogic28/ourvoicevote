@@ -1,25 +1,25 @@
 {
-  "updated": "2026-06-22T18:08:46.951Z",
-  "updatedLabel": "June 22, 2026",
+  "updated": "2026-06-23T16:20:33.067Z",
+  "updatedLabel": "June 23, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "Trump signs executive order on advanced AI and cybersecurity",
-          "summary": "President Trump signed an executive order establishing a voluntary framework for federal review of advanced 'frontier' AI models and directing agencies to strengthen cyber defenses.",
-          "details": "Signed June 2, 2026, the order directs federal agencies to harden government information systems within 30 days, creates an AI cybersecurity clearinghouse, and lets developers voluntarily give the government early access to certain AI models before release. It bars a mandatory licensing requirement.",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/tech/tech-news/trump-ai-executive-order-rcna348072",
-          "date": "2026-06-02"
+          "title": "Trump signs executive orders on quantum technology and cryptography",
+          "summary": "President Trump signed executive orders addressing quantum technology and cryptography and commented on U.S.-Iran negotiations.",
+          "details": "On June 22, 2026, President Trump signed executive orders related to quantum technology and cryptography. During the signing, he also commented on the U.S. negotiations with Iran, referencing an open strait and Iran not obtaining a nuclear weapon.",
+          "source": "C-SPAN",
+          "url": "https://www.c-span.org/program/white-house-event/pres-trump-signs-executive-orders/681536",
+          "date": "2026-06-22"
         },
         {
-          "title": "Executive order reclassifies senior federal positions",
-          "summary": "President Trump signed an executive order reclassifying about 8,000 senior policy-influencing federal positions into a new Schedule Policy/Career category.",
-          "details": "Announced June 3, 2026, the order makes the affected roles at-will positions that agencies can remove for performance, misconduct, or other stated grounds without certain procedural steps. The White House said the positions remain career roles with non-partisan hiring and removal decisions made without regard to political affiliation.",
-          "source": "The White House",
-          "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-increases-accountability-in-the-federal-workforce/",
-          "date": "2026-06-03"
+          "title": "Executive order on advanced AI innovation and security issued",
+          "summary": "The White House issued Executive Order 14409 directing federal agencies to strengthen cyber defenses and address risks from advanced AI.",
+          "details": "On June 2, 2026, the White House issued Executive Order 14409, \"Promoting Advanced Artificial Intelligence Innovation and Security.\" It directs federal agencies to strengthen cyber defenses, establish a voluntary framework for secure frontier AI model deployment, and prioritize enforcement of criminal activity involving AI, with several actions required within 30 days.",
+          "source": "Perkins Coie",
+          "url": "https://perkinscoie.com/insights/update/white-house-issues-executive-order-promoting-advanced-ai-innovation-and-security",
+          "date": "2026-06-02"
         }
       ]
     },
@@ -27,20 +27,20 @@
       "category": "Foreign Policy & National Security",
       "items": [
         {
-          "title": "US and Iran sign memorandum of understanding to extend ceasefire",
-          "summary": "The presidents of the United States and Iran signed a memorandum of understanding extending the ceasefire in the 2026 Iran war and setting a 60-day window for negotiations.",
-          "details": "Mediators announced the framework on June 14, and the presidents signed it June 17. The agreement calls for negotiations over Iran's nuclear enrichment, reopening of the Strait of Hormuz, lifting of the US naval blockade, and discussion of sanctions relief.",
-          "source": "Britannica",
-          "url": "https://www.britannica.com/event/2026-Iran-war",
-          "date": "2026-06-17"
+          "title": "Trump announces framework agreement with Iran",
+          "summary": "President Trump said the U.S. and Iran reached a framework agreement to end the conflict and reopen the Strait of Hormuz.",
+          "details": "According to reports, the U.S. and Iran signed a preliminary agreement to end the war and open the Strait of Hormuz. As of mid-June 2026, the terms of the deal remained secret, and lawmakers requested the agreement text and a briefing from the administration.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/senate-war-powers-vote-iran-trump-deal/",
+          "date": "2026-06-16"
         },
         {
-          "title": "US-Iran technical talks continue in Switzerland",
-          "summary": "Delegations from the United States and Iran met in Switzerland for talks aimed at advancing a deal to end the conflict, with mediators from Pakistan and Qatar present.",
-          "details": "Vice President JD Vance, special envoy Steve Witkoff, and Jared Kushner attended sessions at a resort near Lucerne. US officials said the talks set a foundation for a deal, while negotiations on remaining nuclear issues were set to continue.",
-          "source": "ABC News",
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates-israel-withdraw-lebanon-katz-after/?id=133879236",
-          "date": "2026-06-22"
+          "title": "State Department announces visa restrictions and reward offers",
+          "summary": "The State Department announced targeted visa restrictions related to Ethiopia and reward offers for information on MS-13 leaders.",
+          "details": "On June 18, 2026, the State Department announced targeted visa restrictions for individuals it said were involved in undermining peace in Ethiopia. The department also announced reward offers totaling up to $15 million for information leading to arrests or convictions of leaders of the foreign terrorist organization MS-13.",
+          "source": "U.S. Department of State",
+          "url": "https://www.state.gov/policy-issues/foreign-policy",
+          "date": "2026-06-18"
         }
       ]
     },
@@ -48,20 +48,28 @@
       "category": "Congress & Legislation",
       "items": [
         {
-          "title": "Senate rejects motion to discharge Iran war powers resolution",
-          "summary": "The Senate rejected a motion to discharge a joint resolution directing the removal of US Armed Forces from unauthorized hostilities against Iran.",
-          "details": "The June 16, 2026 vote on S.J.Res. 172 was 47 yeas to 48 nays, with the motion to discharge rejected. The resolution sought to require removal of US forces from hostilities with Iran that had not been authorized by Congress.",
+          "title": "Senate passes 21st Century ROAD to Housing Act",
+          "summary": "The Senate passed the bipartisan housing bill H.R. 6644 by a vote of 85 to 5.",
+          "details": "On June 22, 2026, the Senate agreed to a measure on H.R. 6644, the 21st Century ROAD to Housing Act, by a vote of 85 yeas to 5 nays. The final language was agreed to by both House and Senate leadership following nearly a year of negotiation and includes provisions on community development funding and disaster recovery.",
           "source": "U.S. Senate",
-          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00174.htm",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00182.htm",
+          "date": "2026-06-22"
+        },
+        {
+          "title": "Senate rejects Iran war powers resolution",
+          "summary": "The Senate narrowly rejected a motion to discharge an Iran war powers resolution in a 47-48 vote.",
+          "details": "On June 16, 2026, the Senate rejected a motion to discharge a war powers resolution on Iran by a 47 to 48 vote. Four Republicans—Susan Collins, Bill Cassidy, Lisa Murkowski and Rand Paul—joined most Democrats in support, while Sen. John Fetterman was the sole Democrat opposed.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/news/senate-war-powers-vote-iran-trump-deal/",
           "date": "2026-06-16"
         },
         {
-          "title": "Senate advances housing legislation",
-          "summary": "The Senate made progress on a large housing bill that has moved between the chambers, with a vote expected the following week.",
-          "details": "According to a legislative recap for the week ending June 19, 2026, the House was out of session while the Senate held votes largely on administration nominees and worked on H.R. 6644, the 21st Century ROAD to Housing Act.",
-          "source": "GovTrack",
-          "url": "https://www.govtrack.us/",
-          "date": "2026-06-19"
+          "title": "House passes Iran war powers resolution",
+          "summary": "The House passed a resolution directing the president to end hostilities with Iran in a 215-208 vote.",
+          "details": "On June 3, 2026, the House passed a war powers resolution by a vote of 215 to 208, with four Republicans joining Democrats. It marked the first time such a measure cleared the House on a final vote since the conflict began. The administration has questioned the constitutionality of the War Powers Act.",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/06/03/nx-s1-5845102/house-iran-war-powers-vote",
+          "date": "2026-06-03"
         }
       ]
     },
@@ -69,19 +77,27 @@
       "category": "Courts & Legal",
       "items": [
         {
+          "title": "Supreme Court issues June 23 opinions",
+          "summary": "The Supreme Court issued opinions in several cases on June 23, including Cisco Systems v. Doe and Pung v. Isabella County.",
+          "details": "On June 23, 2026, the Supreme Court issued opinions in cases including Cisco Systems, Inc. v. Doe, Pung v. Isabella County, and United States v. Carter. The rulings came as the court worked toward concluding its term, with several major cases still pending.",
+          "source": "SCOTUSblog",
+          "url": "https://www.scotusblog.com/",
+          "date": "2026-06-23"
+        },
+        {
           "title": "Supreme Court allows Alabama to use redrawn congressional map",
-          "summary": "The Supreme Court issued an unsigned order allowing Alabama to hold its 2026 elections using a map that a lower court had found racially discriminatory.",
-          "details": "The order marked the first test of the Court's recent Louisiana v. Callais ruling on the Voting Rights Act. The Alabama map eliminates a majority-Black voting district by distributing its residents across three districts.",
+          "summary": "The Supreme Court issued an order allowing Alabama to use a redrawn congressional map for the 2026 elections.",
+          "details": "The Supreme Court issued an unsigned order allowing Alabama to hold its 2026 elections using a map that a lower court had found racially discriminatory. The order followed the court's ruling in Louisiana v. Callais, which raised the bar for proving Voting Rights Act violations. The map eliminates a majority-Black district.",
           "source": "U.S. News & World Report",
           "url": "https://www.usnews.com/news/national-news/articles/8-major-supreme-court-cases-being-decided-this-summer-heres-where-they-stand",
           "date": "2026-06-18"
         },
         {
-          "title": "Supreme Court strikes down drug-user gun ban",
-          "summary": "In a unanimous decision, the Supreme Court ruled in United States v. Hemani that a federal law banning drug users from owning guns is unconstitutional.",
-          "details": "The case involved Ali Hemani, a dual US-Pakistan citizen in Texas prosecuted for owning a gun while admitting frequent marijuana use. The Court ruled the prohibition violated Second Amendment freedoms.",
-          "source": "U.S. News & World Report",
-          "url": "https://www.usnews.com/news/national-news/articles/8-major-supreme-court-cases-being-decided-this-summer-heres-where-they-stand",
+          "title": "Supreme Court rules in United States v. Hemani",
+          "summary": "The Supreme Court ruled unanimously that prosecuting a marijuana user for gun ownership was inconsistent with the Second Amendment.",
+          "details": "On June 18, 2026, in United States v. Hemani, the Supreme Court ruled that the government's prosecution of a marijuana user for owning firearms was inconsistent with the Second Amendment. Justice Gorsuch wrote that the decision was narrow and did not address bans on those presently intoxicated from possessing firearms.",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/06/09/nx-s1-5847967/supreme-court-major-cases-left-2026",
           "date": "2026-06-18"
         }
       ]
@@ -90,115 +106,143 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "Louisiana enacts new congressional map",
-          "summary": "Louisiana's legislature approved a new congressional map eliminating one of the state's two majority-Black districts and adding a Republican-leaning district.",
-          "details": "Passed by the state Senate on a Friday in late May 2026 after House changes, the map is expected to produce a 5-1 Republican advantage in the delegation. Lawmakers drew the lines in response to the Supreme Court's Louisiana v. Callais ruling.",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/politics/2026-election/louisiana-passes-new-congressional-map-dismantling-one-majority-black-rcna347575",
-          "date": "2026-05-29"
+          "title": "Primaries held in New York, Maryland, Utah and South Carolina",
+          "summary": "New York, Maryland and Utah held primaries and South Carolina held a gubernatorial runoff on June 23.",
+          "details": "On June 23, 2026, New York, Maryland and Utah held primary elections while South Carolina held a Republican gubernatorial runoff between Lt. Gov. Pamela Evette and Attorney General Alan Wilson. President Trump issued a last-minute endorsement of both South Carolina candidates.",
+          "source": "Fox News",
+          "url": "https://www.foxnews.com/live-news/primary-election-results-june-23-2026",
+          "date": "2026-06-23"
         },
         {
-          "title": "South Carolina redistricting effort ends in state Senate",
-          "summary": "The Republican-led South Carolina Senate voted against advancing a new congressional map, ending the state's mid-decade redistricting effort for now.",
-          "details": "On May 26, 2026, the Senate voted 24-20 against ending debate, with 12 Republicans joining 12 Democrats. Some Republicans cited the timing, as early voting for the state's June 9 primary had begun. The proposed map would have eliminated the state's single majority-Black district.",
+          "title": "FBI searches Ohio voter registration group's offices",
+          "summary": "FBI agents searched the Cleveland offices of the Ohio Organizing Collaborative as part of a Justice Department investigation.",
+          "details": "In June 2026, FBI agents searched the Cleveland offices of the Ohio Organizing Collaborative, a voter registration and community organizing group, seizing computers and questioning staff as part of a Justice Department investigation into the group's voter registration efforts ahead of the midterm elections.",
+          "source": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+          "date": "2026-06-22"
+        },
+        {
+          "title": "ACLU announces $50 million midterm election effort",
+          "summary": "The ACLU said it will spend more than $50 million on the 2026 midterm elections, with about half on election administration.",
+          "details": "The American Civil Liberties Union announced plans to spend more than $50 million on the 2026 midterm elections. About half will go toward ensuring smooth election administration, with the group training and deploying more than 100 paid staff and over 3,000 volunteer leaders to monitor ballot counting and certification.",
           "source": "NBC News",
-          "url": "https://www.nbcnews.com/politics/2026-election/south-carolinas-redistricting-effort-fails-state-senate-gop-opposition-rcna346962",
-          "date": "2026-05-26"
+          "url": "https://www.nbcnews.com/politics/2026-election/live-blog/primary-elections-ny-sc-maryland-utah-june-23-live-updates-rcna351258",
+          "date": "2026-06-23"
         }
       ]
     }
   ],
   "states": {
-    "CA": [
+    "MD": [
       {
-        "title": "Newsom signs election security law SB 73",
-        "summary": "Governor Gavin Newsom signed Senate Bill 73, restricting unauthorized law enforcement access to polling places and barring warrantless searches of voting machines and voter rolls.",
-        "details": "Signed May 27, 2026, the law builds on SB 851 and empowers the secretary of state and attorney general regarding authorizations for law enforcement at polls. An urgency clause let it take effect for the June 2 statewide primary. It passed the Assembly 57-19 and the Senate 29-8.",
-        "source": "Office of the Governor of California",
-        "url": "https://www.gov.ca.gov/2026/05/27/governor-newsom-signs-legislation-to-further-protect-california-elections-from-interference-and-intimidation/",
-        "date": "2026-05-27"
-      }
-    ],
-    "GA": [
-      {
-        "title": "Georgia lawmakers decline to redraw maps in special session",
-        "summary": "Republican leaders in the Georgia House and Senate said they would not redraw the state's political maps during the special session that opened June 17, citing pending litigation.",
-        "details": "Governor Brian Kemp called the session after the Supreme Court's Louisiana v. Callais ruling. House leaders said they would focus the session on tax relief and ratifying the gas tax suspension, while Kemp said he saw no reason to delay redistricting but left it to lawmakers.",
-        "source": "CBS News Atlanta",
-        "url": "https://www.cbsnews.com/atlanta/news/georgia-lawmakers-will-not-redraw-voting-districts-during-special-session/",
-        "date": "2026-06-17"
-      }
-    ],
-    "FL": [
-      {
-        "title": "DeSantis signs 14 more bills into law",
-        "summary": "Governor Ron DeSantis signed an additional 14 bills covering trust funds, property insurance, crime, and law enforcement interactions with people on the autism spectrum.",
-        "details": "Announced June 16, 2026, the laws include a 'Blue Envelope and Blue Card Program' to aid communication during traffic stops and a new third-degree felony related to indecent exposure while observing a child. Most provisions take effect July 1.",
-        "source": "News4Jax",
-        "url": "https://www.news4jax.com/news/politics/2026/06/17/gov-desantis-signs-14-more-bills-heres-the-list-of-whats-new-to-florida-law/",
-        "date": "2026-06-16"
-      }
-    ],
-    "LA": [
-      {
-        "title": "Louisiana House passes congressional map bill",
-        "summary": "The Louisiana House passed Senate Bill 121 to redraw the state's congressional districts, sending it back to the Senate.",
-        "details": "The bill passed the House 66-35 on a Thursday in late May 2026. The proposal followed a US Supreme Court ruling that found the existing map relied too heavily on race in drawing the 6th Congressional District, and would reduce the number of majority-Black districts from two to one.",
-        "source": "WAFB",
-        "url": "https://www.wafb.com/2026/05/28/louisiana-house-passes-new-congressional-map-sending-bill-back-senate/",
-        "date": "2026-05-28"
+        "title": "Maryland holds June 23 gubernatorial primary",
+        "summary": "Maryland held primary elections on June 23, with incumbent Gov. Wes Moore seeking a second term.",
+        "details": "Maryland's primary elections took place on June 23, 2026. Incumbent Democratic Governor Wes Moore is running for a second term. Early voting ran from June 11 to June 18, and the state offers same-day registration during early voting and on Election Day.",
+        "source": "FOX 5 DC",
+        "url": "https://www.fox5dc.com/election/maryland-2026-primary-election-guide-where-vote-how-register",
+        "date": "2026-06-23"
       }
     ],
     "NY": [
       {
-        "title": "Hochul signs FY 2027 budget",
-        "summary": "Governor Kathy Hochul signed New York's FY 2027 budget, including a measure eliminating state income tax on up to $25,000 of tipped income for tax year 2026.",
-        "details": "The enacted budget includes one-time energy rebate checks for eligible filers and a set of laws addressing federal immigration enforcement, such as prohibiting officers from wearing face coverings while interacting with the public and limiting certain agreements with the federal government.",
-        "source": "Office of the Governor of New York",
-        "url": "https://www.governor.ny.gov/news/governor-hochul-signs-budget-makes-new-york-more-affordable-keeps-new-yorkers-safe-and-expands",
-        "date": "2026-05-27"
+        "title": "New York holds state primary elections",
+        "summary": "New York held primaries on June 23 featuring contests for the legislature and Congress.",
+        "details": "New York's primary elections took place on June 23, 2026, with a governor's race atop the ticket. Contests included primary battles between incumbent Democratic members of Congress and challengers, as well as numerous state legislative races with open seats and incumbents facing challenges.",
+        "source": "Spectrum News",
+        "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/06/18/5-races-to-watch-in-new-york-2026-primaries-for-state-legislature",
+        "date": "2026-06-23"
       }
     ],
     "SC": [
       {
-        "title": "Governor McMaster called special session on redistricting and budget",
-        "summary": "Governor Henry McMaster issued an executive order calling the General Assembly into special session to address the state budget and congressional districts.",
-        "details": "McMaster called the session after the state Senate rejected a measure to extend its regular session to consider a redrawn map. The redistricting effort subsequently ended when the Senate voted against advancing a new congressional map.",
-        "source": "NBC News",
-        "url": "https://www.nbcnews.com/politics/2026-election/south-carolina-governor-mcmaster-calls-special-session-redistricting-rcna345104",
-        "date": "2026-05-14"
+        "title": "South Carolina holds Republican gubernatorial runoff",
+        "summary": "South Carolina held a GOP gubernatorial runoff between Lt. Gov. Pamela Evette and Attorney General Alan Wilson.",
+        "details": "On June 23, 2026, South Carolina held a Republican runoff in the open race for governor between Lt. Gov. Pamela Evette and Attorney General Alan Wilson to succeed term-limited Gov. Henry McMaster. President Trump issued an endorsement of both candidates ahead of the vote.",
+        "source": "Fox News",
+        "url": "https://www.foxnews.com/live-news/primary-election-results-june-23-2026",
+        "date": "2026-06-23"
       }
     ],
-    "PA": [
+    "VT": [
       {
-        "title": "Pennsylvania budget negotiations continue ahead of June 30 deadline",
-        "summary": "Pennsylvania lawmakers continued negotiations over Governor Josh Shapiro's proposed $53.3 billion spending plan as the June 30 budget deadline approached.",
-        "details": "Shapiro presented the plan in February. The House passed a General Appropriations bill with bipartisan support in April, advancing it to the Senate. Lawmakers expressed hope to avoid a repeat of the prior year's impasse, which ran more than 130 days past the deadline.",
-        "source": "City & State Pennsylvania",
-        "url": "https://www.cityandstatepa.com/policy/2026/05/city-states-2026-27-pennsylvania-state-budget-tracker/412877/",
-        "date": "2026-05-06"
+        "title": "Vermont governor signs marijuana possession bill",
+        "summary": "Gov. Phil Scott signed S. 278, raising adult-use marijuana possession and sale limits.",
+        "details": "On June 22, 2026, Republican Gov. Phil Scott signed S. 278 into law, increasing the amount of cannabis retailers may sell in a single transaction and doubling how much marijuana an adult may legally possess in public. The new law took effect upon passage, allowing those 21 or older to possess up to two ounces.",
+        "source": "NORML",
+        "url": "https://norml.org/blog/2026/06/22/vermont-governor-signs-bill-into-law-raising-adult-use-marijuana-possession-limits/",
+        "date": "2026-06-22"
       }
     ],
-    "DC": [
+    "NH": [
       {
-        "title": "Washington, D.C., holds first ranked-choice mayoral primary",
-        "summary": "Washington, D.C., held its first mayoral primary using ranked-choice voting, with seven candidates competing in the Democratic primary on June 16.",
-        "details": "The contest marked the city's first open mayoral race since 2014. Ranked-choice voting and a semi-open primary system were established after D.C. voters approved Initiative 83 in 2024.",
-        "source": "Ballotpedia News",
-        "url": "https://news.ballotpedia.org/2026/06/02/a-new-congressional-map-is-enacted-in-louisiana-blocked-in-alabama-and-dead-in-south-carolina/",
-        "date": "2026-06-16"
+        "title": "New Hampshire governor signs 54 bills into law",
+        "summary": "Gov. Kelly Ayotte signed 54 bills into law and issued several vetoes.",
+        "details": "During the week of June 19, 2026, New Hampshire Gov. Kelly Ayotte signed 54 bills into law on various subjects, including health benefit plan claims data and school administrative unit budgets. She also issued vetoes, including of bills related to historical markers and risk pool operations.",
+        "source": "Office of Governor Kelly Ayotte",
+        "url": "https://www.governor.nh.gov/news/governor-signs-54-bills-law",
+        "date": "2026-06-19"
+      }
+    ],
+    "CT": [
+      {
+        "title": "Connecticut enacts youth online safety and AI law",
+        "summary": "Gov. Ned Lamont signed Public Act 26-15 establishing online safety protections and AI regulations.",
+        "details": "On June 2, 2026, Connecticut Gov. Ned Lamont signed Public Act 26-15, a bipartisan law addressing youth social media use, regulation of artificial intelligence, and workforce training initiatives. Officials said codifying the protections in state statute was necessary due to a lack of federal action.",
+        "source": "Office of Governor Ned Lamont",
+        "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
+        "date": "2026-06-02"
+      }
+    ],
+    "IA": [
+      {
+        "title": "Iowa governor signs slate of bills into law",
+        "summary": "Gov. Kim Reynolds signed multiple bills on June 1, including age verification and civics education measures.",
+        "details": "On June 1, 2026, Iowa Gov. Kim Reynolds signed a number of bills into law, including measures requiring age verification for certain pornographic internet sites and establishing a seal of civics excellence program administered by the Department of Education. The governor had until June 2 to act on remaining bills.",
+        "source": "Office of Governor Kim Reynolds",
+        "url": "https://governor.iowa.gov/press-release/2026-06-01/gov-reynolds-signs-list-bills-law-june-1-2026",
+        "date": "2026-06-01"
+      }
+    ],
+    "CA": [
+      {
+        "title": "California uses voter-approved congressional map for 2026",
+        "summary": "The Supreme Court allowed California to use its new voter-approved congressional map in the 2026 election.",
+        "details": "The Supreme Court allowed California to use its new congressional map, enacted through voter-approved Proposition 50, in the 2026 election. The map was drawn to counter Texas's redistricting. Republicans had appealed after a federal court ruled against their challenge.",
+        "source": "Democracy Docket",
+        "url": "https://www.democracydocket.com/news-alerts/scotus-allows-california-to-use-new-congressional-map-in-2026/",
+        "date": "2026-06-22"
       }
     ],
     "TX": [
       {
-        "title": "Texas redistricting map remains in effect for 2026 elections",
-        "summary": "Texas's 2025 congressional map remained in effect for the 2026 elections after the US Supreme Court stayed a lower court order that had blocked it.",
-        "details": "A federal district court in El Paso enjoined the map in November 2025 as a racial gerrymander, but the Supreme Court granted a stay in December pending appeal. The map, which shifted five districts toward Republicans, is in use for the 2026 primaries and general election pending further action.",
-        "source": "Texas Redistricting (Texas Legislature)",
-        "url": "https://redistricting.capitol.texas.gov/",
+        "title": "Texas to use contested congressional map in 2026",
+        "summary": "The Supreme Court granted a stay allowing Texas to use its redrawn congressional map for the November election.",
+        "details": "The Supreme Court stayed a district court ruling that had found Texas's 2025 congressional map a racial gerrymander, allowing the state to use the map in the 2026 election. The map was redrawn following President Trump's call for Texas to add Republican-leaning districts.",
+        "source": "MultiState",
+        "url": "https://www.multistate.us/insider/2026/3/9/state-redistricting-legal-challenges-intensify-ahead-of-2026-elections",
         "date": "2026-06-22"
+      }
+    ],
+    "OH": [
+      {
+        "title": "FBI searches Ohio voter registration group",
+        "summary": "FBI agents searched the offices of the Ohio Organizing Collaborative as part of a federal investigation.",
+        "details": "In June 2026, FBI agents searched the Cleveland offices of the Ohio Organizing Collaborative, seizing computers and questioning staff and volunteers across Ohio as part of a Justice Department investigation into the group's voter registration efforts ahead of the midterm elections.",
+        "source": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+        "date": "2026-06-22"
+      }
+    ],
+    "GA": [
+      {
+        "title": "Georgia parties pick gubernatorial nominees",
+        "summary": "Georgia held a Republican gubernatorial runoff on June 16, with Rick Jackson advancing to face Democrat Keisha Lance Bottoms.",
+        "details": "On June 16, 2026, Georgia held a Republican gubernatorial runoff in which Rick Jackson defeated Lt. Gov. Burt Jones to become the nominee. He will face Democrat Keisha Lance Bottoms, who became the Democratic nominee in May, in the November election to succeed term-limited Gov. Brian Kemp.",
+        "source": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
+        "date": "2026-06-16"
       }
     ]
   },
-  "disclaimer": "This digest reports verifiable events from cited sources and takes no position on any party, official, or policy."
+  "disclaimer": "This digest reports verified developments from cited news sources without endorsement of any party, candidate, or position."
 }

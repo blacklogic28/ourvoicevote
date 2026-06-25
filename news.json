@@ -1,33 +1,25 @@
 {
-  "updated": "2026-06-24T16:08:47.592Z",
-  "updatedLabel": "June 24, 2026",
+  "updated": "2026-06-25T16:15:09.443Z",
+  "updatedLabel": "June 25, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "Trump signs executive orders at the White House",
-          "summary": "President Trump signed additional executive orders at the White House on June 22, 2026.",
-          "details": "The White House posted multiple executive orders dated June 22, 2026, among its presidential actions. The signing was recorded in a video published on the White House website.",
+          "title": "Trump signs executive order on post-quantum cryptography",
+          "summary": "President Trump signed an executive order directing federal agencies to accelerate migration to post-quantum cryptography to protect sensitive data.",
+          "details": "The June 22 order directs the Office of Management and Budget and the National Cyber Director to lead a nationwide migration to post-quantum cryptography. It also tasks the Department of Commerce, NSA, and DHS with issuing guidance to agencies on the transition.",
           "source": "The White House",
-          "url": "https://www.whitehouse.gov/presidential-actions/",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-secures-the-nation-against-advanced-cryptographic-attacks/",
           "date": "2026-06-22"
         },
         {
-          "title": "GAO reports federal workforce declined in 2025",
-          "summary": "The Government Accountability Office reported the federal workforce fell by more than 11% from December 2024 to January 2026.",
-          "details": "GAO said nearly 378,000 employees separated from 22 major agencies during 2025 while about 127,000 were hired, a net decline of roughly 256,000. Declines ranged from about 1% at Homeland Security to over 45% at the Department of Education.",
-          "source": "U.S. Government Accountability Office",
-          "url": "https://www.gao.gov/products/gao-26-108583",
-          "date": "2026-06-17"
-        },
-        {
-          "title": "Federal Reserve holds interest rate target range",
-          "summary": "The Federal Reserve maintained the federal funds rate target range at 3.5% to 3.75%, effective June 18, 2026.",
-          "details": "The Board of Governors voted unanimously to keep the interest rate on reserve balances at 3.65%. The Federal Open Market Committee directed the New York Fed's trading desk to conduct operations to maintain the target range.",
-          "source": "Federal Reserve",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm",
-          "date": "2026-06-17"
+          "title": "DOJ investigation of California Governor Newsom reported",
+          "summary": "Governor Gavin Newsom said he and his wife are under investigation by the U.S. Department of Justice; the department has not confirmed a probe.",
+          "details": "In a video posted on X, Newsom said the investigation was politically motivated and tied to his consideration of a 2028 presidential run. He said investigators were also focusing on his wife, Jennifer Siebel Newsom. The Department of Justice has not confirmed any investigation.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/15/california-governor-newsom-says-us-department-of-justice-investigating-him",
+          "date": "2026-06-15"
         }
       ]
     },
@@ -35,28 +27,20 @@
       "category": "Foreign Policy & National Security",
       "items": [
         {
-          "title": "U.S. and Iran sign preliminary agreement to end war",
-          "summary": "President Trump and Iranian President Masoud Pezeshkian signed a memorandum of understanding to halt military operations and reopen the Strait of Hormuz.",
-          "details": "The framework, signed June 17, 2026, establishes a 60-day ceasefire window for further negotiations and lifts the U.S. naval blockade. Unresolved issues include Iran's nuclear program, sanctions relief, and frozen assets.",
+          "title": "U.S. and Iran sign interim agreement to end war",
+          "summary": "President Trump and Iranian President Pezeshkian signed a memorandum of understanding outlining terms to end the war and reopen the Strait of Hormuz.",
+          "details": "The interim agreement, signed June 17, starts a 60-day negotiating window on Iran's nuclear program. Under the 14-point memorandum, the U.S. is expected to lift sanctions and unfreeze assets, while Iran agreed to reopen the Strait of Hormuz and reaffirmed it will not develop nuclear weapons.",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/world/iran/strait-hormuz-reopen-us-lift-iran-sanctions-14-point-deal-seeking-end-rcna350513",
+          "date": "2026-06-17"
+        },
+        {
+          "title": "China sanctions U.S. military-related companies",
+          "summary": "China announced sanctions on 10 American military-related companies in response to a U.S. move barring some Chinese tech firms from defense contracts.",
+          "details": "China announced the sanctions on June 22 after the U.S. moved to bar some leading Chinese technology companies from defense contracts.",
           "source": "NPR",
-          "url": "https://www.npr.org/2026/06/19/nx-s1-5863544/trump-us-iran-agreement",
-          "date": "2026-06-19"
-        },
-        {
-          "title": "China sanctions 10 U.S. defense-related companies",
-          "summary": "China announced export restrictions on 10 American military-related firms in response to a U.S. move barring some Chinese tech companies from defense contracts.",
-          "details": "China's Commerce Ministry said Chinese companies would be blocked from exporting dual-use items to the 10 firms, which include drone makers and rare-earth companies. The action followed the Pentagon adding companies including Alibaba and Baidu to its list of firms it links to the Chinese military.",
-          "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/china-hits-back-at-u-s-sanctions-on-tech-giants-restricting-its-exports-to-american-defense-firms",
+          "url": "https://www.npr.org/sections/national/",
           "date": "2026-06-22"
-        },
-        {
-          "title": "U.S. intelligence assessment on Israel and Iran deal",
-          "summary": "U.S. intelligence agencies warned the administration that Israeli Prime Minister Netanyahu may take steps that could undermine the Iran peace effort, officials said.",
-          "details": "According to current and former U.S. officials cited in the report, the assessment relates to political pressure on Netanyahu over the war in Lebanon. The report was published June 19, 2026.",
-          "source": "The Washington Post",
-          "url": "https://www.washingtonpost.com/national-security/2026/06/19/us-intelligence-warns-israel-is-likely-undermine-iran-peace-deal-officials-say/",
-          "date": "2026-06-19"
         }
       ]
     },
@@ -65,19 +49,19 @@
       "items": [
         {
           "title": "Congress passes housing affordability bill",
-          "summary": "Both chambers of Congress passed the 21st Century ROAD to Housing Act, sending it to the president's desk.",
-          "details": "The Senate passed the bill 85-5 on June 22, and the House cleared it the following day. The package aims to increase housing supply by easing regulations and includes a provision restricting large corporate investors from buying additional single-family homes.",
+          "summary": "The House passed the 21st Century Road to Housing Act 358-32, following the Senate's 85-5 vote, sending the bipartisan measure toward becoming law.",
+          "details": "The bill aims to increase housing supply by easing construction regulations and restricting large investors from buying single-family homes. The 32 House no votes were all cast by Republicans, while all voting Democrats supported it.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/23/nx-s1-5867575/congress-passes-housing-affordability-bill",
           "date": "2026-06-23"
         },
         {
-          "title": "Five senators voted against the housing bill",
-          "summary": "Five Republican senators voted against the housing legislation, and ten senators did not vote.",
-          "details": "The senators who voted no were Ron Johnson of Wisconsin, Mike Lee of Utah, Rand Paul of Kentucky, Rick Scott of Florida, and Tommy Tuberville of Alabama. Tuberville also voted against an earlier Senate version in March.",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/23/housing-bill-congress-senators-voted-against/",
-          "date": "2026-06-23"
+          "title": "Trump cancels housing bill signing ceremony",
+          "summary": "President Trump canceled a planned signing ceremony for the housing bill, saying Congress must first pass the SAVE America Act voter-identification bill.",
+          "details": "Trump announced on social media that the signing was canceled until Congress passes the SAVE America Act, a voter ID measure. The bill can still become law without his signature, and he has not indicated he intends to veto it.",
+          "source": "ABC News",
+          "url": "https://abcnews.com/GMA/News/senate-passes-housing-legislative-package-overwhelming-bipartisan-fashion/story?id=134130187",
+          "date": "2026-06-24"
         }
       ]
     },
@@ -85,28 +69,28 @@
       "category": "Courts & Legal",
       "items": [
         {
-          "title": "Supreme Court rules in Falun Gong lawsuit against Cisco",
-          "summary": "The Supreme Court ruled that a group of Falun Gong members cannot proceed with a lawsuit against Cisco Systems.",
-          "details": "The case involved a dozen members of the Falun Gong spiritual movement who said they were imprisoned and tortured in China. The decision was issued June 23, 2026.",
-          "source": "The Washington Post",
-          "url": "https://www.washingtonpost.com/politics/2026/06/23/falun-gong-members-cannot-sue-us-tech-giant-supreme-court-says/",
-          "date": "2026-06-23"
-        },
-        {
-          "title": "Supreme Court rules in United States v. Hemani",
-          "summary": "The Supreme Court unanimously ruled that prosecuting a marijuana user for owning a gun was inconsistent with the Second Amendment.",
-          "details": "The case stemmed from Ali Hemani, a dual U.S.-Pakistani citizen, whose home search turned up a firearm and marijuana. Justice Neil Gorsuch wrote that the decision is narrow and does not address banning those presently intoxicated from possessing firearms.",
+          "title": "Supreme Court rules on Temporary Protected Status",
+          "summary": "In a 6-3 decision in Mullin v. Doe, the Supreme Court ruled the president has unreviewable authority to end the Temporary Protected Status program.",
+          "details": "Writing for the majority, Justice Samuel Alito held that under the TPS law the president may end the program without court intervention. The ruling allows the administration to proceed with removing people who had been living and working legally under TPS.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/09/nx-s1-5847967/supreme-court-major-cases-left-2026",
-          "date": "2026-06-18"
+          "date": "2026-06-25"
         },
         {
-          "title": "Supreme Court order list adds case and addresses petitions",
-          "summary": "The Supreme Court issued a June order list adding a case for the 2026-27 term and acting on multiple petitions.",
-          "details": "The court added a case concerning the ability to sue federal officials for constitutional violations absent a specific authorizing law. The orders came from the justices' June 18 conference.",
-          "source": "SCOTUSblog",
-          "url": "https://www.scotusblog.com/2026/06/key-takeaways-from-a-jam-packed-order-list/",
+          "title": "Supreme Court rules on green card holders' reentry",
+          "summary": "In a 6-3 opinion, the Supreme Court ruled federal border officials can use an indictment to temporarily strip green cards from immigrants reentering the country.",
+          "details": "Justice Clarence Thomas wrote that officials need not have clear and convincing evidence of offenses to suspend a lawful permanent resident's status. Justice Ketanji Brown Jackson, joined by Justices Kagan and Sotomayor, dissented.",
+          "source": "Roll Call",
+          "url": "https://rollcall.com/2026/06/23/supreme-court-backs-us-power-to-strip-green-cards/",
           "date": "2026-06-23"
+        },
+        {
+          "title": "Supreme Court rules on firearms and private property",
+          "summary": "In a 6-3 decision in Wolford v. Lopez, the Supreme Court ruled states cannot require gun owners to get permission from property owners before bringing firearms onto their land.",
+          "details": "The court said requiring advance permission is an undue burden on the right to possess and carry a firearm. Five states had passed laws requiring such permission in advance.",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/06/09/nx-s1-5847967/supreme-court-major-cases-left-2026",
+          "date": "2026-06-25"
         }
       ]
     },
@@ -114,93 +98,103 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "Supreme Court clears Alabama to use congressional map",
-          "summary": "The Supreme Court issued an order allowing Alabama to use a contested congressional map for the 2026 midterms.",
-          "details": "The map, originally drawn in 2023, had previously been barred by a lower court that found it discriminated against Black voters. The order was the first test of the court's earlier Louisiana v. Callais ruling on the Voting Rights Act.",
+          "title": "Mamdani-backed candidates win New York primaries",
+          "summary": "Three progressive candidates backed by New York Mayor Zohran Mamdani won their primary elections in safe seats, including two who challenged Democratic incumbents.",
+          "details": "All three candidates won their primaries on June 23 in safe seats, making their November election nearly certain. The results were part of a slate of contested House primaries.",
+          "source": "NPR",
+          "url": "https://www.npr.org/sections/national/",
+          "date": "2026-06-23"
+        },
+        {
+          "title": "Supreme Court clears Alabama congressional map",
+          "summary": "The Supreme Court cleared the way for Alabama to use a congressional map originally drawn in 2023 for the 2026 midterms.",
+          "details": "A federal court had previously barred the map from being implemented after finding it discriminated against Black voters. The map is likely to reduce the number of Democratic-held House seats in the state from two to one.",
           "source": "NBC News",
           "url": "https://www.nbcnews.com/politics/2026-election/house-redistricting-gop-democrats-2026-midterm-elections-rcna348110",
-          "date": "2026-06-18"
+          "date": "2026-06-25"
         },
         {
-          "title": "Republicans hold edge after redistricting battles",
-          "summary": "After a nationwide mid-decade redistricting cycle, an analysis found Republicans could gain about 10 U.S. House seats from new maps.",
-          "details": "Republicans enacted new maps in eight states, while Democrats gained ground mainly in California and Utah. Nearly 145 million people live in states with new congressional districts for the 2026 election.",
-          "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/politics/republicans-won-the-redistricting-battle-now-voters-will-decide-whether-they-win-congress",
-          "date": "2026-06-03"
-        },
-        {
-          "title": "New York legislature advances redistricting amendment",
-          "summary": "New York lawmakers passed a constitutional amendment permitting mid-decade redistricting beginning in 2028.",
-          "details": "The amendment, passed June 3, would allow the Legislature greater latitude over the state's Independent Redistricting Commission and remove certain anti-gerrymandering language. It must pass again next year and be approved by voters in 2027 before taking effect.",
-          "source": "Spectrum News",
-          "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/06/04/ny-first-passage-redistricting-amendment",
-          "date": "2026-06-04"
+          "title": "Federal appeals court allows expanded expedited deportations",
+          "summary": "A federal appeals court allowed the administration to resume carrying out speedy deportations of undocumented migrants throughout the U.S., not just near the border.",
+          "details": "The June 24 ruling permits expedited removals to be conducted nationwide rather than limited to areas near the border.",
+          "source": "NPR",
+          "url": "https://www.npr.org/sections/national/",
+          "date": "2026-06-24"
         }
       ]
     }
   ],
   "states": {
-    "NH": [
+    "GA": [
       {
-        "title": "Gov. Ayotte signs 54 bills, vetoes others",
-        "summary": "New Hampshire Gov. Kelly Ayotte signed 54 bills into law and vetoed several measures during the week of June 19, 2026.",
-        "details": "Signed bills covered topics including health benefit plan data access and environmental services authorization. Ayotte also vetoed bills including one on the manner of posting town meeting warrants and measures on risk pool operations.",
-        "source": "Governor Kelly Ayotte (NH.gov)",
-        "url": "https://www.governor.nh.gov/news/governor-signs-54-bills-law",
-        "date": "2026-06-19"
-      }
-    ],
-    "NY": [
-      {
-        "title": "State Assembly approves redistricting amendment",
-        "summary": "The New York State Assembly passed a constitutional amendment to change the state's redistricting process for 2028.",
-        "details": "The measure requires another legislative vote next session, the governor's sign-off, and voter approval before taking effect. Gov. Kathy Hochul said she supported the legislative effort.",
-        "source": "NOTUS",
-        "url": "https://www.notus.org/us-news/new-york-congressional-redistricting-constitutional-amendment-passes",
-        "date": "2026-06-03"
-      }
-    ],
-    "FL": [
-      {
-        "title": "Gov. DeSantis signs 25 more bills into law",
-        "summary": "Florida Gov. Ron DeSantis signed an additional 25 bills, bringing the 2026 total to over 160 laws.",
-        "details": "The new laws included an appropriation to compensate an injured resident and a measure codifying the University of Florida Diabetes Institute. Several of the laws are set to take effect July 1.",
-        "source": "ClickOrlando (WKMG)",
-        "url": "https://www.clickorlando.com/news/florida/2026/06/12/gov-desantis-signs-25-more-florida-laws-heres-the-full-lineup/",
-        "date": "2026-06-12"
-      }
-    ],
-    "IA": [
-      {
-        "title": "Gov. Reynolds acts on final 2026 session bills",
-        "summary": "Iowa Gov. Kim Reynolds took final action on remaining legislation from the 2026 session, signing bills and issuing line-item vetoes.",
-        "details": "Signed measures included appropriations bills for transportation, the judicial branch, and economic development. Reynolds line-item vetoed specific provisions from certain appropriations bills.",
-        "source": "Governor Kim Reynolds (Iowa.gov)",
-        "url": "https://governor.iowa.gov/press-release/2026-06-02/gov-reynolds-acts-final-bills-2026-legislative-session",
-        "date": "2026-06-02"
-      }
-    ],
-    "AL": [
-      {
-        "title": "Alabama cleared to use 2023 congressional map",
-        "summary": "The Supreme Court allowed Alabama to use a congressional map for the 2026 elections that a lower court had found discriminatory.",
-        "details": "The map, originally drawn in 2023, eliminates a majority-Black district by distributing residents across three districts. The order tests the court's recent ruling raising the bar for Voting Rights Act claims.",
-        "source": "U.S. News & World Report",
-        "url": "https://www.usnews.com/news/national-news/articles/8-major-supreme-court-cases-being-decided-this-summer-heres-where-they-stand",
-        "date": "2026-06-18"
+        "title": "Georgia lawmakers decline to redraw maps in special session",
+        "summary": "Georgia's Republican legislative leaders declined to take up redistricting during a special session called by Governor Brian Kemp.",
+        "details": "House Speaker Jon Burns informed Kemp in a letter that legislators would not consider congressional or legislative redistricting for the 2028 cycle during the session, citing pending litigation. Kemp had called the session after the Supreme Court's Louisiana v. Callais ruling.",
+        "source": "PBS News",
+        "url": "https://www.pbs.org/newshour/politics/georgia-republican-legislative-leaders-reject-governors-call-for-2028-redistricting",
+        "date": "2026-06-17"
       }
     ],
     "CA": [
       {
-        "title": "California's voter-approved congressional map in place for 2026",
-        "summary": "California's redistricting map, approved by voters as Proposition 50, remains in effect for the 2026 elections after court challenges.",
-        "details": "The map, championed by Gov. Gavin Newsom, was drawn to counter Texas's Republican redistricting and could yield up to five additional Democratic-leaning seats. The California Republican Party and U.S. Justice Department challenged the map.",
-        "source": "Democracy Docket",
-        "url": "https://www.democracydocket.com/news-alerts/scotus-allows-california-to-use-new-congressional-map-in-2026/",
-        "date": "2026-06-03"
+        "title": "California launches AI job-loss tracking tool",
+        "summary": "California introduced what it described as a first-in-the-nation online tool to monitor and detect AI-related job loss, part of Governor Newsom's executive order on AI and the workforce.",
+        "details": "The tool was announced June 25 as part of the governor's executive order on artificial intelligence and the workforce. It is intended to track and detect job losses related to AI.",
+        "source": "Office of the Governor of California",
+        "url": "https://www.gov.ca.gov/2026/06/24/governor-newsom-welcomes-first-public-preview-of-california-science-centers-new-air-and-space-center-ahead-of-november-opening/",
+        "date": "2026-06-25"
+      }
+    ],
+    "NY": [
+      {
+        "title": "New York holds primary elections",
+        "summary": "New York held primary elections on June 23 for races including governor and U.S. House seats.",
+        "details": "Among the results, progressive candidates backed by New York City Mayor Zohran Mamdani won several House primaries, including challenges to Democratic incumbents. Bruce Blakeman ran in the Republican primary for governor.",
+        "source": "Ballotpedia",
+        "url": "https://ballotpedia.org/New_York_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
+        "date": "2026-06-23"
+      }
+    ],
+    "CT": [
+      {
+        "title": "Connecticut enacts youth online safety and AI law",
+        "summary": "Governor Ned Lamont signed legislation establishing youth online safety protections, regulations on artificial intelligence, and workforce training initiatives.",
+        "details": "Public Act 26-15 was developed by Governor Lamont, Attorney General William Tong, and State Senator James Maroney. The bill addresses youth social media use, AI decision-making transparency, and workforce training for tech jobs.",
+        "source": "Office of Governor Ned Lamont",
+        "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
+        "date": "2026-06-02"
+      }
+    ],
+    "NH": [
+      {
+        "title": "New Hampshire governor signs and vetoes bills",
+        "summary": "Governor Kelly Ayotte signed 18 bills into law and issued vetoes on several measures.",
+        "details": "The signed bills addressed topics including school district federal grants, registry filing deadlines, and vehicle registration documentation. Ayotte vetoed measures including HB 1072 on wage enforcement authority and SB 468 on marijuana cultivation.",
+        "source": "Office of Governor Kelly Ayotte",
+        "url": "https://www.governor.nh.gov/news/governor-signs-18-bills-law",
+        "date": "2026-06-12"
+      }
+    ],
+    "VT": [
+      {
+        "title": "Vermont governor signs slate of bills",
+        "summary": "Governor Phil Scott signed several bills into law on June 8 covering criminal justice, health, animal welfare, and education.",
+        "details": "The signed bills included measures on officer-involved shooting protocols, gender equity in correctional facilities, penalties for animal cruelty offenses, and addressing chronic absenteeism in schools.",
+        "source": "Office of Governor Phil Scott",
+        "url": "https://governor.vermont.gov/press-release/action-taken-governor-phil-scott-legislation-june-8-2026",
+        "date": "2026-06-08"
+      }
+    ],
+    "IA": [
+      {
+        "title": "Iowa governor signs final bills of 2026 session",
+        "summary": "Governor Kim Reynolds signed the final bills from the 2026 legislative session, including measures on gubernatorial powers and early childhood programs.",
+        "details": "The June 2 signings were the last of the session and Reynolds's final as governor, as she is not seeking re-election in 2026. The bills included one restricting certain gubernatorial powers.",
+        "source": "Iowa Capital Dispatch",
+        "url": "https://iowacapitaldispatch.com/2026/06/03/gov-kim-reynolds-signs-final-bills-from-2026-legislative-session/",
+        "date": "2026-06-02"
       }
     ]
   },
-  "disclaimer": "This digest reports verifiable developments from cited sources and does not endorse any party, official, or position."
+  "disclaimer": "This digest reports verifiable developments from cited news sources and does not endorse any party, candidate, or position."
 }

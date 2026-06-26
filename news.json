@@ -1,25 +1,33 @@
 {
-  "updated": "2026-06-25T16:15:09.443Z",
-  "updatedLabel": "June 25, 2026",
+  "updated": "2026-06-26T16:06:39.675Z",
+  "updatedLabel": "June 26, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "Trump signs executive order on post-quantum cryptography",
-          "summary": "President Trump signed an executive order directing federal agencies to accelerate migration to post-quantum cryptography to protect sensitive data.",
-          "details": "The June 22 order directs the Office of Management and Budget and the National Cyber Director to lead a nationwide migration to post-quantum cryptography. It also tasks the Department of Commerce, NSA, and DHS with issuing guidance to agencies on the transition.",
-          "source": "The White House",
-          "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-secures-the-nation-against-advanced-cryptographic-attacks/",
-          "date": "2026-06-22"
+          "title": "DHS proposes raising naturalization application fees",
+          "summary": "DHS published a proposed rule to raise the Form N-400 citizenship application fee and end most fee waivers.",
+          "details": "On June 22-23, 2026, the Department of Homeland Security proposed raising the paper Form N-400 fee from $760 to $1,330 and the online fee from $710 to $1,280, and eliminating reduced-fee and waiver options for most applicants. Military service members remain exempt. A 60-day public comment period runs through August 24, 2026.",
+          "source": "Federal Register",
+          "url": "https://www.federalregister.gov/documents/2026/06/23/2026-12542/naturalization-application-fee-adjustments",
+          "date": "2026-06-23"
         },
         {
-          "title": "DOJ investigation of California Governor Newsom reported",
-          "summary": "Governor Gavin Newsom said he and his wife are under investigation by the U.S. Department of Justice; the department has not confirmed a probe.",
-          "details": "In a video posted on X, Newsom said the investigation was politically motivated and tied to his consideration of a 2028 presidential run. He said investigators were also focusing on his wife, Jennifer Siebel Newsom. The Department of Justice has not confirmed any investigation.",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/6/15/california-governor-newsom-says-us-department-of-justice-investigating-him",
-          "date": "2026-06-15"
+          "title": "Executive order on advanced AI innovation and security",
+          "summary": "The White House issued an executive order directing federal agencies to strengthen cyber defenses related to advanced AI.",
+          "details": "On June 2, 2026, the White House issued Executive Order 14409, directing agencies to act within 30 days to prioritize cyber defense, establishing a voluntary framework for frontier AI model deployment, and directing enforcement resources toward criminal misuse of AI.",
+          "source": "The White House",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+          "date": "2026-06-02"
+        },
+        {
+          "title": "GAO reports on federal workforce changes",
+          "summary": "A GAO report documented declines in the federal workforce across major agencies during 2025.",
+          "details": "In a June 17, 2026 report, GAO stated that nearly 378,000 employees separated from 22 major agencies during 2025 while about 127,000 were hired. The total workforce across these agencies declined by nearly 256,000 employees, or more than 11 percent, from December 2024 to January 2026.",
+          "source": "U.S. Government Accountability Office",
+          "url": "https://www.gao.gov/products/gao-26-108583",
+          "date": "2026-06-17"
         }
       ]
     },
@@ -27,20 +35,28 @@
       "category": "Foreign Policy & National Security",
       "items": [
         {
-          "title": "U.S. and Iran sign interim agreement to end war",
-          "summary": "President Trump and Iranian President Pezeshkian signed a memorandum of understanding outlining terms to end the war and reopen the Strait of Hormuz.",
-          "details": "The interim agreement, signed June 17, starts a 60-day negotiating window on Iran's nuclear program. Under the 14-point memorandum, the U.S. is expected to lift sanctions and unfreeze assets, while Iran agreed to reopen the Strait of Hormuz and reaffirmed it will not develop nuclear weapons.",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/world/iran/strait-hormuz-reopen-us-lift-iran-sanctions-14-point-deal-seeking-end-rcna350513",
-          "date": "2026-06-17"
+          "title": "U.S. and Iran hold talks under signed memorandum of understanding",
+          "summary": "U.S. and Iranian delegations met in Switzerland to advance a framework intended to end the 2026 Iran war.",
+          "details": "On June 17, 2026, the U.S. and Iran signed a memorandum of understanding establishing a 60-day ceasefire extension to negotiate final terms. Subsequent talks addressed the Strait of Hormuz, sanctions relief, and Iran's nuclear program, while fighting between Israel and Hezbollah in Lebanon complicated the process.",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/06/21/g-s1-129222/us-iran-deal-lebanon-israel-strait-hormuz-jd-vance",
+          "date": "2026-06-21"
         },
         {
-          "title": "China sanctions U.S. military-related companies",
-          "summary": "China announced sanctions on 10 American military-related companies in response to a U.S. move barring some Chinese tech firms from defense contracts.",
-          "details": "China announced the sanctions on June 22 after the U.S. moved to bar some leading Chinese technology companies from defense contracts.",
-          "source": "NPR",
-          "url": "https://www.npr.org/sections/national/",
-          "date": "2026-06-22"
+          "title": "Israel and Hezbollah renew Lebanon ceasefire",
+          "summary": "Israel and Hezbollah agreed to renew a ceasefire after intensified fighting in southern Lebanon.",
+          "details": "Around June 19, 2026, Israel and Hezbollah agreed to renew their ceasefire following a deadly escalation in southern Lebanon. The truce was mediated by Qatar, the U.S., and Iran. Both sides subsequently accused each other of violations, and U.S.-Iran talks were briefly disrupted.",
+          "source": "PBS News",
+          "url": "https://www.pbs.org/newshour/world/israel-and-hezbollah-renew-ceasefire-after-u-s-and-iran-call-off-talks-over-fighting-in-lebanon",
+          "date": "2026-06-19"
+        },
+        {
+          "title": "State Department announces Ethiopia visa restrictions",
+          "summary": "The State Department announced targeted visa restrictions for individuals it said were involved in undermining peace in Ethiopia.",
+          "details": "On June 18, 2026, the State Department announced targeted visa restrictions for individuals involved in undermining peace in Ethiopia, alongside other press statements including reward offers related to the foreign terrorist organization MS-13.",
+          "source": "U.S. Department of State",
+          "url": "https://www.state.gov/policy-issues/foreign-policy",
+          "date": "2026-06-18"
         }
       ]
     },
@@ -49,18 +65,18 @@
       "items": [
         {
           "title": "Congress passes housing affordability bill",
-          "summary": "The House passed the 21st Century Road to Housing Act 358-32, following the Senate's 85-5 vote, sending the bipartisan measure toward becoming law.",
-          "details": "The bill aims to increase housing supply by easing construction regulations and restricting large investors from buying single-family homes. The 32 House no votes were all cast by Republicans, while all voting Democrats supported it.",
+          "summary": "Congress passed the 21st Century ROAD to Housing Act, described as the largest housing package in decades.",
+          "details": "The Senate passed the bill on June 22, 2026, with five Republicans opposed, and the House cleared it the following day. The legislation aims to increase housing supply by easing regulations, restrict institutional investors in single-family housing, and give more control to local jurisdictions. President Trump canceled a planned signing ceremony, citing a voter ID bill.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/23/nx-s1-5867575/congress-passes-housing-affordability-bill",
           "date": "2026-06-23"
         },
         {
-          "title": "Trump cancels housing bill signing ceremony",
-          "summary": "President Trump canceled a planned signing ceremony for the housing bill, saying Congress must first pass the SAVE America Act voter-identification bill.",
-          "details": "Trump announced on social media that the signing was canceled until Congress passes the SAVE America Act, a voter ID measure. The bill can still become law without his signature, and he has not indicated he intends to veto it.",
-          "source": "ABC News",
-          "url": "https://abcnews.com/GMA/News/senate-passes-housing-legislative-package-overwhelming-bipartisan-fashion/story?id=134130187",
+          "title": "Senate rejects motion on Iran war powers resolution",
+          "summary": "The Senate rejected a motion to proceed on a joint resolution directing removal of U.S. forces from hostilities with Iran.",
+          "details": "On June 24, 2026, the Senate rejected the motion to proceed on S.J.Res. 185 by a vote of 47-50. A similar measure had been approved in the House on June 3 by a vote of 215 to 208. The resolution concerned U.S. military involvement in hostilities against Iran not authorized by Congress.",
+          "source": "U.S. Senate",
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00192.htm",
           "date": "2026-06-24"
         }
       ]
@@ -69,25 +85,25 @@
       "category": "Courts & Legal",
       "items": [
         {
-          "title": "Supreme Court rules on Temporary Protected Status",
-          "summary": "In a 6-3 decision in Mullin v. Doe, the Supreme Court ruled the president has unreviewable authority to end the Temporary Protected Status program.",
-          "details": "Writing for the majority, Justice Samuel Alito held that under the TPS law the president may end the program without court intervention. The ruling allows the administration to proceed with removing people who had been living and working legally under TPS.",
+          "title": "Supreme Court allows ending TPS for Haitians and Syrians",
+          "summary": "The Supreme Court ruled the administration may end Temporary Protected Status for certain foreign nationals.",
+          "details": "On June 25, 2026, in a 6-3 decision in Mullin v. Doe, the Supreme Court ruled that the president has unreviewable authority to end the Temporary Protected Status program. Justice Samuel Alito wrote for the majority. The decision affects hundreds of thousands of nationals from Haiti and Syria.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/09/nx-s1-5847967/supreme-court-major-cases-left-2026",
           "date": "2026-06-25"
         },
         {
-          "title": "Supreme Court rules on green card holders' reentry",
-          "summary": "In a 6-3 opinion, the Supreme Court ruled federal border officials can use an indictment to temporarily strip green cards from immigrants reentering the country.",
-          "details": "Justice Clarence Thomas wrote that officials need not have clear and convincing evidence of offenses to suspend a lawful permanent resident's status. Justice Ketanji Brown Jackson, joined by Justices Kagan and Sotomayor, dissented.",
-          "source": "Roll Call",
-          "url": "https://rollcall.com/2026/06/23/supreme-court-backs-us-power-to-strip-green-cards/",
-          "date": "2026-06-23"
+          "title": "Supreme Court limits Roundup cancer lawsuits",
+          "summary": "The Supreme Court ruled Bayer cannot be sued in state courts over failure-to-warn claims about Roundup.",
+          "details": "On June 25, 2026, in a 7-2 ruling, the Supreme Court found that Bayer cannot be sued over state-level claims that it failed to warn of cancer risks from the weedkiller Roundup, holding that federal pesticide law preempts such state labeling claims. The decision is expected to block thousands of lawsuits.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/25/glyphosate-roundup-bayer-supreme-court-case-monsanto.html",
+          "date": "2026-06-25"
         },
         {
-          "title": "Supreme Court rules on firearms and private property",
-          "summary": "In a 6-3 decision in Wolford v. Lopez, the Supreme Court ruled states cannot require gun owners to get permission from property owners before bringing firearms onto their land.",
-          "details": "The court said requiring advance permission is an undue burden on the right to possess and carry a firearm. Five states had passed laws requiring such permission in advance.",
+          "title": "Supreme Court strikes Hawaii firearm-on-property law",
+          "summary": "The Supreme Court ruled states cannot require gun owners to get advance permission to bring firearms onto private property.",
+          "details": "On June 25, 2026, in a 6-3 decision in Wolford v. Lopez, the Supreme Court ruled that requiring permission in advance is an undue burden on the right to possess and carry a firearm. The decision affects laws in states including Hawaii, California, Maryland, New York, and New Jersey.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/09/nx-s1-5847967/supreme-court-major-cases-left-2026",
           "date": "2026-06-25"
@@ -98,103 +114,145 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "Mamdani-backed candidates win New York primaries",
-          "summary": "Three progressive candidates backed by New York Mayor Zohran Mamdani won their primary elections in safe seats, including two who challenged Democratic incumbents.",
-          "details": "All three candidates won their primaries on June 23 in safe seats, making their November election nearly certain. The results were part of a slate of contested House primaries.",
-          "source": "NPR",
-          "url": "https://www.npr.org/sections/national/",
-          "date": "2026-06-23"
+          "title": "Supreme Court allows Texas congressional map for 2026",
+          "summary": "The Supreme Court reinstated Texas's redrawn congressional map for the 2026 midterm elections.",
+          "details": "On April 27, 2026, the Supreme Court granted summary reversal allowing Texas's mid-decade congressional map, signed in August 2025, to remain in effect for the 2026 midterms. The map could shift up to five seats. The court split along ideological lines, with three justices dissenting; related litigation continues.",
+          "source": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/04/27/texas-redistricting-map-ruling-us-supreme-court-upheld-2026-midterms/",
+          "date": "2026-04-27"
         },
         {
-          "title": "Supreme Court clears Alabama congressional map",
-          "summary": "The Supreme Court cleared the way for Alabama to use a congressional map originally drawn in 2023 for the 2026 midterms.",
-          "details": "A federal court had previously barred the map from being implemented after finding it discriminated against Black voters. The map is likely to reduce the number of Democratic-held House seats in the state from two to one.",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/politics/2026-election/house-redistricting-gop-democrats-2026-midterm-elections-rcna348110",
-          "date": "2026-06-25"
-        },
-        {
-          "title": "Federal appeals court allows expanded expedited deportations",
-          "summary": "A federal appeals court allowed the administration to resume carrying out speedy deportations of undocumented migrants throughout the U.S., not just near the border.",
-          "details": "The June 24 ruling permits expedited removals to be conducted nationwide rather than limited to areas near the border.",
-          "source": "NPR",
-          "url": "https://www.npr.org/sections/national/",
-          "date": "2026-06-24"
+          "title": "Mid-decade redistricting reshapes House map",
+          "summary": "Multiple states have enacted new congressional maps ahead of the 2026 midterms following court rulings and state actions.",
+          "details": "As of June 2026, states including California, Missouri, North Carolina, Ohio, Texas, and Utah had new congressional maps. Following a Supreme Court Voting Rights Act ruling, several Southern states moved to revise districts, while litigation continued in states including Louisiana and New York.",
+          "source": "Ballotpedia",
+          "url": "https://ballotpedia.org/Redistricting_ahead_of_the_2026_elections",
+          "date": "2026-06-10"
         }
       ]
     }
   ],
   "states": {
-    "GA": [
-      {
-        "title": "Georgia lawmakers decline to redraw maps in special session",
-        "summary": "Georgia's Republican legislative leaders declined to take up redistricting during a special session called by Governor Brian Kemp.",
-        "details": "House Speaker Jon Burns informed Kemp in a letter that legislators would not consider congressional or legislative redistricting for the 2028 cycle during the session, citing pending litigation. Kemp had called the session after the Supreme Court's Louisiana v. Callais ruling.",
-        "source": "PBS News",
-        "url": "https://www.pbs.org/newshour/politics/georgia-republican-legislative-leaders-reject-governors-call-for-2028-redistricting",
-        "date": "2026-06-17"
-      }
-    ],
     "CA": [
       {
-        "title": "California launches AI job-loss tracking tool",
-        "summary": "California introduced what it described as a first-in-the-nation online tool to monitor and detect AI-related job loss, part of Governor Newsom's executive order on AI and the workforce.",
-        "details": "The tool was announced June 25 as part of the governor's executive order on artificial intelligence and the workforce. It is intended to track and detect job losses related to AI.",
-        "source": "Office of the Governor of California",
-        "url": "https://www.gov.ca.gov/2026/06/24/governor-newsom-welcomes-first-public-preview-of-california-science-centers-new-air-and-space-center-ahead-of-november-opening/",
-        "date": "2026-06-25"
+        "title": "Newsom signs election security law before primary",
+        "summary": "Governor Newsom signed Senate Bill 73 limiting law enforcement access to ballots and voting systems.",
+        "details": "On May 27, 2026, Governor Gavin Newsom signed SB 73, which takes effect immediately and limits when law enforcement can access ballots, voter lists, rosters, or certified voting technology. The bill followed an incident in which a county sheriff seized ballots from a registrar of voters.",
+        "source": "CBS Sacramento",
+        "url": "https://www.cbsnews.com/sacramento/news/newsom-california-ballots-law-enforcement-restrictions-law/",
+        "date": "2026-05-27"
       }
     ],
-    "NY": [
+    "VA": [
       {
-        "title": "New York holds primary elections",
-        "summary": "New York held primary elections on June 23 for races including governor and U.S. House seats.",
-        "details": "Among the results, progressive candidates backed by New York City Mayor Zohran Mamdani won several House primaries, including challenges to Democratic incumbents. Bruce Blakeman ran in the Republican primary for governor.",
-        "source": "Ballotpedia",
-        "url": "https://ballotpedia.org/New_York_gubernatorial_and_lieutenant_gubernatorial_election,_2026",
-        "date": "2026-06-23"
+        "title": "General Assembly passes state budget",
+        "summary": "Virginia's General Assembly passed the Commonwealth's budget, which Governor Spanberger said she supports.",
+        "details": "Following the General Assembly's passage of the budget on June 22, 2026, Governor Abigail Spanberger issued a statement. The budget process addressed priorities including raises for teachers and public employees, education and infrastructure investment, and data center energy costs.",
+        "source": "Office of the Governor of Virginia",
+        "url": "https://www.governor.virginia.gov/newsroom/news-releases/2026/june-releases/name-1119973-en.html",
+        "date": "2026-06-22"
       }
     ],
     "CT": [
       {
-        "title": "Connecticut enacts youth online safety and AI law",
-        "summary": "Governor Ned Lamont signed legislation establishing youth online safety protections, regulations on artificial intelligence, and workforce training initiatives.",
-        "details": "Public Act 26-15 was developed by Governor Lamont, Attorney General William Tong, and State Senator James Maroney. The bill addresses youth social media use, AI decision-making transparency, and workforce training for tech jobs.",
+        "title": "Lamont signs youth online safety and AI law",
+        "summary": "Governor Lamont signed legislation establishing youth online safety protections and AI regulations.",
+        "details": "On June 2, 2026, Governor Ned Lamont signed Public Act 26-15, a bipartisan measure addressing youth social media protections, artificial intelligence regulation, and workforce training initiatives. Officials cited federal inaction as a reason for state-level action.",
         "source": "Office of Governor Ned Lamont",
         "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
         "date": "2026-06-02"
       }
     ],
-    "NH": [
-      {
-        "title": "New Hampshire governor signs and vetoes bills",
-        "summary": "Governor Kelly Ayotte signed 18 bills into law and issued vetoes on several measures.",
-        "details": "The signed bills addressed topics including school district federal grants, registry filing deadlines, and vehicle registration documentation. Ayotte vetoed measures including HB 1072 on wage enforcement authority and SB 468 on marijuana cultivation.",
-        "source": "Office of Governor Kelly Ayotte",
-        "url": "https://www.governor.nh.gov/news/governor-signs-18-bills-law",
-        "date": "2026-06-12"
-      }
-    ],
-    "VT": [
-      {
-        "title": "Vermont governor signs slate of bills",
-        "summary": "Governor Phil Scott signed several bills into law on June 8 covering criminal justice, health, animal welfare, and education.",
-        "details": "The signed bills included measures on officer-involved shooting protocols, gender equity in correctional facilities, penalties for animal cruelty offenses, and addressing chronic absenteeism in schools.",
-        "source": "Office of Governor Phil Scott",
-        "url": "https://governor.vermont.gov/press-release/action-taken-governor-phil-scott-legislation-june-8-2026",
-        "date": "2026-06-08"
-      }
-    ],
     "IA": [
       {
-        "title": "Iowa governor signs final bills of 2026 session",
-        "summary": "Governor Kim Reynolds signed the final bills from the 2026 legislative session, including measures on gubernatorial powers and early childhood programs.",
-        "details": "The June 2 signings were the last of the session and Reynolds's final as governor, as she is not seeking re-election in 2026. The bills included one restricting certain gubernatorial powers.",
+        "title": "Reynolds signs final 2026 session bills",
+        "summary": "Governor Reynolds signed the final bills of the 2026 legislative session, including limits on gubernatorial powers.",
+        "details": "On June 2, 2026, Governor Kim Reynolds signed the final bills of the session. House File 2694 bars a governor from restricting private businesses or ordering places of worship to close during emergencies and requires legislative approval for changes to election laws. Other bills addressed citizenship verification for educator licenses.",
         "source": "Iowa Capital Dispatch",
         "url": "https://iowacapitaldispatch.com/2026/06/03/gov-kim-reynolds-signs-final-bills-from-2026-legislative-session/",
-        "date": "2026-06-02"
+        "date": "2026-06-03"
+      }
+    ],
+    "NH": [
+      {
+        "title": "Ayotte signs 54 bills into law",
+        "summary": "Governor Ayotte signed 54 bills into law and issued several vetoes.",
+        "details": "On June 19, 2026, Governor Kelly Ayotte announced she had signed 54 bills into law covering topics including health benefit plans, water system contamination, and school administrative budgets. She also issued veto statements on several other measures.",
+        "source": "Office of Governor Kelly Ayotte",
+        "url": "https://www.governor.nh.gov/news/governor-signs-54-bills-law",
+        "date": "2026-06-19"
+      }
+    ],
+    "OH": [
+      {
+        "title": "DeWine signs bills into law",
+        "summary": "Governor DeWine signed several bills, including the Joshua Alert for missing autistic or developmentally disabled children.",
+        "details": "On June 18, 2026, Governor Mike DeWine signed multiple bills, including House Bill 359, which clarifies the statewide emergency alert system for missing autistic or developmentally disabled children and names it the Joshua Alert, and measures on construction contracts and unemployment compensation.",
+        "source": "Office of Governor Mike DeWine",
+        "url": "https://governor.ohio.gov/wps/portal/gov/governor/media/news-and-media/governor-dewine-signs-bills-into-law-6-18-2026",
+        "date": "2026-06-18"
+      }
+    ],
+    "IL": [
+      {
+        "title": "New Illinois laws take effect July 1",
+        "summary": "Illinois enacted laws taking effect July 1, including changes to cyberbullying definitions and a motor fuel tax adjustment.",
+        "details": "Public Act 104-0468, signed in June 2026, suspends the Consumer Price Index adjustment for the motor fuel tax rate until 2027. Other laws taking effect July 1 expand the definition of cyberbullying to address AI content and adjust senior driver's license renewal procedures.",
+        "source": "WCIA",
+        "url": "https://www.wcia.com/illinois-capitol-news/new-illinois-laws-go-into-effect-on-july-1-2026-heres-whats-changing/",
+        "date": "2026-06-25"
+      }
+    ],
+    "AZ": [
+      {
+        "title": "Hobbs vetoes AI bills",
+        "summary": "Governor Hobbs vetoed three AI-related bills passed by the legislature.",
+        "details": "Around June 19, 2026, Governor Katie Hobbs vetoed three AI bills passed by the Republican-majority legislature, including a chatbot safety measure that had passed the Senate 28-0 and the House 35-20. They were among numerous bills she vetoed.",
+        "source": "Transparency Coalition",
+        "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june26-2026",
+        "date": "2026-06-26"
+      }
+    ],
+    "WA": [
+      {
+        "title": "Washington enacts public safety laws",
+        "summary": "Washington's 2026 session enacted public safety laws, including limits on facial coverings for officers.",
+        "details": "Washington's 2026 legislative session passed several public safety bills. SB 5855 prohibits law enforcement officers from wearing facial coverings while performing official public-facing duties, with exceptions for medical and protective equipment. Other measures addressed officer training and court procedures.",
+        "source": "MRSC",
+        "url": "https://mrsc.org/stay-informed/mrsc-insight/june-2026/2026-public-safety-laws",
+        "date": "2026-06-24"
+      }
+    ],
+    "PA": [
+      {
+        "title": "Pennsylvania budget negotiations continue",
+        "summary": "Lawmakers worked toward a state budget ahead of the June 30 deadline after last year's lengthy impasse.",
+        "details": "Governor Josh Shapiro presented a $53.3 billion spending plan in February 2026, and negotiations continued as officials eyed the June 30 budget deadline. Lawmakers expressed hope of avoiding a repeat of the prior year's impasse, which stretched more than 130 days past deadline.",
+        "source": "City & State Pennsylvania",
+        "url": "https://www.cityandstatepa.com/policy/2026/05/city-states-2026-27-pennsylvania-state-budget-tracker/412877/",
+        "date": "2026-05-06"
+      }
+    ],
+    "RI": [
+      {
+        "title": "Rhode Island wraps 2026 legislative session",
+        "summary": "Rhode Island lawmakers ended their session after passing bills on worker protections and AI regulation.",
+        "details": "The Rhode Island General Assembly concluded its 2026 session on June 11, 2026, passing bills including warehouse worker protections and an expansion of the Fair Employment Practices Act to cover domestic workers. Governor Dan McKee also signed AI-related legislation.",
+        "source": "National Law Review",
+        "url": "https://natlawreview.com/article/rhode-island-employment-legislation-update-2026",
+        "date": "2026-06-11"
+      }
+    ],
+    "TN": [
+      {
+        "title": "New Tennessee congressional map in place for 2026",
+        "summary": "Tennessee's legislature passed a new congressional map redrawing the Memphis-area district.",
+        "details": "Tennessee's Republican-led legislature passed a new congressional map carving up the state's lone majority-Black district in Memphis, pairing urban areas with rural parts of the state. Under the redrawn lines, Tennessee is likely to elect an all-Republican congressional delegation.",
+        "source": "NBC News",
+        "url": "https://www.nbcnews.com/politics/2026-election/house-redistricting-gop-democrats-2026-midterm-elections-rcna348110",
+        "date": "2026-06-04"
       }
     ]
   },
-  "disclaimer": "This digest reports verifiable developments from cited news sources and does not endorse any party, candidate, or position."
+  "disclaimer": "This digest reports verifiable developments from cited sources and takes no position for or against any party, official, or policy."
 }

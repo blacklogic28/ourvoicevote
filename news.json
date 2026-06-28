@@ -1,30 +1,30 @@
 {
-  "updated": "2026-06-27T15:07:58.566Z",
-  "updatedLabel": "June 27, 2026",
+  "updated": "2026-06-28T15:11:18.662Z",
+  "updatedLabel": "June 28, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "Trump signs executive order on post-quantum cryptography",
-          "summary": "President Trump signed an executive order directing federal agencies to accelerate a nationwide migration to post-quantum cryptography.",
-          "details": "The order directs the Office of Management and Budget and the National Cyber Director to lead an accelerated migration to post-quantum cryptography. It also directs the Department of Commerce, the National Security Agency, and the Department of Homeland Security to issue guidance to agencies on the transition.",
-          "source": "The White House",
-          "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-secures-the-nation-against-advanced-cryptographic-attacks/",
-          "date": "2026-06-22"
-        },
-        {
-          "title": "GAO reports federal workforce decline during 2025",
-          "summary": "The Government Accountability Office reported that the federal workforce at major agencies declined by more than 11% from December 2024 to January 2026.",
-          "details": "GAO reported that data from 22 major federal agencies showed nearly 378,000 employees separated during 2025, while about 127,000 were hired. The total workforce across these agencies declined by nearly 256,000 employees, with declines ranging from about 1% at DHS to over 45% at the Department of Education.",
+          "title": "GAO reports federal workforce declined by more than 11% in 2025",
+          "summary": "A June 17 GAO report found the federal civilian workforce at major agencies fell by nearly 256,000 employees during 2025 following presidential directives.",
+          "details": "The Government Accountability Office reported that nearly 378,000 employees separated from 22 major agencies in 2025, while about 127,000 were hired. The total workforce declined by more than 11% from December 2024 to January 2026, with declines ranging from about 1% at DHS to over 45% at the Department of Education.",
           "source": "U.S. Government Accountability Office",
           "url": "https://www.gao.gov/products/gao-26-108583",
           "date": "2026-06-17"
         },
         {
-          "title": "Federal Reserve holds interest rates steady",
-          "summary": "The Federal Reserve maintained the federal funds rate target range at 3.5% to 3.75%, effective June 18.",
-          "details": "The Federal Open Market Committee directed operations to maintain the federal funds rate in a target range of 3.5% to 3.75%. The Board of Governors voted unanimously to maintain the interest rate paid on reserve balances at 3.65%.",
+          "title": "State Department to add expedited 'premium' visa service",
+          "summary": "The administration announced a premium expedited service for foreigners seeking business or tourist visas, priced at $750 on top of the standard fee.",
+          "details": "Under the new option, applicants for business or tourist visas could pay $750 for expedited service, in addition to the existing $185 application fee. The move was reported as part of broader changes to visa and immigration processing.",
+          "source": "Associated Press (via FDD Overnight Brief)",
+          "url": "https://www.fdd.org/overnight-brief/june-9-2026/",
+          "date": "2026-06-09"
+        },
+        {
+          "title": "Federal Reserve holds interest rate target range steady",
+          "summary": "The Federal Open Market Committee directed that the federal funds rate be maintained in a target range of 3.5% to 3.75% effective June 18.",
+          "details": "Following its June 16-17 meeting, the FOMC released a statement, implementation note, and projections. The committee directed operations to maintain the federal funds rate in a 3.5%-3.75% range and continue reinvesting principal payments from its securities holdings.",
           "source": "Federal Reserve",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm",
           "date": "2026-06-17"
@@ -35,19 +35,27 @@
       "category": "Foreign Policy & National Security",
       "items": [
         {
-          "title": "U.S. sanctions networks tied to Sudan's war",
-          "summary": "The United States sanctioned eight individuals and entities it said are fueling the conflict in Sudan and called for a humanitarian truce.",
-          "details": "The Treasury Department said the sanctions target networks supporting both the Sudanese Armed Forces and the Rapid Support Forces, accusing them of supplying weapons, explosives, and foreign fighters. The State Department also announced measures under the Chemical and Biological Weapons Control and Warfare Elimination Act, including a ban on Sudanese state-owned air carriers operating in the United States.",
-          "source": "U.S. Department of State",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/sanctioning-the-networks-fueling-sudans-war/",
+          "title": "U.S. and Iran negotiate following signed memorandum of understanding",
+          "summary": "U.S. and Iranian delegations held talks in Switzerland and agreed to a road map toward a final deal within 60 days under a memorandum of understanding signed June 17.",
+          "details": "The memorandum of understanding, signed June 17 by President Trump and Iranian President Masoud Pezeshkian, extended a ceasefire by 60 days. Negotiators in Switzerland established working groups on sanctions, nuclear issues, reconstruction and monitoring, and a mechanism to address hostilities in Lebanon.",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/06/21/g-s1-129222/us-iran-deal-lebanon-israel-strait-hormuz-jd-vance",
+          "date": "2026-06-21"
+        },
+        {
+          "title": "IAEA head says interim agreement provides for nuclear site supervision",
+          "summary": "IAEA Director General Rafael Grossi said on June 26 that the U.S.-Iran memorandum indicates the nuclear portion will be supervised, amid differing accounts over inspections.",
+          "details": "Grossi spoke in Tokyo as the U.S. and Iran offered differing public statements about whether Iran had agreed to allow inspectors to view its nuclear sites. He said the memorandum specifically indicates the nuclear part of the agreement will be supervised.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/26/us-iran-peace-deal-nuclear-access.html",
           "date": "2026-06-26"
         },
         {
-          "title": "U.S. hosts second Pax Silica Summit",
-          "summary": "The State Department concluded the second Pax Silica Summit, adding ten new signatories to a declaration on technology supply chains.",
-          "details": "The two-day summit, held June 25-26 in Washington, added ten partners as signatories to the Pax Silica Declaration, bringing the total to 24. New signatories include Argentina, Chile, Costa Rica, El Salvador, the European Union, Germany, Greece, Kazakhstan, the Netherlands, and Panama. The summit also produced a Joint Statement on AI Opportunity.",
-          "source": "U.S. Department of State",
-          "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/united-states-hosts-second-pax-silica-summit-in-washington-dc/",
+          "title": "Israel and Lebanon sign framework agreement with U.S.",
+          "summary": "Secretary of State Marco Rubio said on June 26 that Israel and Lebanon signed a framework agreement with the United States described as a first step toward peace.",
+          "details": "The announcement came amid continued diplomatic activity in the region tied to the broader U.S.-Iran negotiations. The same day brought reports of renewed strikes and a vessel attack in the Strait of Hormuz.",
+          "source": "Associated Press (via Britannica)",
+          "url": "https://www.britannica.com/event/2026-Iran-war",
           "date": "2026-06-26"
         }
       ]
@@ -57,19 +65,19 @@
       "items": [
         {
           "title": "Congress passes 21st Century ROAD to Housing Act",
-          "summary": "The House and Senate passed a bipartisan housing affordability package and sent it to the president's desk.",
-          "details": "The Senate passed the bill 85-5 and the House passed it 358-32. The legislation aims to increase housing supply by easing regulations, and includes provisions limiting institutional investors' purchases of single-family homes. President Trump canceled a signing ceremony, saying he would not sign the bill until Congress passes the SAVE America Act.",
-          "source": "ABC News",
-          "url": "https://abcnews.com/GMA/News/senate-passes-housing-legislative-package-overwhelming-bipartisan-fashion/story?id=134130187",
-          "date": "2026-06-24"
+          "summary": "The House passed the housing affordability bill 358-32 on June 23 after the Senate approved it 85-5, sending the bipartisan measure toward the president's desk.",
+          "details": "The legislation includes more than 50 provisions intended to remove barriers to building homes, lower housing costs, and shift more control to local governments. It was led by Senators Elizabeth Warren and Tim Scott and Representatives Maxine Waters and French Hill.",
+          "source": "TIME",
+          "url": "https://time.com/article/2026/06/23/housing-bill-congress-affordability-supply/",
+          "date": "2026-06-23"
         },
         {
-          "title": "House passes foreign policy and minerals bills",
-          "summary": "The House passed bills including the U.S.-Japan-ROK Trilateral Cooperation Act and the DOMINANCE Act on critical energy minerals.",
-          "details": "The House passed the bipartisan U.S.-Japan-ROK Trilateral Cooperation Act and H.R. 7037, the DOMINANCE Act, addressing overseas mineral investments and allied networks for critical energies. The bills were introduced by Representatives Ami Bera and Young Kim.",
-          "source": "Office of U.S. Representative Ami Bera",
-          "url": "https://bera.house.gov/issues/national-security-and-foreign-policy",
-          "date": "2026-06-08"
+          "title": "Signing ceremony for housing bill canceled",
+          "summary": "President Trump canceled a planned signing ceremony for the housing bill on June 24, saying Congress must first pass a strict voter identification bill.",
+          "details": "The bill had cleared both chambers with bipartisan support. The president stated his position on tying his action to passage of voter ID legislation.",
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/06/23/nx-s1-5867575/congress-passes-housing-affordability-bill",
+          "date": "2026-06-24"
         }
       ]
     },
@@ -77,27 +85,27 @@
       "category": "Courts & Legal",
       "items": [
         {
-          "title": "Supreme Court allows end of TPS for Haiti and Syria",
-          "summary": "The Supreme Court ruled 6-3 that the administration can end Temporary Protected Status designations for Haiti and Syria.",
-          "details": "In Mullin v. Doe, the court paused lower-court rulings that had barred ending the TPS designations, finding that federal law generally bars judicial review of TPS termination decisions. Justice Samuel Alito wrote for the majority; the court divided 6-3.",
+          "title": "Supreme Court allows administration to end Temporary Protected Status for Haiti and Syria",
+          "summary": "In a 6-3 ruling in Mullin v. Doe on June 25, the Court cleared the way for the federal government to end TPS designations for Haiti and Syria.",
+          "details": "The justices paused lower court rulings that had barred ending the designations. Writing for the majority, Justice Alito said the law generally bars courts from reviewing the Homeland Security Secretary's determinations to end a TPS designation. Justices Sotomayor, Kagan, and Jackson dissented.",
           "source": "SCOTUSblog",
           "url": "https://www.scotusblog.com/2026/06/supreme-court-allows-trump-administration-to-end-removal-protections-for-syrian-and-haitian-nati/",
           "date": "2026-06-25"
         },
         {
-          "title": "Supreme Court clears way to revive asylum 'metering' policy",
-          "summary": "The Supreme Court ruled 6-3 that the administration may revive a policy limiting daily asylum processing at the U.S.-Mexico border.",
-          "details": "The justices overturned a lower-court order that had blocked the practice limiting the number of people who could apply for asylum each day. The majority agreed with the argument that migrants stopped before entering have not arrived in the country; Justice Sonia Sotomayor dissented from the bench.",
-          "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/politics/supreme-court-clears-way-for-trump-administration-to-revive-restrictive-immigration-policy",
+          "title": "Supreme Court rules on asylum 'turnback' policy in Mullin v. Al Otro Lado",
+          "summary": "In a 6-3 decision June 25, the Court ruled that an asylum seeker standing in Mexico has not 'arrived in the United States' under federal immigration law.",
+          "details": "The case addressed a now-defunct policy under which border officials blocked migrants from setting foot on U.S. soil. The majority opinion was delivered by Justice Alito; Justice Sotomayor, joined by Justices Kagan and Jackson, dissented.",
+          "source": "Supreme Court of the United States",
+          "url": "https://www.supremecourt.gov/opinions/25pdf/25-5_86qd.pdf",
           "date": "2026-06-25"
         },
         {
-          "title": "Supreme Court strikes down state firearm permission laws",
-          "summary": "In Wolford v. Lopez, the Supreme Court ruled 6-3 that states cannot require gun owners to get advance permission before bringing firearms onto private property.",
-          "details": "The 6-3 decision held that requiring permission in advance is an undue burden on the right to possess and carry a firearm. The ruling affects laws in states including Hawaii, California, Maryland, New York, and New Jersey that required advance permission.",
+          "title": "Supreme Court strikes Hawaii law on firearms on private property",
+          "summary": "In a 6-3 decision in Wolford v. Lopez on June 25, the Court ruled states cannot require gun owners to get permission from property owners before bringing firearms onto their land.",
+          "details": "The Court said requiring advance permission is an undue burden on the right to possess and carry a firearm. Five states had passed laws requiring such advance permission.",
           "source": "NPR",
-          "url": "https://www.npr.org/2026/06/09/nx-s1-5847967/supreme-court-major-cases-left-2026",
+          "url": "https://www.npr.org/2026/06/09/nx-s1-5867575/supreme-court-major-cases-left-2026",
           "date": "2026-06-25"
         }
       ]
@@ -106,83 +114,115 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "Tennessee court upholds new congressional map",
-          "summary": "A three-judge panel in Davidson County dismissed a challenge to Tennessee's 2026 redistricting and election law changes, leaving the new map in place.",
-          "details": "The panel ruled in favor of state officials, finding the legislature acted within the scope of the governor's special session call. The new map splits the Memphis-based 9th Congressional District, the state's only Democratic-held and majority-Black district. The Tennessee Democratic Party separately dropped its federal suit, and the NAACP said it would continue its challenge.",
-          "source": "WKRN",
-          "url": "https://www.wkrn.com/news/tennessee-news/tennessee-court-upholds-redistricting-plan/",
-          "date": "2026-05-26"
-        },
-        {
-          "title": "Supreme Court ruling reshapes 2026 redistricting landscape",
-          "summary": "Following the Court's Louisiana v. Callais decision, multiple states have moved to redraw congressional maps ahead of the November midterms.",
-          "details": "The 6-3 ruling narrowed Section 2 of the Voting Rights Act as applied to redistricting. Several states, including Texas, North Carolina, Missouri, Florida, California, and Tennessee, have new or revised congressional maps for 2026, while litigation continues in multiple states.",
+          "title": "Supreme Court ruling in Louisiana v. Callais narrows Voting Rights Act",
+          "summary": "The Court's 6-3 ruling reinterpreted Section 2 of the Voting Rights Act, affecting how states draw majority-minority districts ahead of the 2026 midterms.",
+          "details": "The majority held that states have broad freedom to draw district lines, including for partisan advantage, but that maps which maximize the electoral chances of non-white candidates can violate the equal-protection clause. Justice Alito wrote the majority opinion and Justice Kagan dissented.",
           "source": "Council on Foreign Relations",
           "url": "https://www.cfr.org/articles/gerrymandering-the-supreme-court-and-the-2026-midterm-elections",
-          "date": "2026-05-04"
+          "date": "2026-06-27"
         },
         {
-          "title": "California holds gubernatorial primary",
-          "summary": "California's top-two gubernatorial primary was held June 2, with Democrat Xavier Becerra and Republican Steve Hilton advancing to the November general election.",
-          "details": "More than sixty candidates appeared on the June 2026 primary ballot to succeed term-limited Governor Gavin Newsom. The general election is scheduled for November 3, 2026.",
-          "source": "Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/2026_United_States_gubernatorial_elections",
-          "date": "2026-06-02"
+          "title": "Mid-decade redistricting battles continue across multiple states",
+          "summary": "After 10 states enacted new congressional maps, analysts estimated Republicans could gain up to 16 seats and Democrats up to six heading into the fall.",
+          "details": "Texas, North Carolina, Missouri, Ohio, Florida, Alabama and Louisiana enacted Republican-favored maps, while California and Virginia approved maps favoring Democrats and a Utah court ordered a new map. Several maps faced ongoing litigation as of June 2026.",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/politics/2026-election/house-redistricting-gop-democrats-2026-midterm-elections-rcna348110",
+          "date": "2026-06-12"
         }
       ]
     }
   ],
   "states": {
-    "OH": [
+    "CA": [
       {
-        "title": "DeWine signs bills, vetoes mail-voting and submetering measures",
-        "summary": "Ohio Governor Mike DeWine signed several bills into law and issued vetoes, including of a mail-ballot bill and a utility submetering bill.",
-        "details": "DeWine signed bills addressing academic intervention services, memorial highways, and electric vehicle charging stations. He vetoed House Bill 472, a mail-voting measure, saying it was not needed, and vetoed House Bill 173 on utility submetering.",
-        "source": "Office of the Governor of Ohio",
-        "url": "https://governor.ohio.gov/media/news-and-media/governor-dewine-signs-bills-into-law-issues-vetoes-6-24-2026",
-        "date": "2026-06-24"
+        "title": "Newsom signs SB 73 restricting law enforcement access to ballots",
+        "summary": "Governor Gavin Newsom signed Senate Bill 73, which limits when law enforcement can access ballots, voter lists, and voting equipment, effective immediately ahead of the June 2 primary.",
+        "details": "The law criminalizes taking cast ballots from the custody of a local election official and prohibits warrantless search or seizure of voting machines and voter rolls. It followed an incident in which a county sheriff seized ballots from a registrar of voters.",
+        "source": "CalMatters",
+        "url": "https://calmatters.org/politics/2026/05/california-ballot-seizure-law/",
+        "date": "2026-05-27"
       }
     ],
-    "FL": [
+    "SC": [
       {
-        "title": "DeSantis signs local government transparency and property tax bills",
-        "summary": "Florida Governor Ron DeSantis signed legislation on local government financial transparency and property tax relief.",
-        "details": "DeSantis signed Senate Bill 4-F and House Bill 1329, which require local governments to publish detailed financial information and conduct a budget reduction exercise before adopting a final budget. SB 4-F accompanies a proposed property tax constitutional amendment set for the November 2026 ballot.",
-        "source": "Executive Office of the Governor of Florida",
-        "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-signs-legislation-protecting-taxpayers-and-increasing-local",
-        "date": "2026-06-24"
+        "title": "South Carolina House passes new congressional map",
+        "summary": "The South Carolina House passed a new congressional map 74-37 aimed at producing seven Republican-leaning districts and moving congressional primaries to August 18.",
+        "details": "The map redraws all seven districts, including the seat held by Rep. James Clyburn, and was advanced after a U.S. Supreme Court decision on Louisiana's map and a request from the White House. Four Republicans voted against the measure, which advanced to the state Senate.",
+        "source": "NewsNation",
+        "url": "https://www.newsnationnow.com/politics/south-carolina-house-new-congressional-map/",
+        "date": "2026-05-20"
+      }
+    ],
+    "IA": [
+      {
+        "title": "Gov. Reynolds signs final 2026 session bills, including limits on gubernatorial emergency powers",
+        "summary": "Governor Kim Reynolds signed the final bills of the 2026 session on June 2, including a measure barring governors from closing private businesses or places of worship during emergencies.",
+        "details": "House File 2694 also requires a governor to obtain legislative approval to change election laws during emergencies. Reynolds, who is not seeking another term, also signed bills on citizenship verification for educator licenses and state jobs.",
+        "source": "Iowa Capital Dispatch",
+        "url": "https://iowacapitaldispatch.com/2026/06/03/gov-kim-reynolds-signs-final-bills-from-2026-legislative-session/",
+        "date": "2026-06-03"
+      }
+    ],
+    "CT": [
+      {
+        "title": "Gov. Lamont signs youth online safety and AI law",
+        "summary": "Governor Ned Lamont signed Public Act 26-15, a bipartisan measure addressing youth social media protections, artificial intelligence regulation, and workforce training.",
+        "details": "The law requires social media companies to verify users' ages and obtain parental permission before minors can access addictive algorithmic feeds. It was developed with the attorney general and the legislature's General Law committee co-chair.",
+        "source": "Office of Governor Ned Lamont",
+        "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
+        "date": "2026-06-02"
+      }
+    ],
+    "VT": [
+      {
+        "title": "Gov. Scott signs comprehensive data privacy law",
+        "summary": "Governor Phil Scott signed S.71, the Vermont Data Privacy and Online Surveillance Act, on June 16, making Vermont one of the latest states with a comprehensive consumer privacy law.",
+        "details": "The law takes effect January 1, 2028, and grants enforcement authority to the state attorney general with no private right of action. Scott had vetoed a stricter version of the legislation in 2024.",
+        "source": "MLex",
+        "url": "https://www.mlex.com/mlex/data-privacy-security/articles/2486015/vermont-governor-signs-privacy-law-after-vetoing-legislature-s-attempt-last-year",
+        "date": "2026-06-17"
+      }
+    ],
+    "NH": [
+      {
+        "title": "Gov. Ayotte signs 54 bills into law",
+        "summary": "Governor Kelly Ayotte announced she had signed 54 bills into law the week of June 19 while also issuing several vetoes.",
+        "details": "The signed bills covered topics including off-highway recreational vehicle operation, employer health benefit plan data access, and water system contamination mitigation. Ayotte issued veto statements on bills concerning surplus land sales and historical markers.",
+        "source": "Office of Governor Kelly Ayotte",
+        "url": "https://www.governor.nh.gov/news/governor-signs-54-bills-law",
+        "date": "2026-06-19"
+      }
+    ],
+    "OH": [
+      {
+        "title": "Gov. DeWine signs bills into law",
+        "summary": "Governor Mike DeWine signed several bills on June 18, including the 'Keep Them Safe Act' and a measure creating the 'Joshua Alert' for missing children with autism or developmental disabilities.",
+        "details": "The bills included measures on construction contracts, unemployment compensation treatment of professional employer organizations, and a statewide emergency alert system for missing autistic or developmentally disabled children.",
+        "source": "Office of Governor Mike DeWine",
+        "url": "https://governor.ohio.gov/wps/portal/gov/governor/media/news-and-media/governor-dewine-signs-bills-into-law-6-18-2026",
+        "date": "2026-06-18"
       }
     ],
     "AZ": [
       {
-        "title": "Hobbs signs shooting-range protection bill",
-        "summary": "Arizona Governor Katie Hobbs signed HB 2763, a bill addressing protections for a state shooting range.",
-        "details": "The legislation, sponsored by Rep. Nguyen, passed the legislature with Republican support. The bill was signed into law in late June 2026.",
-        "source": "Bearing Arms",
-        "url": "https://bearingarms.com/camedwards/2026/06/23/arizonas-democrat-governor-signs-range-protection-bill-into-law-n1232947",
-        "date": "2026-06-23"
+        "title": "Gov. Hobbs vetoes AI-related bills",
+        "summary": "Governor Katie Hobbs vetoed three AI-related bills passed by the legislature, among 88 bills she vetoed in a single day on June 19.",
+        "details": "The vetoed measures included a chatbot safety bill and a bill directing state agencies to identify opportunities to implement AI systems. The Republican-majority House and Senate had approved the three AI bills earlier in June.",
+        "source": "Transparency Coalition",
+        "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june26-2026",
+        "date": "2026-06-19"
       }
     ],
-    "CA": [
+    "IL": [
       {
-        "title": "Newsom calls for national billionaires tax",
-        "summary": "California Governor Gavin Newsom said he supports a federal minimum tax on billionaires and closing certain tax loopholes.",
-        "details": "In a public post, Newsom said he supports a minimum tax on billionaires and ending what he called a 'tax-free lifestyle loan' tactic. He argued the issue should be addressed at the national rather than state level.",
-        "source": "CNBC",
-        "url": "https://www.cnbc.com/2026/06/26/gavin-newsom-national-billionaires-tax-california.html",
-        "date": "2026-06-26"
-      }
-    ],
-    "TN": [
-      {
-        "title": "Tennessee Democratic Party drops redistricting lawsuit",
-        "summary": "The Tennessee Democratic Party voluntarily dismissed its federal lawsuit challenging the state's new congressional map.",
-        "details": "A federal judge signed an order dismissing the case without prejudice, meaning it could be refiled. The party said it would shift focus to elections while continuing to support separate challenges filed by the NAACP and ACLU.",
-        "source": "WSMV / NewsChannel5",
-        "url": "https://www.newschannel5.com/news/tennessee-democrats-voluntarily-dismiss-redistricting-lawsuit",
-        "date": "2026-06-10"
+        "title": "New Illinois laws take effect July 1",
+        "summary": "A set of new Illinois laws takes effect July 1, including a suspension of the motor fuel tax inflation adjustment and an expanded definition of cyberbullying.",
+        "details": "Public Act 104-0468, signed in June 2026, suspends the Consumer Price Index adjustment for the motor fuel tax rate until 2027. Other laws address driver's license renewal for seniors and AI-related content in the school code.",
+        "source": "WCIA",
+        "url": "https://www.wcia.com/illinois-capitol-news/new-illinois-laws-go-into-effect-on-july-1-2026-heres-whats-changing/",
+        "date": "2026-06-25"
       }
     ]
   },
-  "disclaimer": "This digest reports verifiable events from cited sources without endorsement of any party, official, or position."
+  "disclaimer": "This digest reports verifiable developments from cited sources and does not endorse or oppose any party, official, or position."
 }

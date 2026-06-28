@@ -2,7 +2,7 @@
 
 > **What this is:** A complete project brief for Claude Code (or any AI coding agent) to pick up the OurVoiceVote project and make changes, add features, fix bugs, or do maintenance — without needing to re-learn anything.
 >
-> **Last updated:** June 9, 2026
+> **Last updated:** June 28, 2026
 > **Owner:** GitHub user `blacklogic28` (Ray)
 
 ---
@@ -233,30 +233,31 @@ These are non-negotiable. Breaking any of these is a showstopper.
 
 ---
 
-## 8. What Changed Last (April 29, 2026 Session)
+## 8. What Changed Last (June 28, 2026 Session)
+
+### Legislation section
+- Updated SAVE Act status from "Stalled in Senate" → "Senate Blocked 48-50"
+- Added impact card: **One Big Beautiful Bill Act** (signed into law — tax cuts, SALT cap, Medicaid work requirements, child tax credit, immigration enforcement)
+- Added impact card: **21st Century ROAD to Housing Act** (passed both chambers — restricts institutional investors, expands affordable housing)
+- Added two new bill pills to sidebar tracker for above bills
+- Updated status note to "late June 2026"
 
 ### Police Accountability section
-- Added third stat card: 1,314 (2025, first decline in six years)
-- Updated racial disparity: "more than twice the rate" → "nearly three times the rate"
-- Rewrote MPV paragraph with 2024/2025 figures, Campaign Zero citation
-- Added note that WaPo database is now closed (2015-2024)
-- Updated MPV URL from `.org` to `.us`
-- Updated charging rate bullet with "nearly doubled since 2020" context
+- Added case box: **Stephenson King Jr.** (March 11, 2026, Boston MA — unarmed, shot by Officer Nicholas O'Malley, officer charged with voluntary manslaughter)
 
-### Register to Vote section
-- Added gold-bordered 2026 election callout with seats-on-ballot context
-- New `.election-callout` CSS class
+### Know Your Rights section
+- Added content box: **2025–2026 Voting Rights Developments** covering SCOTUS *Louisiana v. Callais* ruling (weakens private VRA standing) and documentary proof-of-citizenship laws (SD, UT, others)
+- Linked to Brennan Center for Justice
 
 ### Footer
-- Updated MPV link to `.us`
-- Added "Last updated: April 29, 2026"
+- Updated "Last updated" from June 9 to June 28, 2026
 
 ### Everything else preserved exactly
 - All CSS, fonts, color tokens
 - All 50 state sections
 - All 12 organizations
-- All 7 case boxes
-- All bill cards and 117th Congress links
+- All 8 case boxes (was 7, now includes King Jr.)
+- All bill cards and Congress.gov links
 - Constitution & Amendments (all 27)
 - Donation flow
 - All JavaScript

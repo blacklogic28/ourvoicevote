@@ -1,32 +1,32 @@
 {
-  "updated": "2026-06-28T15:11:18.662Z",
-  "updatedLabel": "June 28, 2026",
+  "updated": "2026-06-29T16:49:03.983Z",
+  "updatedLabel": "June 29, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "GAO reports federal workforce declined by more than 11% in 2025",
-          "summary": "A June 17 GAO report found the federal civilian workforce at major agencies fell by nearly 256,000 employees during 2025 following presidential directives.",
-          "details": "The Government Accountability Office reported that nearly 378,000 employees separated from 22 major agencies in 2025, while about 127,000 were hired. The total workforce declined by more than 11% from December 2024 to January 2026, with declines ranging from about 1% at DHS to over 45% at the Department of Education.",
+          "title": "Trump signs executive order on regenerative agriculture",
+          "summary": "President Trump signed an executive order on regenerative agriculture, and USDA announced a related Regenerative Feedstock Rule.",
+          "details": "On June 25, 2026, President Trump signed an executive order directing federal agencies to expand support for regenerative agriculture and precision farming. USDA Secretary Brooke Rollins announced an accompanying Regenerative Feedstock Rule connecting certain crops to biofuel supply-chain markets.",
+          "source": "U.S. Department of Agriculture",
+          "url": "https://www.usda.gov/about-usda/news/press-releases/2026/06/25/president-trump-signs-executive-order-advancing-regenerative-agriculture-secretary-rollins-announces",
+          "date": "2026-06-25"
+        },
+        {
+          "title": "Executive order on post-quantum cryptography signed",
+          "summary": "The White House issued an executive order directing federal systems to transition to NIST-approved post-quantum cryptography standards.",
+          "details": "Signed June 22, 2026, the order states U.S. policy to move federal information systems to NIST-approved Federal Information Processing Standards for post-quantum cryptography and to assist critical infrastructure operators with their transitions, citing the threat posed by future large-scale quantum computers.",
+          "source": "The White House",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
+          "date": "2026-06-22"
+        },
+        {
+          "title": "GAO reports federal workforce decline in 2025",
+          "summary": "A GAO report found the federal workforce at 22 major agencies declined by more than 11% from December 2024 to January 2026.",
+          "details": "Published June 17, 2026, the GAO report stated nearly 378,000 employees separated from these agencies during 2025 while about 127,000 were hired. The total workforce fell by nearly 256,000 employees, with declines ranging from about 1% at DHS to over 45% at the Department of Education.",
           "source": "U.S. Government Accountability Office",
           "url": "https://www.gao.gov/products/gao-26-108583",
-          "date": "2026-06-17"
-        },
-        {
-          "title": "State Department to add expedited 'premium' visa service",
-          "summary": "The administration announced a premium expedited service for foreigners seeking business or tourist visas, priced at $750 on top of the standard fee.",
-          "details": "Under the new option, applicants for business or tourist visas could pay $750 for expedited service, in addition to the existing $185 application fee. The move was reported as part of broader changes to visa and immigration processing.",
-          "source": "Associated Press (via FDD Overnight Brief)",
-          "url": "https://www.fdd.org/overnight-brief/june-9-2026/",
-          "date": "2026-06-09"
-        },
-        {
-          "title": "Federal Reserve holds interest rate target range steady",
-          "summary": "The Federal Open Market Committee directed that the federal funds rate be maintained in a target range of 3.5% to 3.75% effective June 18.",
-          "details": "Following its June 16-17 meeting, the FOMC released a statement, implementation note, and projections. The committee directed operations to maintain the federal funds rate in a 3.5%-3.75% range and continue reinvesting principal payments from its securities holdings.",
-          "source": "Federal Reserve",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a1.htm",
           "date": "2026-06-17"
         }
       ]
@@ -35,28 +35,20 @@
       "category": "Foreign Policy & National Security",
       "items": [
         {
-          "title": "U.S. and Iran negotiate following signed memorandum of understanding",
-          "summary": "U.S. and Iranian delegations held talks in Switzerland and agreed to a road map toward a final deal within 60 days under a memorandum of understanding signed June 17.",
-          "details": "The memorandum of understanding, signed June 17 by President Trump and Iranian President Masoud Pezeshkian, extended a ceasefire by 60 days. Negotiators in Switzerland established working groups on sanctions, nuclear issues, reconstruction and monitoring, and a mechanism to address hostilities in Lebanon.",
+          "title": "U.S. and Iran exchange strikes amid fragile ceasefire",
+          "summary": "U.S. forces struck Iranian military targets and Iran launched munitions at U.S. facilities in Bahrain and Kuwait, straining a June ceasefire memorandum.",
+          "details": "U.S. Central Command said it hit 10 Iranian military targets after an Iranian attack on a commercial ship in the Strait of Hormuz. Iran said its Revolutionary Guard struck U.S.-linked sites in Kuwait and Bahrain in retaliation. Both sides accused the other of violating the June 17 memorandum.",
           "source": "NPR",
-          "url": "https://www.npr.org/2026/06/21/g-s1-129222/us-iran-deal-lebanon-israel-strait-hormuz-jd-vance",
-          "date": "2026-06-21"
+          "url": "https://www.npr.org/2026/06/28/g-s1-130748/us-iran-israel-lebanon-hormuz-strikes-bahrain-kuwait",
+          "date": "2026-06-28"
         },
         {
-          "title": "IAEA head says interim agreement provides for nuclear site supervision",
-          "summary": "IAEA Director General Rafael Grossi said on June 26 that the U.S.-Iran memorandum indicates the nuclear portion will be supervised, amid differing accounts over inspections.",
-          "details": "Grossi spoke in Tokyo as the U.S. and Iran offered differing public statements about whether Iran had agreed to allow inspectors to view its nuclear sites. He said the memorandum specifically indicates the nuclear part of the agreement will be supervised.",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/06/26/us-iran-peace-deal-nuclear-access.html",
-          "date": "2026-06-26"
-        },
-        {
-          "title": "Israel and Lebanon sign framework agreement with U.S.",
-          "summary": "Secretary of State Marco Rubio said on June 26 that Israel and Lebanon signed a framework agreement with the United States described as a first step toward peace.",
-          "details": "The announcement came amid continued diplomatic activity in the region tied to the broader U.S.-Iran negotiations. The same day brought reports of renewed strikes and a vessel attack in the Strait of Hormuz.",
-          "source": "Associated Press (via Britannica)",
-          "url": "https://www.britannica.com/event/2026-Iran-war",
-          "date": "2026-06-26"
+          "title": "Israel and Lebanon sign U.S.-brokered framework agreement",
+          "summary": "Israel and Lebanon signed a U.S.-brokered framework agreement described as a first step toward ending hostilities.",
+          "details": "Announced June 26, 2026, the framework calls for Israeli forces to withdraw from two areas of southern Lebanon. Hezbollah's main political ally, the Amal movement, rejected direct negotiations with Israel, and disputes continued over conditions for a withdrawal and disarmament.",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/06/27/world/live-news/iran-war-strikes-trump",
+          "date": "2026-06-27"
         }
       ]
     },
@@ -64,20 +56,20 @@
       "category": "Congress & Legislation",
       "items": [
         {
-          "title": "Congress passes 21st Century ROAD to Housing Act",
-          "summary": "The House passed the housing affordability bill 358-32 on June 23 after the Senate approved it 85-5, sending the bipartisan measure toward the president's desk.",
-          "details": "The legislation includes more than 50 provisions intended to remove barriers to building homes, lower housing costs, and shift more control to local governments. It was led by Senators Elizabeth Warren and Tim Scott and Representatives Maxine Waters and French Hill.",
-          "source": "TIME",
-          "url": "https://time.com/article/2026/06/23/housing-bill-congress-affordability-supply/",
-          "date": "2026-06-23"
-        },
-        {
-          "title": "Signing ceremony for housing bill canceled",
-          "summary": "President Trump canceled a planned signing ceremony for the housing bill on June 24, saying Congress must first pass a strict voter identification bill.",
-          "details": "The bill had cleared both chambers with bipartisan support. The president stated his position on tying his action to passage of voter ID legislation.",
+          "title": "Congress passes housing affordability bill",
+          "summary": "Congress passed the 21st Century ROAD to Housing Act, described as the largest federal housing affordability measure in decades.",
+          "details": "The Senate passed H.R. 6644 and the House followed by a 358-32 vote. The bill streamlines federal financing regulations, creates a grant program for preapproved housing designs, and addresses manufactured-home rules. President Trump canceled a planned signing ceremony, saying Congress should first pass voter ID legislation.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/23/nx-s1-5867575/congress-passes-housing-affordability-bill",
           "date": "2026-06-24"
+        },
+        {
+          "title": "Second reconciliation bill funds ICE and CBP",
+          "summary": "A second budget reconciliation bill providing $70 billion for ICE and CBP was passed and signed into law.",
+          "details": "The House passed S.2, referred to as 'Reconciliation 2.0,' on June 9 by a 214-212 party-line vote after the Senate cleared it June 5. The bill was signed into law the day after House passage and used the budget reconciliation process, which allows Senate passage with a simple majority.",
+          "source": "National Low Income Housing Coalition",
+          "url": "https://nlihc.org/resource/house-republicans-pass-and-president-signs-law-reconciliation-20-providing-70-billion-ice",
+          "date": "2026-06-09"
         }
       ]
     },
@@ -85,25 +77,25 @@
       "category": "Courts & Legal",
       "items": [
         {
-          "title": "Supreme Court allows administration to end Temporary Protected Status for Haiti and Syria",
-          "summary": "In a 6-3 ruling in Mullin v. Doe on June 25, the Court cleared the way for the federal government to end TPS designations for Haiti and Syria.",
-          "details": "The justices paused lower court rulings that had barred ending the designations. Writing for the majority, Justice Alito said the law generally bars courts from reviewing the Homeland Security Secretary's determinations to end a TPS designation. Justices Sotomayor, Kagan, and Jackson dissented.",
+          "title": "Supreme Court allows end of TPS for Haiti and Syria",
+          "summary": "The Supreme Court ruled 6-3 in Mullin v. Doe that the administration can end Temporary Protected Status designations for Haiti and Syria.",
+          "details": "On June 25, 2026, the Court paused lower-court rulings that had blocked ending the designations, holding that federal law generally bars judicial review of TPS termination decisions. The majority also found challengers unlikely to succeed on claims that the terminations were racially discriminatory.",
           "source": "SCOTUSblog",
           "url": "https://www.scotusblog.com/2026/06/supreme-court-allows-trump-administration-to-end-removal-protections-for-syrian-and-haitian-nati/",
           "date": "2026-06-25"
         },
         {
-          "title": "Supreme Court rules on asylum 'turnback' policy in Mullin v. Al Otro Lado",
-          "summary": "In a 6-3 decision June 25, the Court ruled that an asylum seeker standing in Mexico has not 'arrived in the United States' under federal immigration law.",
-          "details": "The case addressed a now-defunct policy under which border officials blocked migrants from setting foot on U.S. soil. The majority opinion was delivered by Justice Alito; Justice Sotomayor, joined by Justices Kagan and Jackson, dissented.",
-          "source": "Supreme Court of the United States",
-          "url": "https://www.supremecourt.gov/opinions/25pdf/25-5_86qd.pdf",
+          "title": "Supreme Court clears revival of border asylum 'metering'",
+          "summary": "The Supreme Court ruled 6-3 to allow the administration to revive a policy limiting daily asylum applications at the U.S.-Mexico border.",
+          "details": "In Mullin v. Al Otro Lado, decided June 25, 2026, the Court overturned a lower-court order blocking the practice. The majority held that migrants stopped before crossing have not 'arrived' to apply for asylum. Justice Sotomayor dissented from the bench.",
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/politics/supreme-court-clears-way-for-trump-administration-to-revive-restrictive-immigration-policy",
           "date": "2026-06-25"
         },
         {
-          "title": "Supreme Court strikes Hawaii law on firearms on private property",
-          "summary": "In a 6-3 decision in Wolford v. Lopez on June 25, the Court ruled states cannot require gun owners to get permission from property owners before bringing firearms onto their land.",
-          "details": "The Court said requiring advance permission is an undue burden on the right to possess and carry a firearm. Five states had passed laws requiring such advance permission.",
+          "title": "Court strikes down Hawaii firearm-on-property law",
+          "summary": "In Wolford v. Lopez, the Supreme Court ruled 6-3 that states cannot require gun owners to obtain advance permission to carry firearms onto private property.",
+          "details": "Decided June 25, 2026, the Court held that requiring advance permission is an undue burden on the right to carry a firearm. The ruling affects laws in states including Hawaii, California, Maryland, New York, and New Jersey.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/09/nx-s1-5867575/supreme-court-major-cases-left-2026",
           "date": "2026-06-25"
@@ -114,20 +106,28 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "Supreme Court ruling in Louisiana v. Callais narrows Voting Rights Act",
-          "summary": "The Court's 6-3 ruling reinterpreted Section 2 of the Voting Rights Act, affecting how states draw majority-minority districts ahead of the 2026 midterms.",
-          "details": "The majority held that states have broad freedom to draw district lines, including for partisan advantage, but that maps which maximize the electoral chances of non-white candidates can violate the equal-protection clause. Justice Alito wrote the majority opinion and Justice Kagan dissented.",
+          "title": "Judge blocks parts of Trump election executive order",
+          "summary": "A federal judge blocked key provisions of President Trump's executive order affecting mail voting in the 2026 midterms.",
+          "details": "On June 25, 2026, Judge Indira Talwani ruled that the federal government lacks authority to create centralized lists of adult citizens or give the U.S. Postal Service authority over who may vote by mail. The order was the second election-related executive order issued by Trump.",
+          "source": "Votebeat",
+          "url": "https://www.votebeat.org/national/2026/06/25/trump-election-overhaul-mail-voting-executive-order-blocked-talwani-usps-dhs/",
+          "date": "2026-06-25"
+        },
+        {
+          "title": "Texas redistricting map upheld for 2026 midterms",
+          "summary": "The Supreme Court left in place Texas's new congressional map, ensuring it will be used in the 2026 midterm elections.",
+          "details": "The ruling maintained the map drawn in 2025 after President Trump urged the state to add Republican-leaning seats. Several civil rights groups had challenged the map as racially discriminatory. California and Virginia had approved maps aimed at countering Texas's changes.",
+          "source": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/04/27/texas-redistricting-map-ruling-us-supreme-court-upheld-2026-midterms/",
+          "date": "2026-06-11"
+        },
+        {
+          "title": "Supreme Court narrows Voting Rights Act in Louisiana case",
+          "summary": "In Louisiana v. Callais, the Court held that maps maximizing minority candidates' chances can violate the Equal Protection Clause, narrowing Section 2 of the Voting Rights Act.",
+          "details": "The 6-3 ruling held that states run afoul of Section 2 only if they intentionally draw districts to give minority voters less opportunity because of race. The decision prompted several states to reconsider their congressional maps ahead of the 2026 midterms.",
           "source": "Council on Foreign Relations",
           "url": "https://www.cfr.org/articles/gerrymandering-the-supreme-court-and-the-2026-midterm-elections",
           "date": "2026-06-27"
-        },
-        {
-          "title": "Mid-decade redistricting battles continue across multiple states",
-          "summary": "After 10 states enacted new congressional maps, analysts estimated Republicans could gain up to 16 seats and Democrats up to six heading into the fall.",
-          "details": "Texas, North Carolina, Missouri, Ohio, Florida, Alabama and Louisiana enacted Republican-favored maps, while California and Virginia approved maps favoring Democrats and a Utah court ordered a new map. Several maps faced ongoing litigation as of June 2026.",
-          "source": "NBC News",
-          "url": "https://www.nbcnews.com/politics/2026-election/house-redistricting-gop-democrats-2026-midterm-elections-rcna348110",
-          "date": "2026-06-12"
         }
       ]
     }
@@ -135,94 +135,84 @@
   "states": {
     "CA": [
       {
-        "title": "Newsom signs SB 73 restricting law enforcement access to ballots",
-        "summary": "Governor Gavin Newsom signed Senate Bill 73, which limits when law enforcement can access ballots, voter lists, and voting equipment, effective immediately ahead of the June 2 primary.",
-        "details": "The law criminalizes taking cast ballots from the custody of a local election official and prohibits warrantless search or seizure of voting machines and voter rolls. It followed an incident in which a county sheriff seized ballots from a registrar of voters.",
-        "source": "CalMatters",
-        "url": "https://calmatters.org/politics/2026/05/california-ballot-seizure-law/",
+        "title": "Newsom signs election-protection law SB 73",
+        "summary": "Governor Newsom signed Senate Bill 73 strengthening California's election safeguards against interference and intimidation.",
+        "details": "Signed May 27, 2026, the law adds protections for voters and election workers and limits unauthorized law enforcement activity at polling places. The state has separately announced Proposition 64 grants and an AI job-loss tracking tool in late June 2026.",
+        "source": "Office of Governor Gavin Newsom",
+        "url": "https://www.gov.ca.gov/2026/05/27/governor-newsom-signs-legislation-to-further-protect-california-elections-from-interference-and-intimidation/",
         "date": "2026-05-27"
       }
     ],
-    "SC": [
+    "OH": [
       {
-        "title": "South Carolina House passes new congressional map",
-        "summary": "The South Carolina House passed a new congressional map 74-37 aimed at producing seven Republican-leaning districts and moving congressional primaries to August 18.",
-        "details": "The map redraws all seven districts, including the seat held by Rep. James Clyburn, and was advanced after a U.S. Supreme Court decision on Louisiana's map and a request from the White House. Four Republicans voted against the measure, which advanced to the state Senate.",
-        "source": "NewsNation",
-        "url": "https://www.newsnationnow.com/politics/south-carolina-house-new-congressional-map/",
-        "date": "2026-05-20"
+        "title": "DeWine signs bills, issues vetoes",
+        "summary": "Governor Mike DeWine signed several bills into law and issued line-item and full vetoes on June 24, 2026.",
+        "details": "Among the bills signed were Senate Bill 19 on academic intervention services and House Bill 170 establishing regulation of carbon capture and storage. DeWine issued a line-item veto in appropriations bill HB 479 and vetoed HB 173 concerning submetered utility services.",
+        "source": "Office of Governor Mike DeWine",
+        "url": "https://governor.ohio.gov/media/news-and-media/governor-dewine-signs-bills-into-law-issues-vetoes-6-24-2026",
+        "date": "2026-06-24"
       }
     ],
-    "IA": [
+    "FL": [
       {
-        "title": "Gov. Reynolds signs final 2026 session bills, including limits on gubernatorial emergency powers",
-        "summary": "Governor Kim Reynolds signed the final bills of the 2026 session on June 2, including a measure barring governors from closing private businesses or places of worship during emergencies.",
-        "details": "House File 2694 also requires a governor to obtain legislative approval to change election laws during emergencies. Reynolds, who is not seeking another term, also signed bills on citizenship verification for educator licenses and state jobs.",
-        "source": "Iowa Capital Dispatch",
-        "url": "https://iowacapitaldispatch.com/2026/06/03/gov-kim-reynolds-signs-final-bills-from-2026-legislative-session/",
-        "date": "2026-06-03"
+        "title": "DeSantis signs local property tax legislation",
+        "summary": "Governor DeSantis signed Senate Bill 4-F and House Bill 1329 addressing local property taxes and government accountability.",
+        "details": "Announced around June 25, 2026, SB 4-F strengthens safeguards against local property tax increases and serves as the implementation bill for a proposed constitutional amendment to be considered by voters in November 2026.",
+        "source": "Executive Office of the Governor of Florida",
+        "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-signs-legislation-protecting-taxpayers-and-increasing-local",
+        "date": "2026-06-25"
       }
     ],
     "CT": [
       {
-        "title": "Gov. Lamont signs youth online safety and AI law",
-        "summary": "Governor Ned Lamont signed Public Act 26-15, a bipartisan measure addressing youth social media protections, artificial intelligence regulation, and workforce training.",
-        "details": "The law requires social media companies to verify users' ages and obtain parental permission before minors can access addictive algorithmic feeds. It was developed with the attorney general and the legislature's General Law committee co-chair.",
+        "title": "Lamont signs youth online safety and AI law",
+        "summary": "Governor Ned Lamont signed Public Act 26-15 establishing youth online safety protections and AI regulations.",
+        "details": "Signed June 2, 2026, the bipartisan law addresses youth social media use, sets requirements around artificial intelligence including in hiring, and creates workforce training initiatives. State officials said it codifies protections amid federal inaction.",
         "source": "Office of Governor Ned Lamont",
         "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
         "date": "2026-06-02"
       }
     ],
-    "VT": [
-      {
-        "title": "Gov. Scott signs comprehensive data privacy law",
-        "summary": "Governor Phil Scott signed S.71, the Vermont Data Privacy and Online Surveillance Act, on June 16, making Vermont one of the latest states with a comprehensive consumer privacy law.",
-        "details": "The law takes effect January 1, 2028, and grants enforcement authority to the state attorney general with no private right of action. Scott had vetoed a stricter version of the legislation in 2024.",
-        "source": "MLex",
-        "url": "https://www.mlex.com/mlex/data-privacy-security/articles/2486015/vermont-governor-signs-privacy-law-after-vetoing-legislature-s-attempt-last-year",
-        "date": "2026-06-17"
-      }
-    ],
     "NH": [
       {
-        "title": "Gov. Ayotte signs 54 bills into law",
-        "summary": "Governor Kelly Ayotte announced she had signed 54 bills into law the week of June 19 while also issuing several vetoes.",
-        "details": "The signed bills covered topics including off-highway recreational vehicle operation, employer health benefit plan data access, and water system contamination mitigation. Ayotte issued veto statements on bills concerning surplus land sales and historical markers.",
+        "title": "Ayotte signs 18 bills, issues vetoes",
+        "summary": "Governor Kelly Ayotte signed 18 bills into law and issued several vetoes the week of June 12, 2026.",
+        "details": "Signed measures included HB 1381 extending the party filing period and HB 1549 on vehicle registration documents. Ayotte vetoed HB 1072 regarding Department of Labor wage authority, HB 1643 on guardians ad litem, and SB 468 on marijuana cultivation.",
         "source": "Office of Governor Kelly Ayotte",
-        "url": "https://www.governor.nh.gov/news/governor-signs-54-bills-law",
-        "date": "2026-06-19"
+        "url": "https://www.governor.nh.gov/news/governor-signs-18-bills-law",
+        "date": "2026-06-12"
       }
     ],
-    "OH": [
+    "IA": [
       {
-        "title": "Gov. DeWine signs bills into law",
-        "summary": "Governor Mike DeWine signed several bills on June 18, including the 'Keep Them Safe Act' and a measure creating the 'Joshua Alert' for missing children with autism or developmental disabilities.",
-        "details": "The bills included measures on construction contracts, unemployment compensation treatment of professional employer organizations, and a statewide emergency alert system for missing autistic or developmentally disabled children.",
-        "source": "Office of Governor Mike DeWine",
-        "url": "https://governor.ohio.gov/wps/portal/gov/governor/media/news-and-media/governor-dewine-signs-bills-into-law-6-18-2026",
-        "date": "2026-06-18"
+        "title": "Reynolds signs final bills of 2026 session",
+        "summary": "Governor Kim Reynolds signed the final bills from the 2026 legislative session, including a measure on gubernatorial powers.",
+        "details": "On June 2, 2026, Reynolds acted on remaining bills in her final year as governor, signing dozens of measures. Coverage noted a law restricting certain gubernatorial powers and Republican-backed appropriations and policy bills enacted during the session.",
+        "source": "Iowa Capital Dispatch",
+        "url": "https://iowacapitaldispatch.com/2026/06/03/gov-kim-reynolds-signs-final-bills-from-2026-legislative-session/",
+        "date": "2026-06-02"
       }
     ],
-    "AZ": [
+    "VA": [
       {
-        "title": "Gov. Hobbs vetoes AI-related bills",
-        "summary": "Governor Katie Hobbs vetoed three AI-related bills passed by the legislature, among 88 bills she vetoed in a single day on June 19.",
-        "details": "The vetoed measures included a chatbot safety bill and a bill directing state agencies to identify opportunities to implement AI systems. The Republican-majority House and Senate had approved the three AI bills earlier in June.",
-        "source": "Transparency Coalition",
-        "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june26-2026",
-        "date": "2026-06-19"
+        "title": "Supreme Court ends Virginia redistricting effort",
+        "summary": "The U.S. Supreme Court rejected Virginia Democrats' emergency appeal, ending the state's mid-decade redistricting effort for 2026.",
+        "details": "The Friday ruling left in place the congressional districts adopted in 2021 after the Virginia Supreme Court struck down a redistricting referendum in May. Several Democratic candidates suspended campaigns, and both parties regrouped to compete under the existing map.",
+        "source": "Virginia Mercury",
+        "url": "https://virginiamercury.com/2026/05/18/virginias-redistricting-amendment-was-struck-down-whats-next/",
+        "date": "2026-05-18"
       }
     ],
-    "IL": [
+    "LA": [
       {
-        "title": "New Illinois laws take effect July 1",
-        "summary": "A set of new Illinois laws takes effect July 1, including a suspension of the motor fuel tax inflation adjustment and an expanded definition of cyberbullying.",
-        "details": "Public Act 104-0468, signed in June 2026, suspends the Consumer Price Index adjustment for the motor fuel tax rate until 2027. Other laws address driver's license renewal for seniors and AI-related content in the school code.",
-        "source": "WCIA",
-        "url": "https://www.wcia.com/illinois-capitol-news/new-illinois-laws-go-into-effect-on-july-1-2026-heres-whats-changing/",
-        "date": "2026-06-25"
+        "title": "Louisiana redraws map after Supreme Court ruling",
+        "summary": "Louisiana suspended its congressional primary to redraw district maps following the Supreme Court's Louisiana v. Callais decision.",
+        "details": "Governor Jeff Landry suspended the state's primary so the legislature could draw a new map compliant with the ruling. The decision arose from a challenge to a map that had created a second majority-minority district.",
+        "source": "Council on Foreign Relations",
+        "url": "https://www.cfr.org/articles/gerrymandering-the-supreme-court-and-the-2026-midterm-elections",
+        "date": "2026-06-27"
       }
     ]
   },
-  "disclaimer": "This digest reports verifiable developments from cited sources and does not endorse or oppose any party, official, or position."
+  "disclaimer": "This digest reports verifiable developments from cited sources and does not endorse any party, official, or position."
 }

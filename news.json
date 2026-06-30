@@ -1,33 +1,25 @@
 {
-  "updated": "2026-06-29T16:49:03.983Z",
-  "updatedLabel": "June 29, 2026",
+  "updated": "2026-06-30T16:15:54.368Z",
+  "updatedLabel": "June 30, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "Trump signs executive order on regenerative agriculture",
-          "summary": "President Trump signed an executive order on regenerative agriculture, and USDA announced a related Regenerative Feedstock Rule.",
-          "details": "On June 25, 2026, President Trump signed an executive order directing federal agencies to expand support for regenerative agriculture and precision farming. USDA Secretary Brooke Rollins announced an accompanying Regenerative Feedstock Rule connecting certain crops to biofuel supply-chain markets.",
-          "source": "U.S. Department of Agriculture",
-          "url": "https://www.usda.gov/about-usda/news/press-releases/2026/06/25/president-trump-signs-executive-order-advancing-regenerative-agriculture-secretary-rollins-announces",
-          "date": "2026-06-25"
-        },
-        {
-          "title": "Executive order on post-quantum cryptography signed",
-          "summary": "The White House issued an executive order directing federal systems to transition to NIST-approved post-quantum cryptography standards.",
-          "details": "Signed June 22, 2026, the order states U.S. policy to move federal information systems to NIST-approved Federal Information Processing Standards for post-quantum cryptography and to assist critical infrastructure operators with their transitions, citing the threat posed by future large-scale quantum computers.",
+          "title": "White House posts new presidential actions in late June",
+          "summary": "The White House published executive orders, proclamations and a presidential memorandum across June 22–29, 2026, according to its official actions page.",
+          "details": "The White House's official Presidential Actions page listed executive orders dated June 22 and June 25, a proclamation and a presidential memorandum on June 29, and additional nominations and appointments during the week.",
           "source": "The White House",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/securing-the-nation-against-advanced-cryptographic-attacks/",
-          "date": "2026-06-22"
+          "url": "https://www.whitehouse.gov/presidential-actions/",
+          "date": "2026-06-29"
         },
         {
-          "title": "GAO reports federal workforce decline in 2025",
-          "summary": "A GAO report found the federal workforce at 22 major agencies declined by more than 11% from December 2024 to January 2026.",
-          "details": "Published June 17, 2026, the GAO report stated nearly 378,000 employees separated from these agencies during 2025 while about 127,000 were hired. The total workforce fell by nearly 256,000 employees, with declines ranging from about 1% at DHS to over 45% at the Department of Education.",
-          "source": "U.S. Government Accountability Office",
-          "url": "https://www.gao.gov/products/gao-26-108583",
-          "date": "2026-06-17"
+          "title": "DHS issues statement after Supreme Court immigration rulings",
+          "summary": "The Department of Homeland Security said three June 25 Supreme Court rulings affirmed administration immigration policies on asylum, lawful permanent residents and Temporary Protected Status.",
+          "details": "DHS issued a statement praising rulings in cases including Mullin v. Doe, which it said allows cancellation of Temporary Protected Status designations for Syria and Haiti, and Mullin v. Al Otro Lado, addressing asylum eligibility at the border.",
+          "source": "U.S. Department of Homeland Security",
+          "url": "https://www.dhs.gov/news/2026/06/25/dhs-issues-statement-following-multiple-supreme-court-wins",
+          "date": "2026-06-25"
         }
       ]
     },
@@ -35,20 +27,20 @@
       "category": "Foreign Policy & National Security",
       "items": [
         {
-          "title": "U.S. and Iran exchange strikes amid fragile ceasefire",
-          "summary": "U.S. forces struck Iranian military targets and Iran launched munitions at U.S. facilities in Bahrain and Kuwait, straining a June ceasefire memorandum.",
-          "details": "U.S. Central Command said it hit 10 Iranian military targets after an Iranian attack on a commercial ship in the Strait of Hormuz. Iran said its Revolutionary Guard struck U.S.-linked sites in Kuwait and Bahrain in retaliation. Both sides accused the other of violating the June 17 memorandum.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/28/g-s1-130748/us-iran-israel-lebanon-hormuz-strikes-bahrain-kuwait",
+          "title": "U.S., Israel and Lebanon sign framework agreement in Washington",
+          "summary": "Secretary of State Marco Rubio announced a trilateral framework agreement signed June 26 in Washington, which Iran and Hezbollah said contradicts an earlier U.S.-Iran memorandum.",
+          "details": "The framework was signed at a State Department ceremony attended by the Lebanese and Israeli ambassadors. Hezbollah rejected the agreement. Reporting noted it had no substantial differences from the existing Israel-Lebanon ceasefire.",
+          "source": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-war-israel-hezbollah-strait-of-hormuz-peace-deal-talks/",
           "date": "2026-06-28"
         },
         {
-          "title": "Israel and Lebanon sign U.S.-brokered framework agreement",
-          "summary": "Israel and Lebanon signed a U.S.-brokered framework agreement described as a first step toward ending hostilities.",
-          "details": "Announced June 26, 2026, the framework calls for Israeli forces to withdraw from two areas of southern Lebanon. Hezbollah's main political ally, the Amal movement, rejected direct negotiations with Israel, and disputes continued over conditions for a withdrawal and disarmament.",
-          "source": "CNN",
-          "url": "https://www.cnn.com/2026/06/27/world/live-news/iran-war-strikes-trump",
-          "date": "2026-06-27"
+          "title": "U.S.-Iran interim deal extends ceasefire and reopens shipping route",
+          "summary": "President Trump and Iran's president signed an interim agreement extending the ceasefire 60 days, reopening the Strait of Hormuz and beginning negotiations over Iran's nuclear program.",
+          "details": "Following the signing, the U.S. lifted its blockade of Iran's ports, allowing oil sales, and the deal calls for Iran's frozen assets to be unfrozen. Subsequent talks were complicated by fighting between Israel and Hezbollah in Lebanon.",
+          "source": "PBS News",
+          "url": "https://www.pbs.org/newshour/world/israel-and-hezbollah-renew-ceasefire-after-u-s-and-iran-call-off-talks-over-fighting-in-lebanon",
+          "date": "2026-06-19"
         }
       ]
     },
@@ -56,20 +48,28 @@
       "category": "Congress & Legislation",
       "items": [
         {
-          "title": "Congress passes housing affordability bill",
-          "summary": "Congress passed the 21st Century ROAD to Housing Act, described as the largest federal housing affordability measure in decades.",
-          "details": "The Senate passed H.R. 6644 and the House followed by a 358-32 vote. The bill streamlines federal financing regulations, creates a grant program for preapproved housing designs, and addresses manufactured-home rules. President Trump canceled a planned signing ceremony, saying Congress should first pass voter ID legislation.",
+          "title": "Congress passes major housing affordability bill",
+          "summary": "Both chambers passed what reports described as the largest federal housing affordability legislation in decades; President Trump canceled a planned signing ceremony, citing voter ID legislation.",
+          "details": "The House gave final passage to the bill on June 23. It streamlines federal financing regulations, creates a grant program for preapproved housing designs, and removes a chassis requirement for manufactured homes. Trump canceled the June 24 signing ceremony.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/23/nx-s1-5867575/congress-passes-housing-affordability-bill",
           "date": "2026-06-24"
         },
         {
-          "title": "Second reconciliation bill funds ICE and CBP",
-          "summary": "A second budget reconciliation bill providing $70 billion for ICE and CBP was passed and signed into law.",
-          "details": "The House passed S.2, referred to as 'Reconciliation 2.0,' on June 9 by a 214-212 party-line vote after the Senate cleared it June 5. The bill was signed into law the day after House passage and used the budget reconciliation process, which allows Senate passage with a simple majority.",
-          "source": "National Low Income Housing Coalition",
-          "url": "https://nlihc.org/resource/house-republicans-pass-and-president-signs-law-reconciliation-20-providing-70-billion-ice",
-          "date": "2026-06-09"
+          "title": "House takes up FY2027 defense authorization bill",
+          "summary": "The House Rules Committee reviewed H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027, and more than 1,300 filed amendments the week of June 29.",
+          "details": "The Senate was out that week while the House was in session. The Rules Committee's June 29 meeting addressed the NDAA and its amendments, including amendments related to a voting measure referred to as the SAVE America Act.",
+          "source": "GovTrack",
+          "url": "https://www.govtrack.us/",
+          "date": "2026-06-29"
+        },
+        {
+          "title": "House passes KIDS Act under suspension of the rules",
+          "summary": "The House passed H.R. 7757, the KIDS Act, in House Vote #228 on June 29 under suspension of the rules, a procedure typically used for less controversial bills.",
+          "details": "The vote was recorded as House Vote #228 in 2026. Suspension of the rules requires a two-thirds majority and is generally used to expedite passage of measures with broad support.",
+          "source": "GovTrack",
+          "url": "https://www.govtrack.us/congress/votes/119-2026/h228",
+          "date": "2026-06-29"
         }
       ]
     },
@@ -77,28 +77,28 @@
       "category": "Courts & Legal",
       "items": [
         {
-          "title": "Supreme Court allows end of TPS for Haiti and Syria",
-          "summary": "The Supreme Court ruled 6-3 in Mullin v. Doe that the administration can end Temporary Protected Status designations for Haiti and Syria.",
-          "details": "On June 25, 2026, the Court paused lower-court rulings that had blocked ending the designations, holding that federal law generally bars judicial review of TPS termination decisions. The majority also found challengers unlikely to succeed on claims that the terminations were racially discriminatory.",
-          "source": "SCOTUSblog",
-          "url": "https://www.scotusblog.com/2026/06/supreme-court-allows-trump-administration-to-end-removal-protections-for-syrian-and-haitian-nati/",
-          "date": "2026-06-25"
-        },
-        {
-          "title": "Supreme Court clears revival of border asylum 'metering'",
-          "summary": "The Supreme Court ruled 6-3 to allow the administration to revive a policy limiting daily asylum applications at the U.S.-Mexico border.",
-          "details": "In Mullin v. Al Otro Lado, decided June 25, 2026, the Court overturned a lower-court order blocking the practice. The majority held that migrants stopped before crossing have not 'arrived' to apply for asylum. Justice Sotomayor dissented from the bench.",
-          "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/politics/supreme-court-clears-way-for-trump-administration-to-revive-restrictive-immigration-policy",
-          "date": "2026-06-25"
-        },
-        {
-          "title": "Court strikes down Hawaii firearm-on-property law",
-          "summary": "In Wolford v. Lopez, the Supreme Court ruled 6-3 that states cannot require gun owners to obtain advance permission to carry firearms onto private property.",
-          "details": "Decided June 25, 2026, the Court held that requiring advance permission is an undue burden on the right to carry a firearm. The ruling affects laws in states including Hawaii, California, Maryland, New York, and New Jersey.",
+          "title": "Supreme Court upholds birthright citizenship",
+          "summary": "On June 30, the Supreme Court ruled 6-3 that the Constitution guarantees automatic birthright citizenship to virtually all children born in the United States, rejecting an executive order.",
+          "details": "Chief Justice John Roberts wrote the majority opinion, which pointed to the 1898 Wong Kim Ark decision. The executive order, issued on the first day of Trump's second term, never took effect. Justices Thomas, Gorsuch and Alito dissented.",
           "source": "NPR",
-          "url": "https://www.npr.org/2026/06/09/nx-s1-5867575/supreme-court-major-cases-left-2026",
-          "date": "2026-06-25"
+          "url": "https://www.npr.org/2026/06/30/nx-s1-5839358/birthright-citizenship-decision-scotus-trump",
+          "date": "2026-06-30"
+        },
+        {
+          "title": "Supreme Court expands removal power, lets Fed's Cook stay",
+          "summary": "On June 29 the court overturned the Humphrey's Executor precedent, expanding presidential power to fire independent agency officials, but declined to allow the immediate removal of Fed Governor Lisa Cook.",
+          "details": "In a 6-3 ruling the court found the 2025 firing of FTC Commissioner Rebecca Kelly Slaughter lawful. In Cook's case, the vote was 5-4, with Justice Kavanaugh and the three liberal justices joining Chief Justice Roberts. Justice Sotomayor dissented in the removal case.",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/06/29/politics/live-news/supreme-court-issues-opinions",
+          "date": "2026-06-29"
+        },
+        {
+          "title": "Supreme Court upholds state mail-ballot deadline laws",
+          "summary": "The justices upheld state laws that count mail ballots cast by Election Day but received afterward, in the case Watson v. Republican National Committee.",
+          "details": "The decision concerned whether federal laws establishing Election Day preempt state laws permitting counting of late-arriving mail ballots. President Trump called the ruling surprising and said it makes a federal voting bill more important.",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/06/29/politics/live-news/supreme-court-issues-opinions",
+          "date": "2026-06-29"
         }
       ]
     },
@@ -106,28 +106,20 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "Judge blocks parts of Trump election executive order",
-          "summary": "A federal judge blocked key provisions of President Trump's executive order affecting mail voting in the 2026 midterms.",
-          "details": "On June 25, 2026, Judge Indira Talwani ruled that the federal government lacks authority to create centralized lists of adult citizens or give the U.S. Postal Service authority over who may vote by mail. The order was the second election-related executive order issued by Trump.",
-          "source": "Votebeat",
-          "url": "https://www.votebeat.org/national/2026/06/25/trump-election-overhaul-mail-voting-executive-order-blocked-talwani-usps-dhs/",
-          "date": "2026-06-25"
+          "title": "Colorado Supreme Court blocks redistricting ballot measures",
+          "summary": "On June 29, the Colorado Supreme Court blocked three proposed ballot initiatives that would have let voters decide whether the state could use new congressional maps in 2028.",
+          "details": "The court found all three measures, filed by a Democratic-aligned group, violated the single-subject requirement and described it as a technical decision. The initiatives aimed to counter mid-decade redistricting in other states.",
+          "source": "Colorado Public Radio",
+          "url": "https://www.cpr.org/2026/06/29/colorado-supreme-court-redistricting-decision/",
+          "date": "2026-06-29"
         },
         {
-          "title": "Texas redistricting map upheld for 2026 midterms",
-          "summary": "The Supreme Court left in place Texas's new congressional map, ensuring it will be used in the 2026 midterm elections.",
-          "details": "The ruling maintained the map drawn in 2025 after President Trump urged the state to add Republican-leaning seats. Several civil rights groups had challenged the map as racially discriminatory. California and Virginia had approved maps aimed at countering Texas's changes.",
-          "source": "The Texas Tribune",
-          "url": "https://www.texastribune.org/2026/04/27/texas-redistricting-map-ruling-us-supreme-court-upheld-2026-midterms/",
-          "date": "2026-06-11"
-        },
-        {
-          "title": "Supreme Court narrows Voting Rights Act in Louisiana case",
-          "summary": "In Louisiana v. Callais, the Court held that maps maximizing minority candidates' chances can violate the Equal Protection Clause, narrowing Section 2 of the Voting Rights Act.",
-          "details": "The 6-3 ruling held that states run afoul of Section 2 only if they intentionally draw districts to give minority voters less opportunity because of race. The decision prompted several states to reconsider their congressional maps ahead of the 2026 midterms.",
-          "source": "Council on Foreign Relations",
-          "url": "https://www.cfr.org/articles/gerrymandering-the-supreme-court-and-the-2026-midterm-elections",
-          "date": "2026-06-27"
+          "title": "States adopt new congressional maps ahead of midterms",
+          "summary": "Following court rulings, multiple states enacted new U.S. House maps, with reports describing Republican gains in several Southern states and Democratic gains in California and Utah.",
+          "details": "The Associated Press reported that nearly 145 million people live in states with new congressional districts for the 2026 election. New maps were enacted in states including Texas, Missouri, North Carolina, Ohio, Florida, Tennessee, Louisiana and Alabama, while California and Utah produced Democratic-leaning seats.",
+          "source": "PBS News",
+          "url": "https://www.pbs.org/newshour/politics/republicans-won-the-redistricting-battle-now-voters-will-decide-whether-they-win-congress",
+          "date": "2026-06-02"
         }
       ]
     }
@@ -135,84 +127,94 @@
   "states": {
     "CA": [
       {
-        "title": "Newsom signs election-protection law SB 73",
-        "summary": "Governor Newsom signed Senate Bill 73 strengthening California's election safeguards against interference and intimidation.",
-        "details": "Signed May 27, 2026, the law adds protections for voters and election workers and limits unauthorized law enforcement activity at polling places. The state has separately announced Proposition 64 grants and an AI job-loss tracking tool in late June 2026.",
-        "source": "Office of Governor Gavin Newsom",
-        "url": "https://www.gov.ca.gov/2026/05/27/governor-newsom-signs-legislation-to-further-protect-california-elections-from-interference-and-intimidation/",
-        "date": "2026-05-27"
+        "title": "Newsom signs 2026-27 state budget",
+        "summary": "Governor Gavin Newsom signed California's 2026-27 state budget on June 29, which his office said is balanced with no deficit this year or next.",
+        "details": "The budget package included Assembly Bill 109 and related budget bills. The governor's office said the plan preserves nearly $30 billion in reserves while continuing investments in state programs.",
+        "source": "Office of the Governor of California",
+        "url": "https://www.gov.ca.gov/2026/06/29/signedbudget/",
+        "date": "2026-06-29"
       }
     ],
-    "OH": [
+    "CO": [
       {
-        "title": "DeWine signs bills, issues vetoes",
-        "summary": "Governor Mike DeWine signed several bills into law and issued line-item and full vetoes on June 24, 2026.",
-        "details": "Among the bills signed were Senate Bill 19 on academic intervention services and House Bill 170 establishing regulation of carbon capture and storage. DeWine issued a line-item veto in appropriations bill HB 479 and vetoed HB 173 concerning submetered utility services.",
-        "source": "Office of Governor Mike DeWine",
-        "url": "https://governor.ohio.gov/media/news-and-media/governor-dewine-signs-bills-into-law-issues-vetoes-6-24-2026",
-        "date": "2026-06-24"
+        "title": "Colorado Supreme Court blocks redistricting initiatives",
+        "summary": "The Colorado Supreme Court blocked three proposed ballot measures that sought to let voters decide whether the state could adopt new congressional maps for 2028.",
+        "details": "In three opinions released June 29, the court found the measures violated the single-subject requirement. The proposals were filed by the group Coloradans for a Level Playing Field to counter mid-decade redistricting elsewhere.",
+        "source": "Colorado Public Radio",
+        "url": "https://www.cpr.org/2026/06/29/colorado-supreme-court-redistricting-decision/",
+        "date": "2026-06-29"
       }
     ],
     "FL": [
       {
-        "title": "DeSantis signs local property tax legislation",
-        "summary": "Governor DeSantis signed Senate Bill 4-F and House Bill 1329 addressing local property taxes and government accountability.",
-        "details": "Announced around June 25, 2026, SB 4-F strengthens safeguards against local property tax increases and serves as the implementation bill for a proposed constitutional amendment to be considered by voters in November 2026.",
-        "source": "Executive Office of the Governor of Florida",
-        "url": "https://www.flgov.com/eog/news/press/2026/governor-ron-desantis-signs-legislation-protecting-taxpayers-and-increasing-local",
-        "date": "2026-06-25"
+        "title": "More than 120 new Florida laws take effect July 1",
+        "summary": "Florida officials reported that over 120 new laws signed by Governor Ron DeSantis take effect July 1, 2026, after more than 170 bills were signed this year.",
+        "details": "The laws include measures renaming roadways, revising the definition of habitual traffic offender, and changing school district property reporting requirements. The state's list was updated as of June 26.",
+        "source": "ClickOrlando (WKMG)",
+        "url": "https://www.clickorlando.com/news/florida/2026/06/01/here-are-all-the-new-florida-laws-taking-effect-next-month/",
+        "date": "2026-06-26"
       }
     ],
-    "CT": [
+    "GA": [
       {
-        "title": "Lamont signs youth online safety and AI law",
-        "summary": "Governor Ned Lamont signed Public Act 26-15 establishing youth online safety protections and AI regulations.",
-        "details": "Signed June 2, 2026, the bipartisan law addresses youth social media use, sets requirements around artificial intelligence including in hiring, and creates workforce training initiatives. State officials said it codifies protections amid federal inaction.",
-        "source": "Office of Governor Ned Lamont",
-        "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
-        "date": "2026-06-02"
+        "title": "Georgia Republican leaders decline to redistrict in special session",
+        "summary": "On June 17, Georgia's Republican legislative leaders rejected Governor Brian Kemp's call to redraw congressional and legislative districts during a special session, citing pending litigation.",
+        "details": "House Speaker Jon Burns and Senate President Pro Tem Larry Walker said they would focus on tax relief and ratifying a gas tax suspension. Kemp had called the session after the U.S. Supreme Court's Louisiana v. Callais decision.",
+        "source": "PBS News",
+        "url": "https://www.pbs.org/newshour/politics/georgia-republican-legislative-leaders-reject-governors-call-for-2028-redistricting",
+        "date": "2026-06-17"
       }
     ],
-    "NH": [
+    "HI": [
       {
-        "title": "Ayotte signs 18 bills, issues vetoes",
-        "summary": "Governor Kelly Ayotte signed 18 bills into law and issued several vetoes the week of June 12, 2026.",
-        "details": "Signed measures included HB 1381 extending the party filing period and HB 1549 on vehicle registration documents. Ayotte vetoed HB 1072 regarding Department of Labor wage authority, HB 1643 on guardians ad litem, and SB 468 on marijuana cultivation.",
-        "source": "Office of Governor Kelly Ayotte",
-        "url": "https://www.governor.nh.gov/news/governor-signs-18-bills-law",
-        "date": "2026-06-12"
+        "title": "Hawaii governor releases intent-to-veto list",
+        "summary": "Governor Josh Green announced on June 26 that four measures from the 2026 legislative session were placed on his intent-to-veto list.",
+        "details": "Of 267 bills sent to the governor, the four under consideration relate to housing leader compensation, a transfer to the state's rainy day fund, and two education measures. Green has until July 15 to issue final vetoes.",
+        "source": "Hawaii News Now",
+        "url": "https://www.hawaiinewsnow.com/2026/06/27/gov-green-announces-intent-to-veto-list/",
+        "date": "2026-06-26"
       }
     ],
-    "IA": [
+    "NY": [
       {
-        "title": "Reynolds signs final bills of 2026 session",
-        "summary": "Governor Kim Reynolds signed the final bills from the 2026 legislative session, including a measure on gubernatorial powers.",
-        "details": "On June 2, 2026, Reynolds acted on remaining bills in her final year as governor, signing dozens of measures. Coverage noted a law restricting certain gubernatorial powers and Republican-backed appropriations and policy bills enacted during the session.",
-        "source": "Iowa Capital Dispatch",
-        "url": "https://iowacapitaldispatch.com/2026/06/03/gov-kim-reynolds-signs-final-bills-from-2026-legislative-session/",
-        "date": "2026-06-02"
+        "title": "New York legislature passes redistricting amendment",
+        "summary": "On June 4, the New York State Legislature passed a constitutional amendment that would allow mid-decade congressional redistricting beginning in 2028.",
+        "details": "The amendment would let the Legislature redraw congressional districts and remove constitutional language barring partisan gerrymandering. It must pass again in the next legislative session and be approved by voters before taking effect.",
+        "source": "Spectrum News",
+        "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/06/04/ny-first-passage-redistricting-amendment",
+        "date": "2026-06-04"
+      }
+    ],
+    "TX": [
+      {
+        "title": "Supreme Court allows Texas to use new congressional map",
+        "summary": "The U.S. Supreme Court ruled the state's new congressional map can be used in the 2026 midterms, ending for now the legal battle over Texas's mid-decade redistricting.",
+        "details": "The 6-3 ruling maintained the status quo after the map was challenged as racially discriminatory. The map, signed by Governor Greg Abbott in August 2025, could add as many as five Republican-leaning seats. Litigation may continue for 2028.",
+        "source": "The Texas Tribune",
+        "url": "https://www.texastribune.org/2026/04/27/texas-redistricting-map-ruling-us-supreme-court-upheld-2026-midterms/",
+        "date": "2026-04-27"
       }
     ],
     "VA": [
       {
-        "title": "Supreme Court ends Virginia redistricting effort",
-        "summary": "The U.S. Supreme Court rejected Virginia Democrats' emergency appeal, ending the state's mid-decade redistricting effort for 2026.",
-        "details": "The Friday ruling left in place the congressional districts adopted in 2021 after the Virginia Supreme Court struck down a redistricting referendum in May. Several Democratic candidates suspended campaigns, and both parties regrouped to compete under the existing map.",
+        "title": "Supreme Court ends Virginia redistricting fight",
+        "summary": "The U.S. Supreme Court rejected Virginia Democrats' emergency appeal over congressional redistricting, leaving the state's 2021 districts in place for the 2026 races.",
+        "details": "The decision ended efforts to revive a redistricting referendum after the Supreme Court of Virginia struck it down 4-3 in May, citing public notice rules. Several Democratic candidates suspended campaigns after the ruling.",
         "source": "Virginia Mercury",
         "url": "https://virginiamercury.com/2026/05/18/virginias-redistricting-amendment-was-struck-down-whats-next/",
         "date": "2026-05-18"
       }
     ],
-    "LA": [
+    "WA": [
       {
-        "title": "Louisiana redraws map after Supreme Court ruling",
-        "summary": "Louisiana suspended its congressional primary to redraw district maps following the Supreme Court's Louisiana v. Callais decision.",
-        "details": "Governor Jeff Landry suspended the state's primary so the legislature could draw a new map compliant with the ruling. The decision arose from a challenge to a map that had created a second majority-minority district.",
-        "source": "Council on Foreign Relations",
-        "url": "https://www.cfr.org/articles/gerrymandering-the-supreme-court-and-the-2026-midterm-elections",
-        "date": "2026-06-27"
+        "title": "Washington governor signs Millionaires' Tax",
+        "summary": "Governor Bob Ferguson signed Senate Bill 6346, creating a tax on income over $1 million, with revenue directed to programs including free K-12 meals.",
+        "details": "The governor's office said less than one half of one percent of Washingtonians will pay the tax. Funded items include free breakfast and lunch for K-12 students, childcare investments, and elimination of sales tax on diapers and certain hygiene products.",
+        "source": "Office of the Governor of Washington",
+        "url": "https://governor.wa.gov/news/2026/governor-ferguson-signs-millionaires-tax-law",
+        "date": "2026-06-01"
       }
     ]
   },
-  "disclaimer": "This digest reports verifiable developments from cited sources and does not endorse any party, official, or position."
+  "disclaimer": "This digest reports verifiable developments from cited sources without endorsing any party, official, or position; readers are encouraged to consult the linked sources directly."
 }

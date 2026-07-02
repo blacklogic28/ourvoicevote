@@ -1,33 +1,33 @@
 {
-  "updated": "2026-07-01T16:16:08.352Z",
-  "updatedLabel": "July 1, 2026",
+  "updated": "2026-07-02T15:59:28.729Z",
+  "updatedLabel": "July 2, 2026",
   "national": [
     {
       "category": "Administration & Executive Actions",
       "items": [
         {
-          "title": "White House issues AI innovation and security executive order",
-          "summary": "The White House issued an executive order establishing a voluntary framework for advanced AI developers to give the federal government pre-release access for security assessments.",
-          "details": "The June 2, 2026 order, titled \"Promoting Advanced Artificial Intelligence Innovation and Security,\" directs multiple agencies to strengthen federal cyber defenses and establish an AI cybersecurity clearinghouse. It is described as the administration's third major AI executive order of the term.",
+          "title": "Trump signs presidential memorandum on vehicle 'right to repair'",
+          "summary": "The White House said the president signed a memorandum aimed at expanding Americans' ability to repair their own vehicles.",
+          "details": "On June 29, 2026, the White House announced a presidential memorandum described as expanding what it called Americans' 'freedom to fix' their own vehicles. The action was among several signed at the White House that day.",
           "source": "The White House",
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
-          "date": "2026-06-02"
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-lowers-the-cost-of-living-by-promoting-the-freedom-to-fix/",
+          "date": "2026-06-29"
         },
         {
-          "title": "President signs additional executive orders in late June",
-          "summary": "The President signed further executive orders on June 22 and June 25, according to the White House record of presidential actions.",
-          "details": "The White House Presidential Actions page lists executive orders dated June 22 and June 25, 2026, along with proclamations and presidential memoranda issued June 29. The Federal Register records 42 executive orders signed in 2026 through EO 14413.",
-          "source": "The White House",
-          "url": "https://www.whitehouse.gov/presidential-actions/executive-orders/",
-          "date": "2026-06-25"
+          "title": "USDA announces beef processing support program",
+          "summary": "The U.S. Department of Agriculture announced a program to provide temporary support for eligible beef processing establishments.",
+          "details": "On June 30, 2026, Agriculture Secretary Brooke Rollins announced the Strengthening Processing for U.S. Ranchers (SPUR) Program. The department described it as providing temporary support for eligible beef processing establishments.",
+          "source": "U.S. Department of Agriculture",
+          "url": "https://www.usda.gov/about-usda/news/press-releases",
+          "date": "2026-06-30"
         },
         {
-          "title": "Administration issues national security fact sheets",
-          "summary": "The White House published national security materials in late June, including a fact sheet on securing the nation against advanced cryptographic attacks.",
-          "details": "On June 22, 2026, the White House released a fact sheet titled \"President Donald J. Trump Secures the Nation Against Advanced Cryptographic Attacks\" and a message marking the anniversary of the Battle of Okinawa as part of its national security priorities page.",
-          "source": "The White House",
-          "url": "https://www.whitehouse.gov/priorities/national-security/",
-          "date": "2026-06-22"
+          "title": "Proclamation suspends certain phosphate fertilizer duties",
+          "summary": "The president signed a proclamation temporarily suspending countervailing duties on certain phosphate fertilizer imports.",
+          "details": "On June 29, 2026, the administration announced a proclamation temporarily suspending countervailing duties on certain phosphate fertilizer imports. USDA described the action as part of a broader agricultural strategy.",
+          "source": "U.S. Department of Agriculture",
+          "url": "https://www.usda.gov/about-usda/news/press-releases",
+          "date": "2026-06-29"
         }
       ]
     },
@@ -35,28 +35,28 @@
       "category": "Foreign Policy & National Security",
       "items": [
         {
-          "title": "U.S. and Iran agree on roadmap toward final deal",
-          "summary": "U.S. and Iranian negotiators approved a roadmap aimed at reaching a final deal within 60 days and creating a mechanism to end hostilities in Lebanon.",
-          "details": "During June 21-22 talks in Switzerland, the parties agreed to establish a \"High Level Committee\" for oversight and working groups on nuclear, sanctions, and dispute resolution. They also agreed to reopen the Strait of Hormuz toll-free for at least 60 days and to a Lebanon deconfliction cell.",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/06/22/us-iran-roadmap-final-deal-switzerland-talks-lebanon-deconfliction.html",
-          "date": "2026-06-22"
+          "title": "U.S. and Iran hold indirect talks in Doha",
+          "summary": "Mediators concluded separate meetings with U.S. and Iranian negotiators in Doha, with talks set to continue later.",
+          "details": "On July 1, 2026, Qatar and Pakistan mediators concluded separate meetings with U.S. and Iranian negotiators in Doha. Qatar's foreign ministry said the parties agreed to continue discussions, with the next meeting to be scheduled after funeral processions for Iran's former supreme leader.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/2/us-iran-talks-in-doha-what-were-the-outcomes-and-whats-next",
+          "date": "2026-07-02"
         },
         {
-          "title": "Dispute over nuclear inspections complicates U.S.-Iran talks",
-          "summary": "The U.S. and Iran differed over whether Tehran had agreed to allow U.N. inspectors to view bombed Iranian nuclear sites as mediators worked toward a permanent end to the war.",
-          "details": "As of June 23, technical teams worked on details following the Switzerland talks, and ship traffic through the Strait of Hormuz was increasing. Data firm Kpler recorded 39 ship crossings on one day, below the roughly 100 daily crossings seen before the war.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/23/nx-s1-5867322/us-iran-finalize-war-ending-deal",
-          "date": "2026-06-23"
+          "title": "U.S. and Iran agree to halt strikes over Strait of Hormuz dispute",
+          "summary": "U.S. officials said both sides agreed to stop attacks amid a dispute over the Strait of Hormuz.",
+          "details": "On June 28, 2026, a senior U.S. official said the U.S. and Iran agreed to stop attacking each other and hold talks in Qatar. The renewed fighting had been sparked by competing interpretations of a memorandum of understanding on the Strait of Hormuz.",
+          "source": "Axios",
+          "url": "https://www.axios.com/2026/06/28/us-and-iran-agree-to-halt-strikes-and-meet-this-week-us-official-says",
+          "date": "2026-06-28"
         },
         {
-          "title": "House considers War Powers measure on Lebanon",
-          "summary": "A resolution directing the removal of U.S. Armed Forces from hostilities in Lebanon was listed on the House floor schedule.",
-          "details": "According to Congress.gov, the House floor activity for June 30, 2026, included a measure invoking Section 5(c) of the War Powers Resolution to remove United States Armed Forces from hostilities in Lebanon.",
-          "source": "Congress.gov",
-          "url": "https://www.congress.gov/on-house-floor-today",
-          "date": "2026-06-30"
+          "title": "United States and Cambodia sign air transport agreement",
+          "summary": "The State Department announced a civil air transport agreement between the United States and Cambodia.",
+          "details": "On July 1, 2026, the State Department announced that the United States and Cambodia signed an air transport agreement. The department said the agreement aligns the aviation relationship with U.S. Open Skies principles.",
+          "source": "U.S. Department of State",
+          "url": "https://www.state.gov/policy-issues/foreign-policy",
+          "date": "2026-07-01"
         }
       ]
     },
@@ -64,28 +64,20 @@
       "category": "Congress & Legislation",
       "items": [
         {
-          "title": "Congress passes major housing affordability bill",
-          "summary": "Congress passed a large housing affordability bill; the President canceled a planned signing ceremony, citing a request that Congress first pass a voter ID bill.",
-          "details": "The House cleared the final vote on the bill on June 23, 2026. Provisions include streamlining certain federal financing regulations, a grant program for preapproved housing designs, and changes to manufactured home requirements. The President canceled the June signing ceremony.",
+          "title": "House advances fiscal 2027 defense authorization bill",
+          "summary": "The House Rules Committee reported a rule for the fiscal 2027 National Defense Authorization Act, though a related floor resolution failed.",
+          "details": "The Rules Committee reported a structured rule for H.R. 8800, the fiscal 2027 NDAA, by an 8-4 vote on June 29, 2026. On June 30, the House did not agree to the accompanying resolution on a 198-224 vote. The committee-passed bill endorsed about $1.15 trillion for defense programs.",
+          "source": "U.S. House Committee on Rules",
+          "url": "https://rules.house.gov/bill/119/hr-8800",
+          "date": "2026-06-30"
+        },
+        {
+          "title": "Congress passes housing affordability legislation",
+          "summary": "Both chambers passed a housing affordability bill; the president said he would delay a signing ceremony pending other legislation.",
+          "details": "The House cleared a housing affordability bill on June 23, 2026, following Senate passage. Provisions include streamlining certain federal financing regulations and a contested measure related to institutional investors. The president canceled a planned signing ceremony, saying Congress must first pass a voter ID measure.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/23/nx-s1-5867575/congress-passes-housing-affordability-bill",
           "date": "2026-06-23"
-        },
-        {
-          "title": "House Rules reviews Fiscal Year 2027 defense authorization",
-          "summary": "The House Rules Committee reviewed the National Defense Authorization Act for Fiscal Year 2027 and its more than 1,300 amendments.",
-          "details": "According to GovTrack, the Monday, June 29 Rules Committee meeting was set to review H.R. 8800, the NDAA for FY2027, and its 1,363 amendments. The Senate was out of session that week while the House remained in session.",
-          "source": "GovTrack.us",
-          "url": "https://www.govtrack.us/",
-          "date": "2026-06-29"
-        },
-        {
-          "title": "Senate appropriators continue FY2027 spending negotiations",
-          "summary": "Senate appropriators continued negotiations over a topline spending agreement for their fiscal year 2027 spending bills.",
-          "details": "According to the National Low Income Housing Coalition, disagreements over topline amounts for defense and non-defense programs affected the Senate Appropriations Committee's work in June 2026. The House Appropriations Committee held a June 3 markup of its FY2027 Transportation and Housing bill.",
-          "source": "National Low Income Housing Coalition",
-          "url": "https://nlihc.org/resource/house-republicans-pass-and-president-signs-law-reconciliation-20-providing-70-billion-ice",
-          "date": "2026-06-22"
         }
       ]
     },
@@ -93,35 +85,35 @@
       "category": "Courts & Legal",
       "items": [
         {
-          "title": "Supreme Court rules on birthright citizenship",
-          "summary": "The Supreme Court ruled that the Constitution guarantees automatic birthright citizenship to virtually all children born in the United States, rejecting the executive order on the issue.",
-          "details": "In a 6-3 decision issued June 30, Chief Justice John Roberts wrote the opinion. The executive order had sought to bar citizenship for babies born in the U.S. to parents who entered illegally or who hold temporary visas; it never took effect.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/09/nx-s1-5847967/supreme-court-major-cases-left-2026",
+          "title": "Supreme Court rules on birthright citizenship executive order",
+          "summary": "The Supreme Court struck down the executive order seeking to end automatic birthright citizenship for certain children born in the U.S.",
+          "details": "On June 30, 2026, the Supreme Court ruled that children born in the U.S. to parents in the country unlawfully or temporarily present are citizens at birth under the 14th Amendment. Chief Justice John Roberts wrote the opinion; three justices dissented.",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/06/30/politics/live-news/supreme-court-cases-news",
+          "date": "2026-06-30"
+        },
+        {
+          "title": "Supreme Court upholds mail-in ballot grace period",
+          "summary": "In a 5-4 ruling, the Court upheld a Mississippi law allowing counting of mail ballots received after Election Day if postmarked by then.",
+          "details": "On June 29, 2026, the Supreme Court ruled 5-4 that Mississippi's law permitting counting of mail ballots received up to five days after Election Day, if postmarked beforehand, does not conflict with federal law. Justice Amy Coney Barrett wrote the opinion, rejecting an RNC challenge.",
+          "source": "NBC News",
+          "url": "https://www.nbcnews.com/politics/supreme-court/supreme-court-allows-states-count-mail-ballots-arrive-late-rejecting-r-rcna266933",
+          "date": "2026-06-29"
+        },
+        {
+          "title": "Supreme Court strikes down coordinated party spending limits",
+          "summary": "In a 6-3 ruling, the Court struck down federal limits on party spending coordinated with candidates.",
+          "details": "On June 30, 2026, the Supreme Court ruled 6-3 that federal limits on coordinated party expenditures violate the First Amendment. The case stemmed from a Republican-led lawsuit; the decision overruled a 2001 precedent that had upheld the limits.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/30/supreme-court-strikes-down-us-campaign-spending-limits-in-landmark-ruling",
           "date": "2026-06-30"
         },
         {
           "title": "Supreme Court rules on presidential removal power",
-          "summary": "The Supreme Court found that the President's firing of a Federal Trade Commissioner without cause was lawful, further narrowing a longstanding precedent.",
-          "details": "In a 6-3 ruling issued June 29 in Trump v. Slaughter, the court addressed the March 2025 removal of FTC Commissioner Rebecca Kelly Slaughter. In a separate matter, the court ruled 5-4 that the Federal Reserve's Lisa Cook can remain in her position for now.",
+          "summary": "The Court ruled that the president may remove members of independent agencies, while allowing a Federal Reserve governor to remain for now.",
+          "details": "On June 29, 2026, the Supreme Court ruled 6-3 that President Trump's 2025 firing of an FTC commissioner without cause was lawful. In a separate 5-4 ruling, the Court found that Federal Reserve Governor Lisa Cook could stay in her position for now.",
           "source": "NPR",
           "url": "https://www.npr.org/2026/06/09/nx-s1-5847967/supreme-court-major-cases-left-2026",
-          "date": "2026-06-29"
-        },
-        {
-          "title": "Supreme Court rules on transgender athletes in school sports",
-          "summary": "The Supreme Court ruled that states may ban transgender girls from participating in sports at publicly funded schools.",
-          "details": "Justice Brett Kavanaugh wrote the majority opinion in the June 30 decision, which involved cases at the college and high school levels. The ruling follows a prior decision upholding state laws restricting gender-affirming care for minors.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/06/09/nx-s1-5847967/supreme-court-major-cases-left-2026",
-          "date": "2026-06-30"
-        },
-        {
-          "title": "Supreme Court decides mail ballot and geofence cases",
-          "summary": "The Supreme Court issued decisions on the counting of late-arriving mail ballots and on law enforcement use of geofence searches.",
-          "details": "In decisions issued June 29, the justices addressed the legality of counting late-arriving mail ballots and ruled that law enforcement must obtain warrants for \"geofence\" searches. Justice Elena Kagan wrote a 6-3 majority opinion in the geofence case.",
-          "source": "Roll Call",
-          "url": "https://rollcall.com/2026/06/29/supreme-court-to-release-final-opinions-of-term-tuesday/",
           "date": "2026-06-29"
         }
       ]
@@ -130,27 +122,19 @@
       "category": "Elections & Voting",
       "items": [
         {
-          "title": "Supreme Court clears Texas map for 2026 midterms",
-          "summary": "The Supreme Court cleared the way for Texas to use its congressional map for the 2026 midterms while litigation continues.",
-          "details": "A federal court in El Paso had barred the map in November 2025, finding it a racial gerrymander. The Supreme Court stayed that ruling and formalized the reversal by summary order on April 27, 2026, allowing the new map, which is expected to affect five seats.",
+          "title": "Supreme Court allows Alabama to use congressional map for midterms",
+          "summary": "The Court allowed Alabama to use a 2023 congressional map that a lower court had previously barred.",
+          "details": "In an unsigned order issued in late June 2026, the Supreme Court allowed Alabama to use its preferred congressional map for the 2026 elections. The map, originally drawn in 2023, had earlier been blocked by a federal court. Reports say it reduces the number of majority-Black districts.",
+          "source": "U.S. News & World Report",
+          "url": "https://www.usnews.com/news/national-news/articles/8-major-supreme-court-cases-being-decided-this-summer-heres-where-they-stand",
+          "date": "2026-06-30"
+        },
+        {
+          "title": "Where the 2026 redistricting battle stands",
+          "summary": "With the general election months away, mid-decade redistricting fights across roughly ten states are settling for 2026.",
+          "details": "Multiple states enacted new congressional maps during the 2026 cycle, including Texas, California, Missouri, North Carolina, Ohio and Utah. Reporting indicates the map-drawing battles for 2026 are largely concluding, with several states now looking toward the 2028 cycle.",
           "source": "NBC News",
           "url": "https://www.nbcnews.com/politics/2026-election/house-redistricting-gop-democrats-2026-midterm-elections-rcna348110",
-          "date": "2026-06-03"
-        },
-        {
-          "title": "Redistricting activity continues across multiple states",
-          "summary": "Multiple states enacted or contested new congressional maps ahead of the 2026 midterms, with additional efforts anticipated for 2028.",
-          "details": "According to Democracy Docket, states including Texas, North Carolina, Missouri, Ohio, Florida, Tennessee, Alabama, and Louisiana enacted new maps. California voters authorized redraws, and state courts in Utah ordered a new map.",
-          "source": "Democracy Docket",
-          "url": "https://www.democracydocket.com/analysis/live-redistricting-tracker/",
-          "date": "2026-06-23"
-        },
-        {
-          "title": "Colorado holds gubernatorial primaries",
-          "summary": "Colorado held its Democratic and Republican gubernatorial primaries on June 30, 2026, to select nominees for the November election.",
-          "details": "Incumbent Democratic Governor Jared Polis is term-limited. Candidates qualified for the primary ballot either by petition or by achieving 30% at the party state assembly, according to Ballotpedia.",
-          "source": "Ballotpedia",
-          "url": "https://ballotpedia.org/Colorado_gubernatorial_election,_2026_(June_30_Democratic_primary)",
           "date": "2026-06-30"
         }
       ]
@@ -159,104 +143,74 @@
   "states": {
     "CA": [
       {
-        "title": "Newsom signs 2026-27 state budget",
-        "summary": "Governor Gavin Newsom signed California's 2026-27 state budget, described by his office as a balanced spending plan with no deficit.",
-        "details": "The June 29 signing included budget bills such as AB 109 and SB 110. Earlier in the week, the Governor and legislative leaders announced agreements including the Veterans and Affordable Housing Bond Act of 2026.",
-        "source": "Governor of California",
-        "url": "https://www.gov.ca.gov/2026/06/29/signedbudget/",
-        "date": "2026-06-29"
+        "title": "California announces balanced 2026-27 budget agreement",
+        "summary": "The governor and legislative leaders announced a 2026-27 state budget agreement with no deficit.",
+        "details": "On June 26, 2026, Governor Gavin Newsom, Senate President pro Tempore Monique Limón and Assembly Speaker Robert Rivas announced a three-party agreement on California's 2026-27 budget. Officials described it as a balanced plan with zero deficit that funds healthcare and other services.",
+        "source": "Office of the Governor of California",
+        "url": "https://www.gov.ca.gov/2026/06/26/finalbudget/",
+        "date": "2026-06-26"
       }
     ],
-    "CO": [
+    "GA": [
       {
-        "title": "Polis signs natural medicine bill",
-        "summary": "Governor Jared Polis signed HB26-1325, which specifies requirements for rules governing the administration of ibogaine.",
-        "details": "Signed June 4, 2026, the bill allows use of semi-synthetic ibogaine if approved by the board as a natural medicine and changes the composition of the Natural Medicine Advisory Board.",
-        "source": "Colorado Division of Professions and Occupations",
-        "url": "https://dpo.colorado.gov/LegUpdates",
-        "date": "2026-06-04"
+        "title": "Georgia lawmakers decline to redraw maps in special session",
+        "summary": "Legislative leaders said they would not take up redistricting during a special session called by the governor.",
+        "details": "On June 17, 2026, Georgia House and Senate Republican leaders told Governor Brian Kemp they would not redraw congressional or legislative maps during the special session, citing pending litigation. Kemp had called the session after the Supreme Court's Louisiana v. Callais decision.",
+        "source": "WABE",
+        "url": "https://www.wabe.org/breaking-georgia-house-leaders-scuttle-redistricting-plans/",
+        "date": "2026-06-17"
+      }
+    ],
+    "NY": [
+      {
+        "title": "New York legislature advances redistricting amendment",
+        "summary": "The Democratic-led legislature passed the first approval of a constitutional amendment allowing mid-decade redistricting for 2028.",
+        "details": "On June 3, 2026, the New York state legislature approved first passage of a constitutional amendment that would permit mid-decade redistricting and alter the independent commission's role. The amendment must pass again next year and be approved by voters before taking effect.",
+        "source": "Spectrum News",
+        "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/06/04/ny-first-passage-redistricting-amendment",
+        "date": "2026-06-03"
+      }
+    ],
+    "MS": [
+      {
+        "title": "Mississippi governor responds to mail-ballot ruling",
+        "summary": "Governor Tate Reeves said the state legislature should change its law after the Supreme Court upheld its mail-ballot grace period.",
+        "details": "After the June 29, 2026 Supreme Court ruling upholding Mississippi's mail-ballot grace period, Governor Tate Reeves said the state legislature should repeal the law and require mail-in ballots to be received by 5 p.m. on Election Day to be counted.",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/06/29/nx-s1-5815312/supreme-court-mail-ballot-grace-period-ruling",
+        "date": "2026-06-29"
       }
     ],
     "CT": [
       {
-        "title": "Lamont signs youth online safety and AI law",
-        "summary": "Governor Ned Lamont signed Public Act 26-15, establishing youth online safety protections, AI regulations, and workforce training initiatives.",
-        "details": "The bipartisan law was developed with the Attorney General and State Senator James Maroney. Officials said it addresses youth social media use and AI, and includes workforce training provisions for technology jobs.",
+        "title": "Connecticut enacts youth online safety and AI law",
+        "summary": "The governor signed legislation establishing youth online safety protections and rules for artificial intelligence.",
+        "details": "On June 2, 2026, Governor Ned Lamont signed Public Act 26-15, described as a bipartisan measure addressing youth social media use, artificial intelligence oversight and workforce training. State officials described it as a collaborative effort involving the attorney general and legislators.",
         "source": "Office of Governor Ned Lamont",
         "url": "https://portal.ct.gov/governor/news/press-releases/2026/06-2026/governor-lamont-signs-legislation-establishing-youth-online-safety-protections",
         "date": "2026-06-02"
       }
     ],
-    "IL": [
+    "IA": [
       {
-        "title": "New Illinois laws take effect July 1",
-        "summary": "A group of new Illinois laws took effect July 1, 2026, including a measure suspending an inflation adjustment to the motor fuel tax rate.",
-        "details": "Public Act 104-0468, signed in June 2026, suspends the Consumer Price Index adjustment for the motor fuel tax rate until 2027. Other laws address cyberbullying definitions and driver's license renewal for seniors.",
-        "source": "WCIA",
-        "url": "https://www.wcia.com/illinois-capitol-news/new-illinois-laws-go-into-effect-on-july-1-2026-heres-whats-changing/",
-        "date": "2026-06-25"
+        "title": "Iowa governor signs final bills of 2026 session",
+        "summary": "Governor Kim Reynolds signed the final bills from the 2026 legislative session.",
+        "details": "On June 2, 2026, Governor Kim Reynolds took final action on the remaining bills of the 2026 legislative session, signing dozens of measures into law. These were the final bills she signed as governor, as she is not seeking another term in 2026.",
+        "source": "Iowa Capital Dispatch",
+        "url": "https://iowacapitaldispatch.com/2026/06/03/gov-kim-reynolds-signs-final-bills-from-2026-legislative-session/",
+        "date": "2026-06-02"
       }
     ],
     "NH": [
       {
-        "title": "Ayotte signs 54 bills into law",
-        "summary": "Governor Kelly Ayotte signed 54 bills into law, according to a June 19 announcement, and issued several vetoes.",
-        "details": "The signed bills included measures on health benefit plan claims data and school administrative unit budgets. The Governor also issued veto statements on bills concerning historical markers and risk pool operations.",
+        "title": "New Hampshire governor signs and vetoes bills",
+        "summary": "Governor Kelly Ayotte signed 18 bills into law and issued vetoes on several others.",
+        "details": "In the week of June 12, 2026, Governor Kelly Ayotte signed 18 bills into law covering topics including school district grants and vehicle registration. She also issued veto statements for several measures, including bills related to labor department authority and marijuana cultivation.",
         "source": "Office of Governor Kelly Ayotte",
-        "url": "https://www.governor.nh.gov/news/governor-signs-54-bills-law",
-        "date": "2026-06-19"
-      }
-    ],
-    "OH": [
-      {
-        "title": "DeWine signs bills and issues election-law veto",
-        "summary": "Governor Mike DeWine signed several bills into law and vetoed House Bill 472, which addressed photo identification for mail-in ballots.",
-        "details": "In his June 24 veto message, DeWine stated the bill would not add security and would create a burden for mail voters. He also signed measures including Senate Bill 19 on academic intervention services and Senate Bill 106 on electric vehicle charging stations.",
-        "source": "Office of Governor Mike DeWine",
-        "url": "https://governor.ohio.gov/media/news-and-media/governor-dewine-signs-bills-into-law-issues-vetoes-6-24-2026",
-        "date": "2026-06-24"
-      }
-    ],
-    "LA": [
-      {
-        "title": "Landry signs consumer data privacy law",
-        "summary": "Governor Jeff Landry signed the Louisiana Data Privacy Act, making Louisiana the twenty-second state with a comprehensive privacy law.",
-        "details": "Senate Bill 386 was signed May 29, 2026, and takes effect January 1, 2027. The enacted version removed explicit \"artificial intelligence system\" language present in an earlier draft. It is enforced by the Attorney General.",
-        "source": "Jones Walker LLP",
-        "url": "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/louisiana-becomes-the-twenty-second-privacy-state-and-almost-the-second-to-embed.html?id=102n12k",
-        "date": "2026-05-29"
-      }
-    ],
-    "VA": [
-      {
-        "title": "U.S. Supreme Court declines Virginia redistricting appeal",
-        "summary": "The U.S. Supreme Court rejected Virginia Democrats' emergency appeal over congressional redistricting, leaving the 2021 map in place.",
-        "details": "The Virginia Supreme Court struck down a voter-approved redistricting referendum in a 4-3 May 8 ruling on procedural grounds. The U.S. Supreme Court rejected the appeal on May 15, and the state's current map, giving Democrats a 6-5 advantage, remains for 2026.",
-        "source": "Virginia Mercury",
-        "url": "https://virginiamercury.com/2026/05/18/virginias-redistricting-amendment-was-struck-down-whats-next/",
-        "date": "2026-05-18"
-      }
-    ],
-    "AZ": [
-      {
-        "title": "Hobbs vetoes AI bills",
-        "summary": "Governor Katie Hobbs vetoed three AI-related bills passed by the legislature, part of a larger batch of vetoes.",
-        "details": "The bills, vetoed June 19, included HB 2311, a chatbot safety measure requiring disclosure that a user is interacting with AI, and HB 2592, which addressed state agency AI adoption. They were among 88 bills vetoed in a single day.",
-        "source": "Transparency Coalition",
-        "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-june26-2026",
-        "date": "2026-06-19"
-      }
-    ],
-    "IA": [
-      {
-        "title": "Reynolds signs bills including age-verification measure",
-        "summary": "Governor Kim Reynolds signed a list of bills into law on June 1, 2026, including a requirement for age verification on certain websites.",
-        "details": "The signed bills included HF 864 on age verification for sites with material pornographic for minors and HF 2231 establishing a seal of civics excellence program. The governor had until June 2 to act on remaining bills.",
-        "source": "Office of Governor Kim Reynolds",
-        "url": "https://governor.iowa.gov/press-release/2026-06-01/gov-reynolds-signs-list-bills-law-june-1-2026",
-        "date": "2026-06-01"
+        "url": "https://www.governor.nh.gov/news/governor-signs-18-bills-law",
+        "date": "2026-06-12"
       }
     ]
   },
-  "disclaimer": "This digest reports verifiable developments from cited sources and does not endorse any party, official, or position."
+  "disclaimer": "This digest reports verifiable recent developments from cited sources and takes no position on any party, official, or issue."
 }
